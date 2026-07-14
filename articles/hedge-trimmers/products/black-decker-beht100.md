@@ -21,7 +21,7 @@ The shortest blade and lowest verified price make it the clearest compact-shrub 
 ## Amazon recheck — July 14, 2026
 
 - Exact product: BLACK+DECKER BEHT100
-- No reliable exact Amazon.com US product page or ASIN was located in the current exact-model web search. Gate 1 remains unresolved.
+- The initial automated exact-model search did not resolve an Amazon.com US ASIN. The publisher subsequently supplied and confirmed the exact destination recorded below; this historical search limitation is superseded for identity purposes.
 - Search-result snippets are discovery-only and do not qualify as retailer identity evidence.
 
 ## Affiliate link record — July 14, 2026
@@ -35,4 +35,4 @@ affiliate_status: "publisher_confirmed"
 exact_model_status: "exact_model_link_supplied_by_publisher"
 ```
 
-The supplied Amazon URL names BLACK+DECKER BEHT100. Complete the manual variation, seller, stock, and affiliate check before filling affiliate_link.
+The supplied Amazon URL names BLACK+DECKER BEHT100, and the affiliate field is publisher-confirmed. Recheck variation, seller, stock, price, and redirect at publication.

@@ -89,10 +89,10 @@ claims_requiring_final_verification:
 ## Remaining CMS work
 
 - Implement buttons using the publisher-approved affiliate destinations recorded above.
-- Add the site's affiliate disclosure component and approved link attributes.
+- Preserve the article-level Amazon Associate disclosure and render every affiliate destination with `rel="sponsored"`.
 - Add exact-model licensed images, dimensions, captions where useful, and final alt text.
 - Add suitable internal links and selected authoritative external links.
-- Implement and validate Article, ItemList, and BreadcrumbList schema. Use Product/Review schema only if the visible page and editorial setup qualify.
+- Implement and validate Article, ItemList, and BreadcrumbList schema. Do not add Google Product rich-result markup to this multi-product roundup.
 - Set canonical URL, author/reviewer, updated date, breadcrumbs, sitemap entry, and indexing controls.
 - Test mobile table scrolling, button destinations, accessibility, layout shift, and page speed.
 - Complete the immediately-before-publication freshness checks listed above.

@@ -29,4 +29,6 @@ Product evidence belongs in `articles/hedge-trimmers/products/`, not inside an i
 
 Every product file also carries a standardized affiliate record with `affiliate_key`, raw `amazon_url`, `asin`, populated `affiliate_link`, `affiliate_status`, and `exact_model_status`. The publisher has filled `affiliate_link` after checking each exact variation and completing the commercial gate. Publication-day destination checks remain required.
 
+`products/destination-register.md` is the cluster index. Product files remain the source of truth; update the register whenever an ASIN, exact package, affiliate destination, or approval status changes. Rejected candidates belong only in the relevant article's `research.md`, not in the active product archive or destination register.
+
 Article-specific rankings, contracts, source registers, and publisher notes remain in their corresponding article subfolders.

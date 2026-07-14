@@ -7,7 +7,7 @@
 - Manufacturer: https://www.blackanddecker.com/products/lht2436
 - Support runtime: https://support.blackanddecker.com/hc/en-us/articles/360012699038-What-is-the-expected-run-time-of-a-fully-charged-battery-on-the-LHT2436-Hedge-Trimmer
 - Raw Amazon URL: https://www.amazon.com/dp/B00602J4MM
-- Amazon observation, 2026-07-14: exact LHT2436 battery-and-charger kit confirmed, but the page exposed only “See All Buying Options” and no featured offer/current price. Eligibility failed until a qualifying offer returns and affiliate eligibility is checked.
+- Amazon observation, 2026-07-14: exact LHT2436 battery-and-charger kit confirmed, but the page exposed only “See All Buying Options” and no featured offer/current price. The publisher later confirmed the affiliate destination; seller, stock, price, and fulfillment remain publication-day freshness checks.
 
 ### Raw specifications and claims
 

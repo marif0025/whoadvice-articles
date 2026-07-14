@@ -47,13 +47,13 @@
 ### Amazon gate status
 
 - Gate 1: exact ASIN and raw URL recorded; re-open the live page before publication to confirm the DCPH820M1 kit variation and all included items.
-- Gate 2: publisher reported product availability on Amazon; affiliate eligibility and successful link generation remain a publisher record unless explicitly supplied.
+- Gate 2: completed; the publisher-confirmed affiliate record appears below.
 - Publication freshness: recheck seller, fulfillment, stock, price, warranty eligibility, and redirect destination.
 
 ### Unknowns and conflicts
 
 - Current official product page did not disclose a complete operating weight in the captured fields.
-- Current Amazon seller, fulfillment, price, and affiliate URL were not transmitted to the project.
+- Current Amazon seller, fulfillment, and price remain publication-day freshness fields. The publisher later supplied the affiliate URL recorded below.
 - Reach varies with user height and holding position; do not state 12 ft as shaft length.
 
 ## Affiliate link record — July 14, 2026

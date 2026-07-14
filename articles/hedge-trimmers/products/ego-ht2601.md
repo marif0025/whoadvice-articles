@@ -8,7 +8,7 @@
 - Manual: https://egopowerplus.com/mpattachment/file/download/id/2880/
 - Retail observation: https://www.lowes.com/pd/EGO-POWER-56-volt-26-in-Dual-Cordless-Electric-Hedge-Trimmer-2-5-Ah-Battery-Charger-Included/5013796485 — $229, 310 shown available for shipping when indexed.
 - Exact Amazon ASIN located: https://www.amazon.com/dp/B0BRXK7NT2
-- Amazon observation, 2026-07-14: the live exact-ASIN page confirmed the HT2601 kit with 2.5Ah battery and charger but displayed “No featured offers available.” Earlier third-party $229/fulfillment evidence is superseded. Current price, seller and fulfillment cannot be approved; Amazon eligibility fails until restocked and publisher affiliate eligibility is checked.
+- Amazon observation, 2026-07-14: the live exact-ASIN page confirmed the HT2601 kit with 2.5Ah battery and charger but displayed “No featured offers available.” Earlier third-party $229/fulfillment evidence is superseded. The publisher later confirmed the affiliate destination; seller, stock, price, and fulfillment remain publication-day freshness checks.
 
 ### Raw specifications and claims
 

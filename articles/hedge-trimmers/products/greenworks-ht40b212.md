@@ -39,4 +39,4 @@ affiliate_status: "publisher_confirmed"
 exact_model_status: "exact_kit_recorded"
 ```
 
-Confirm the 2.0 Ah battery-and-charger variation before filling affiliate_link.
+The 2.0 Ah battery-and-charger variation and affiliate destination are publisher-confirmed. Recheck seller, stock, price, variation, and redirect at publication.

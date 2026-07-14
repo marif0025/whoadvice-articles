@@ -28,4 +28,4 @@ affiliate_status: "publisher_confirmed"
 exact_model_status: "exact_model_recorded"
 ```
 
-Confirm the FF model and current seller before filling affiliate_link.
+The FF model and affiliate destination are publisher-confirmed. Recheck seller, stock, price, variation, and redirect at publication.

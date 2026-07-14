@@ -27,7 +27,11 @@ buying_guide_factors: [job size, full working budget, cord route, blade length a
 faq_product_reference_rule: mention a selected product only when it directly answers the question
 conclusion_pattern: job shape -> leading pick -> lighter or corded alternative -> reach/weight caveat
 public_marketplace_names_allowed: true_for_approved_affiliate_link_label_only
+affiliate_retailer: Amazon.com US
+affiliate_link_label: Check price on Amazon
+affiliate_link_source: cluster product destination register
+affiliate_link_attributes_cms: [sponsored]
 public_community_names_allowed: false
 target_length: 2400-3000 words
-cms_owned: [affiliate buttons, images, schema, redirects, breadcrumbs, sitemap, mobile and page-speed testing]
+cms_owned: [affiliate button rendering and sponsored attributes, images, schema, redirects, breadcrumbs, sitemap, mobile and page-speed testing]
 ```

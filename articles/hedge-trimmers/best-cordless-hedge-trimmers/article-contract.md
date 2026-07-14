@@ -34,6 +34,7 @@ first_person_evidence_available: false
 - Product cards contain exactly: Title, Slug, Editorial badge, Brand, ASIN, Affiliate link, Summary, Verdict, Pros and Cons.
 - Summary length: 50–60 words. Verdict length: 25–30 words. No prose follows Cons.
 - Public community names remain excluded. Amazon may appear only in the approved affiliate-link label; raw Amazon and forum research links remain in supporting files.
+- The public ASIN and affiliate-link fields must match the cluster destination register. CMS rendering must add `rel="sponsored"` to affiliate links.
 - Comparison table appears after top-pick cards and before the ranked product reviews.
 - Approved comparison columns: Rank, Product, Award, Blade length, Stated cutting capacity, Loaded weight, Included battery, Runtime claim, Important control, Best suited for and Main limitation.
 

@@ -41,7 +41,9 @@ Use licensed exact-model images. Do not substitute visually similar variants.
 ## CMS work remaining
 
 - Recheck every affiliate destination, seller, stock, variation, and price before publication.
+- Render each affiliate link with `rel="sponsored"` and retain the article-level Amazon Associate disclosure before the first commercial link.
 - Add licensed exact-model product images.
 - Implement metadata, canonical, Article, BreadcrumbList, and ItemList schema.
+- Do not add Google Product rich-result markup to this multi-product roundup.
 - Test the comparison table and product cards on mobile.
 - Recheck the CPSC database and manufacturer notices on publication day.

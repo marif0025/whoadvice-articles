@@ -9,7 +9,7 @@
 **Target market:** United States  
 **Research date:** July 14, 2026
 
-**Affiliate disclosure:** WhoAdvice may earn a commission when you buy through retailer links. Product selection, scores, rankings, and awards remain editorial decisions.
+**Affiliate disclosure:** As an Amazon Associate, WhoAdvice earns from qualifying purchases. Product selection, scores, rankings, and awards remain editorial decisions.
 
 **Evidence note:** We compared exact US kits using manufacturer documents, regulator records, retailer identity, and limited customer-feedback patterns. Runtime and cutting-capacity figures remain manufacturer claims, not independent results.
 

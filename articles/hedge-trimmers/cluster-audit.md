@@ -181,3 +181,13 @@ These approved evidence corrections are reflected in the current drafts.
 ## Final audit status
 
 The hub/branch topology, scope-specific awards, exact-model records, affiliate gates, and objective evidence corrections are approved and synchronized. Remaining work is publication-day freshness and CMS implementation: seller, stock, price, redirect, recalls, images, schema, mobile tables, breadcrumbs, sitemap, and human editorial review.
+
+## Workflow hardening completed — July 14, 2026
+
+- Added one cluster destination register so shared ASINs and affiliate destinations are no longer maintained independently by each article.
+- Expanded the approved product-card contracts to cover public ASIN and affiliate-link fields without making them universal defaults for other WhoAdvice roundups.
+- Replaced the generic disclosure with the Amazon Associate identification statement in all three drafts.
+- Added `rel="sponsored"` as a CMS requirement for every affiliate link.
+- Restricted roundup schema recommendations to `Article`, `BreadcrumbList`, and truthful `ItemList`; Google Product rich-result markup is reserved for eligible single-product pages.
+- Clarified that rejected candidates remain in article research notes only and do not receive active product files.
+- Preserved the two-gate Amazon model: identity/editorial verification, then publisher commercial approval. Publication-day checks remain freshness work rather than a third gate.

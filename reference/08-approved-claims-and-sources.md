@@ -457,7 +457,25 @@ WhoAdvice should maintain a clear affiliate disclosure near commercial content.
 
 FTC guidance requires material connections to be disclosed clearly and conspicuously. Do not bury the disclosure in a general policy page when the context requires a nearby disclosure.
 
+When Amazon Associates links appear, include Amazon's required associate-identification statement, or a currently permitted substantially similar statement, clearly and prominently on the site. The article-level disclosure must remain near the first commercial content even when a sitewide disclosure also exists.
+
+Treat affiliate-link implementation as a controlled publishing field:
+
+- Use only publisher-generated Special Links for the approved account and market.
+- Match each link to the exact model, variant, and package reviewed.
+- Preserve the raw retailer URL and ASIN separately from the affiliate URL so identity can be audited.
+- Qualify published affiliate links with `rel="sponsored"`; `nofollow` may be added under site policy but does not replace `sponsored` as the preferred relationship label.
+- Recheck the redirect, selected variation, seller, fulfillment, stock, and displayed price at publication.
+- Do not copy live prices, availability, ratings, review counts, or Amazon-hosted images into evergreen prose unless the publishing system has a compliant, dated refresh process.
+
 Editorial copy must remain truthful regardless of commission.
+
+Current primary references:
+
+- FTC Endorsement Guides and disclosure guidance: https://www.ftc.gov/news-events/topics/truth-advertising/advertisement-endorsements
+- Amazon Associates Operating Agreement: https://affiliate-program.amazon.com/help/operating/agreement/
+- Amazon SiteStripe link-generation help: https://affiliate-program.amazon.com/help/node/topic/GJMMT7G4C8K4Y3AY
+- Google outbound-link qualification guidance: https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links
 
 ## 6. Sources that cannot stand alone
 

@@ -31,6 +31,10 @@ faq_questions:
 conclusion_pattern: layout decision -> overall pick -> distinct alternatives -> cord caveat
 target_length: 2200-3000 words
 public_marketplace_names_allowed: true_for_approved_affiliate_link_label_only
+affiliate_retailer: Amazon.com US
+affiliate_link_label: Check price on Amazon
+affiliate_link_source: cluster product destination register
+affiliate_link_attributes_cms: [sponsored]
 public_community_names_allowed: false
-cms_owned: [affiliate buttons, images, schema, redirects, breadcrumbs, sitemap, mobile and page-speed testing]
+cms_owned: [affiliate button rendering and sponsored attributes, images, schema, redirects, breadcrumbs, sitemap, mobile and page-speed testing]
 ```

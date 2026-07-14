@@ -36,7 +36,7 @@ The hub should answer **which power/reach format fits the garden and which mixed
 | Buying guide follows page role | Pass | Pass | Pass |
 | FAQs answer format-appropriate questions | Pass | Pass | Pass |
 | Conclusion follows approved decision logic | Pass | Pass | Pass |
-| Length fits contract | 2,538 / 2,400–3,000 | 2,292 / 2,200–3,000 | 3,959 / 3,600–4,300 |
+| Length fits contract | 2,589 / 2,400–3,000 | 2,332 / 2,200–3,000 | 4,012 / 3,600–4,300 |
 | Links support parent/leaf movement | Pass | Pass | Pass |
 
 ## Parent-versus-leaf boundaries

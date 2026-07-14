@@ -9,7 +9,7 @@
 **Research date:** July 14, 2026
 **Target market:** United States
 
-> **Affiliate disclosure:** WhoAdvice may earn a commission if you buy through links on this page. Commercial relationships do not determine our rankings.
+> **Affiliate disclosure:** As an Amazon Associate, WhoAdvice earns from qualifying purchases. Commercial relationships do not determine our rankings.
 
 A corded hedge trimmer still makes sense when every shrub is close to an outdoor outlet. It gives you continuous runtime without batteries, but the cable route matters as much as blade length or motor size. A long extension cord can erase some of the upfront saving, especially when it must cross paths, pass through gates, or wrap around corners. If you have not settled on a power format, [compare all hedge-trimmer types](/garden-tools/best-hedge-trimmers/) first.
 

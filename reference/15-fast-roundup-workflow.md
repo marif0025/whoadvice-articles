@@ -17,12 +17,12 @@ The long production guide and prompt library remain available for high-risk, med
 - Search intent and target market
 - Three useful editorial competitors
 - Exact-model candidate register
-- Raw per-product research snapshots saved to `articles/{article}/products/{product}.md`
+- Raw per-product research snapshots saved to `articles/{article}/products/{product}.md`, or one shared `articles/{cluster}/products/{product}.md` archive when several cluster pages use the exact same package
 - Eligibility and exclusion decisions
 - Claim ledger with unknowns
 - Ranking criteria and weights
 - Proposed ranking and awards
-- Raw retailer links kept in sources, not public copy
+- Raw retailer links kept in sources; public affiliate links appear only when the approved contract requires them and the publisher completes the commercial gate
 - Approval gate: products, order, awards, and evidence gaps
 
 Do not draft article prose.
@@ -75,6 +75,19 @@ cms_owned:
   - canonical
   - mobile and page-speed testing
 ```
+
+Optional commercial card fields may be added after `Brand` only when explicitly approved:
+
+```yaml
+public_product_identity_fields: [ASIN]
+public_affiliate_link: true
+affiliate_retailer: Amazon
+affiliate_link_label: Check price on Amazon
+affiliate_link_source: publisher-confirmed normalized product record
+affiliate_link_attributes: [sponsored]
+```
+
+Do not add these fields by default. A shared exact package must use one ASIN and destination record across the cluster.
 
 ### Approval gate
 
@@ -156,6 +169,7 @@ Use 80–150 words. Follow the same decision order as the buying guide. Name the
 - FAQ answers are direct and product references are selective
 - Conclusion follows article decision logic
 - Public wording exclusions
+- Affiliate disclosure, exact-destination consistency, and sponsored-link handoff when commercial links are approved
 - Human-centered edit passes completed in order: intent, structure, evidence, sentence craft, voice, and proof
 - No detector-driven errors, fake anecdotes, unsupported opinions, or manufactured irregularity
 - Responsible human editorial review recorded before publication

@@ -146,5 +146,4 @@ claims_requiring_final_verification:
 - Safety: The article distinguishes selected models from recalled RYOBI and EGO models and anchors cord guidance to Virginia Tech and CPSC.
 - SEO: The primary keyword appears in the SEO title, H1, opening, buying-guide heading context, meta description, and slug without density targeting.
 - Readability: Short paragraphs, consistent table fields, direct FAQs, and decision-led product sections. The mechanical audit reports one non-material density flag caused by the CMS metadata block rather than public prose.
-- Remaining CMS work: Source properly licensed exact-model images, implement metadata and schema, complete publication-day affiliate redirect and live-price checks, test the comparison table on mobile, add jump links for the comparison, picks, types, buying guide, and FAQs, and run the live structured-data validator.
-
+- Remaining CMS work: Source properly licensed exact-model images; preserve the article-level Amazon Associate disclosure; render affiliate links with `rel="sponsored"`; implement Article, BreadcrumbList, and ItemList schema without Google Product rich-result markup on this multi-product roundup; complete publication-day affiliate redirect and live-price checks; test the comparison table on mobile; add jump links; and run the live structured-data validator.

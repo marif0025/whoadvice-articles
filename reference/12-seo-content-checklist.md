@@ -939,6 +939,15 @@ Rules:
 - Do not add fake review counts.
 - Do not recommend FAQ schema merely because the article has an FAQ.
 - Do not promise a rich result.
+- Do not recommend Google Product rich-result markup for a multi-product roundup or category list. Current Google product-snippet eligibility focuses on a single product or variants of the same product; use `Article`, `BreadcrumbList`, and a truthful ranked `ItemList` for these roundup pages.
+- If a future single-product review qualifies for `Product`/`Review` markup, every marked-up claim, rating, offer, pro, and con must be visible and supported. Do not add an `Offer` from a retailer snapshot that the site cannot keep current.
+
+Current primary references:
+
+- Google reviews system: https://developers.google.com/search/docs/appearance/reviews-system
+- High-quality review guidance: https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews
+- Product snippet requirements: https://developers.google.com/search/docs/appearance/structured-data/product-snippet
+- Structured-data policies: https://developers.google.com/search/docs/appearance/structured-data/sd-policies
 
 ---
 

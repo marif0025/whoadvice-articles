@@ -11,7 +11,7 @@
 **Market note:** Exact model names and bundles were verified through North American manufacturer pages; availability and naming can differ by country  
 **Research date:** July 13, 2026
 
-> **Affiliate disclosure:** WhoAdvice may earn a commission if you buy through links on this page. Commercial relationships do not determine our rankings.
+> **Affiliate disclosure:** As an Amazon Associate, WhoAdvice earns from qualifying purchases. Commercial relationships do not determine our rankings.
 
 The best hedge trimmer for your garden depends on three practical details: how much hedge you have, how high it grows, and where you can get power. A long blade saves passes on a broad boundary, but it can feel awkward around a small shrub. A pole adds reach for tall tops, while a corded model only works well when the cable has a clear route from the outlet.
 

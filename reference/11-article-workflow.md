@@ -132,9 +132,11 @@ Reddit findings must be labeled anecdotal and converted into research questions,
 
 ## Stage 4: Product discovery and normalization
 
-Create a product record for every candidate.
+Create a product record for every candidate while it remains under active consideration.
 
-Scrape and archive the raw evidence for every candidate at `articles/{article}/products/{product}.md` before normalizing or ranking it. Use a stable exact-model slug. Record source URL, source type, access date, market, exact identity, price and availability observations, raw specifications or relevant excerpts, and blocked or conflicting fields. Separate raw capture from interpretation and append dated snapshots instead of overwriting earlier research so the product can be re-analyzed later.
+For a standalone article, archive raw evidence at `articles/{article}/products/{product}.md`. For a content cluster that shares exact products, use one cluster-level archive such as `articles/{cluster}/products/{product}.md` and reference it from each article. Use a stable exact-model slug. Record source URL, source type, access date, market, exact identity, price and availability observations, raw specifications or relevant excerpts, and blocked or conflicting fields. Separate raw capture from interpretation and append dated snapshots instead of overwriting earlier research so the product can be re-analyzed later.
+
+After final selection, keep standalone files only for products that remain active in at least one article unless the project explicitly requests an exclusion archive. Record rejected candidates and reasons in `research.md`; do not leave excluded product files that can be mistaken for approved records.
 
 Normalize:
 
@@ -280,12 +282,16 @@ For each roundup product, specify exactly:
 - Slug
 - Editorial badge
 - Brand
+- ASIN, when the approved contract exposes exact retailer identity
+- Affiliate link, when the publisher has completed the commercial approval gate
 - Summary
 - Verdict
 - Pros
 - Cons
 
 The Summary and Verdict must carry the reader fit, key evidence, distinction, and tradeoff. Do not require a paragraph after Cons unless the approved article contract allows one.
+
+ASIN and affiliate-link fields are optional contract fields, not universal defaults. Never infer or manufacture them. When present, validate them against the normalized product record and keep the same destination for a shared exact package across the cluster.
 
 ### Gate 8
 

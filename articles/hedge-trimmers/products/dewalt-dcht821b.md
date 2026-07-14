@@ -49,14 +49,14 @@
 ### Amazon gate status
 
 - Gate 1: exact ASIN and raw URL recorded; re-open the live page before publication to confirm the DCHT821B tool-only variation.
-- Gate 2: publisher reported product availability on Amazon; affiliate eligibility and successful link generation remain a publisher record unless explicitly supplied.
+- Gate 2: completed; the publisher-confirmed affiliate record appears below.
 - Publication freshness: recheck seller, fulfillment, stock, price, warranty eligibility, and redirect destination.
 
 ### Unknowns and conflicts
 
 - Loaded/operating weight was not verified from current official documentation.
 - Runtime test battery and conditions were not sufficiently captured for like-for-like scoring.
-- Current Amazon seller, fulfillment, price, and affiliate URL were not transmitted to the project.
+- Current Amazon seller, fulfillment, and price remain publication-day freshness fields. The publisher later supplied the affiliate URL recorded below.
 
 ## Affiliate link record — July 14, 2026
 

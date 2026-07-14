@@ -20,7 +20,7 @@
 ### Normalized interpretation
 
 - Potential lightweight/budget replacement because the listing identifies a 5.5 lb complete kit.
-- It is research approved but cannot be scored or awarded until manual Gate 2 approval.
+- It was research-approved with an availability warning and later passed the publisher's Gate 2, as recorded below.
 
 ### Unknowns/conflicts
 
