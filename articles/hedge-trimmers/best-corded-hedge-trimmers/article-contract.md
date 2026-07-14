@@ -18,7 +18,7 @@ intro_product_mentions: none
 top_pick_card_count: 3
 top_pick_card_fields: [award, exact product name, original fit-and-tradeoff description]
 comparison_columns: [rank, product, best use, motor, blade, stated capacity, weight, observed price]
-product_card_fields: [Title, Slug, Editorial badge, Brand, Summary, Verdict, Pros, Cons]
+product_card_fields: [Title, Slug, Editorial badge, Brand, ASIN, Affiliate link, Summary, Verdict, Pros, Cons]
 extra_product_paragraphs: false
 types: [standard 22-inch, compact 16-inch, saw-tip hybrid, rotating-handle]
 buying_guide_scope: pre-purchase only
@@ -30,8 +30,7 @@ faq_questions:
   - Is a corded hedge trimmer worth buying in 2026?
 conclusion_pattern: layout decision -> overall pick -> distinct alternatives -> cord caveat
 target_length: 2200-3000 words
-public_marketplace_names_allowed: false
+public_marketplace_names_allowed: true_for_approved_affiliate_link_label_only
 public_community_names_allowed: false
 cms_owned: [affiliate buttons, images, schema, redirects, breadcrumbs, sitemap, mobile and page-speed testing]
 ```
-

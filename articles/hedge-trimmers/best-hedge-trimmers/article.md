@@ -53,6 +53,8 @@ The reviews below explain where each model fits and what you give up in return.
 **Slug:** `ego-power-plus-ht2601`  
 **Editorial badge:** Best Overall  
 **Brand:** EGO
+**ASIN:** `B0BRXK7NT2`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4ha9O8K)
 
 **Summary:** The HT2601 earns the top spot for broad, established hedges where a shorter blade would mean more passes. Its 26-inch blade and rotating handle suit long tops and vertical faces, while the 1.2-inch stated capacity provides room for maintained woody growth. The kit includes a battery and charger, but its listed 6.92-pound weight excludes the battery.
 
@@ -75,6 +77,8 @@ The reviews below explain where each model fits and what you give up in return.
 **Slug:** `dewalt-dcht821b`  
 **Editorial badge:** Best for DEWALT Battery Owners  
 **Brand:** DEWALT
+**ASIN:** `B0DVHTSWX6`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/3QRSoTV)
 
 **Summary:** The DCHT821B makes most sense as an addition to an existing DEWALT 20V MAX tool collection. Its 22-inch blade is long enough for routine hedge faces without feeling excessive around smaller shrubs, while the 3/4-inch stated capacity suits regularly maintained growth. This package includes the trimmer only, so first-time DEWALT buyers face extra battery and charger costs.
 
@@ -97,6 +101,8 @@ The reviews below explain where each model fits and what you give up in return.
 **Slug:** `black-decker-beht350ff`  
 **Editorial badge:** Best Budget Corded  
 **Brand:** BLACK+DECKER
+**ASIN:** `B07CBYR1DN`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4wHuTw2)
 
 **Summary:** The BEHT350FF is a sensible corded choice when every hedge is within easy reach of an outdoor outlet. Its 22-inch blade and 3/4-inch stated capacity suit routine work in compact gardens, while the 6.5-pound weight remains manageable. Cord retention reduces accidental unplugging, but it does not remove the need to control the extension lead.
 
@@ -119,6 +125,8 @@ The reviews below explain where each model fits and what you give up in return.
 **Slug:** `worx-wg261`  
 **Editorial badge:** Best Lightweight Cordless Kit  
 **Brand:** WORX
+**ASIN:** `B07MVLYF7L`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/3RAd1UP)
 
 **Summary:** The WG261 is the easiest cordless pick here to justify when tool weight matters more than extra blade length or cutting capacity. Its 5.5-pound published weight includes the battery, and the 22-inch blade suits routine shaping around small and medium hedges. The supplied battery and charger also make it a complete first purchase rather than a bare tool.
 
@@ -141,6 +149,8 @@ The reviews below explain where each model fits and what you give up in return.
 **Slug:** `dewalt-dcph820m1`  
 **Editorial badge:** Best for Tall Hedges  
 **Brand:** DEWALT
+**ASIN:** `B084CZXM9V`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/3RDs8Nf)
 
 **Summary:** The DCPH820M1 is built for hedge tops and tall faces that remain out of reach with a standard trimmer. Its seven-position head lets you change the cutting angle from the ground, while the kit includes a 4.0 Ah battery and shoulder strap. The long pole improves access, but its leverage makes close or prolonged work more tiring.
 

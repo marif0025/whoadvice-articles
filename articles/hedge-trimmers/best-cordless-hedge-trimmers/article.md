@@ -53,6 +53,8 @@ The table uses official specifications where available. EGO loaded weights are e
 **Slug:** `ego-power-plus-ht2601`  
 **Editorial badge:** Best Overall  
 **Brand:** EGO
+**ASIN:** `B0BRXK7NT2`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4ha9O8K)
 
 **Summary:** For medium-to-large residential hedges, the HT2601 offers the best balance of reach and handling in this group. Its 26-inch blade and five-position handle support broad, angled cuts, while the 2.5Ah kit avoids a separate battery purchase. Loaded weight is approximately 9.7 pounds based on official published component figures.
 
@@ -79,6 +81,8 @@ The table uses official specifications where available. EGO loaded weights are e
 **Slug:** `greenworks-ht40b212`  
 **Editorial badge:** Best Value  
 **Brand:** Greenworks
+**ASIN:** `B086PSCXJT`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4fzLOuA)
 
 **Summary:** The HT40B212 is the middle-ground choice for routine trimming: a 24-inch blade is easier to place than either EGO blade, while the rotating handle still supports top and side cuts. Its kit includes a 2Ah battery and charger, and Greenworks covers both for 3 years. Exact loaded weight remains unverified.
 
@@ -105,6 +109,8 @@ The table uses official specifications where available. EGO loaded weights are e
 **Slug:** `ego-power-plus-ht2501`  
 **Editorial badge:** Best for Thick Hedges  
 **Brand:** EGO
+**ASIN:** `B09C2S51F5`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4bG0p5c)
 
 **Summary:** Buyers who regularly meet thicker green growth get more control from the HT2501's two speed settings and rotating handle. EGO lists a 1.25-inch blade gap, the largest here, but that specification is an upper limit rather than a performance test. With its 2.5Ah battery, estimated loaded weight reaches 11.2 pounds.
 
@@ -131,6 +137,8 @@ The table uses official specifications where available. EGO loaded weights are e
 **Slug:** `worx-wg261`  
 **Editorial badge:** Best Lightweight Option  
 **Brand:** WORX
+**ASIN:** `B07MVLYF7L`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/3RAd1UP)
 
 **Summary:** At an official 5.5 pounds with the battery installed, the WORX WG261 is the clear choice for buyers prioritizing low fatigue. Its 22-inch blade, D-grip, all-around front switch, 2Ah battery, and included charger suit regularly maintained small-to-medium yards. WORX states a 3/4-inch capacity, but its published runtime answers conflict.
 
@@ -157,6 +165,8 @@ The table uses official specifications where available. EGO loaded weights are e
 **Slug:** `black-decker-lht2436`  
 **Editorial badge:** Established 40V Platform Option  
 **Brand:** BLACK+DECKER
+**ASIN:** `B00602J4MM`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4vVs1eS)
 
 **Summary:** Existing BLACK+DECKER 40V owners have the clearest reason to consider the LHT2436. The kit pairs a 24-inch blade with a 1.5Ah battery, charger, wraparound grip, full-length trigger, and charge indicator. At 9.5 pounds with a 3/4-inch stated capacity, however, it offers less capacity-to-weight margin than the newer picks.
 

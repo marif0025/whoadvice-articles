@@ -31,9 +31,9 @@ first_person_evidence_available: false
 - Use 3 separate top-pick cards after the introduction: EGO HT2601, Greenworks HT40B212 and EGO HT2501.
 - Top-pick card fields: award, exact product name and one original short description stating reader fit plus the main tradeoff.
 - Introduction contains no product names, rankings or retailer links because top-pick cards are separate.
-- Product cards contain exactly: Title, Slug, Editorial badge, Brand, Summary, Verdict, Pros and Cons.
+- Product cards contain exactly: Title, Slug, Editorial badge, Brand, ASIN, Affiliate link, Summary, Verdict, Pros and Cons.
 - Summary length: 50–60 words. Verdict length: 25–30 words. No prose follows Cons.
-- Public marketplace and community names are excluded. Raw Amazon and forum links remain in supporting files/CMS work.
+- Public community names remain excluded. Amazon may appear only in the approved affiliate-link label; raw Amazon and forum research links remain in supporting files.
 - Comparison table appears after top-pick cards and before the ranked product reviews.
 - Approved comparison columns: Rank, Product, Award, Blade length, Stated cutting capacity, Loaded weight, Included battery, Runtime claim, Important control, Best suited for and Main limitation.
 

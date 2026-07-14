@@ -57,6 +57,8 @@ Each recommendation has current evidence for the exact model, a publisher-confir
 **Slug:** `black-decker-beht350ff`  
 **Editorial badge:** Best Overall  
 **Brand:** BLACK+DECKER
+**ASIN:** `B07CBYR1DN`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4wHuTw2)
 
 **Summary:** The BEHT350FF gives most small and medium yards a useful balance of reach, control, and price. Its 22-inch blade covers broad hedge faces efficiently, while the 3/4-inch stated capacity suits routine maintenance. The wraparound handle supports top and side cuts, and the cord retainer reduces accidental unplugging while you move along a hedge.
 
@@ -80,6 +82,8 @@ Each recommendation has current evidence for the exact model, a publisher-confir
 **Slug:** `black-decker-behts300`  
 **Editorial badge:** Best for Occasional Thick Branches  
 **Brand:** BLACK+DECKER
+**ASIN:** `B077ZC3NGZ`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4pl62vv)
 
 **Summary:** The BEHTS300 adds a sawblade tip for an occasional branch beyond the standard tooth gap. BLACK+DECKER rates it for branches up to 1.5 inches, while the regular blade handles stems up to 3/4 inch. Its 20-inch reach is shorter than the 22-inch picks, and the saw feature cannot replace regular pruning tools.
 
@@ -103,6 +107,8 @@ Each recommendation has current evidence for the exact model, a publisher-confir
 **Slug:** `greenworks-22122`  
 **Editorial badge:** Best Rotating Handle  
 **Brand:** Greenworks
+**ASIN:** `B0069Z7JV8`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/44oSmpF)
 
 **Summary:** The Greenworks 22122 combines a full 22-inch blade with a rotating rear handle, making it easier to change hand position between hedge tops and vertical faces. Its manual lists a 5/8-inch capacity and 6.06-pound weight. Older retailer records publish different figures, so this guide uses the more conservative exact-manual values rather than blending specifications across revisions.
 
@@ -126,6 +132,8 @@ Each recommendation has current evidence for the exact model, a publisher-confir
 **Slug:** `black-decker-beht100`  
 **Editorial badge:** Best for Small Hedges  
 **Brand:** BLACK+DECKER
+**ASIN:** `B08LYYWBWN`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4w2fUNj)
 
 **Summary:** The BEHT100 makes sense for two or three compact shrubs where a long blade would feel awkward. Its 16-inch blade and 4.9-pound listed weight improve placement around corners and ornamental shapes. The shorter format is easier to store and control, although a wide boundary hedge will require more passes than a 20- or 22-inch model.
 
