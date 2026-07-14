@@ -1,0 +1,506 @@
+# WhoAdvice: Article Workflow
+
+## Operating principle
+
+Research, evidence review, product selection, ranking, writing, and editing are separate stages.
+
+Do not begin polished article prose before the evidence and ranking logic are reviewable.
+
+Every stage should produce a concrete artifact that can be approved, corrected, or regenerated without restarting the entire project.
+
+## Stage 0: Intake and article classification
+
+### Required inputs
+
+Collect or infer:
+
+- Working title or topic
+- Primary keyword
+- Search intent
+- Article type
+- Category
+- Target audience
+- Region and currency
+- Desired product count
+- Product candidates or retailer links
+- Competitor URLs
+- Reddit communities or threads
+- Required sections
+- Word-count range
+- Publication deadline
+- Affiliate retailers
+- Whether genuine hands-on testing exists
+
+### Output
+
+```yaml
+article_type:
+topic:
+primary_keyword:
+search_intent:
+audience:
+region:
+evidence_model:
+required_sections:
+constraints:
+assumptions:
+```
+
+### Gate 0
+
+Confirm that the evidence model is truthful.
+
+If no testing records exist, the project must classify the article as research-based.
+
+## Stage 1: Search-intent and reader-problem brief
+
+Define:
+
+- The main decision the reader must make
+- Secondary questions
+- User groups
+- Common mistakes
+- Safety considerations
+- What a satisfactory answer must include
+- What the article will not claim
+
+### Output
+
+A one-page intent brief.
+
+### Gate 1
+
+Reject a brief that merely lists keywords. It must describe an actual decision.
+
+## Stage 2: Competitor coverage analysis
+
+Analyze strong ranking pages and specialist sources.
+
+For each competitor, capture:
+
+- Products
+- Structure
+- Claimed methodology
+- Evaluation criteria
+- Experts
+- Useful original sources
+- Missing questions
+- Unsupported claims
+- Stale products
+- Differentiation opportunity
+
+Do not copy prose.
+
+### Output
+
+```markdown
+| Competitor | Useful coverage | Weakness | Source to verify | WhoAdvice opportunity |
+```
+
+### Gate 2
+
+The final article plan must improve coverage or clarity rather than reproduce the average competitor outline.
+
+## Stage 3: Reddit and audience-language research
+
+Research relevant discussions to identify:
+
+- Questions
+- Complaints
+- Use cases
+- Technique issues
+- Product alternatives
+- Long-term concerns
+- Language real users employ
+- Gaps between marketing and experience
+
+Separate:
+
+- Product issue
+- Technique issue
+- Seller issue
+- Individual reaction
+- Unsupported medical claim
+
+### Output
+
+A theme map with source links and dates.
+
+### Gate 3
+
+Reddit findings must be labeled anecdotal and converted into research questions, not automatic conclusions.
+
+## Stage 4: Product discovery and normalization
+
+Create a product record for every candidate.
+
+Scrape and archive the raw evidence for every candidate at `articles/{article}/products/{product}.md` before normalizing or ranking it. Use a stable exact-model slug. Record source URL, source type, access date, market, exact identity, price and availability observations, raw specifications or relevant excerpts, and blocked or conflicting fields. Separate raw capture from interpretation and append dated snapshots instead of overwriting earlier research so the product can be re-analyzed later.
+
+Normalize:
+
+- Product name
+- Model
+- Variant
+- Size
+- Region
+- Product generation
+- Bundle
+- Seller
+- Price
+- Units
+- Current availability
+
+Remove duplicates and mismatched variants.
+
+### Output
+
+A normalized product list and evidence packets.
+
+### Gate 4
+
+No product advances when its identity is materially ambiguous.
+
+## Stage 5: Source collection and claim ledger
+
+Collect sources according to `07-fact-checking-policy.md` and `08-approved-claims-and-sources.md`.
+
+For each product and general section:
+
+- Record direct facts
+- Record brand claims
+- Record independent evidence
+- Record review patterns
+- Record Reddit signals
+- Record unknowns
+- Record conflicts
+- Check warnings and recalls
+
+### Output
+
+- Source ledger
+- Claim ledger
+- Evidence packets
+
+### Gate 5
+
+Every ranking criterion must have enough evidence to evaluate or be marked unknown.
+
+## Stage 6: Criteria and scoring plan
+
+Define the criteria before assigning awards.
+
+For each criterion, state:
+
+- Definition
+- Weight
+- Evidence accepted
+- Scoring scale
+- Disqualifiers
+
+Example:
+
+```yaml
+criterion: sensitive_skin_fit
+weight: 20
+evidence:
+  - fragrance status
+  - product warnings
+  - relevant formulation facts
+  - review patterns
+scoring:
+  10: strong verified fit with no major recurring issue
+  7: generally suitable with a clear caveat
+  4: mixed evidence or relevant irritant concern
+  1: poor fit or explicit warning
+  null: insufficient evidence
+```
+
+### Gate 6
+
+The criteria must match the article’s search intent. Do not score irrelevant features because data is easy to find.
+
+## Stage 7: Product evaluation and ranking
+
+For each product:
+
+1. Score only supported criteria.
+2. Add evidence beneath each score.
+3. Record missing evidence.
+4. Identify disqualifiers.
+5. Write a one-sentence provisional verdict.
+6. Assign an award only after comparison.
+
+### Output
+
+- Product scorecards
+- Ranking table
+- Award-label rationale
+- Exclusion list with reasons
+
+### Gate 7
+
+Manual editorial review is required before drafting.
+
+The reviewer should challenge:
+
+- Unsupported scores
+- Null values converted to assumptions
+- Weak “Best Overall” logic
+- Too many artificial award categories
+- Products included only because of affiliate availability
+- Unfair comparison across variants
+
+## Stage 8: Article outline
+
+Build the outline from intent and evidence.
+
+### Roundup default structure
+
+1. Title
+2. Deck or short description
+3. Disclosure
+4. Introduction
+5. Quick picks
+6. Product reviews
+7. Comparison table
+8. How products were selected
+9. Buying guide
+10. Relevant safety or use guidance
+11. FAQs
+12. Conclusion
+13. Sources or editorial notes where required
+
+Adjust the sequence to the topic. Do not include every section by habit.
+
+### Product-card outline
+
+For each roundup product, specify exactly:
+
+- Title
+- Slug
+- Editorial badge
+- Brand
+- Summary
+- Verdict
+- Pros
+- Cons
+
+The Summary and Verdict must carry the reader fit, key evidence, distinction, and tradeoff. Do not require a paragraph after Cons unless the approved article contract allows one.
+
+### Gate 8
+
+Approve the outline before drafting. Remove sections that duplicate one another.
+
+## Stage 9: Drafting
+
+Follow all project files.
+
+Drafting rules:
+
+- Use the approved ranking.
+- Do not introduce new facts from memory.
+- Keep attribution attached to claims.
+- Do not write fake first-person experience.
+- Vary product-section structure.
+- Connect features to consequences.
+- Include meaningful drawbacks.
+- Use the primary keyword naturally.
+- Write original prose.
+
+When a needed fact is missing, insert:
+
+`[FACT CHECK: specific missing item]`
+
+Do not guess.
+
+### Output
+
+First complete draft with inline source markers or claim IDs.
+
+## Stage 10: Fact-check pass
+
+Fact check separately from style editing.
+
+Verify:
+
+- Names
+- Models
+- Ingredients
+- Specifications
+- Prices
+- Claims
+- Quotes
+- Expert credentials
+- Review counts
+- Dates
+- Recalls
+- Tables
+- Pros and cons
+- Ranking consistency
+
+### Output
+
+A resolved claim ledger and a list of changes.
+
+### Gate 10
+
+No unresolved high-risk claim may remain in publishable copy.
+
+## Stage 11: Editorial and voice pass
+
+Edit against:
+
+- `02-voice-and-tone.md`
+- `03-writing-style-rules.md`
+- `05-banned-ai-patterns.md`
+- `16-human-centered-writing-and-editing.md`
+
+Check:
+
+- Opening specificity
+- Paragraph rhythm
+- Repetition
+- Generic transitions
+- Empty adjectives
+- Identical product templates
+- Keyword stuffing
+- Excessive disclaimers
+- Weak conclusions
+- Fake empathy
+- Fake authority
+
+### Output
+
+Clean editorial draft.
+
+## Stage 12: SEO pass
+
+SEO follows editorial accuracy.
+
+Review:
+
+- Search intent satisfaction
+- Primary keyword placement
+- Related subtopics
+- Title specificity
+- Meta title and description
+- Heading clarity
+- Internal links
+- Product and FAQ structured-data eligibility
+- Image alt text
+- Cannibalization with existing WhoAdvice pages
+
+Do not add unsupported sections merely for topical coverage.
+
+### Output
+
+- Final article
+- Meta title
+- Meta description
+- Suggested slug
+- Internal-link suggestions
+- Schema notes
+- Image brief and alt text
+
+## Stage 13: Final quality assurance
+
+Use this checklist.
+
+### Evidence
+
+- [ ] The article states the correct evidence model.
+- [ ] No hands-on testing is implied without records.
+- [ ] Brand claims are attributed.
+- [ ] Reviews and Reddit are presented as experience evidence.
+- [ ] Health claims use authoritative sources.
+- [ ] Unknowns remain visible.
+- [ ] Recall checks are complete.
+
+### Products
+
+- [ ] Names, models, sizes, and variants match.
+- [ ] Product links point to the intended item.
+- [ ] Prices have a check date.
+- [ ] Award labels are meaningful.
+- [ ] Rankings follow the stated criteria.
+- [ ] Pros and cons are specific and supported.
+
+### Writing
+
+- [ ] The introduction reaches the problem quickly.
+- [ ] Paragraphs are concise.
+- [ ] Benefits are connected to features.
+- [ ] Drawbacks are not hidden.
+- [ ] Product sections are not formulaic.
+- [ ] Banned AI phrases have been reviewed.
+- [ ] The conclusion makes a decision.
+- [ ] The prose is original.
+
+### SEO and publishing
+
+- [ ] Title and metadata match the article.
+- [ ] Internal links are useful.
+- [ ] Tables match the prose.
+- [ ] Images correspond to the correct products.
+- [ ] Affiliate disclosure is clear.
+- [ ] Date-sensitive claims are current.
+
+## Stage 14: Update cycle
+
+At the scheduled review:
+
+1. Recheck availability and current variants.
+2. Recheck prices.
+3. Review formula or model changes.
+4. Check recalls.
+5. Sample new reviews.
+6. Revisit Reddit for emerging issues.
+7. Rerun competitor discovery.
+8. Recalculate rankings.
+9. Update copy and metadata.
+10. Record material changes.
+
+Do not refresh the date without substantive verification.
+
+## Standard ChatGPT project behavior
+
+When asked to create an article:
+
+1. Identify the workflow stage requested.
+2. Use completed outputs from earlier stages rather than recreating them.
+3. Do not skip evidence review to produce polished copy faster.
+4. State assumptions in working documents.
+5. Mark missing evidence instead of inventing it.
+6. Provide the requested stage output in a structured, reviewable format.
+7. Wait for approval only when the user explicitly wants a manual gate; otherwise continue through the requested scope while preserving separate stage outputs.
+
+## Suggested article request format
+
+```yaml
+task: create a research-based roundup
+topic:
+primary_keyword:
+category:
+region:
+audience:
+product_count:
+candidate_products:
+competitors:
+reddit_sources:
+required_sections:
+word_count:
+affiliate_retailers:
+special_constraints:
+```
+
+## Definition of done
+
+An article is complete only when:
+
+- The ranking is evidence-based.
+- The evidence model is transparent.
+- The claims are verified or attributed.
+- The article gives a useful decision.
+- The voice is warm, direct, and specific.
+- The prose does not rely on AI filler.
+- The final copy is original.

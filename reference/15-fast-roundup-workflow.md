@@ -1,0 +1,180 @@
+# WhoAdvice Fast Roundup Workflow
+
+## Purpose
+
+Use this four-part workflow for research-based product roundups. It replaces the 17-prompt “minimal” sequence when one agent can research, write, and audit the article in the same workspace.
+
+The long production guide and prompt library remain available for high-risk, medical, legal, or unusually complex assignments.
+
+## Part 1: Research and rank
+
+### User prompt
+
+> Use $whoadvice-article-workflow Part 1 for [TOPIC]. Research current products, normalize exact models and packages, verify required retailer eligibility, build the source and claim records, define ranking criteria, and propose the ranked list. Stop for approval before drafting.
+
+### Required output
+
+- Search intent and target market
+- Three useful editorial competitors
+- Exact-model candidate register
+- Raw per-product research snapshots saved to `articles/{article}/products/{product}.md`
+- Eligibility and exclusion decisions
+- Claim ledger with unknowns
+- Ranking criteria and weights
+- Proposed ranking and awards
+- Raw retailer links kept in sources, not public copy
+- Approval gate: products, order, awards, and evidence gaps
+
+Do not draft article prose.
+
+Create each product file during research, before ranking. Record source URLs and access dates, exact identity and market, observed price and availability, raw specifications or relevant excerpts, and unresolved conflicts. Keep raw capture separate from normalized interpretation, and append dated snapshots on later research passes rather than overwriting prior evidence.
+
+## Part 2: Approve the article contract
+
+### User prompt
+
+> Use $whoadvice-article-workflow Part 2 for the approved [TOPIC] ranking. Propose the article contract: opening angle, comparison fields, product-card format, type order, buying-guide factors, FAQ questions, conclusion logic, public wording exclusions, and CMS-owned tasks. Stop for approval.
+
+### Article contract
+
+Record these choices before prose:
+
+```yaml
+primary_keyword:
+target_market:
+evidence_model:
+public_marketplace_names_allowed: false
+public_community_names_allowed: false
+product_card_fields:
+  - Title
+  - Slug
+  - Editorial badge
+  - Brand
+  - Summary
+  - Verdict
+  - Pros
+  - Cons
+extra_product_paragraphs: false
+comparison_columns:
+type_order:
+type_description_pattern: benefit -> best fit -> tradeoff
+buying_guide_scope: pre-purchase only
+buying_guide_factors:
+faq_questions:
+faq_product_reference_rule: mention a selected product only when it directly answers the question
+intro_product_mentions: none when separate top-pick cards are used
+top_pick_card_count: 3 unless the approved design specifies another count
+top_pick_card_fields: [award, exact product name, original short description]
+conclusion_pattern: main decision -> leading pick -> distinct alternatives -> material caveat
+cms_owned:
+  - internal links
+  - external links
+  - affiliate buttons
+  - images
+  - schema
+  - canonical
+  - mobile and page-speed testing
+```
+
+### Approval gate
+
+Approve the complete contract. Later drafting must not change it silently.
+
+## Part 3: Draft the complete article
+
+### User prompt
+
+> Use $whoadvice-article-workflow Part 3. Draft the complete article from the approved research packet and article contract. Apply the WhoAdvice voice and anti-AI rules. Do not add new products, facts, sections, public marketplace/community references, or post-card product paragraphs.
+
+Apply `16-human-centered-writing-and-editing.md`. Define the reader situation and voice in the contract, draft around decisions, and do not treat generated prose as publication-ready.
+
+### Section contracts
+
+#### Introduction
+
+- 120–200 words unless the contract says otherwise.
+- Begin with the reader's decision, not background about the object being treated.
+- Use the primary keyword naturally in the first 100 words.
+- State the research-only evidence model.
+- When the design includes separate top-pick cards, keep all product names and recommendations out of the introduction.
+- Place the top-pick cards immediately after the introduction. Give each card its approved award, exact product name, and an original short description of fit and tradeoff.
+- Do not copy card descriptions from the introduction, comparison table, Summary, or Verdict.
+
+#### Product cards
+
+Use exactly the approved fields. Put the use case, evidence, distinction, and drawback inside Summary, Verdict, Pros, and Cons. Do not add a paragraph after Cons unless the contract explicitly permits it.
+
+- Summary: 50–60 words.
+- Verdict: 25–30 words.
+- Pros and cons: short, specific, and traceable.
+
+#### Product types
+
+Add a short description after the H2. Use the approved order. Each H3 description follows:
+
+1. Practical benefit
+2. Best-fit situation
+3. Main tradeoff
+
+Do not force product references.
+
+#### Buying guide
+
+Cover only checks made before purchase. Typical factors are:
+
+- Reader need and job size
+- Full budget
+- Corded versus cordless layout
+- Blade length and cut capacity
+- Handle and head design
+- Battery and charger cost
+
+Move use, maintenance, and safety advice to a separate approved section or omit it.
+
+#### FAQs
+
+Use researched questions. Answer in the first sentence. Mention a selected product only when it is the clearest direct example. Do not force retailer or community names into public copy.
+
+#### Conclusion
+
+Use 80–150 words. Follow the same decision order as the buying guide. Name the leading recommendation, distinct alternatives, and one material caveat. Do not write a product roll call without decision logic.
+
+## Part 4: Audit and hand off
+
+### User prompt
+
+> Use $whoadvice-article-workflow Part 4. Audit the complete draft against the approved article contract, evidence, voice, banned-pattern, and on-page SEO rules. Fix only objective failures, synchronize supporting files, run the mechanical audit, and prepare the CMS handoff.
+
+### Required checks
+
+- Article contract compliance
+- Exact models, packages, ranking, and table consistency
+- Summary and verdict lengths
+- No unapproved post-card paragraphs
+- Types in approved order and pattern
+- Buying guide contains purchase checks only
+- FAQ answers are direct and product references are selective
+- Conclusion follows article decision logic
+- Public wording exclusions
+- Human-centered edit passes completed in order: intent, structure, evidence, sentence craft, voice, and proof
+- No detector-driven errors, fake anecdotes, unsupported opinions, or manufactured irregularity
+- Responsible human editorial review recorded before publication
+- SEO title, H1, meta, slug, opening, useful H2, and heading hierarchy
+- CMS-owned work reported as pending, not counted as a draft failure
+- Mechanical audit returns no material flags
+
+## Routing rules
+
+Use the four-part workflow by default for a major roundup.
+
+Use one combined run only when the user explicitly asks for a complete article without approval gates. Even then, create and follow the article contract internally before drafting.
+
+For a local revision, read only the affected contract and references. Do not repeat SERP, product, or retailer research unless the requested change affects a time-sensitive fact.
+
+Use the long prompt library only when:
+
+- Different people or agents own separate stages
+- The topic is medically or legally sensitive
+- Evidence conflicts are extensive
+- A large product set needs independent scoring
+- The user requests granular approval at every stage
