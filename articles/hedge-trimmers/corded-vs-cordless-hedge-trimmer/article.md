@@ -12,6 +12,10 @@ That answer narrows the field, but a battery still needs enough working time and
 
 Still considering gas or pole power? Start with our [best hedge trimmer guide](/garden-tools/best-hedge-trimmers/).
 
+<!-- CMS LEAD IMAGE: Corded and cordless standard hedge trimmers shown in comparable working configurations beside a residential hedge. Show the outdoor extension cord and installed battery clearly; use generic, brand-neutral tools. -->
+
+<callout>
+
 > **Choose corded if:**
 > - Every hedge is near a suitable outlet.
 > - The cable route is simple.
@@ -21,6 +25,8 @@ Still considering gas or pole power? Start with our [best hedge trimmer guide](/
 > - You move between hedge areas.
 > - Gates, paths, or obstacles interrupt the route.
 > - Cable-free movement matters more than avoiding charging.
+
+</callout>
 
 ## Corded vs cordless hedge trimmer comparison
 
@@ -34,6 +40,8 @@ Still considering gas or pole power? Start with our [best hedge trimmer guide](/
 | Ongoing ownership | Replace a damaged cord when necessary | Battery capacity falls over time; replacement may be needed | Approved parts and future availability |
 | Setup and readiness | Find the outlet and route the cord | Check charge and install the battery | Which preparation fits your routine |
 | Main constraint | Cable management | Finite charge and battery weight | The constraint you can manage consistently |
+
+<!-- CMS IMAGE 1: Split-yard decision diagram. Left: hedge near an outlet with a clean cable route. Right: hedge areas separated by a gate, path, and obstacles. No brands, logos, or baked-in text. -->
 
 ## Choose a corded hedge trimmer when the cable route works
 
@@ -53,9 +61,13 @@ Platform ownership creates a longer commitment because batteries are proprietary
 
 ## Compare the complete cost, not the tool-only price
 
+<callout>
+
 A fair price comparison includes everything needed to work: a corded tool plus a compliant outdoor extension cord, or a cordless tool plus its required battery and charger.
 
 Existing platform owners can compare a bare tool after confirming compatibility, battery weight, and useful capacity. Longer term, cordless may require a spare or replacement battery; corded may require replacing a damaged cord. Neither format is always cheaper.
+
+</callout>
 
 ## Runtime, recharge time, and long trimming sessions
 
@@ -94,12 +106,16 @@ An IP rating does not automatically permit trimming in rain. The tool, battery, 
 
 ## Final decision checklist
 
+<callout>
+
 1. Can an outdoor cord permitted by the exact manual reach every hedge safely?
 2. Would you repeatedly reroute it around gates, corners, paths, or obstacles?
 3. How long is the real session, and what recharge or spare-battery plan covers it?
 4. What is the complete operating weight, balance, and control setup?
 5. What is the full first-purchase cost, and which replacement cost is plausible?
 6. Can the exact model handle normal hedge growth without relying on its maximum tooth-gap claim?
+
+</callout>
 
 ## Frequently asked questions
 
