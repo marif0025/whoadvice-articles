@@ -11,7 +11,7 @@
 
 > **Affiliate disclosure:** As an Amazon Associate, WhoAdvice earns from qualifying purchases. Commercial relationships do not determine our rankings.
 
-A corded hedge trimmer still makes sense when every shrub is close to an outdoor outlet. It gives you continuous runtime without batteries, but the cable route matters as much as blade length or motor size. A long extension cord can erase some of the upfront saving, especially when it must cross paths, pass through gates, or wrap around corners. If you have not settled on a power format, [compare all hedge-trimmer types](/garden-tools/best-hedge-trimmers/) first.
+A corded hedge trimmer still makes sense when every shrub is close to an outdoor outlet. It gives you continuous mains access while connected, but the cable route matters as much as blade length or motor size. A long extension cord can erase some of the upfront saving, especially when it must cross paths, pass through gates, or wrap around corners. If you are choosing between cable and battery, use our [corded vs cordless hedge trimmer comparison](/garden-tools/corded-vs-cordless-hedge-trimmer/). If pole or gas power is still under consideration, [compare all hedge-trimmer types](/garden-tools/best-hedge-trimmers/).
 
 Start with the shape of the job. A 22-inch blade covers a broad hedge face in fewer passes, while a shorter blade is easier to guide around compact shrubs. Tool weight matters during vertical and shoulder-height cuts. Stated branch capacity is useful for comparison, but regular thick-branch work calls for loppers or a pruning saw.
 
@@ -154,7 +154,7 @@ Each recommendation has current evidence for the exact model, a publisher-confir
 
 ## How we selected these models
 
-This is a research-based roundup. WhoAdvice did not conduct hands-on testing. We matched each US model number to an official product page or manual. We then checked availability, cutting specifications, weight, handles, cord retention, warranty coverage, and included guards. Finally, we searched CPSC records for recalls involving the exact models.
+This is a research-based roundup. WhoAdvice did not conduct hands-on testing. We matched each US model number to an official product page or manual. We then checked availability, cutting specifications, weight, handles, cord retention, warranty coverage, and included guards. Finally, we searched the [CPSC recall database](https://www.cpsc.gov/Recalls) for the exact models.
 
 We set the ranking weights before assigning the awards: cutting fit 30%, control and handling 25%, value 15%, safety and maintenance 15%, and availability and support 15%. We did not award points when information was missing. We also rejected older models without current US manufacturer documentation, even when marketplace listings remained active.
 
@@ -188,11 +188,11 @@ A corded tool is a layout decision before it is a motor decision. Measure the jo
 
 Measure from a suitable outdoor outlet to the farthest point you must trim. Follow the safe route the cable will actually take because corners, gates, paths, and separate beds add distance.
 
-**Decision rule:** If the safe cable route is nearly as complicated as the trimming job, compare the [best cordless hedge trimmers](/garden-tools/best-cordless-hedge-trimmers/) instead.
+**Decision rule:** If the safe cable route is nearly as complicated as the trimming job, apply the full [corded-versus-cordless decision test](/garden-tools/corded-vs-cordless-hedge-trimmer/) before comparing products.
 
 ### Budget for the extension cord
 
-Most corded hedge trimmers have only a short power cord. Add the price of an outdoor-rated extension cord with the gauge and maximum length required by the tool manual. CPSC says outdoor extension cords need safety characteristics including suitable wire size, strain relief, polarization, continuity, and jacketed construction.
+Add the price of an outdoor-rated extension cord with the gauge and maximum length required by the tool manual. The [CPSC extension-cord guidance](https://www.cpsc.gov/FAQ/Extension-Cords?language=en) identifies relevant safety characteristics, including suitable wire size and outdoor jacketed construction.
 
 ### Match blade length to hedge width
 
@@ -200,7 +200,7 @@ A 22-inch blade is efficient on broad, flat hedge faces. A 16-inch blade is easi
 
 ### Treat cut capacity as a limit, not a target
 
-A 3/4-inch rating describes the tool's stated maximum capacity. It does not mean you should force the trimmer through every woody branch of that size. Regularly thick branches call for loppers, a pruning saw, or another suitable cutting tool. A hedge trimmer is primarily for shaping many smaller stems.
+A 3/4-inch rating describes the tool's stated maximum capacity. It does not mean you should force the trimmer through every woody branch of that size. Use our [hedge trimmer vs loppers vs pruning saw comparison](/garden-tools/hedge-trimmer-vs-loppers-vs-pruning-saw/) when regularly thick branches interrupt the hedge. For blade and tooth-gap selection, see [what size hedge trimmer do I need](/garden-tools/what-size-hedge-trimmer-do-i-need/).
 
 ### Compare working weight and handles
 
@@ -214,7 +214,7 @@ Look for a guard, two-hand or lock-off control, cord retention, and a blade shea
 
 ### Are corded hedge trimmers more powerful than cordless models?
 
-Not necessarily. Amps and battery voltage describe different electrical systems and do not provide a direct performance comparison. Blade design, stroke rate, gearing, branch condition, and the complete tool all matter. Corded models mainly offer continuous runtime without a battery rather than a universal cutting-power advantage.
+Not necessarily. Amps and battery voltage describe different electrical systems and do not provide a direct performance comparison. Blade design, stroke rate, gearing, branch condition, and the complete tool all matter. Corded models mainly offer continuous mains access while connected rather than a universal cutting-power advantage.
 
 ### What extension cord does a hedge trimmer need?
 

@@ -1,7 +1,7 @@
 # Hedge-trimmer Amazon destination register
 
 **Market:** Amazon.com, United States  
-**Last synchronized:** July 14, 2026  
+**Last synchronized:** July 15, 2026
 **Authority:** The individual product files in this folder remain the source of truth.
 
 | Exact product/package | ASIN | Affiliate key | Publisher-confirmed link | Used in |
@@ -17,6 +17,10 @@
 | Greenworks HT40B212, 24-inch kit with 2.0 Ah battery and charger | `B086PSCXJT` | `greenworks-ht40b212` | https://amzn.to/4fzLOuA | Cordless |
 | EGO HT2501, 25-inch kit with 2.5 Ah battery and charger | `B09C2S51F5` | `ego-ht2501` | https://amzn.to/4bG0p5c | Cordless |
 | BLACK+DECKER LHT2436, 24-inch kit with battery and charger | `B00602J4MM` | `black-decker-lht2436` | https://amzn.to/4vVs1eS | Cordless |
+| CRAFTSMAN CMCPHT818D1, pole-trimmer kit with 2.0 Ah battery and charger | `B083WQ1LBC` | `craftsman-cmcpht818d1` | https://amzn.to/44qzyGB | Pole |
+| WORX WG252.9, pole-trimmer bare tool | `B07W8RXJ8B` | `worx-wg252-9` | https://amzn.to/4hel9ol | Pole |
+| BLACK+DECKER LPHT120B, pole-trimmer bare tool | `B00AZW9Y9G` | `black-decker-lpht120b` | https://amzn.to/3QYflF0 | Pole |
+| Husqvarna 122LKH, gas long-reach hedge trimmer | `B0DQ725L11` | `husqvarna-122lkh` | https://amzn.to/3SSCJnY | Pole |
 
 ## Governance
 

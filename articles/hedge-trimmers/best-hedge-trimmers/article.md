@@ -169,7 +169,7 @@ The reviews below explain where each model fits and what you give up in return.
 
 ## How we selected these hedge trimmers
 
-WhoAdvice did not test these tools. We matched every recommendation to an exact model and package, then checked manufacturer pages, manuals, current availability, warranty information, and recall records. Questions raised by owners helped us decide what needed explanation, but they were not used as proof of product performance.
+WhoAdvice did not test these tools. We matched every recommendation to an exact model and package, then checked manufacturer pages, manuals, current availability, warranty information, and the [CPSC recall database](https://www.cpsc.gov/Recalls). Questions raised by owners helped us decide what needed explanation, but they were not used as proof of product performance.
 
 Cutting fit carried 30% of the score, followed by control and handling at 20%. Power and session limits accounted for 15%, safety and maintenance 15%, value 10%, and availability and support 10%. We gave no credit for missing specifications. Products with unclear identities or unresolved model-specific recalls were excluded.
 
@@ -178,6 +178,8 @@ The named packages were checked in North America. Model suffixes, included batte
 ## Which type of hedge trimmer do you need?
 
 Hedge trimmers come in four main types. Choose by the distance from a power source, the height of the hedge, and how long you expect each trimming session to last.
+
+If your choice has narrowed to mains or battery power, our [corded vs cordless hedge trimmer comparison](/garden-tools/corded-vs-cordless-hedge-trimmer/) applies the outlet-route, runtime, weight, and full-cost tests in more detail.
 
 ### Cordless trimmers
 
@@ -193,7 +195,7 @@ Gas hedge trimmers can support long, frequent sessions without waiting for a bat
 
 ### Pole trimmers
 
-Pole hedge trimmers place the blade above the reach of a standard model. They suit tall faces and hedge tops that can be seen and controlled from the ground. The long shaft increases leverage on your arms and makes close, detailed shaping harder.
+Pole hedge trimmers place the blade above the reach of a standard model. They suit tall faces and hedge tops that can be seen and controlled from the ground. The long shaft increases leverage on your arms and makes close, detailed shaping harder. Compare exact reach and operating weight in our [pole hedge trimmer guide](/garden-tools/best-pole-hedge-trimmers/).
 
 ## How to choose a hedge trimmer
 
@@ -213,7 +215,7 @@ Choose corded only when the lead can reach every hedge without crossing busy pat
 
 ### Choose blade length and capacity separately
 
-Blade length controls how much hedge you cover in one pass. Cut capacity describes the stated opening between the teeth. A long blade helps on broad, flat faces; a shorter one is easier around compact shrubs. Check thicker stems inside the hedge rather than judging only the soft outer leaves.
+Blade length controls how much hedge you cover in one pass. Cut capacity describes the stated opening between the teeth. A long blade helps on broad, flat faces; a shorter one is easier around compact shrubs. Our [hedge trimmer sizing guide](/garden-tools/what-size-hedge-trimmer-do-i-need/) explains the difference in detail.
 
 ### Compare the handle at your usual cutting angle
 
@@ -245,11 +247,11 @@ You need a pole trimmer only when the upper face or top is beyond safe reach wit
 
 ### Can a hedge trimmer cut a 1-inch branch?
 
-Only attempt it with a model that states a 1-inch capacity, and remember that the branch may still be too hard or woody. The capacity figure describes the blade opening, not a guaranteed clean cut. Use loppers or a pruning saw if the blade stalls or the branch bends.
+Only attempt it with a model that states a 1-inch capacity, and remember that the branch may still be too hard or woody. The capacity figure describes the blade opening, not a guaranteed clean cut. Use our [hedge trimmer, lopper, and pruning saw comparison](/garden-tools/hedge-trimmer-vs-loppers-vs-pruning-saw/) if the blade stalls or the branch bends.
 
 ### How can I keep the extension cord away from the blade?
 
-Plan the cable route before cutting and keep the lead behind you. A cord-retention feature, such as the one on the BLACK+DECKER BEHT350FF, helps prevent unplugging but does not protect the cable from the blade. Use an outdoor-rated lead of the gauge specified in the manual.
+Plan the cable route before cutting and keep the lead behind you. A cord-retention feature, such as the one on the BLACK+DECKER BEHT350FF, helps prevent unplugging but does not protect the cable from the blade. Use an outdoor-rated lead of the gauge specified in the manual, with the [CPSC extension-cord guidance](https://www.cpsc.gov/FAQ/Extension-Cords?language=en) providing additional hazard context.
 
 ## Which hedge trimmer should you buy?
 

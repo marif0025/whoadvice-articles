@@ -138,6 +138,19 @@ For a standalone article, archive raw evidence at `articles/{article}/products/{
 
 After final selection, keep standalone files only for products that remain active in at least one article unless the project explicitly requests an exclusion archive. Record rejected candidates and reasons in `research.md`; do not leave excluded product files that can be mistaken for approved records.
 
+For every active product with a normalized Amazon destination, append an `Affiliate link record — {research date}` section to the product file during research. Use this schema even when publisher approval is still pending:
+
+```yaml
+affiliate_key: "stable-exact-model-key"
+amazon_url: "https://www.amazon.com/dp/EXACTASIN"
+asin: "EXACTASIN"
+affiliate_link: null
+affiliate_status: "pending_publisher_confirmation"
+exact_model_status: "exact_model_or_package_status"
+```
+
+Populate `affiliate_link` only with the Special Link supplied or confirmed by the publisher, then change `affiliate_status` to `publisher_confirmed`. Never invent, shorten, or derive an affiliate link. Add a plain-language confirmation note immediately after the block stating the variation, package contents, or availability detail the publisher must recheck. When a shared exact package is used across a cluster, maintain one canonical affiliate record in the shared product file and synchronize the cluster destination register after publisher confirmation.
+
 Normalize:
 
 - Product name

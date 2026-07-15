@@ -13,7 +13,7 @@
 
 **Evidence note:** We compared exact US kits using manufacturer documents, regulator records, retailer identity, and limited customer-feedback patterns. Runtime and cutting-capacity figures remain manufacturer claims, not independent results.
 
-A hedge trimmer that feels manageable on small shaped shrubs can become tiring halfway along a tall boundary. A light, short-blade model may be comfortable but require more passes on wide faces. The best cordless hedge trimmers match hedge condition and routine stem thickness to reach, cutting capacity, and a loaded weight you can control—not voltage alone. Readers still choosing between battery, cable, and pole formats should [compare corded, cordless, and pole hedge trimmers](/garden-tools/best-hedge-trimmers/) first.
+A hedge trimmer that feels manageable on small shaped shrubs can become tiring halfway along a tall boundary. A light, short-blade model may be comfortable but require more passes on wide faces. The best cordless hedge trimmers match hedge condition and routine stem thickness to reach, cutting capacity, and a loaded weight you can control—not voltage alone. Readers choosing between battery and cable should use our [corded vs cordless hedge trimmer comparison](/garden-tools/corded-vs-cordless-hedge-trimmer/). If pole or gas power is still under consideration, [compare all hedge-trimmer types](/garden-tools/best-hedge-trimmers/).
 
 Start with reach and branch thickness, then compare loaded weight, handle positions, and the battery package. A long blade covers more area but creates extra leverage. A large capacity rating offers margin, not proof of repeated cuts through equally thick hard or dead wood. Existing battery ownership also changes the economics; first-time buyers need to compare complete kit prices.
 
@@ -189,7 +189,7 @@ The table uses official specifications where available. EGO loaded weights are e
 
 ## How we evaluated the best cordless hedge trimmers
 
-This ranking is based on documented product fit rather than hands-on cutting tests. We used exact-model manufacturer pages and manuals, regulator recall records, verified kit identity, and limited customer-feedback patterns about weight, controls, battery confusion, jamming, balance, and maintenance. Customer comments helped identify recurring concerns; they were not treated as technical proof or used to calculate failure rates.
+This ranking is based on documented product fit rather than hands-on cutting tests. We used exact-model manufacturer pages, manuals, the [CPSC recall database](https://www.cpsc.gov/Recalls), and verified kit identities. Limited customer feedback helped identify concerns about weight, controls, batteries, jamming, balance, and maintenance; it was not treated as technical proof or used to calculate failure rates.
 
 Cutting fit and control carried 25%, followed by handling and fatigue at 20%. Battery package and safety/maintenance each carried 15%; value and evidence confidence each carried 10%; availability/support carried 5%. Capacity and runtime statements counted as documented brand claims, not independent results. Voltage alone earned no power advantage.
 
@@ -245,11 +245,11 @@ Old woody branches are a separate job. A capacity label describes the maximum op
 
 Choose a handheld trimmer when you can reach the working area from stable ground and want the best direct control. The closer grips and blade make it easier to follow a line, shape corners, and react when the blade meets dense material.
 
-A pole trimmer makes more sense when the top or far face cannot be reached safely with a handheld model. Check shaft length, head angle, and total operating weight. The head's distance from your body makes even a reasonable listed weight feel more demanding. A pole design solves reach but sacrifices precision and can be cumbersome on low shrubs.
+A pole trimmer makes more sense when the top or far face cannot be reached safely with a handheld model. Check shaft length, head angle, and total operating weight in our [pole hedge trimmer guide](/garden-tools/best-pole-hedge-trimmers/). The distant head creates leverage, sacrifices precision, and can be cumbersome on low shrubs.
 
 ### Select the right blade length for reach and control
 
-Blades around 22 inches suit smaller yards and buyers who want easier placement. A 24-inch blade is a versatile middle ground. A 25- or 26-inch blade covers broad faces and extends reach, but its leverage can make detailed shaping harder.
+Blades around 22 inches suit smaller yards and buyers who want easier placement. A 24-inch blade is a versatile middle ground. A 25- or 26-inch blade covers broad faces and extends reach, but its leverage can make detailed shaping harder. Our [hedge trimmer sizing guide](/garden-tools/what-size-hedge-trimmer-do-i-need/) separates blade length from tooth gap and stated capacity.
 
 Match blade length to the hedge's geometry. A long, flat boundary rewards longer sweeping passes. Closely spaced shrubs, narrow walkways, fences, and ornamental curves reward a shorter blade. Longer is not automatically faster once repositioning and fatigue are considered.
 
@@ -303,7 +303,7 @@ Battery availability deserves particular attention on an older platform. Compare
 
 ### Know when a pruner, lopper or saw is the better tool
 
-A hedge trimmer is for sweeping through many relatively small stems, not making controlled cuts through every branch a hedge can produce. Use hand pruners for small individual stems, loppers when leverage helps on thicker branches, and an appropriate pruning saw for larger woody cuts.
+A hedge trimmer is for sweeping through many relatively small stems, not making controlled cuts through every branch a hedge can produce. Our [hedge trimmer vs loppers vs pruning saw guide](/garden-tools/hedge-trimmer-vs-loppers-vs-pruning-saw/) explains when selective cutting is the better job.
 
 Renovating an old hedge often requires selective structural cuts before its surface can be trimmed. Deadwood, branches near or beyond the trimmer's maximum rating, and stems that repeatedly stall the blade are signals to change tools. Forcing a hedge trimmer through unsuitable wood can damage the blade or drive system and reduces control.
 

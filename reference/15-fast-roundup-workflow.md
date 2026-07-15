@@ -89,6 +89,8 @@ affiliate_link_attributes: [sponsored]
 
 Do not add these fields by default. A shared exact package must use one ASIN and destination record across the cluster.
 
+The underlying normalized product file must still contain a dated affiliate-link record for every active product with an Amazon destination, even when the public article contract does not expose ASIN or affiliate fields. Store the raw Amazon URL and ASIN immediately. Until the publisher supplies a Special Link, use `affiliate_link: null` and `affiliate_status: "pending_publisher_confirmation"`; after manual approval, replace the null value and use `affiliate_status: "publisher_confirmed"`. Never generate or infer the Special Link.
+
 ### Approval gate
 
 Approve the complete contract. Later drafting must not change it silently.
