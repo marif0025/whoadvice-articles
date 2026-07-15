@@ -10,11 +10,11 @@
 - [DEWALT DCPH675Y1 product page](https://www.dewalt.com/en-us/product/dcph675y1/60v-max-22-cordless-articulating-head-pole-hedge-trimmer-kit) — new 2026 commercial-oriented deferred candidate; brushless motor, 22-in blade, 1.25-in stated capacity, 7-position head, 92-in total length, and kit identity.
 - [CRAFTSMAN CMCPHT818D1 product page](https://www.craftsman.com/en-us/product/cmcpht818d1/v20-cordless-18-pole-hedge-trimmer-kit-1-20ah-battery-and-charger) — exact kit, blade, stated capacity, reach definition, head, warranty.
 - [CRAFTSMAN CMCPHT818D1 manual](https://www.toolservicenet.com/i/CRAFTSMAN/GLOBALBOM/QU/CMCPHT818D1/1/Instruction_Manual/EN/N726834_CMCPHT818.pdf) — safety, operation, battery, maintenance.
-- [WORX WG252 product page](https://www.worx.com/20v-20-inch-2-in-1-cordless-hedge-trimmer-attachment-capable-wg252-original.html) — blade, speed, angle range, bare and loaded weight, packages, warranty.
+- [WORX WG252 product page](https://www.worx.com/20v-20-inch-2-in-1-cordless-hedge-trimmer-attachment-capable-wg252-original.html) — exact family and WG252.9 component identity; 20-in blade, 5/8-in blade gap, separate up-to-5/8-in branch claim, speed, angle range, bare and loaded weight, packages, and warranty. The live page currently foregrounds the kit, so the publisher-confirmed Amazon record remains authoritative for the selected bare-tool package.
 - [WORX WG252 manual](https://www.worx.com/media/wysiwyg/pdp-pages/manuals/WG252M.pdf) — exact family, safety, use, working weight.
-- [BLACK+DECKER LPHT120 product page](https://www.blackanddecker.com/products/lpht120) — family specs, kit contents, length, reach, weight, warranty.
+- [BLACK+DECKER LPHT120 product page](https://www.blackanddecker.com/products/lpht120) — family specs, fiberglass sectional construction, reach, weight, and warranty. The live page does not identify LPHT120B or expose the earlier 6.5-ft figure, so that length is omitted from public copy.
 - [BLACK+DECKER LPHT120/LPHT120B manual](https://www.blackanddecker.ca/GLOBALBOM/QU/LPHT120B/1/Instruction_Manual/EN/90630060_LPHT120.pdf) — exact bare-tool coverage, safety, use, maintenance.
-- [Husqvarna 122LKH product page](https://www.husqvarna.com/us/products-category/hedge-trimmers/122lkh/) — SKU, length, weight, blade, capacity, engine, head, warranty notes.
+- [Husqvarna 122LKH product page](https://www.husqvarna.com/us/products-category/hedge-trimmers/122lkh/) — exact SKU, length, weight, blade, capacity, engine, 180-degree head adjustment, and approved click-on attachment compatibility; attachments are sold separately.
 - [Husqvarna 122LK/122LKH manual](https://www.husqvarna.com/hbd/tdrdownload/v2/pub000094532/doc000242418/OM/3j5wlWRPdstunHtd50aNhzP6f9E) — fuel, safety, operation, vibration, maintenance.
 
 ## Raw Amazon destinations

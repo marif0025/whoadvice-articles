@@ -45,7 +45,8 @@ The recommended order is:
 13. Fact-checking
 14. Editorial editing
 15. SEO quality assurance
-16. Publication package
+16. Final Article Audit
+17. Manual editorial review and publication package
 
 A human editor should approve the important outputs before the next stage begins.
 
@@ -1860,29 +1861,56 @@ Do not alter the article body in this step.
 
 ---
 
-# 38. Prompt 36 — Final pre-publication gate
+# 38. Prompt 36 — Final Article Audit
 
 ```text
-Perform the final pre-publication gate for this WhoAdvice article.
+Perform the Final Article Audit only after the complete WhoAdvice article and its factual, editorial, and SEO passes are finished.
 
 [PASTE FINAL ARTICLE]
-[PASTE PUBLICATION PACKAGE]
+[PASTE APPROVED ARTICLE CONTRACT AND OUTLINE]
+[PASTE APPROVED RESEARCH PACKET AND CLAIM LEDGER]
+[PASTE VERIFIED PRODUCT RECORDS AND AFFILIATE MAPPING]
+[PASTE APPROVED INTENT, KEYWORD, COMPETITOR, AND COMMUNITY FINDINGS]
 [PASTE FINAL FACT-CHECK REPORT]
 [PASTE FINAL SEO REPORT]
 
-Return only:
+If the article is partial or a required approved input is unavailable, return `blocked` and identify the missing input. Never run this prompt during research, extraction, verification, synthesis, article-contract generation, or drafting.
 
-1. `BLOCKERS`
-2. `WARNINGS`
-3. `PASSED CHECKS`
-4. `LIVE CHECKS REQUIRED TODAY`
-5. `PUBLICATION VERDICT`
+Run independent analyzers for:
 
-The publication verdict must be one of:
+1. Article-contract compliance
+2. Product and factual accuracy
+3. Claim and evidence support
+4. Search intent and topic coverage
+5. Product differentiation
+6. Readability and editorial quality
+7. On-page SEO
+8. Final publication risks
 
-- READY TO PUBLISH
-- READY AFTER MINOR FIXES
-- NOT READY
+Use deterministic checks where practical for metadata, heading hierarchy, placeholders, duplicate headings, table structure, and affiliate mapping. Use evidence-led editorial judgment for claims, differentiation, intent coverage, and readability.
+
+Do not draft or rewrite the full article. Do not introduce new products. Do not infer unsupported specifications. Do not treat manufacturer marketing as independent testing. Do not mark an article ready merely because SEO and readability checks pass.
+
+Return:
+
+1. `STATUS`
+2. `SEVERITY COUNTS`
+3. `FINDINGS`, grouped by category with blockers and critical findings first
+4. `TOPIC COVERAGE`
+5. `UNSUPPORTED OR CONTRADICTED CLAIMS`
+6. `VERIFIED CRITICAL FACTS`
+7. `LIVE CHECKS REQUIRED TODAY`
+8. `RECOMMENDED NEXT ACTION`
+
+Every finding must include an id, severity (`blocker`, `critical`, `warning`, or `suggestion`), category, section, article quote when available, issue, reason, recommended action, and source reference when available.
+
+Resolve status as follows:
+
+- Any blocker: `blocked`
+- No blockers and any critical finding: `needs_revision`
+- Warnings or suggestions only: `ready_for_editorial_review`
+
+Use `return_to_writer`, `manual_fact_review`, or `manual_editorial_review` as the recommended next action. Scores may be included as secondary diagnostics, but a high score never overrides a blocker or critical finding. Do not use keyword density or a perfect SEO/readability score as a publication gate.
 
 A blocker includes:
 
@@ -1896,7 +1924,7 @@ A blocker includes:
 - Serious search-intent mismatch
 - Duplicate or copied competitor wording
 
-Do not rewrite the article.
+Keep audit and revision separate. Manual editorial review remains required after `ready_for_editorial_review` and before publication approval.
 ```
 
 ---
@@ -1967,12 +1995,14 @@ Use the following sequence for articles such as `Best Epilators`, `Best Curl Cre
 40. Human SEO approval
 41. Prompt 34 — Apply approved SEO edits
 
-## Phase 8: Publication
+## Phase 8: Final audit, manual review, and publication
 
-42. Prompt 35 — Publication package
-43. Prompt 36 — Final pre-publication gate
-44. Manual CMS and link check
-45. Publish
+42. Prompt 36 — Final Article Audit
+43. Revise and rerun Prompt 36 until no blocker or critical finding remains
+44. Manual editorial review and approval
+45. Prompt 35 — Publication package
+46. Manual CMS and link check
+47. Publish
 
 ---
 

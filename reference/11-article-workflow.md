@@ -421,9 +421,28 @@ Do not add unsupported sections merely for topical coverage.
 - Schema notes
 - Image brief and alt text
 
-## Stage 13: Final quality assurance
+## Stage 13: Final Article Audit
 
-Use this checklist.
+Run this only after the complete draft exists and Stages 10–12 have completed. It is not part of intake, search-intent research, competitor or Reddit research, keyword strategy, product extraction or verification, research synthesis, ranking, or article-contract generation.
+
+Required inputs are the completed article, approved article contract or outline, approved research packet and claim ledger, verified product records, product-to-affiliate-link mapping where applicable, and the approved keyword and reader-intent strategy. Do not audit a partial draft or an upstream artifact. If an input is missing, report `blocked` rather than guessing.
+
+Run independent passes for:
+
+1. Article-contract compliance
+2. Product and factual accuracy
+3. Claim and evidence support
+4. Search intent and topic coverage
+5. Product differentiation
+6. Readability and editorial quality
+7. On-page SEO
+8. Final publication risks
+
+Use `blocker` when publication must stop, `critical` when revision is required before editorial approval, `warning` for a material improvement that does not prevent review, and `suggestion` for optional polish. Any blocker produces `blocked`; otherwise any critical produces `needs_revision`; otherwise use `ready_for_editorial_review`. Scores are secondary and never override this gate.
+
+Each finding should include severity, category, section, article quote when available, issue, reason, recommended action, and a research or contract reference where available. Unsupported facts remain unsupported; do not infer missing specifications. The audit reports findings and does not silently rewrite the article.
+
+### Audit checklist
 
 ### Evidence
 
@@ -464,7 +483,17 @@ Use this checklist.
 - [ ] Affiliate disclosure is clear.
 - [ ] Date-sensitive claims are current.
 
-## Stage 14: Update cycle
+### Audit output and revision loop
+
+Report overall status, severity counts, findings grouped by category, topic coverage, unsupported or contradicted claims, verified critical facts, and one next action: `return_to_writer`, `manual_fact_review`, or `manual_editorial_review`.
+
+When the result is `blocked` or `needs_revision`, return the article to writing with explicit instructions. Revise only affected copy and synchronized tables or records, then rerun the audit. Do not use keyword density, power words, numbers in titles, generic minimum word counts, or a perfect SEO score as publication requirements.
+
+## Stage 14: Manual editorial review and publication handoff
+
+A responsible human editor reviews the completed article and Final Article Audit report. `ready_for_editorial_review` is not publication approval. The editor may approve, return the article for revision, request manual fact review, or require another audit. Finalize the CMS handoff only after approval, including disclosure, links, metadata, schema notes, images, canonical and indexability settings, and time-sensitive checks.
+
+## Stage 15: Update cycle
 
 At the scheduled review:
 

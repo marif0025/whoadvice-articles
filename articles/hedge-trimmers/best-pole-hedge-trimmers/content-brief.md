@@ -17,7 +17,7 @@ evidence_model: Exact-model manufacturer pages and manuals, CPSC recall records,
 recommended_slug: /garden-tools/best-pole-hedge-trimmers/
 target_length: 2400-3200 words
 provisional_product_count: 5
-ranking_status: Part 1 approved; Part 2 article contract proposed
+ranking_status: Parts 1-4 complete; CMS publication checks pending
 shared_product_archive: ../products/
 amazon_required: true
 ```

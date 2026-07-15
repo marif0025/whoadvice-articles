@@ -154,11 +154,15 @@ Use researched questions. Answer in the first sentence. Mention a selected produ
 
 Use 80–150 words. Follow the same decision order as the buying guide. Name the leading recommendation, distinct alternatives, and one material caveat. Do not write a product roll call without decision logic.
 
-## Part 4: Audit and hand off
+## Part 4: Final Article Audit, manual review, and handoff
 
 ### User prompt
 
-> Use $whoadvice-article-workflow Part 4. Audit the complete draft against the approved article contract, evidence, voice, banned-pattern, and on-page SEO rules. Fix only objective failures, synchronize supporting files, run the mechanical audit, and prepare the CMS handoff.
+> Use $whoadvice-article-workflow Part 4. Run the Final Article Audit only on the completed draft, using the approved article contract, research packet, claim ledger, verified product records, affiliate mapping where applicable, and reader-intent strategy. Report gate-based findings before revisions. After approved revisions and a clean re-audit, prepare the draft for manual editorial review and CMS handoff.
+
+Do not invoke Part 4 during research, product verification, synthesis, article-contract approval, or partial drafting. Run independent passes for contract compliance, product accuracy, claim evidence, intent coverage, differentiation, readability, on-page SEO, and publication risks. The audit must not invent facts, add products, or rewrite the full article.
+
+Classify findings as `blocker`, `critical`, `warning`, or `suggestion`. Any blocker produces `blocked`; otherwise any critical produces `needs_revision`; otherwise use `ready_for_editorial_review`. Scores are secondary and cannot override this gate.
 
 ### Required checks
 
@@ -174,10 +178,14 @@ Use 80–150 words. Follow the same decision order as the buying guide. Name the
 - Affiliate disclosure, exact-destination consistency, and sponsored-link handoff when commercial links are approved
 - Human-centered edit passes completed in order: intent, structure, evidence, sentence craft, voice, and proof
 - No detector-driven errors, fake anecdotes, unsupported opinions, or manufactured irregularity
-- Responsible human editorial review recorded before publication
+- Audit report includes status, severity counts, categorized findings, evidence references, unsupported claims, topic coverage, verified critical facts, and the recommended next action
+- Blockers and critical findings are revised and the audit is rerun before manual review
+- Responsible human editorial review recorded before publication; audit readiness is not publication approval
 - SEO title, H1, meta, slug, opening, useful H2, and heading hierarchy
 - CMS-owned work reported as pending, not counted as a draft failure
 - Mechanical audit returns no material flags
+
+Keep audit and revision separate. Show findings first, return affected copy to writing, synchronize changed files, and rerun the audit.
 
 ## Routing rules
 

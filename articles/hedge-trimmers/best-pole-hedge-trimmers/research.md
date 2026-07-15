@@ -80,7 +80,7 @@ DEWALT's 4.0 control score already includes a 0.5-point uncertainty penalty: sev
 ### Mainstream homeowner recommendations
 
 1. DEWALT DCPH820M1 — Best Overall
-2. CRAFTSMAN CMCPHT818D1 — Best Fixed-Length Homeowner Option
+2. CRAFTSMAN CMCPHT818D1 — Best Independently Tested Homeowner Option
 3. WORX WG252.9 — Best Telescopic Design
 4. BLACK+DECKER LPHT120B — Best for Light Maintenance
 
@@ -96,7 +96,7 @@ Husqvarna scores above BLACK+DECKER on evidence fit, but it is not ranked fifth 
 
 The strongest verified specification and package combination in the approved shortlist—a 22-inch blade, 1-inch manufacturer-stated capacity, seven-position head, shoulder strap, and complete 4.0 Ah kit—makes it the most rounded option. Its 12-ft claim is user-inclusive. The absent official working weight and lack of strong exact-model handling evidence prevent any claim that it is the best-proven handling option.
 
-### 2. CRAFTSMAN CMCPHT818D1 — Best Fixed-Length Homeowner Option
+### 2. CRAFTSMAN CMCPHT818D1 — Best Independently Tested Homeowner Option
 
 It has the best current hands-on evidence for the actual buyer decision. Popular Mechanics measured its tested setup at just under 11 lb and a 6-ft-8-in overall length, finding its five head positions and control useful at height while documenting slower cutting and fixed-length awkwardness on lower trimming. Some retailer records list 7.9 lb, but the measurement basis is unclear; do not average the figures or call 7.9 lb confirmed working weight.
 

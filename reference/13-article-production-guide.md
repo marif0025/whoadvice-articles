@@ -1045,7 +1045,17 @@ Then apply only changes that improve reader usefulness, clarity, or discoverabil
 
 # Phase F: Publish and maintain
 
-## Step 18: Build the publication package
+## Step 18: Run the Final Article Audit
+
+Run this only after the complete article draft, fact-check, editorial edit, and SEO pass are finished. It is not an early research, extraction, verification, synthesis, keyword, ranking, or article-contract task.
+
+Audit the completed article against the approved contract, research packet, claim ledger, verified product data, affiliate mapping where applicable, and reader-intent strategy. Use separate passes for contract compliance, product accuracy, claim support, intent coverage, product differentiation, readability, on-page SEO, and publication risks.
+
+Use gate-based status: a blocker means `blocked`; with no blocker, a critical finding means `needs_revision`; warnings or suggestions alone mean `ready_for_editorial_review`. Scores are diagnostic only. Return categorized findings with article quotes, reasons, recommended actions, and evidence references. Do not invent missing facts or rewrite the article during the audit.
+
+Return blocked or critical findings to the writing step, apply approved targeted revisions, synchronize affected supporting files, and rerun the audit. A responsible human editor must approve the article after it reaches `ready_for_editorial_review`.
+
+## Step 19: Build the publication package
 
 Prepare all assets required by the CMS.
 
@@ -1109,7 +1119,7 @@ Remove internal claim IDs from public copy, but keep a separate editorial source
 
 ---
 
-## Step 19: Perform final human QA in the CMS
+## Step 20: Perform final human QA in the CMS
 
 Before publishing, manually verify:
 

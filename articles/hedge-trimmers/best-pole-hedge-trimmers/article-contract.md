@@ -1,6 +1,6 @@
 # Best Pole Hedge Trimmers — Part 2 Article Contract
 
-Status: **REVISED AFTER EDITORIAL FEEDBACK; PROPOSED FOR FINAL APPROVAL.** Do not begin Part 3 until this contract is approved.
+Status: **EDITORIALLY APPROVED FOR PART 3.** Research, products, architecture, packages, awards, public fields, and claim boundaries are fixed.
 
 ## Core direction
 
@@ -12,7 +12,7 @@ Status: **REVISED AFTER EDITORIAL FEEDBACK; PROPOSED FOR FINAL APPROVAL.** Do no
 - Search intent: US commercial investigation; help homeowners choose added reach without buying a tool that becomes too tiring, awkward, or expensive as a complete working package.
 - Page role: narrow commercial supporting page. It owns pole and long-reach comparison intent; the main hedge-trimmer guide retains broad format selection.
 - Evidence model: research-based comparison using exact-model manufacturer pages and manuals, CPSC searches, publisher-confirmed Amazon destinations, and attributed independent observations for CRAFTSMAN and Husqvarna. WhoAdvice did not test these tools.
-- Target length: approximately **2,700–3,300 words**, excluding metadata, disclosure, top-pick UI, comparison-table cells, and source notes. The revised section ranges support this target without requiring filler.
+- Target length: approximately **2,700–3,300 words**, excluding metadata, disclosure, top-pick UI, comparison-table cells, and source notes. Treat 3,300 words as a soft ceiling. When sections approach their maximum ranges, shorten the design section or FAQs rather than compressing product evidence.
 
 ```yaml
 primary_reader: US homeowner who cannot see or control every hedge face with a standard handheld trimmer
@@ -35,7 +35,7 @@ public_community_names_allowed: false
 ### Mainstream homeowner order
 
 1. DEWALT DCPH820M1 — Best Overall
-2. CRAFTSMAN CMCPHT818D1 — Best Fixed-Length Homeowner Option
+2. CRAFTSMAN CMCPHT818D1 — Best Independently Tested Homeowner Option
 3. WORX WG252.9 — Best Telescopic Design
 4. BLACK+DECKER LPHT120B — Best for Light Maintenance
 
@@ -50,17 +50,19 @@ The first four products are the numbered mainstream homeowner order. Husqvarna m
 Use 3 separate top-pick cards immediately after the introduction:
 
 1. DEWALT DCPH820M1 — Best Overall
-2. CRAFTSMAN CMCPHT818D1 — Best Fixed-Length Homeowner Option
+2. CRAFTSMAN CMCPHT818D1 — Best Independently Tested Homeowner Option
 3. WORX WG252.9 — Best Telescopic Design
 
 Top-pick card fields:
 
 - Award
 - Exact product name
-- Original 35–50-word description stating reader fit and the most important limitation
+- One compact 8–15-word description preserving reader fit and the most important limitation
 - Approved affiliate button using the canonical product record
 
 The introduction remains product-neutral. Do not reuse card descriptions in the comparison table, product Summary, or Verdict.
+
+Top-pick cards may summarize only evidence also supported in the corresponding full review. Do not introduce unique performance claims, comfort judgments, or package details solely in the cards.
 
 ## Product-review and CMS-field contract
 
@@ -68,15 +70,16 @@ The introduction remains product-neutral. Do not reuse card descriptions in the 
 
 Each visible review contains exactly:
 
-1. Product heading with exact product name and award
-2. Summary: 70–90 words
-3. Why it ranks here: 70–100 words
-4. Verdict: 25–35 words
-5. Exactly 3 concise pros
-6. Exactly 2 concise cons
-7. Affiliate button
+1. Product heading containing only rank, exact brand, and model number
+2. Separate Editorial badge field
+3. Summary: 50–60 words
+4. Why it ranks here: 50–80 words
+5. Verdict: 25–35 words
+6. Exactly 3 concise pros
+7. Exactly 2 concise cons
+8. Affiliate button
 
-Each complete visible review, including pros and cons, should total approximately 170–220 words. The richer structure is explicitly approved for this article and supersedes the default short-card contract. No prose follows the affiliate button. “Why it ranks here” must add comparative reasoning or material evidence rather than restating the Summary or Verdict.
+Each complete visible review, including pros and cons, should total approximately 140–190 words after the approved repetition-reduction pass. The richer structure is explicitly approved for this article and supersedes the default short-card contract. No prose follows the affiliate button. “Why it ranks here” is a content function, not a mandatory visible heading; use a natural product-specific subheading. It must add comparative reasoning or material evidence rather than restating the Summary or Verdict.
 
 ### CMS-only product fields
 
@@ -115,14 +118,14 @@ Do not borrow package contents from a neighboring variation. In particular, the 
 
 ## Comparison-table contract
 
-Place the table after the top-pick cards and before product reviews. Introduce it with: **“We selected four mainstream homeowner options and one separate gas alternative for heavier repeated work.”** Keep the specialist distinction visible in the first cell.
+Place the table after the top-pick cards and before product reviews. Introduce it with: **“The first four recommendations suit typical homeowner use; the Husqvarna is a separate gas alternative for heavier, repeated workloads.”** Keep the specialist distinction visible in the first cell.
 
 Approved columns:
 
 1. Product and award
 2. Power/package
 3. Reach design
-4. Blade/manufacturer-stated capacity
+4. Blade and stated cutting limit
 5. Weight
 6. Best for
 7. Main caveat
@@ -138,7 +141,7 @@ Table rules:
 - Husqvarna: **Approximately 15 lb; 89.72-in product length**.
 - The BLACK+DECKER product cell must visibly say it is a bare tool without battery or charger.
 - Head positions or angle range belong in the concise Reach design cell.
-- Husqvarna's first cell must read **“Specialist gas alternative—not part of the homeowner ranking.”**
+- Husqvarna's first cell must visibly say **“Specialist gas alternative—not in homeowner ranking.”**
 - Do not publish internal weighted scores or numerical evidence ratings anywhere in public copy.
 
 ## Final section order and allocation
@@ -174,12 +177,12 @@ Table rules:
 - Attribute the 1-inch capacity and 12-ft maximum-reach claim to DEWALT.
 - Explain that the reach claim includes a 6-ft user holding the tool at shoulder/chest level; it is not shaft length.
 - State that complete working weight is **Not published or independently verified**.
-- The 4.0 control score is uncertainty-adjusted; do not expose that internal score in public recommendation copy.
+- The handling assessment already accounts for missing working-weight and independent balance evidence. Do not strengthen the public handling language beyond the approved evidence.
 - Do not claim WhoAdvice or an independent tester established its comfort, balance, or fatigue level.
 
 ### CRAFTSMAN CMCPHT818D1
 
-- The **Best Fixed-Length Homeowner Option** award rests on a complete kit, fixed 6-ft-8-in tested setup, five head positions, and the strongest available independent control-at-height evidence among the selected models. Do not imply a direct head-to-head handling win over every product.
+- At the first award explanation, state that CRAFTSMAN earns **Best Independently Tested Homeowner Option** because it combines a complete homeowner kit with the shortlist's strongest independent evidence about control at height. Do not imply a direct head-to-head handling win over every product.
 - Public wording: Popular Mechanics measured its tested setup at just under 11 lb and reported a 6-ft-8-in overall length.
 - Some retailer records list 7.9 lb, but the measurement basis is unclear. Never average the figures.
 - Attribute the observations that it was controllable at height, slower cutting, and awkward for lower trimming because the fixed length is not adjustable.
@@ -296,7 +299,7 @@ Answer in the first sentence. Mention a selected product only when it directly r
 8. When should I use loppers, a pruning saw, or a pole saw instead?
 9. Why are there no corded pole hedge trimmers in this list?
 
-The corded answer should state that considered candidates did not meet the shortlist's current exact-model availability, support, package, and affiliate-eligibility requirements. It may acknowledge that corded power can still suit small properties with reliable outlet access.
+The buying guide carries the full corded-shortlist explanation. The FAQ should answer briefly and point back to that section rather than repeating the complete rationale.
 
 ## Claims and public-wording contract
 
@@ -329,6 +332,8 @@ The corded answer should state that considered candidates did not meet the short
 ### Source-use rule
 
 Attribute an observation at its first material use. Do not repeat the publication name in every paragraph, and do not convert one publication's experience into an unqualified general conclusion.
+
+Link manufacturer specifications at the first cluster of material model facts. Link each independent test at the first attributed observation. Do not attach a link to every repeated specification or repeat the same external URL throughout a review.
 
 ### Terminology and unit rules
 
@@ -395,8 +400,6 @@ Do not turn the conclusion into a five-product roll call or use generic “somet
 - Canonical URL, breadcrumbs, sitemap, indexing, and metadata implementation
 - Mobile table behavior, accessibility, page speed, and link testing
 
-## Part 2 approval gate
+## Part 2 approval outcome
 
-Approve or revise the opening angle, metadata, top-pick cards, mainstream-versus-specialist layout, comparison columns, product-card fields, design section, buying-guide sequence, safety boundaries, FAQs, conclusion logic, public wording exclusions, target length, and CMS handoff.
-
-After approval, Part 3 must draft from this contract without silently changing products, order, awards, packages, or claim boundaries.
+Approved for Part 3 after two editorial review passes. Part 3 must draft from this contract without silently changing products, order, awards, packages, public fields, or claim boundaries.
