@@ -7,8 +7,19 @@ This directory is the shared workspace for the WhoAdvice hedge-trimmer content c
 - `best-hedge-trimmers/` — mixed-format hub article and its brief, sources, and publisher handoff
 - `best-corded-hedge-trimmers/` — corded branch article and its related files
 - `best-cordless-hedge-trimmers/` — cordless branch article, research, contract, sources, and handoff
+- `best-pole-hedge-trimmers/` — pole and long-reach commercial article package
+- `corded-vs-cordless-hedge-trimmer/` — power-format comparison package
+- `what-size-hedge-trimmer-do-i-need/` — blade-length and stated-capacity explainer package
+- `hedge-trimmer-vs-loppers-vs-pruning-saw/` — thick-stem and tool-selection explainer package
+- `how-to-sharpen-hedge-trimmers/` — approved sharpening brief; research and drafting pending
+- `how-to-clean-hedge-trimmer-blades/` — cleaning and lubrication brief plus completed Part 1 research; contract approval and drafting pending
+- `how-to-use-a-hedge-trimmer/` — approved safe-use brief; research and drafting pending
 - `products/` — one normalized raw research file per exact product/model/package across the cluster
-- `cluster-audit.md` — cluster topology, overlap, consistency, Amazon, and implementation audit
+- `audits/` — cluster-wide hierarchy, topology, consistency, and final-readiness audit records
+- `content-strategy.md` — canonical keyword ownership, content priorities, cannibalization boundaries, and expansion roadmap
+- `research/` — dated cluster-level discovery inputs, including raw keyword exports and question banks that apply across multiple articles
+
+Keep durable cluster navigation and strategy at this root. Put cluster-wide audit reports in `audits/`. Keep an article-specific `audit.md` inside its article folder when the report applies only to that package.
 
 ## Standard article-folder contract
 
