@@ -11,10 +11,10 @@
 | Gate | Status | Findings |
 |---|---|---|
 | Contract compliance | Pass | Approved section order, manual-first safety sequence, four-row comparison, oil distinction, inspection route, storage checklist, ten FAQs, and conclusion logic are present. |
-| Evidence and safety | Conditional pass | Claims stay within the ledger and preserve model-specific differences. Current EGO US documentation, official page freshness, SDS revision, and recalls still require publication-day checks. |
+| Evidence and safety | Pass as of July 16, 2026 | Claims stay within the ledger and preserve model-specific differences. The current official US EGO manual and named STIHL, Makita, BLACK+DECKER, and SDS sources were reopened. Later publication still requires normal freshness and recall checks. |
 | On-page SEO | Pass | Informational intent, supporting-page role, primary keyword placement, answer-first opening, metadata, headings, secondary questions, and descriptive internal links are present. |
 | Human-centered writing | Pass | The article leads with action, includes a compact quick sequence, explains why manual differences matter, and avoids fake experience, generic empathy, filler, and unsupported universals. |
-| Mechanical audit | Pass | Workflow script returned 0 flags and counted 2,008 words after revision. |
+| Mechanical audit | Pass | Workflow script returned 0 flags and counted 2,042 words after revision. |
 | CMS and technical SEO | Pending | Canonical, live-link status, images, schema implementation, rendered tables, accessibility, indexability, sitemap, and page-speed testing require CMS work. |
 
 ## Revisions made during Part 4
@@ -49,13 +49,12 @@
 
 ## Publication blockers and CMS work
 
-1. Locate or reopen a current US-hosted EGO HT2600/HT2600-FC manual and reconcile its instructions with the captured manual.
-2. Reopen the named official manuals/support pages and confirm the current STIHL label/SDS revision.
-3. Repeat exact-model and serial-range CPSC and manufacturer recall checks.
-4. Verify both included internal-link destinations are published and correct; remove or hold unpublished links.
-5. Complete responsible human safety/editorial review and record the reviewer and date.
-6. Implement and validate canonical, Article/BreadcrumbList schema, images, alt text, tables, accessibility, indexability, sitemap inclusion, and page performance.
+1. Resolved July 16, 2026: the current US-hosted EGO manual and named official manuals/support pages were reopened; the STIHL SDS remains revision 5 dated April 3, 2024.
+2. Repeat exact-model and serial-range CPSC and manufacturer recall checks if publication occurs after the recorded audit date.
+3. Verify all three included internal-link destinations are published and correct; remove or hold unpublished links.
+4. Complete responsible human safety/editorial review and record the reviewer and date.
+5. Implement and validate canonical, Article/BreadcrumbList schema, images, alt text, tables, accessibility, indexability, sitemap inclusion, and page performance.
 
 ## Final audit result
 
-The editorial draft passes contract, on-page SEO, human-centered writing, and mechanical review. It is ready for conditional CMS handoff, not publication, until the source-freshness, recall, link, and human safety-review gates above are complete.
+The editorial draft passes contract, evidence, on-page SEO, human-centered writing, and mechanical review as of July 16, 2026. It is ready for conditional CMS handoff, not publication, until any later-date recall/source refresh, live-link checks, CMS implementation, and responsible human safety review are complete.

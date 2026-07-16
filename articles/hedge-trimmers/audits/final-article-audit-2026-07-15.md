@@ -6,6 +6,8 @@
 **Overall status:** `ready_for_editorial_review`  
 **Recommended next action:** `manual_editorial_review`
 
+> **Status addendum — July 16, 2026:** This file is a historical five-article audit and retains that original scope. The sizing, tool-selection, sharpening, cleaning, and safe-use packages were completed and audited afterward, bringing the cluster to ten complete article packages. References below to brief-only destinations or five completed articles describe the July 15 snapshot, not current workspace status. Current page status lives in each article's `audit.md` and `publisher-handoff.md`.
+
 ## Severity counts
 
 | Severity | Count |
@@ -39,10 +41,10 @@ The mechanical audit counted 2,356, 4,024, 2,653, 3,165, and 1,888 words respect
 - **Category:** Final publication risk
 - **Section:** Cluster internal links
 - **Article quote:** `Our guide to choosing the right hedge-trimmer size...` and `compare a hedge trimmer with loppers and pruning saws...`
-- **Issue:** Several completed drafts link to `/garden-tools/what-size-hedge-trimmer-do-i-need/` and `/garden-tools/hedge-trimmer-vs-loppers-vs-pruning-saw/`, but those workspace packages currently contain briefs only.
-- **Reason:** Publishing the links before the destination pages exist would create dead or premature navigation.
-- **Recommended action:** Verify both destinations are live before retaining the links. If they are not live, remove or defer those links in CMS without deleting the approved contextual link plan.
-- **Reference:** The two brief-only folders and `best-pole-hedge-trimmers/publisher-handoff.md`, Remaining CMS and publication-day work.
+- **Issue:** Resolved in the workspace July 16: both destinations now have complete article packages. They still require live-CMS URL verification before publication.
+- **Reason:** Complete local drafts prevent the former brief-only gap, but unpublished CMS destinations can still create dead navigation.
+- **Recommended action:** Publish or stage both destinations and verify their live URLs before retaining the links.
+- **Reference:** The completed sizing and tool-selection packages and `best-pole-hedge-trimmers/publisher-handoff.md`.
 
 #### HT-AUD-02
 
@@ -128,9 +130,9 @@ The mechanical audit counted 2,356, 4,024, 2,653, 3,165, and 1,888 words respect
 - **Severity:** suggestion
 - **Category:** Reader navigation
 - **Section:** Cluster rollout
-- **Issue:** `what-size-hedge-trimmer-do-i-need` and `hedge-trimmer-vs-loppers-vs-pruning-saw` are high-value nodes but remain brief-only.
-- **Reason:** The completed roundups repeatedly need those explanations and currently either carry the detail themselves or point to unpublished destinations.
-- **Recommended action:** Prioritize drafting these two informational pages after the commercial cluster passes manual review. Keep their scopes informational and do not duplicate product rankings.
+- **Issue:** Resolved July 16: `what-size-hedge-trimmer-do-i-need` and `hedge-trimmer-vs-loppers-vs-pruning-saw` now have complete, audited informational packages.
+- **Reason:** These pages now own the explanations repeatedly needed by the commercial roundups without duplicating product rankings.
+- **Recommended action:** Verify their live CMS destinations and preserve their informational scope.
 - **Reference:** `article-generation-hierarchy-audit.md` and the two content briefs.
 
 #### HT-AUD-10
@@ -152,8 +154,8 @@ The mechanical audit counted 2,356, 4,024, 2,653, 3,165, and 1,888 words respect
 | Compare exact cordless kits | `best-cordless-hedge-trimmers` | Covered; loaded weight, package, runtime evidence, and platform cost remain leaf-specific |
 | Compare pole and long-reach tools | `best-pole-hedge-trimmers` | Covered; homeowner ranking and specialist gas alternative are visibly separated |
 | Choose corded versus cordless power | `corded-vs-cordless-hedge-trimmer` | Covered; direct outlet-route answer appears early and no product ranking was introduced |
-| Choose blade length and normal stated capacity | `what-size-hedge-trimmer-do-i-need` | Planned only; brief exists |
-| Choose hedge trimmer versus loppers/pruning saw | `hedge-trimmer-vs-loppers-vs-pruning-saw` | Planned only; brief exists |
+| Choose blade length and normal stated capacity | `what-size-hedge-trimmer-do-i-need` | Complete package; separately audited |
+| Choose hedge trimmer versus loppers/pruning saw | `hedge-trimmer-vs-loppers-vs-pruning-saw` | Complete package; separately audited |
 
 No serious cannibalization was found. The hub owns the format decision, each commercial leaf owns exact-model comparison inside its format, and the comparison page owns the mains-versus-battery decision without creating a second ranking.
 
@@ -171,9 +173,9 @@ The drafts correctly preserve these evidence limits:
 - Cutting capacity and maximum reach remain manufacturer-stated limits, not WhoAdvice performance results.
 - WhoAdvice hands-on testing is not implied.
 
-## Verified critical facts
+## Verified critical facts at the July 15 audit
 
-- All five completed articles have approved contracts, complete drafts, research packets, source files, and publisher handoffs.
+- All five articles in this historical audit scope had approved contracts, complete drafts, research packets, source files, and publisher handoffs. Five additional packages were completed afterward.
 - The shared destination register contains one normalized ASIN and publisher-confirmed affiliate link for every active exact package.
 - Shared products use consistent identities, packages, and destinations across the cluster.
 - Public affiliate disclosures appear before the first commercial link on all four commercial roundups; the comparison guide contains no affiliate links.
@@ -200,7 +202,7 @@ Immediately before publication:
 
 1. Resolve every affiliate redirect and confirm exact model, package, seller, fulfillment, stock, price, and eligibility.
 2. Recheck CPSC recalls and current manufacturer status for every selected exact model.
-3. Confirm the two brief-only internal-link destinations are published; otherwise defer those links.
+3. Confirm the now-complete sizing and tool-selection destinations are live in the CMS; otherwise defer those links.
 4. Add licensed exact-model images and verify alt text does not show or imply a neighboring package.
 5. Apply canonicals, breadcrumbs, sitemap/indexability controls, responsive tables, and truthful `Article`, `BreadcrumbList`, and `ItemList` markup.
 6. Apply `rel="sponsored"` to affiliate links and keep the Amazon Associate disclosure before the first commercial destination.

@@ -122,11 +122,11 @@ Create a single cluster-level destination register keyed by `brand + exact model
 
 ## Recommended supporting articles
 
-**July 15, 2026 strategy update:** The original opportunities below remain useful historical recommendations, but priorities 1–4 have now been built as article packages. The user-supplied Ahrefs extraction adds strong uncovered maintenance intent. Use `../content-strategy.md` as the current roadmap and `../research/ahrefs-keywords-2026-07-15.md` as the preserved discovery dataset. The next commissioning order is:
+**July 16, 2026 completion update:** The original opportunities below remain useful historical recommendations. The sharpening, cleaning, and safe-use priorities have now been built as complete article packages and passed their Part 4 audits. Use `../content-strategy.md` as the current roadmap and `../research/ahrefs-keywords-2026-07-15.md` as the preserved discovery dataset. Current status is:
 
-1. `how-to-sharpen-hedge-trimmers` — dedicated sharpening guide covering file, Dremel, inspection, service, and replacement decisions without inventing a universal bevel angle.
-2. `how-to-clean-and-lubricate-hedge-trimmer-blades` — cleaning, resin removal, lubrication, rust prevention, and storage with manual-specific chemical guidance.
-3. `how-to-use-a-hedge-trimmer` — safety-led use guide spanning power isolation, work-area checks, stalls, power-format differences, and post-use care.
+1. **Completed:** `how-to-sharpen-hedge-trimmers` — dedicated sharpening guide covering file, powered-tool limits, inspection, service, and replacement decisions without inventing a universal bevel angle.
+2. **Completed:** `how-to-clean-hedge-trimmer-blades` — cleaning, resin removal, lubrication, rust prevention, and storage with manual-specific chemical guidance; primary sources refreshed July 16.
+3. **Completed:** `how-to-use-a-hedge-trimmer` — safety-led use guide spanning power isolation, work-area checks, stalls, power-format differences, and post-use care.
 4. Conditional future pages — gas-versus-electric, professional/commercial, manual hedge shears, or brand pages only after more query metrics and unique evidence justify separate ownership.
 
 Retailer, `near me`, dealer, clearance, used, and sale terms do not justify editorial doorway pages. Brand terms remain entities within the relevant commercial guides unless a current model-line comparison can add substantial non-duplicative value.

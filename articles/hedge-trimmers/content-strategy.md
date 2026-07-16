@@ -1,18 +1,18 @@
 # Hedge-trimmer content strategy
 
-**Updated:** July 15, 2026  
+**Updated:** July 16, 2026
 **Input:** User-supplied Ahrefs topics and keywords, preserved in `research/ahrefs-keywords-2026-07-15.md`  
 **Market assumption:** United States  
 **Purpose:** Assign one canonical page to each meaningful search intent, protect the existing commercial cluster from cannibalization, and prioritize new articles using observed query demand.
 
 ## Strategic decision
 
-Keep `best-hedge-trimmers` as the broad commercial hub. Do not create separate pages for every brand, retailer, wording variation, or power synonym. The Ahrefs export reveals two substantial missing post-purchase jobs:
+Keep `best-hedge-trimmers` as the broad commercial hub. Do not create separate pages for every brand, retailer, wording variation, or power synonym. The Ahrefs export identified two substantial post-purchase jobs that are now covered:
 
 1. Sharpening hedge trimmers, including file and Dremel methods and when to use a professional.
 2. Cleaning, resin removal, lubrication, and routine blade care.
 
-Those jobs deserve dedicated informational pages. The existing `hedge-trimmer-vs-loppers-vs-pruning-saw` page remains the owner of branch-capacity questions. `How to use a hedge trimmer` is a viable later safety/use page. Brand and retailer modifiers should strengthen existing commercial roundups unless further data proves that a dedicated page can offer unique, current exact-model evidence.
+Those jobs now have dedicated informational pages. The existing `hedge-trimmer-vs-loppers-vs-pruning-saw` page remains the owner of branch-capacity questions, and `how-to-use-a-hedge-trimmer` owns the safety and operating sequence. Brand and retailer modifiers should strengthen existing commercial roundups unless further data proves that a dedicated page can offer unique, current exact-model evidence.
 
 ## Canonical intent map
 
@@ -26,18 +26,20 @@ Those jobs deserve dedicated informational pages. The existing `hedge-trimmer-vs
 | Corded vs cordless | `corded-vs-cordless-hedge-trimmer` | Existing | are electric hedge trimmers as good as gas; power-format comparison terms | Own format comparisons; add gas only as a scoped comparison, not a ranking |
 | Size and capacity | `what-size-hedge-trimmer-do-i-need` | Existing package | what are the three types; size, blade, and stated-capacity questions | Own pre-purchase sizing, not branch-cutting technique |
 | Branch cutting/wrong tool | `hedge-trimmer-vs-loppers-vs-pruning-saw` | Existing package | can hedge trimmers cut branches; can hedge trimmers cut wood; can hedge trimmers cut tree branches | Own capacity limits and tool switching |
-| Sharpening | `how-to-sharpen-hedge-trimmers` | Brief created; research pending | how to sharpen hedge trimmers; how to sharpen electric hedge trimmers; with a file; with a Dremel; can hedge trimmers be sharpened | Own DIY method, inspection, limits, and service decision |
-| Cleaning and lubrication | `how-to-clean-hedge-trimmer-blades` | Part 1 research complete; approval pending | how to clean hedge trimmer blades; resin solvent for hedge trimmers; hedge trimmer oil; how to clean hedge trimmers | Own routine blade care; mention sharpening only as a diagnostic next step |
-| Safe use | `how-to-use-a-hedge-trimmer` | Brief created; research pending | how to use a hedge trimmer | Own setup, PPE, safe cutting sequence, stalls, cord/battery/gas distinctions, and shutdown |
+| Sharpening | `how-to-sharpen-hedge-trimmers` | Full package; Part 4 complete | how to sharpen hedge trimmers; how to sharpen electric hedge trimmers; with a file; with a Dremel; can hedge trimmers be sharpened | Own DIY method, inspection, limits, and service decision |
+| Cleaning and lubrication | `how-to-clean-hedge-trimmer-blades` | Full package; Part 4 and July 16 source refresh complete | how to clean hedge trimmer blades; resin solvent for hedge trimmers; hedge trimmer oil; how to clean hedge trimmers | Own routine blade care; mention sharpening only as a diagnostic next step |
+| Safe use | `how-to-use-a-hedge-trimmer` | Full package; Part 4 complete | how to use a hedge trimmer | Own setup, PPE, safe cutting sequence, stalls, cord/battery/gas distinctions, and shutdown |
 | Service/local | Sharpening article service section/FAQ | Supporting only | hedge trimmer blade sharpening near me; who sharpens hedge trimmers; garden tool sharpening near me | Answer how to find and evaluate service; avoid a doorway-style local page |
 | Brand modifiers | Relevant commercial roundup | Supporting entities | Stihl, ECHO, EGO, Milwaukee, Makita, Husqvarna, Greenworks, RYOBI, DEWALT, BLACK+DECKER | Use brand sections/filtering only with current model evidence; no thin brand pages |
 | Retailer/transactional | Publisher/CMS merchandising, not editorial articles | Deprioritized | Home Depot, Lowe's, Walmart, Ace, near me, for sale, clearance, used, rent | Do not build retailer doorway pages or imply live stock without current feeds |
 | Manual shears/clippers | Future separate garden-tool cluster | Out of hedge-trimmer scope | how to sharpen hedge clippers; how to sharpen hedge shears; manual hedge trimmers; Fiskars; Corona | Separate manual-tool technique and product intent from powered trimmers |
 | Plant-specific pruning | Future horticulture cluster | Out of scope | pruning azaleas | Requires plant-specific seasonal and horticultural evidence |
 
-## Publication roadmap
+## Completed publication roadmap
 
 ### Priority 1 — How to sharpen hedge trimmers
+
+**Status:** Full article package and Part 4 audit complete.
 
 - **Primary keyword:** how to sharpen hedge trimmers
 - **Intent:** Informational, post-purchase maintenance
@@ -49,6 +51,8 @@ Those jobs deserve dedicated informational pages. The existing `hedge-trimmer-vs
 
 ### Priority 2 — How to clean and lubricate hedge-trimmer blades
 
+**Status:** Full article package, Part 4 audit, and July 16 primary-source refresh complete.
+
 - **Primary keyword:** how to clean hedge trimmer blades
 - **Secondary cluster:** hedge trimmer oil; resin solvent for hedge trimmers; how to clean hedge trimmers
 - **Recommended slug:** `/garden-tools/how-to-clean-hedge-trimmer-blades/`
@@ -58,6 +62,8 @@ Those jobs deserve dedicated informational pages. The existing `hedge-trimmer-vs
 - **Internal links:** sharpening guide, how-to-use page, commercial hub only when repair/replacement is the real decision.
 
 ### Priority 3 — How to use a hedge trimmer safely
+
+**Status:** Full article package and Part 4 audit complete.
 
 - **Primary keyword:** how to use a hedge trimmer
 - **Recommended slug:** `/garden-tools/how-to-use-a-hedge-trimmer/`
@@ -72,7 +78,7 @@ Those jobs deserve dedicated informational pages. The existing `hedge-trimmer-vs
 - Manual hedge shears and their sharpening: build as a separate manual garden-tool cluster.
 - Brand pages: consider only when WhoAdvice can maintain a current model line, clear brand-specific decision, and non-duplicative comparison.
 
-## Proposed sharpening page question bank
+## Original sharpening research question bank
 
 - How do you sharpen hedge trimmers safely?
 - Can electric, cordless, and gas hedge-trimmer blades all be sharpened?
@@ -92,7 +98,7 @@ Those jobs deserve dedicated informational pages. The existing `hedge-trimmer-vs
 - How much does hedge-trimmer sharpening usually cost?
 - When is blade replacement better than sharpening?
 
-## Proposed cleaning page question bank
+## Original cleaning research question bank
 
 - How do you clean hedge-trimmer blades after use?
 - What removes sap and resin from hedge-trimmer blades?

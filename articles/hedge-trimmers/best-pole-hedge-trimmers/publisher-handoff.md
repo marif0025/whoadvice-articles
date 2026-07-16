@@ -143,7 +143,7 @@ No new generated images are required. Use exact-model product photography alread
 ## Remaining CMS and publication-day work
 
 - Confirm seller, fulfillment, stock, live price, exact variation, and package contents at Amazon.
-- Verify the two internal destinations that currently exist only as workspace briefs are live before retaining their links.
+- The sizing and pruning-tool destinations now have complete article packages. Verify their live CMS URLs before retaining the links.
 - Add exact-model licensed images, dimensions, compression, and descriptive alt text.
 - Add `rel="sponsored"`, author, reviewer, publication/update dates, canonical, breadcrumbs, sitemap entry, and indexability controls.
 - Test mobile table scrolling, buttons, accessibility, structured data, page speed, and Core Web Vitals.

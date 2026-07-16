@@ -46,7 +46,7 @@
 - One H1 and a valid H2/H3 hierarchy are present.
 - All seven ranked homeowner cards and the specialist alternative retain the approved Summary, Verdict, Pros, and Cons structure.
 - Every review has exactly three Pros and two Cons.
-- Internal links use descriptive anchors. Confirm the sizing and pruning-tool pages are live before publication because their workspace packages currently contain briefs only.
+- Internal links use descriptive anchors. The sizing and pruning-tool packages are complete; confirm their live CMS URLs before publication.
 - External links are limited to material manufacturer, independent-test, and CPSC sources.
 - Recommended schema remains `Article`, `BreadcrumbList`, and a truthful four-item `ItemList`. Husqvarna must remain outside the ordered list.
 - `Review` and `AggregateRating` schema are not recommended.

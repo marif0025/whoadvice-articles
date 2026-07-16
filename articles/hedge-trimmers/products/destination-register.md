@@ -13,7 +13,7 @@
 | DEWALT DCPH820M1, pole-trimmer kit with 4.0 Ah battery and charger | `B084CZXM9V` | `dewalt-dcph820m1` | https://amzn.to/3RDs8Nf | Main |
 | CRAFTSMAN CMEHTS8022, 22-inch corded Power Saw tool | `B083XJYQXH` | `craftsman-cmehts8022` | https://amzn.to/4ypOHpg | Corded |
 | SENIX HTE3.8-L, corded hedge trimmer | `B0BPYNBQKP` | `senix-hte3-8-l` | https://amzn.to/4fCzny1 | Corded |
-| Grasstigon corded rotating-handle trimmer | `B0H11GY76S` | `grasstigon-b0h11gy76s` | https://amzn.to/4fdAcvW | Corded candidate |
+| Grasstigon corded rotating-handle trimmer | `B0H11GY76S` | `grasstigon-b0h11gy76s` | https://amzn.to/4fdAcvW | Deferred and unranked; publisher link confirmed; not in public copy |
 | GARCARE GHT08, 24-inch corded rotating-handle tool | `B01GJBTWB6` | `garcare-ght08` | https://amzn.to/4fhw8e1 | Corded |
 | GARCARE GPHT06, corded convertible pole/handheld tool | `B01GJCN1KI` | `garcare-gpht06` | https://amzn.to/4vyfa1m | Pole |
 | Earthwise CVPH43018, corded convertible pole/handheld tool | `B06XJ68XW9` | `earthwise-cvph43018` | https://amzn.to/4bwjhnh | Pole |

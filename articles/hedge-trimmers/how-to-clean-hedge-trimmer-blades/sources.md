@@ -1,6 +1,6 @@
 # How to clean hedge-trimmer blades — source register
 
-**Research date:** July 15, 2026  
+**Research date:** July 15, 2026; primary-source refresh completed July 16, 2026
 **Market:** United States  
 **Use:** Internal evidence and discovery record. Competitor and community pages are not public proof.
 
@@ -9,8 +9,8 @@
 ### EGO HT2600/HT2600-FC operator's manual
 
 - Source: EGO operator's manual PDF
-- URL: https://fr.egopowerplus.com/mpattachment/file/download/id/2880/
-- Accessed: July 15, 2026
+- URL: https://egopowerplus.com/mpattachment/file/download/id/2880/
+- Accessed: July 15, 2026; reopened on the official US EGO domain July 16, 2026
 - Relevant pages: 23–24 of the English manual section
 - Evidence captured:
   - Remove the battery before cleaning or maintenance.
@@ -18,13 +18,13 @@
   - Use resin solvent for pitch and sticky residue, briefly distribute it as directed, then wipe dry.
   - Never use water for cleaning the trimmer; avoid solvents on plastic.
   - Lubricate blades with lightweight machine oil before and after each use.
-- Limitation: Hosted on EGO's French regional domain but the PDF contains the North American English HT2600/HT2600-FC manual. Drafting may use the captured manual, but locating or reopening a current US-hosted manual before publication is mandatory. Remove or revise the EGO comparison row if the current US instructions differ.
+- Verification result: The same URL now resolves on `egopowerplus.com` as the current 96-page North American HT2600/HT2600-FC operator's manual. The English cleaning and lubrication instructions on pages 23–24 match the evidence captured above. The previous regional-hosting blocker is resolved.
 
 ### STIHL HSA 150 R/HSA 150 T owner's instruction manual
 
 - Source: STIHL USA manual PDF
 - URL: https://www.stihlusa.com/WebContent/CMSFileLibrary/InstructionManuals/STIHL-HSA-150R-150T-HedgeTrimmer-Owners-Instruction-Manual.pdf
-- Accessed: July 15, 2026
+- Accessed: July 15, 2026; reopened July 16, 2026
 - Relevant pages: 20–23
 - Evidence captured:
   - Remove battery before cleaning, inspection, maintenance, transport, or storage.
@@ -40,7 +40,7 @@
 
 - Source: Makita USA manual PDF
 - URL: https://cdn.makitatools.com/apps/cms/doc/prod/XHU/e5fc800c-dbac-42bd-b5cd-8abc97f78a0a_XHU09_IM_885987-942.pdf
-- Accessed: July 15, 2026
+- Accessed: July 15, 2026; reopened July 16, 2026
 - Relevant pages: 13–14
 - Evidence captured:
   - Switch off and remove the battery before inspection or maintenance.
@@ -58,16 +58,16 @@
 
 - URL: https://support.blackanddecker.com/hc/en-us/articles/360012692118-What-can-I-use-to-clean-the-blades-on-my-hedge-trimmer
 - Updated: November 30, 2023
-- Accessed: July 15, 2026
+- Accessed: July 15, 2026; reopened July 16, 2026
 - Evidence captured: permits soap and water on blades when followed by drying and lubrication; also describes brushing and WD-40 or similar spray lubricant before storage.
 - Limitation: Brand-level support page, not an exact-model manual. It must not override an exact manual.
 
 ### Husqvarna US — cleaning and oiling support
 
 - URL: https://us-support.husqvarna.com/en/battery-powered-hedge-trimmer/KA-70224
-- Accessed: July 15, 2026
+- Accessed: July 15, 2026; capture attempted again July 16, 2026
 - Evidence captured from indexed support content: disconnect spark plug or remove battery; wear gloves; remove twigs/debris; use a damp cloth and light oil; clean before and after use; lubricate before long storage.
-- Limitation: The US page returned a cache miss when opened. The indexed record and matching Husqvarna UK support page were used for discovery. Reopen and capture the live US page before drafting.
+- Limitation: The current US page still was not captured on July 16. The indexed record and matching Husqvarna UK support page remain discovery evidence only, so Husqvarna stays out of the public comparison table.
 
 ### Husqvarna UK — how to clean and oil blades
 
@@ -134,6 +134,13 @@
 - Accessed: July 15, 2026
 - Use: Publication-day exact-model and serial-range recheck.
 
+### July 16, 2026 exact-model refresh
+
+- CPSC and manufacturer-site searches were repeated for EGO HT2600/HT2600-FC, STIHL HSA 150 R/T, and Makita XHU09.
+- No search result identified those exact models in a recall. This is a dated search result, not a claim that a model is recall-free.
+- Makita's current manufacturer recall page names XHU07Z, XHU07T, XHU08Z, and XHU08T—not XHU09. The known EGO HT2410 and STIHL HSA 65 notices likewise concern different models.
+- Repeat the search and check serial ranges immediately before publication.
+
 ## Competitor discovery
 
 ### STIHL UK — How to clean a hedge trimmer
@@ -195,9 +202,10 @@ Community pages below are retained only as question and terminology inputs. They
 
 ## Publication-day checks
 
-- Reopen current US manuals and support pages for every named example. Locating or reopening a current US-hosted EGO HT2600/HT2600-FC manual is mandatory; remove or revise that row if its instructions differ from the captured manual.
+- The current official US EGO HT2600/HT2600-FC manual was reopened July 16, 2026 and reconciled successfully. Recheck it only if publication occurs after the recorded research date or the manufacturer changes the document.
+- STIHL HSA 150 R/T, Makita XHU09, BLACK+DECKER support, and the STIHL SDS were reopened July 16, 2026 and still support the draft wording.
 - Do not draft the Husqvarna comparison row until the current official page is captured. If it remains unavailable, use a four-row comparison and record the removal in `publisher-handoff.md`.
-- Confirm the STIHL product SDS revision and label have not changed.
+- The current STIHL SDS still lists revision 5 dated April 3, 2024. Confirm the label and SDS again if publication occurs later.
 - Repeat exact-model CPSC and manufacturer recall searches.
 - Confirm internal-link destinations are published before adding links.
 - Record responsible human safety/editorial review.

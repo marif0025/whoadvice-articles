@@ -211,7 +211,7 @@ Controls:
 - Preserve the conflict instead of harmonizing it into one water, solvent, oil, or frequency rule.
 - Name BLACK+DECKER's WD-40 guidance only in this attributed comparison or the related FAQ. Immediately state that it does not authorize that product for other models.
 - Do not draft the Husqvarna row until the current official page is captured. If unavailable, draft a four-row comparison table and record the removal in `publisher-handoff.md`; never rely on the index snippet as public evidence.
-- Draft the EGO row from the captured manual, but treat locating or reopening a current US-hosted manual as a mandatory publication check. Remove or revise the row if the current US instructions differ.
+- July 16 resolution: the current US-hosted EGO manual was reopened and matched the captured instructions. Retain the row and apply only the normal later-publication freshness check.
 
 ## Hedge-trimmer oil contract
 
@@ -345,7 +345,7 @@ Controls:
 - Reopen every named official manual/support page and the current STIHL label/SDS.
 - Repeat exact-model and serial-range CPSC/manufacturer recall checks.
 - Do not draft the Husqvarna comparison row until current official US or suitable official support is captured. If unavailable, publish a four-row table and record the removal in `publisher-handoff.md`.
-- Locate or reopen a current US-hosted EGO HT2600/HT2600-FC manual and reconcile it with the captured manual; remove or revise the EGO row if the instructions differ.
+- Resolved July 16: the current US-hosted EGO HT2600/HT2600-FC manual was reopened and reconciled with the captured manual; its instructions match the drafted row.
 - Obtain responsible human safety/editorial review.
 - Create and QA the two approved visuals, alt text, dimensions, and responsive delivery.
 - Add external citations only where editorial/CMS policy requires them.

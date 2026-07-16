@@ -6,7 +6,7 @@
 **Meta description:** Clean hedge-trimmer blades safely by removing debris and sap, using the correct lubricant, checking for damage, and following the exact manual.  
 **Evidence model:** Research-based maintenance guide using manufacturer manuals, official support, safety documentation, and CPSC records; WhoAdvice did not conduct hands-on testing  
 **Target market:** United States  
-**Research date:** July 15, 2026  
+**Research date:** July 16, 2026
 **Affiliate disclosure:** This informational guide contains no affiliate links or product recommendations.
 
 Before cleaning, identify the exact model and isolate its power source as directed. That may mean removing the battery, unplugging the cord, or following the shutdown procedure for a gas model. Wait until the blade stops moving.
@@ -14,6 +14,8 @@ Before cleaning, identify the exact model and isolate its power source as direct
 The broad answer to how to clean hedge trimmer blades is to disconnect the tool, clear loose debris, and remove sticky residue with an approved method. Then dry the blade where necessary, inspect it, apply the specified lubricant, and fit the cover. Manufacturers differ on water, solvents, brushes, oil, timing, and powered distribution.
 
 This guide compares manufacturer instructions without treating one model's method as universal.
+
+If cleaning is part of getting the tool ready for another job, review the [safe hedge-trimmer setup and operating sequence](/garden-tools/how-to-use-a-hedge-trimmer/) before reconnecting power.
 
 > **Safety:** A stopped blade can still cut. Wait for all movement to stop and disconnect the battery, unplug the cord, or disable the gas model exactly as its manual directs before touching or cleaning the blade.
 
@@ -101,7 +103,7 @@ These maintenance examples show why one cleaning recipe cannot cover every hedge
 | Makita XHU09 manual | Wire brush on both blade sides, followed by wiping with a cloth | Says not to wash the shear blades in water | Low-viscosity machine oil or spray lubricant before work, hourly during work, and after work | Brush type and lubrication frequency can be model-specific |
 | BLACK+DECKER official brand support | Allows brushing; also describes soap and water when followed by drying | Allows soap and water on blades within its support workflow | Describes WD-40 or a similar spray lubricant before storage | Brand-level advice shows the conflict but does not override another model's manual |
 
-The EGO row requires reconciliation with a current US-hosted manual before publication. Husqvarna was omitted because current official US guidance was not captured for drafting.
+The EGO row was reconciled against the current official US-hosted manual on July 16, 2026, and the instructions matched the captured evidence. Husqvarna was omitted because current official US guidance was not captured for drafting.
 
 ## What hedge-trimmer oil actually means
 

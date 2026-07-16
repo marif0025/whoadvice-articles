@@ -1,7 +1,7 @@
 # Publisher note: publishing the hedge-trimmer cluster in the CMS
 
 **Prepared:** July 16, 2026  
-**Scope:** The seven completed hedge-trimmer articles listed below  
+**Scope:** The ten completed hedge-trimmer articles listed below
 **Current state:** Editorial drafts and article audits are complete. Responsible human approval, CMS implementation, and publication-day freshness checks remain required.
 
 ## Which files to use
@@ -26,8 +26,9 @@ Do not regenerate, paraphrase, or “improve” the final article inside the CMS
 | Corded vs cordless hedge trimmer | `corded-vs-cordless-hedge-trimmer/article.md` | `corded-vs-cordless-hedge-trimmer/publisher-handoff.md` |
 | What size hedge trimmer do I need? | `what-size-hedge-trimmer-do-i-need/article.md` | `what-size-hedge-trimmer-do-i-need/publisher-handoff.md` |
 | Hedge trimmer vs loppers vs pruning saw | `hedge-trimmer-vs-loppers-vs-pruning-saw/article.md` | `hedge-trimmer-vs-loppers-vs-pruning-saw/publisher-handoff.md` |
-
-The sharpening, cleaning, and safe-use folders are not included in this publishing batch because they are still at brief or research stages.
+| How to sharpen hedge trimmers | `how-to-sharpen-hedge-trimmers/article.md` | `how-to-sharpen-hedge-trimmers/publisher-handoff.md` |
+| How to clean hedge-trimmer blades | `how-to-clean-hedge-trimmer-blades/article.md` | `how-to-clean-hedge-trimmer-blades/publisher-handoff.md` |
+| How to use a hedge trimmer | `how-to-use-a-hedge-trimmer/article.md` | `how-to-use-a-hedge-trimmer/publisher-handoff.md` |
 
 ## CMS entry procedure
 
@@ -111,11 +112,14 @@ Publish the cluster in one coordinated release when possible. If pages must go l
 
 1. Hedge trimmer vs loppers vs pruning saw
 2. What size hedge trimmer do I need?
-3. Corded vs cordless hedge trimmer
-4. Best corded hedge trimmers
-5. Best cordless hedge trimmers
-6. Best pole hedge trimmers
-7. Best hedge trimmers hub
+3. How to sharpen hedge trimmers
+4. How to clean hedge-trimmer blades; then enable its reciprocal sharpening link
+5. How to use a hedge trimmer; then enable its reciprocal cleaning link
+6. Corded vs cordless hedge trimmer
+7. Best corded hedge trimmers
+8. Best cordless hedge trimmers
+9. Best pole hedge trimmers
+10. Best hedge trimmers hub
 
 After the final page is live, verify reciprocal links from the hub to every branch and from each branch back to the hub or the appropriate decision guide.
 
@@ -141,4 +145,3 @@ Notes:
 ```
 
 Publishing is complete only when the live page matches `article.md`, the CMS implementation follows `publisher-handoff.md`, and the completion record documents the time-sensitive checks.
-

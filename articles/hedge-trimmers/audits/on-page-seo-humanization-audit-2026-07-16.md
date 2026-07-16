@@ -1,9 +1,11 @@
 # Hedge-trimmer on-page SEO and human-centered content audit
 
 **Audit date:** July 16, 2026  
-**Scope:** Seven published-draft `article.md` files in the hedge-trimmer cluster  
+**Scope:** Seven published-draft `article.md` files audited in this specific pass
 **Standard:** Updated `reference/on-page-seo-checklist.md`, `reference/02-voice-and-tone.md`, and `reference/16-human-centered-writing-and-editing.md`  
 **Overall result:** **Pass after targeted revisions.** No article has a blocking search-intent, hierarchy, evidence-disclosure, or mechanical-format failure.
+
+**Cluster status addendum, July 16, 2026:** This report preserves its original seven-page scope. The sharpening, cleaning, and safe-use packages were completed and audited separately afterward, bringing the cluster total to ten completed drafts. Use each page's `audit.md` and `publisher-handoff.md` for its current status.
 
 ## How the ten humanization ideas are applied
 

@@ -1,7 +1,7 @@
 # How to clean hedge-trimmer blades — Part 1 research packet
 
 ```yaml
-research_date: 2026-07-15
+research_date: 2026-07-16
 primary_keyword: how to clean hedge trimmer blades
 search_intent: Informational, post-purchase maintenance
 target_market: United States
@@ -13,6 +13,8 @@ commercial_links: none proposed
 ```
 
 ## Research decision
+
+**July 16 source refresh:** The current official US EGO HT2600/HT2600-FC manual was located and reopened. Its cleaning, water, resin-solvent, battery-removal, lubrication, frequency, and powered-distribution instructions match the captured evidence. The STIHL HSA 150 R/T and Makita XHU09 manuals, BLACK+DECKER support page, and STIHL SDS were also reopened and remain consistent with the draft. The EGO publication blocker is resolved; normal publication-day freshness and recall checks still apply.
 
 Proceed with a dedicated cleaning and lubrication article, but do not publish one universal cleaner, water rule, lubricant, frequency, or powered distribution step. Current primary sources conflict in ways that matter:
 
@@ -218,4 +220,3 @@ Community discussions are discovery sources only. They reveal confusion about oi
 **Recommendation:** Approve the manual-first article direction, the common sequence, the model-comparison table, the no-universal-water/solvent/oil rules, the recall/service boundary, and the FAQ decisions above.
 
 No product rankings, awards, product snapshots, retailer destinations, or affiliate gates apply to this informational article. Stop here for approval before creating `article-contract.md` or drafting public prose.
-

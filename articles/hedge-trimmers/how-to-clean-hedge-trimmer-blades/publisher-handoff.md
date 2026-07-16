@@ -31,8 +31,8 @@ product_recommendations: none
 internal_links_included:
   - /garden-tools/how-to-sharpen-hedge-trimmers/
   - /garden-tools/hedge-trimmer-vs-loppers-vs-pruning-saw/
-additional_internal_link_opportunities:
   - /garden-tools/how-to-use-a-hedge-trimmer/
+additional_internal_link_opportunities:
   - /garden-tools/best-hedge-trimmers/
 external_authoritative_sources: Manufacturer manuals, official support pages, STIHL SDS, and CPSC recall records listed in sources.md
 featured_image_filename: how-to-clean-hedge-trimmer-blades-sequence.webp
@@ -40,7 +40,7 @@ featured_image_alt_text: Five-stage hedge-trimmer blade cleaning sequence from p
 other_image_alt_text: Clean hedge-trimmer blade inspection showing aligned teeth and examples of a bent tooth and crack.
 suggested_schema_types: [Article, BreadcrumbList]
 content_freshness_items: [manufacturer manuals, support pages, STIHL label and SDS, CPSC and manufacturer recalls, internal-link publication status]
-claims_requiring_final_verification: [EGO HT2600 US-hosted manual instructions, current support-page wording, current SDS revision, exact-model and serial recall status]
+claims_requiring_final_verification: [publication-date source freshness if later than July 16 2026, current SDS revision and label, exact-model and serial recall status]
 ```
 
 ## Editorial status
@@ -53,19 +53,19 @@ claims_requiring_final_verification: [EGO HT2600 US-hosted manual instructions, 
 
 ## Audit summary
 
-- Mechanical audit after revision: 0 flags; 2,008 words counted by the workflow script.
+- Mechanical audit after revision: 0 flags; 2,042 words counted by the workflow script.
 - Contract: pass. Approved section order, four-row evidence table, safety sequence, ten FAQs, and scope boundaries are preserved.
-- Evidence: conditional pass. Public claims remain within the research ledger; EGO, source freshness, SDS, and recall checks remain publication-day gates.
+- Evidence: pass as of July 16, 2026. The official US EGO manual and the named STIHL, Makita, BLACK+DECKER, and SDS sources were reopened and remain consistent with the draft. Later publication still requires normal source-freshness and recall checks.
 - On-page SEO: pass for editorial content. Primary intent, answer-first opening, metadata, heading hierarchy, related questions, internal-link opportunities, and schema guidance are present.
 - Human-centered writing: pass. The draft uses a quick action sequence, direct safety instructions, model-specific consequences, short paragraphs, and no fake experience or decorative empathy.
 - CMS/technical implementation: pending as listed below.
 
 ## Source and freshness gates
 
-- Locate or reopen a current US-hosted EGO HT2600/HT2600-FC manual and compare its cleaning, water, lubricant, frequency, and powered-distribution instructions with the captured North American English manual. Revise or remove the row if they differ.
+- Resolved July 16, 2026: the current official US-hosted EGO HT2600/HT2600-FC manual was reopened and its cleaning, water, lubricant, frequency, and powered-distribution instructions match the draft.
 - Husqvarna was deliberately omitted from the public table because its current official US page was not captured. Keep the four-row table unless a current official page is captured and the contract is revised.
-- Reopen the STIHL HSA 150 R/T and Makita XHU09 manuals and the BLACK+DECKER support page before publication.
-- Confirm the current STIHL blade-cleaner label and SDS revision. The SDS supports handling and hazard precautions, not tool-material compatibility.
+- The STIHL HSA 150 R/T and Makita XHU09 manuals and BLACK+DECKER support page were reopened July 16, 2026. Recheck only if publication occurs later or a source changes.
+- The STIHL SDS was reopened July 16, 2026 and still records revision 5 dated April 3, 2024. Confirm the current product label and recheck the SDS if publication occurs later. The SDS supports handling and hazard precautions, not tool-material compatibility.
 - Repeat exact-model and serial-range checks in the CPSC database and on manufacturer recall pages.
 - Do not describe any comparison model as recall-free.
 
@@ -75,10 +75,10 @@ Verify each destination is published before release:
 
 - `/garden-tools/how-to-sharpen-hedge-trimmers/` — diagnostic route for a clean, intact but dull blade; planned destination may still be unpublished.
 - `/garden-tools/hedge-trimmer-vs-loppers-vs-pruning-saw/` — route for oversized woody growth.
-- `/garden-tools/how-to-use-a-hedge-trimmer/` — add when the safe-use guide is published and reciprocal linking is useful.
+- `/garden-tools/how-to-use-a-hedge-trimmer/` — reciprocal setup-and-return-to-use route included in the Markdown draft; verify the destination is live at publication.
 - `/garden-tools/best-hedge-trimmers/` — add only if the final service/replacement wording genuinely needs a shopping destination.
 
-Add reciprocal post-use and pre-sharpening links from the safe-use and sharpening articles when those pages are published.
+The safe-use article already links back to this cleaning guide. Preserve both directions when the pages are published.
 
 ## Visual handoff
 
