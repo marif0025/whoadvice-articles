@@ -3,7 +3,7 @@
 ## Page record
 
 ```yaml
-status: Part 3 draft complete; Part 4 audit pending
+status: Final Article Audit complete; manual editorial review and CMS checks pending
 article_type: Research-based commercial comparison and format-selection guide
 target_market: United States
 primary_keyword: corded vs cordless hedge trimmer

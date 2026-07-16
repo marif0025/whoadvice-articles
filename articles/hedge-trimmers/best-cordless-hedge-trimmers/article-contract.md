@@ -49,7 +49,7 @@ first_person_evidence_available: false
 | 5 | Ranked product reviews | Explain why each exact kit earned its position and who should choose it | 850–1,050 |
 | 6 | How we evaluated | Summarize the weighted method, source hierarchy and evidence limits | 180–260 |
 | 7 | Types of cordless hedge trimmers | Distinguish physical formats and buyer use cases | 550–700 |
-| 8 | Cordless hedge trimmer buying guide | Move through the buyer's decision sequence before purchase | 1,150–1,400 |
+| 8 | Cordless hedge trimmer buying guide | Move through the buyer's decision sequence before purchase; use one concise battery-package decision box to consolidate platform, kit, runtime, charger, and spare-battery checks | 1,050–1,350 |
 | 9 | FAQs | Answer recurring researched questions directly | 450–600 |
 | 10 | Final decision | Reconfirm the lead pick and genuinely distinct alternatives | 90–130 |
 

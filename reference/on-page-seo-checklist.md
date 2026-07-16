@@ -35,6 +35,7 @@ Use this checklist for buying guides, product roundups, and supporting articles 
 - [ ] Give the leading recommendation or direct answer early.
 - [ ] Disclose affiliate relationships and the evidence model near the top when applicable.
 - [ ] Avoid throat-clearing, generic market claims, and unsupported superlatives.
+- [ ] Add a compact quick summary near the top when it helps a reader act faster; for roundups, use approved top-pick cards or a short decision summary rather than repeating the introduction and comparison table.
 
 ## 5. Heading hierarchy and readability
 
@@ -58,6 +59,13 @@ Use this checklist for buying guides, product roundups, and supporting articles 
 - [ ] Keep product summaries, verdicts, pros, and cons distinct rather than repetitive.
 - [ ] Include cheap, mid-range, and premium choices when the market supports them.
 - [ ] Refresh price tiers, availability, model status, links, and specifications before publication.
+- [ ] Use at least one concrete, evidence-safe scenario when an abstract rule is difficult to apply; never invent first-person experience or an unverifiable anecdote.
+- [ ] Make “who should buy this” explicit in each recommendation through the Summary, Verdict, badge, or an approved field. Do not add a repetitive heading to every card when the existing fields already answer it.
+- [ ] Use decision boxes for high-friction choices with two or more branches, such as corded versus cordless or standard versus pole reach. Keep them concise and ensure the same decision remains available as normal HTML text.
+- [ ] Move raw specifications to a comparison table or source record. Keep only specifications that change fit, safety, package cost, control, or performance expectations in narrative copy.
+- [ ] Add comparison callouts where the reader could reasonably choose between close alternatives. State the condition that changes the winner instead of repeating both product summaries.
+- [ ] Add mini tips only when they provide a concrete measurement, compatibility check, safety boundary, or publication-day check. Label them consistently and avoid decorative tip boxes.
+- [ ] Build emotional connection through accurate recognition of cost, fatigue, uncertainty, inconvenience, or safety concerns and then give practical help. Do not claim shared feelings or manufacture personal experience.
 
 ## 7. Trust, sourcing, and editorial evidence
 
@@ -85,6 +93,7 @@ Use this checklist for buying guides, product roundups, and supporting articles 
 - [ ] Add product images only for the exact model shown.
 - [ ] Set width and height to reduce layout shift, compress files, and use modern formats where supported.
 - [ ] Keep important comparison information available as HTML text, not only inside an image.
+- [ ] Record purposeful visual suggestions in the brief or publisher handoff: exact-model images, measurement diagrams, decision flows, comparison graphics, or process illustrations. Do not request a visual that merely decorates the page.
 
 ## 10. Structured data and SERP eligibility
 
@@ -113,6 +122,8 @@ Use this checklist for buying guides, product roundups, and supporting articles 
 - [ ] Ensure every section adds new information.
 - [ ] Record unresolved CMS tasks separately from completed article edits.
 - [ ] Schedule a refresh based on product turnover and search-result volatility.
+- [ ] Confirm quick summaries, decision boxes, callouts, tips, scenarios, and visuals are selective, nonrepetitive, evidence-safe, and useful on mobile.
+- [ ] Confirm FAQs come from genuine buyer intent and resolve secondary purchase, compatibility, safety, use-case, or ownership questions not already answered clearly in the body.
 
 ## Source notes
 

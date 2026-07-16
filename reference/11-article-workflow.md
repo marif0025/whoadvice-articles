@@ -134,9 +134,11 @@ Reddit findings must be labeled anecdotal and converted into research questions,
 
 Create a product record for every candidate while it remains under active consideration.
 
+Before discovering, normalizing, or recommending products, check `products/unavailable-products.md` in the applicable article or cluster archive. For standalone work use `articles/{article}/products/unavailable-products.md`; for a shared cluster use `articles/{cluster}/products/unavailable-products.md`. Do not recommend a listed model unless a fresh US-market check reverses its status. Record the model, ASIN when known, status, check date, and a short reason. Keep limited-stock products in a separate watchlist so they are not mistaken for durable recommendations.
+
 For a standalone article, archive raw evidence at `articles/{article}/products/{product}.md`. For a content cluster that shares exact products, use one cluster-level archive such as `articles/{cluster}/products/{product}.md` and reference it from each article. Use a stable exact-model slug. Record source URL, source type, access date, market, exact identity, price and availability observations, raw specifications or relevant excerpts, and blocked or conflicting fields. Separate raw capture from interpretation and append dated snapshots instead of overwriting earlier research so the product can be re-analyzed later.
 
-After final selection, keep standalone files only for products that remain active in at least one article unless the project explicitly requests an exclusion archive. Record rejected candidates and reasons in `research.md`; do not leave excluded product files that can be mistaken for approved records.
+After final selection, keep standalone files only for products that remain active in at least one article. Preserve unavailable products in the dedicated unavailable-products register rather than normal product files, and record other rejected candidates and reasons in `research.md`; do not leave excluded product files that can be mistaken for approved records.
 
 For every active product with a normalized Amazon destination, append an `Affiliate link record — {research date}` section to the product file during research. Use this schema even when publisher approval is still pending:
 
@@ -387,6 +389,14 @@ Check:
 - Weak conclusions
 - Fake empathy
 - Fake authority
+- Evidence-safe real-life scenarios where abstract advice needs an example
+- An early quick summary or approved top-pick block on long decision pages
+- Clear buyer fit and exclusion without repetitive “Who should buy this?” boilerplate
+- Selective decision boxes, comparison callouts, and mini tips where they shorten a difficult choice
+- Specification overload that belongs in tables or research records
+- Emotional recognition tied to practical help rather than fake shared experience
+- Purposeful visual suggestions recorded in the publisher handoff
+- FAQs based on genuine secondary buyer intent rather than keyword coverage
 
 ### Output
 

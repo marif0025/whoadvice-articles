@@ -1,6 +1,6 @@
 # Best corded hedge trimmer — article contract
 
-Status: **Approved and reflected in the current draft.**
+Status: **Rescored July 16, 2026 and reflected in the current five-product draft.**
 
 
 ```yaml
@@ -20,7 +20,7 @@ top_pick_card_fields: [award, exact product name, original fit-and-tradeoff desc
 comparison_columns: [rank, product, best use, motor, blade, stated capacity, weight, observed price]
 product_card_fields: [Title, Slug, Editorial badge, Brand, ASIN, Affiliate link, Summary, Verdict, Pros, Cons]
 extra_product_paragraphs: false
-types: [standard 22-inch, compact 16-inch, saw-tip hybrid, rotating-handle]
+types: [standard 22-inch, compact 16-inch, saw-tip hybrid, rotating-handle 24-inch, lightweight full-size]
 buying_guide_scope: pre-purchase only
 faq_questions:
   - Are corded hedge trimmers more powerful than cordless models?

@@ -15,6 +15,12 @@
 - [BLACK+DECKER LPHT120 product page](https://www.blackanddecker.com/products/lpht120) — family specs, fiberglass sectional construction, reach, weight, and warranty. The live page does not identify LPHT120B or expose the earlier 6.5-ft figure, so that length is omitted from public copy.
 - [BLACK+DECKER LPHT120/LPHT120B manual](https://www.blackanddecker.ca/GLOBALBOM/QU/LPHT120B/1/Instruction_Manual/EN/90630060_LPHT120.pdf) — exact bare-tool coverage, safety, use, maintenance.
 - [Husqvarna 122LKH product page](https://www.husqvarna.com/us/products-category/hedge-trimmers/122lkh/) — exact SKU, length, weight, blade, capacity, engine, 180-degree head adjustment, and approved click-on attachment compatibility; attachments are sold separately.
+- GARCARE GPHT06 Amazon exact-model record — https://www.amazon.com/dp/B01GJCN1KI
+- Sun Joe SJH904E Amazon exact-model record — https://www.amazon.com/dp/B073FML6SR
+- Sun Joe SJH904E exact product record — https://device.report/sun-joe/sjh904e
+- Earthwise CVPH43018 official product page — https://americanlawnmower.com/products/cvph43018
+- Earthwise CVPH43018 manual — https://pdf.lowes.com/productdocuments/15c27475-e6d6-4875-b0a1-2797e1f2fdab/16021471.pdf
+- Earthwise CVPH43018 Amazon exact-model record — https://www.amazon.com/dp/B06XJ68XW9
 - [Husqvarna 122LK/122LKH manual](https://www.husqvarna.com/hbd/tdrdownload/v2/pub000094532/doc000242418/OM/3j5wlWRPdstunHtd50aNhzP6f9E) — fuel, safety, operation, vibration, maintenance.
 
 ## Raw Amazon destinations
@@ -23,9 +29,12 @@
 - CRAFTSMAN CMCPHT818D1 kit — https://www.amazon.com/dp/B083WQ1LBC
 - WORX WG252.9 bare tool — https://www.amazon.com/dp/B07W8RXJ8B
 - BLACK+DECKER LPHT120B bare tool — https://www.amazon.com/dp/B00AZW9Y9G
+- GARCARE GPHT06 — https://www.amazon.com/dp/B01GJCN1KI
+- Sun Joe SJH904E — https://www.amazon.com/dp/B073FML6SR
+- Earthwise CVPH43018 — https://www.amazon.com/dp/B06XJ68XW9
 - Husqvarna 122LKH — https://www.amazon.com/dp/B0DQ725L11
 
-All five destinations now have publisher-confirmed Special Links recorded in their canonical product files. Run a normal redirect and exact-variation health check before publication.
+All eight destinations now have publisher-confirmed Special Links recorded in their canonical product files. Run a normal redirect and exact-variation health check before publication.
 
 ## Publisher-confirmed affiliate destinations
 
@@ -33,6 +42,9 @@ All five destinations now have publisher-confirmed Special Links recorded in the
 - CRAFTSMAN CMCPHT818D1 kit — https://amzn.to/44qzyGB
 - WORX WG252.9 bare tool — https://amzn.to/4hel9ol
 - BLACK+DECKER LPHT120B bare tool — https://amzn.to/3QYflF0
+- GARCARE GPHT06 — https://amzn.to/4vyfa1m
+- Sun Joe SJH904E — https://amzn.to/4ppeidX
+- Earthwise CVPH43018 — https://amzn.to/4bwjhnh
 - Husqvarna 122LKH — https://amzn.to/3SSCJnY
 
 ## Independent editorial and competitor sources

@@ -9,8 +9,8 @@ audience: US homeowners with hedges close enough to an outdoor outlet
 region: United States
 currency: USD
 evidence_model: Manufacturer pages and manuals, current retail availability, CPSC records, independent editorial coverage, and community questions; no WhoAdvice hands-on testing
-research_date: July 14, 2026
-product_count: 4
+research_date: July 16, 2026
+product_count: 5
 ```
 
 ## Reader decision
@@ -30,11 +30,13 @@ Choose a corded hedge trimmer by matching blade length and stated branch capacit
 ## Approved revised ranking
 
 1. BLACK+DECKER BEHT350FF — Best Overall
-2. BLACK+DECKER BEHTS300 — Best for Occasional Thick Branches
-3. Greenworks 22122 — Best Rotating Handle
-4. BLACK+DECKER BEHT100 — Best for Small Hedges
+2. CRAFTSMAN CMEHTS8022 — Best for Occasional Thick Branches
+3. SENIX HTE3.8-L — Best Lightweight Full-Size Trimmer
+4. GARCARE GHT08 — Best Rotating Handle
+5. BLACK+DECKER BEHT100 — Best for Small Hedges
 
 ## Eligibility decisions
 
-- The publisher confirmed exact Amazon and affiliate destinations for all four selected models.
+- Greenworks 22122 remains unavailable. BEHTS300 was subsequently revalidated for Amazon US, but CMEHTS8022 remains the selected saw-tip product.
+- Exact Amazon identities and publisher Special Links are recorded for all five selected products; recheck stock, seller, variation, and redirects before publication.
 - Stated cut capacity is a manufacturer specification, not independent proof of performance on every wood species or branch condition.

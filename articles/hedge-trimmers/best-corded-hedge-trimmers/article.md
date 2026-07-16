@@ -1,12 +1,12 @@
-# 4 Best Corded Hedge Trimmers for Reliable Backyard Trimming
+# 5 Best Corded Hedge Trimmers for Reliable Backyard Trimming
 
 **Primary keyword:** best corded hedge trimmer  
-**SEO title:** 4 Best Corded Hedge Trimmers for 2026 | WhoAdvice  
-**Meta description:** Compare four corded hedge trimmers for small shrubs, broad hedge faces, and occasional thick branches, with advice on blade length, weight, and cords.  
+**SEO title:** 5 Best Corded Hedge Trimmers for 2026 | WhoAdvice
+**Meta description:** Compare five corded hedge trimmers for small shrubs, broad hedge faces, and occasional thick branches, with advice on blade length, weight, and cords.
 **Suggested slug:** `/garden-tools/best-corded-hedge-trimmers/`
 **Editorial badge:** Research-Based Buying Guide  
 **Evidence model:** WhoAdvice researched specifications, manuals, availability, safety records, and independent coverage. We did not test these tools.  
-**Research date:** July 14, 2026
+**Research date:** July 16, 2026
 **Target market:** United States
 
 > **Affiliate disclosure:** As an Amazon Associate, WhoAdvice earns from qualifying purchases. Commercial relationships do not determine our rankings.
@@ -23,18 +23,18 @@ This research-based guide compares current US models by cutting fit, handling, s
 
 The strongest fit for most small and medium yards near an outlet. Its 22-inch blade balances broad coverage with manageable weight, while the wraparound handle supports both top and side cuts.
 
-### BLACK+DECKER BEHTS300: Best for occasional thick branches
+### CRAFTSMAN CMEHTS8022: Best for occasional thick branches
 
-A practical hybrid when routine shaping is interrupted by the occasional thicker stem. Its sawblade tip adds branch-cleanup ability, though its 20-inch blade covers less hedge per pass than the 22-inch picks.
+A practical hybrid when routine shaping is interrupted by an occasional thicker stem. Its 22-inch blade provides full-size coverage, while the separate Power Saw tip is intended for isolated branches rather than regular woody pruning.
 
-### Greenworks 22122: Best rotating handle
+### SENIX HTE3.8-L: Best lightweight full-size trimmer
 
-The rotating rear handle distinguishes this 22-inch model when you regularly switch between hedge tops and vertical faces. Use the conservative manual specifications because older retailer records conflict on weight and capacity.
+The 5.29-pound Amazon-listed weight makes this the lightest full-size option in the ranking. Its exact manual supports a 3.8-amp motor and 0.7-inch maximum diameter, though the listing and manual describe blade length differently.
 
 <!-- CMS TOP 3 PICKS COMPONENT
 1. BLACK+DECKER BEHT350FF
-2. BLACK+DECKER BEHTS300
-3. Greenworks 22122
+2. CRAFTSMAN CMEHTS8022
+3. SENIX HTE3.8-L
 -->
 
 ## Corded hedge trimmers compared
@@ -42,13 +42,14 @@ The rotating rear handle distinguishes this 22-inch model when you regularly swi
 | Rank | Product | Best use | Motor | Blade | Stated capacity | Manufacturer-listed weight | Price |
 |---:|---|---|---:|---:|---:|---:|---:|
 | 1 | BLACK+DECKER BEHT350FF | Most small and medium yards | 4.0 amp | 22 in. | 3/4 in. | 6.5 lb. | Check retailer |
-| 2 | BLACK+DECKER BEHTS300 | Hedges with occasional thicker branches | 3.8 amp | 20 in. | 3/4 in.; saw tip up to 1.5 in. | 6.3 lb. | Check retailer |
-| 3 | Greenworks 22122 | Frequent top-and-side trimming | 4.0 amp | 22 in. | 5/8 in. | 6.06 lb. | Check retailer |
-| 4 | BLACK+DECKER BEHT100 | Small shrubs and tighter shaping | 3.0 amp | 16 in. | 5/8 in. | 4.9 lb. | Check retailer |
+| 2 | CRAFTSMAN CMEHTS8022 | Hedges with occasional thicker branches | 3.8 amp | 22 in. | 3/4 in.; Power Saw up to 1.5 in. | 6.8 lb. | Check retailer |
+| 3 | SENIX HTE3.8-L | Full-size trimming at lower listed weight | 3.8 amp | 22-in blade; 20-in cutting length | 0.7 in. | 5.29 lb. | Check retailer |
+| 4 | GARCARE GHT08 | Broad hedges and repeated angle changes | 4.8 amp | 24 in. | 18mm | 7.04 lb. | Check retailer |
+| 5 | BLACK+DECKER BEHT100 | Small shrubs and tighter shaping | 3.0 amp | 16 in. | 5/8 in. | 4.9 lb. | Check retailer |
 
 Prices and availability change. Manufacturers test cutting capacity under their own conditions. Use those figures to compare models, but expect results to vary with wood type, moisture, and blade condition.
 
-Each recommendation has current evidence for the exact model, a publisher-confirmed Amazon destination, and a distinct reason to buy. Start with the layout of your yard. Then compare blade length, cutting capacity, working weight, and the extension cord required to reach every hedge.
+Each recommendation has current evidence for the exact model and a distinct reason to buy. Every selected Amazon catalog identity and affiliate destination is publisher-confirmed, but stock, seller, variation, and redirect health still require a publication-day check. Start with the layout of your yard, then compare blade length, cutting capacity, working weight, and the extension cord required to reach every hedge.
 
 
 ## 1. BLACK+DECKER BEHT350FF: Best Overall
@@ -74,59 +75,83 @@ Each recommendation has current evidence for the exact model, a publisher-confir
 **Cons**
 
 - 6.5-pound weight is higher than the compact BEHT100
-- Fixed rear handle offers fewer angle options than the Greenworks design
+- Fixed rear handle does not rotate for repeated angle changes
 
-## 2. BLACK+DECKER BEHTS300: Best for Occasional Thick Branches
+## 2. CRAFTSMAN CMEHTS8022: Best for Occasional Thick Branches
 
-**Title:** BLACK+DECKER BEHTS300 20-Inch Corded Hedge Trimmer With Sawblade  
-**Slug:** `black-decker-behts300`  
+**Title:** CRAFTSMAN CMEHTS8022 22-Inch Corded Hedge Trimmer With Power Saw
+**Slug:** `craftsman-cmehts8022`
 **Editorial badge:** Best for Occasional Thick Branches  
-**Brand:** BLACK+DECKER
-**ASIN:** `B077ZC3NGZ`
-**Affiliate link:** [Check price on Amazon](https://amzn.to/4pl62vv)
+**Brand:** CRAFTSMAN
+**ASIN:** `B083XJYQXH`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4ypOHpg)
 
-**Summary:** The BEHTS300 adds a sawblade tip for an occasional branch beyond the standard tooth gap. BLACK+DECKER rates it for branches up to 1.5 inches, while the regular blade handles stems up to 3/4 inch. Its 20-inch reach is shorter than the 22-inch picks, and the saw feature cannot replace regular pruning tools.
+**Summary:** The CMEHTS8022 replaces the unavailable BEHTS300 with the same distinct saw-tip job and a longer 22-inch blade. CRAFTSMAN lists a 3.8-amp motor, 3/4-inch standard capacity, and Power Saw use on occasional branches up to 1.5 inches. At about 6.8 pounds, it is heavier than the lightweight picks, and the saw feature does not replace pruning tools.
 
-**Verdict:** Choose the BEHTS300 when isolated thick stems interrupt routine shaping. For consistently woody growth, use suitable loppers or a pruning saw instead during routine maintenance.
+**Verdict:** Choose the CMEHTS8022 when isolated thick stems interrupt routine shaping. Its longer blade improves coverage, but regular woody pruning still belongs to loppers or a saw.
 
 **Pros**
 
-- Sawblade tip has a defined use on occasional branches up to 1.5 inches
+- Power Saw tip has a defined use on occasional branches up to 1.5 inches
 - Standard 3/4-inch capacity matches the overall pick
-- Wraparound handle and cord retention support routine hedge work
-- Costs and stores like one tool rather than a trimmer-plus-saw combination
+- Full bale handle provides several front-hand positions
+- Three-year limited warranty exceeds the selected BLACK+DECKER coverage
 
 **Cons**
 
-- 20-inch blade covers less area per pass than a 22-inch model
-- Saw tip does not make it suitable for regular heavy branch pruning
+- 6.8-pound listed weight is the highest in this group
+- Power Saw tip does not make it suitable for regular heavy branch pruning
 
-## 3. Greenworks 22122: Best Rotating Handle
+## 3. SENIX HTE3.8-L: Best Lightweight Full-Size Trimmer
 
-**Title:** Greenworks 22122 22-Inch Corded Electric Hedge Trimmer  
-**Slug:** `greenworks-22122`  
-**Editorial badge:** Best Rotating Handle  
-**Brand:** Greenworks
-**ASIN:** `B0069Z7JV8`
-**Affiliate link:** [Check price on Amazon](https://amzn.to/44oSmpF)
+**Title:** SENIX HTE3.8-L Corded Electric Hedge Trimmer
+**Slug:** `senix-hte3-8-l`
+**Editorial badge:** Best Lightweight Full-Size Trimmer
+**Brand:** SENIX
+**ASIN:** `B0BPYNBQKP`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4fCzny1)
 
-**Summary:** The Greenworks 22122 combines a full 22-inch blade with a rotating rear handle, making it easier to change hand position between hedge tops and vertical faces. Its manual lists a 5/8-inch capacity and 6.06-pound weight. Older retailer records publish different figures, so this guide uses the more conservative exact-manual values rather than blending specifications across revisions.
+**Summary:** The SENIX HTE3.8-L offers full-size hedge coverage at a 5.29-pound Amazon-listed weight. Its exact manual specifies a 3.8-amp motor, 0.7-inch maximum diameter, cord restraint, and two-hand controls. The manual distinguishes a 22-inch blade from a 20-inch cutting length, so the guide preserves both measurements instead of merging them.
 
-**Verdict:** Pick the Greenworks when changing cutting angles is the main concern. Its rotating handle is useful, but its verified capacity trails the BLACK+DECKER leaders.
+**Verdict:** Choose SENIX when lower listed weight matters during full-size trimming at home. Its strong capacity and warranty compete well, but the blade-length terminology needs careful comparison.
 
 **Pros**
 
-- Rotating rear handle supports top and side cutting positions
-- 22-inch blade covers broad hedge faces
-- Cord lock helps prevent accidental unplugging
-- Four-year limited warranty is longer than the BLACK+DECKER coverage
+- Lowest listed weight among the full-size ranked models
+- 0.7-inch stated maximum diameter approaches the 3/4-inch leaders
+- Exact manual documents cord restraint and two-hand controls
 
 **Cons**
 
-- Verified 5/8-inch capacity trails the 3/4-inch leaders
-- Published weight and capacity conflict across older records
+- Manual and Amazon listing use different blade-length descriptions
+- Less established support history than BLACK+DECKER or CRAFTSMAN
 
-## 4. BLACK+DECKER BEHT100: Best for Small Hedges
+## 4. GARCARE GHT08: Best Rotating Handle
+
+**Title:** GARCARE GHT08 24-Inch Corded Electric Hedge Trimmer
+**Slug:** `garcare-ght08`
+**Editorial badge:** Best Rotating Handle
+**Brand:** GARCARE
+**ASIN:** `B01GJBTWB6`
+**Affiliate link:** [Check price on Amazon](https://amzn.to/4fhw8e1)
+
+**Summary:** The GARCARE GHT08 combines the group's longest 24-inch blade with a rotary rear handle for top-and-side cutting positions. GARCARE lists a 4.8-amp motor, 18mm stated capacity, and 7.04-pound product weight. The extra reach suits broad, flat hedge faces but is less nimble around compact shrubs and confined garden corners.
+
+**Verdict:** Pick the GHT08 for broad hedge faces and frequent angle changes. Its 24-inch blade improves coverage but gives up compact-model maneuverability in tighter garden spaces.
+
+**Pros**
+
+- Rotary rear handle supports horizontal and vertical cutting positions
+- 24-inch blade provides the longest reach in this group
+- Dual safety switches help prevent accidental starts
+- Cord retainer and blade cover are included
+
+**Cons**
+
+- Long blade is less nimble around compact shrubs
+- One-year warranty trails the selected CRAFTSMAN coverage
+
+## 5. BLACK+DECKER BEHT100: Best for Small Hedges
 
 **Title:** BLACK+DECKER BEHT100 16-Inch Electric Hedge Trimmer  
 **Slug:** `black-decker-beht100`  
@@ -158,7 +183,7 @@ This is a research-based roundup. WhoAdvice did not conduct hands-on testing. We
 
 We set the ranking weights before assigning the awards: cutting fit 30%, control and handling 25%, value 15%, safety and maintenance 15%, and availability and support 15%. We did not award points when information was missing. We also rejected older models without current US manufacturer documentation, even when marketplace listings remained active.
 
-We found no CPSC recall matching BEHT350FF, BEHTS300, Greenworks 22122, or BEHT100. A 1996 BLACK+DECKER recall covers different TR-series models and should not be confused with the BEHT products selected here. Recall status still needs a final live check before publication.
+We found no CPSC recall matching BEHT350FF, CMEHTS8022, SENIX HTE3.8-L, GARCARE GHT08, or BEHT100 in exact-model searches on July 16, 2026. A 1985 CRAFTSMAN recall covers model 315.796640, not CMEHTS8022, and a 1996 BLACK+DECKER recall covers different TR-series models. Recall status still needs a final live check before publication.
 
 ## Which corded hedge trimmer type fits your yard?
 
@@ -176,9 +201,13 @@ A shorter blade brings the cutting action closer to your hands and improves plac
 
 A saw tip gives the tool a separate way to address an occasional branch that exceeds the normal tooth gap. It suits mixed maintenance where a few thicker stems interrupt otherwise routine shaping. The higher purchase price is difficult to justify if you already own suitable loppers or a pruning saw.
 
-### Rotating-handle trimmers
+### Rotating-handle 24-inch trimmers
 
-A rotating rear handle changes wrist position as you move between the top and face of a hedge. This format suits long rectangular hedges that require repeated horizontal and vertical passes. The extra mechanism matters less when you maintain only a few small shrubs.
+A rotating rear handle changes wrist position as you move between long horizontal sweeps and vertical cuts. A 24-inch blade suits broad, regularly maintained hedges where coverage matters. The extra length is less useful around small ornamental shrubs or confined corners.
+
+### Lightweight full-size trimmers
+
+A lower listed weight can reduce the load during repeated vertical and shoulder-height passes without dropping to a compact blade. This format suits maintained medium hedges where coverage and fatigue both matter. Published weight cannot establish balance, so compare handle layout and return options as well.
 
 ## How to choose the best corded hedge trimmer for your yard
 
@@ -226,7 +255,7 @@ A 22-inch blade is useful for broad hedge faces but can feel excessive around sm
 
 ### Can a hedge trimmer cut 1-inch branches?
 
-Use loppers or a pruning saw for regular 1-inch branches. Most standard corded trimmers in this guide are not designed for that work. BLACK+DECKER rates the BEHTS300 sawblade tip for occasional branches up to 1.5 inches.
+Use loppers or a pruning saw for regular 1-inch branches. Most standard corded trimmers in this guide are not designed for that work. CRAFTSMAN rates the CMEHTS8022 Power Saw tip for occasional branches up to 1.5 inches.
 
 ### Is a corded hedge trimmer worth buying in 2026?
 
@@ -234,4 +263,4 @@ Yes, when the entire hedge is close to a suitable outlet and you value low purch
 
 ## Final decision
 
-Choose corded power only if the cable route is simple. When it is, the BLACK+DECKER BEHT350FF offers the best balance of coverage, capacity, handling, and value. The Greenworks 22122 adds a rotating handle for repeated top-and-side work, while the BEHT100 is easier to guide around compact shrubs. Choose the BEHTS300 only when its sawblade tip solves a real occasional branch-cleanup problem. Include the correct outdoor extension cord in your budget and final decision.
+Choose corded power only if the cable route is simple. When it is, the BLACK+DECKER BEHT350FF offers the best balance of coverage, capacity, handling, and value. SENIX is the lighter full-size choice, GARCARE adds a 24-inch blade and rotating handle, and the BEHT100 is easier to guide around compact shrubs. Choose the CRAFTSMAN CMEHTS8022 only when its Power Saw tip solves a real occasional branch-cleanup problem. Include the correct outdoor extension cord in your budget and final decision.

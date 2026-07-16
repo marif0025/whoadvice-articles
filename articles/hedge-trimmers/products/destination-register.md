@@ -1,7 +1,7 @@
 # Hedge-trimmer Amazon destination register
 
 **Market:** Amazon.com, United States  
-**Last synchronized:** July 15, 2026
+**Last synchronized:** July 16, 2026
 **Authority:** The individual product files in this folder remain the source of truth.
 
 | Exact product/package | ASIN | Affiliate key | Publisher-confirmed link | Used in |
@@ -11,8 +11,13 @@
 | BLACK+DECKER BEHT350FF, 22-inch corded tool | `B07CBYR1DN` | `black-decker-beht350ff` | https://amzn.to/4wHuTw2 | Main, corded |
 | WORX WG261, 22-inch kit with 2.0 Ah battery and charger | `B07MVLYF7L` | `worx-wg261` | https://amzn.to/3RAd1UP | Main, cordless |
 | DEWALT DCPH820M1, pole-trimmer kit with 4.0 Ah battery and charger | `B084CZXM9V` | `dewalt-dcph820m1` | https://amzn.to/3RDs8Nf | Main |
-| BLACK+DECKER BEHTS300, 20-inch corded saw-tip tool | `B077ZC3NGZ` | `black-decker-behts300` | https://amzn.to/4pl62vv | Corded |
-| Greenworks 22122, 22-inch corded tool | `B0069Z7JV8` | `greenworks-22122` | https://amzn.to/44oSmpF | Corded |
+| CRAFTSMAN CMEHTS8022, 22-inch corded Power Saw tool | `B083XJYQXH` | `craftsman-cmehts8022` | https://amzn.to/4ypOHpg | Corded |
+| SENIX HTE3.8-L, corded hedge trimmer | `B0BPYNBQKP` | `senix-hte3-8-l` | https://amzn.to/4fCzny1 | Corded |
+| Grasstigon corded rotating-handle trimmer | `B0H11GY76S` | `grasstigon-b0h11gy76s` | https://amzn.to/4fdAcvW | Corded candidate |
+| GARCARE GHT08, 24-inch corded rotating-handle tool | `B01GJBTWB6` | `garcare-ght08` | https://amzn.to/4fhw8e1 | Corded |
+| GARCARE GPHT06, corded convertible pole/handheld tool | `B01GJCN1KI` | `garcare-gpht06` | https://amzn.to/4vyfa1m | Pole |
+| Earthwise CVPH43018, corded convertible pole/handheld tool | `B06XJ68XW9` | `earthwise-cvph43018` | https://amzn.to/4bwjhnh | Pole |
+| Sun Joe SJH904E, corded convertible pole/handheld tool | `B073FML6SR` | `sun-joe-sjh904e` | https://amzn.to/4ppeidX | Pole |
 | BLACK+DECKER BEHT100, 16-inch corded tool | `B08LYYWBWN` | `black-decker-beht100` | https://amzn.to/4w2fUNj | Corded |
 | Greenworks HT40B212, 24-inch kit with 2.0 Ah battery and charger | `B086PSCXJT` | `greenworks-ht40b212` | https://amzn.to/4fzLOuA | Cordless |
 | EGO HT2501, 25-inch kit with 2.5 Ah battery and charger | `B09C2S51F5` | `ego-ht2501` | https://amzn.to/4bG0p5c | Cordless |

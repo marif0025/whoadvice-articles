@@ -9,9 +9,9 @@ audience: US homeowners who need more reach than a standard hedge trimmer provid
 region: United States
 currency: USD
 evidence_model: Exact-model manufacturer pages and manuals, CPSC records, current retailer destinations, transparent independent tests, and community questions; no WhoAdvice hands-on testing
-research_date: July 15, 2026
-proposed_product_count: 5
-approval_status: Part 1 approved after editorial corrections; ready for Part 2
+research_date: July 16, 2026
+proposed_product_count: 8 including one specialist gas alternative
+approval_status: Rescored and approved for synchronized article update
 ```
 
 ## Reader decision
@@ -59,6 +59,9 @@ The evidence score below measures how well a product fits the researched decisio
 | CRAFTSMAN CMCPHT818D1 kit | Exact kit; ASIN `B083WQ1LBC`; publisher approved | Current independent test, 18-in blade, 3/4-in stated capacity, 5 positions, complete 2.0 Ah kit | 7.9-lb retailer figure conflicts with Popular Mechanics' just-under-11-lb tested setup | Yes |
 | WORX WG252.9 bare tool | Exact bare tool; ASIN `B07W8RXJ8B`; publisher approved | Official 7.6-lb loaded figure, telescopic shaft, rotating handle, 20-in blade | Selected package excludes battery and charger; calculate complete working cost in Part 2 | Yes |
 | BLACK+DECKER LPHT120B — bare tool; battery and charger not included | Exact bare tool; ASIN `B00AZW9Y9G`; publisher approved | Supported family/manual, 7.7-lb brand-listed figure, simple 5-position head | Lowest stated capacity; official LPHT120 kit page cannot establish LPHT120B package contents | Yes |
+| GARCARE GPHT06 | Exact model; ASIN `B01GJCN1KI`; publisher Special Link confirmed | Corded 2-in-1 handheld/pole design, 20-in blade, 3/4-in stated capacity, telescopic reach, 6-position head, rotating rear handle | Extended configuration is heavy; exact working weight, manual, and warranty require publication check | Yes as corded alternative |
+| Sun Joe SJH904E | Exact model; ASIN `B073FML6SR`; publisher Special Link confirmed | 4.5 amp, 19-in blade, convertible design, 3.8-to-5.9-ft pole, multi-angle head, 9.5-lb weight, two-year warranty, current demand | Cord route and full-extension leverage | Yes |
+| Earthwise CVPH43018 | Exact model; ASIN `B06XJ68XW9`; publisher Special Link confirmed | Official page and exact manual; 4.5 amp, 18-in blade, 0.7-in capacity, 8.8-ft extended length, 9.7-lb weight, strap and cover | Shorter blade and cord route | Yes |
 | Husqvarna 122LKH | Exact model; ASIN `B0DQ725L11`; publisher approved | Manufacturer specs plus independent cutting/reach/strap observations; attachment system | Heavy gas ownership burden; standard accessories remain a publication-day package check | Yes as specialist gas alternative |
 
 ## Programmatically checked evidence scores
@@ -70,8 +73,11 @@ The weighted totals were recalculated from the displayed criterion values with t
 | DEWALT DCPH820M1 kit | 4.8 | 4.0 | 5.0 | 5.0 | 4.5 | 4.5 | 4.60/5 |
 | CRAFTSMAN CMCPHT818D1 kit | 4.2 | 4.5 | 4.0 | 4.5 | 4.5 | 4.5 | 4.33/5 |
 | WORX WG252.9 bare tool | 4.7 | 4.5 | 3.1 | 2.5 | 4.2 | 3.5 | 3.94/5 |
+| Sun Joe SJH904E | 4.3 | 3.4 | 3.6 | 4.4 | 4.1 | 4.3 | 3.93/5 |
+| Earthwise CVPH43018 | 4.2 | 3.3 | 3.7 | 4.3 | 4.2 | 4.1 | 3.88/5 |
 | Husqvarna 122LKH | 4.2 | 3.4 | 4.4 | 4.2 | 3.2 | 3.0 | 3.82/5 |
 | BLACK+DECKER LPHT120B bare tool | 4.0 | 4.1 | 2.5 | 2.5 | 4.0 | 3.8 | 3.56/5 |
+| GARCARE GPHT06 | 4.5 | 2.7 | 3.9 | 4.2 | 2.5 | 2.5 | 3.50/5 |
 
 DEWALT's 4.0 control score already includes a 0.5-point uncertainty penalty: seven head positions, a shoulder strap, and a defined fixed-shaft design support control-related utility, but no verified complete operating weight or strong exact-model handling test supports a higher score.
 
@@ -82,7 +88,10 @@ DEWALT's 4.0 control score already includes a 0.5-point uncertainty penalty: sev
 1. DEWALT DCPH820M1 — Best Overall
 2. CRAFTSMAN CMCPHT818D1 — Best Independently Tested Homeowner Option
 3. WORX WG252.9 — Best Telescopic Design
-4. BLACK+DECKER LPHT120B — Best for Light Maintenance
+4. Sun Joe SJH904E — Best Corded Convertible
+5. Earthwise CVPH43018 — Best Documented Corded Value
+6. BLACK+DECKER LPHT120B — Best for Light Maintenance
+7. GARCARE GPHT06 — Best Corded Adjustment Range
 
 ### Specialist alternative
 
@@ -104,9 +113,21 @@ It has the best current hands-on evidence for the actual buyer decision. Popular
 
 WORX provides a clearly defined 7.6-lb weight with battery, plus telescoping adjustment, head articulation, and a rotating handle. It gives up stated capacity and blade speed, and the approved Amazon package is a bare tool. The award is based on adjustment design, not a marginal and inconsistently measured weight comparison.
 
-### 4. BLACK+DECKER LPHT120B — Best for Light Maintenance
+### 4. Sun Joe SJH904E — Best Corded Convertible
+
+Sun Joe leads the corded subgroup because exact identity, dimensions, weight, warranty, current demand, and publisher destination are documented. Its cable route and 9.5-pound extended load remain the central tradeoffs.
+
+### 5. Earthwise CVPH43018 — Best Documented Corded Value
+
+Earthwise follows closely with an official page and exact manual, 8.8-foot extended length, included strap and cover, and a 0.7-inch stated capacity. Its shorter blade and slightly higher weight place it behind Sun Joe.
+
+### 6. BLACK+DECKER LPHT120B — Best for Light Maintenance
 
 The 7/16-inch stated capacity limits it to regularly maintained, thinner growth. The appeal is a supported 20V MAX platform, five head positions, and a low brand-listed weight whose measurement basis remains unclear. The exact title and table entry must say “BLACK+DECKER LPHT120B — Bare tool; battery and charger not included.” It should never be framed for woody renovation cuts.
+
+### 7. GARCARE GPHT06 — Best Corded Adjustment Range
+
+GARCARE offers six head positions, a rotating rear handle, and convertible reach, but unresolved exact working weight, manual, and warranty evidence reduce its score. It remains useful when adjustment range matters and the cable route is simple.
 
 ### Specialist: Husqvarna 122LKH — Best Gas Alternative
 
@@ -121,14 +142,16 @@ The exact model has a 21.6cc two-cycle engine, 21-inch blade, 0.75-inch manufact
 | Greenworks 60V pole kit | Deferred | Retailer specs surfaced, but exact manufacturer model/package normalization and Amazon destination were not completed |
 | Scotts LPHT12122S | Deferred | Retailer listing surfaced; manufacturer support and exact Amazon destination remain unresolved |
 | Sun Joe 24V-PHT17-LTE | Rejected for current shortlist | Older deal evidence exists, but current official availability and exact Amazon offer could not be established |
-| Earthwise CVPH43018 | Rejected | Previously researched in the corded roundup; publisher found no current Amazon offer |
+| Sun Joe SJH904E, ASIN `B073FML6SR` | Selected at rank 4 | Current Amazon US listing shows demand and exact identity; manual evidence supports the 19-in blade, 4.5-amp motor, convertible design, 3.8-to-5.9-ft pole, multi-angle head, and 9.5-lb listed weight. |
+| Grasstigon corded rotating-handle trimmer, ASIN `B0H11GY76S` | Deferred | Amazon listing supplied by publisher, but no exact model number, official product page, manual, warranty record, or established support trail was located. New brand demand alone is insufficient for ranking. |
+| Earthwise CVPH43018, ASIN `B06XJ68XW9` | Selected at rank 5 | Publisher-confirmed available on Amazon US; official manufacturer page and exact manual support 4.5 amp, 18-in blade, 8.8-ft extended length, 0.7-in stated capacity, 9.7-lb weight, convertible design, strap, and blade cover. |
 | Marketplace-only SOYUS and similar models | Rejected | Weak manufacturer/manual/support evidence and unstable model identity relative to established alternatives |
 
 No active shared product file was created for rejected or deferred candidates.
 
 ## Recall review
 
-- No exact-model recall was identified in the CPSC search conducted on July 15, 2026 for DCPH820M1, CMCPHT818D1, WG252/WG252.9, LPHT120/LPHT120B, or 122LKH. This is a dated research finding, not a lasting product benefit.
+- No exact-model recall was identified in CPSC searches conducted through July 16, 2026 for DCPH820M1, CMCPHT818D1, WG252/WG252.9, SJH904E, CVPH43018, LPHT120/LPHT120B, GPHT06, or 122LKH. This is a dated research finding, not a lasting product benefit.
 - Search results did surface unrelated historical CRAFTSMAN, BLACK+DECKER, WORX, and Husqvarna recalls. Those model numbers must not be generalized to the selected products.
 - The 2025 RYOBI 40V 24-inch handheld hedge-trimmer recall does not identify P26100, but it reinforces the need for model-level rather than brand-level recall checks.
 - Recheck the live CPSC database immediately before publication.
@@ -172,10 +195,10 @@ No active shared product file was created for rejected or deferred candidates.
 
 1. Reconcile CRAFTSMAN's 7.9-lb retailer figure with Popular Mechanics' just-under-11-lb tested figure.
 2. Obtain an official complete working weight for DEWALT DCPH820M1 or label it unresolved.
-3. Run normal prepublication link-health checks for the four publisher-approved raw Amazon destinations; these checks do not block Part 2.
+3. Run normal prepublication link-health checks for all eight publisher-approved raw Amazon destinations; these checks do not block publication.
 4. Confirm current seller, fulfillment, stock, price, exact variation, and Husqvarna standard accessories immediately before publication.
-5. Publisher-confirmed Special Links are recorded for all five selected products. Recheck redirect destinations and exact variations before publication; this does not block Part 2.
+5. Publisher-confirmed Special Links are recorded for all eight selected products. Recheck redirect destinations and exact variations before publication.
 
 ## Part 1 approval outcome
 
-The five-product shortlist, four-product mainstream homeowner order, separate Husqvarna specialist alternative, exact packages, and buyer-oriented awards are approved. The corrected packet is ready for Part 2. Preserve the documented weight limitations, bare-tool distinctions, dated recall language, and DCPH675Y1 deferral in the article contract.
+The seven-product mainstream homeowner order, separate Husqvarna specialist alternative, exact packages, and buyer-oriented awards are approved after rescoring. Preserve the documented weight limitations, bare-tool distinctions, dated recall language, and DCPH675Y1 deferral in the article contract.

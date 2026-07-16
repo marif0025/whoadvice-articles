@@ -1,11 +1,11 @@
 # Best Pole Hedge Trimmers — Part 2 Article Contract
 
-Status: **EDITORIALLY APPROVED FOR PART 3.** Research, products, architecture, packages, awards, public fields, and claim boundaries are fixed.
+Status: **RESCORED JULY 16, 2026.** Seven homeowner recommendations plus one specialist gas alternative are approved.
 
 ## Core direction
 
 - Primary keyword: **best pole hedge trimmers**
-- SEO title: **5 Best Pole Hedge Trimmers for Tall Hedges (2026)**
+- SEO title: **8 Best Pole Hedge Trimmers for Tall Hedges (2026)**
 - H1: **The Best Pole Hedge Trimmers for Reach and Control**
 - Recommended slug: **`/garden-tools/best-pole-hedge-trimmers/`**
 - Meta description: **Compare the best pole hedge trimmers for tall hedges, including cordless, telescopic, and gas options, with clear reach, weight, and package tradeoffs.**
@@ -36,14 +36,17 @@ public_community_names_allowed: false
 
 1. DEWALT DCPH820M1 — Best Overall
 2. CRAFTSMAN CMCPHT818D1 — Best Independently Tested Homeowner Option
-3. WORX WG252.9 — Best Telescopic Design
-4. BLACK+DECKER LPHT120B — Best for Light Maintenance
+3. Sun Joe SJH904E — Best Corded Convertible
+4. Sun Joe SJH904E — Best Corded Convertible
+5. Earthwise CVPH43018 — Best Documented Corded Value
+6. BLACK+DECKER LPHT120B — Best for Light Maintenance
+7. GARCARE GPHT06 — Best Corded Adjustment Range
 
 ### Separate specialist alternative
 
 - Husqvarna 122LKH — Best Gas Alternative
 
-The first four products are the numbered mainstream homeowner order. Husqvarna must appear in a visually separate, unnumbered specialist section after those four reviews. Do not call it fifth place. Its evidence score exceeds BLACK+DECKER's, but its approximately 15-lb weight, two-cycle engine, noise, exhaust, and maintenance create a different ownership decision.
+The first seven products are the numbered mainstream homeowner order. Husqvarna must appear in a visually separate, unnumbered specialist section after those seven reviews. Its approximately 15-lb weight, two-cycle engine, noise, exhaust, and maintenance create a different ownership decision.
 
 ### Top-pick cards
 
@@ -369,15 +372,16 @@ Use this order:
 1. Restate reach versus controllability as the primary decision.
 2. Name DEWALT DCPH820M1 as the strongest verified specification/package combination, while stating that complete working weight is not published or independently verified.
 3. Direct readers prioritizing attributed control-at-height evidence to CRAFTSMAN.
-4. Direct readers needing adjustable shaft length to WORX and light-maintenance platform owners to BLACK+DECKER.
-5. Mention Husqvarna only as the specialist gas alternative for workloads that justify its weight and maintenance.
-6. End by directing thick woody limbs to an appropriate pruning tool rather than maximizing a hedge-trimmer capacity claim.
+4. Direct readers needing adjustable cordless shaft length to WORX.
+5. Summarize Sun Joe as the leading corded convertible, Earthwise as the documented corded value, and GARCARE as the adjustment-focused option with larger evidence gaps.
+6. Mention Husqvarna only as the specialist gas alternative for workloads that justify its weight and maintenance.
+7. End by directing thick woody limbs to an appropriate pruning tool rather than maximizing a hedge-trimmer capacity claim.
 
-Do not turn the conclusion into a five-product roll call or use generic “something for everyone” language.
+Do not turn the conclusion into a product roll call or use generic “something for everyone” language.
 
 ## Immediately-before-publication checks
 
-- Recheck all five publisher-confirmed affiliate redirects, raw Amazon destinations, exact variations, seller, fulfillment, price, stock, and package contents.
+- Recheck all eight publisher-confirmed affiliate redirects, raw Amazon destinations, exact variations, seller, fulfillment, price, stock, and package contents.
 - Confirm CRAFTSMAN's weight conflict remains accurately labeled; do not replace the tested setup weight with the unexplained retailer figure.
 - Retain **Not published or independently verified** for DEWALT operating weight unless a current exact-model source resolves it.
 - Confirm WORX and BLACK+DECKER remain bare-tool destinations. Do not publish static battery/charger prices without an approved refresh mechanism.

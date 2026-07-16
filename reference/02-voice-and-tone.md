@@ -184,6 +184,22 @@ Example pattern:
 
 > This is the strongest fit for dry, coarse curls because the formula emphasizes conditioning oils and a richer cream base. Reviewers with thicker textures frequently praise its slip and definition, while people with fine hair are more likely to describe it as heavy. Choose it when moisture matters more than volume.
 
+## Human-centered decision devices
+
+Use these devices selectively. They should make a choice faster or a rule easier to apply, not make every article follow the same visible template.
+
+- **Real-life scenarios:** Use a short, plausible situation grounded in known product constraints: hedge height, outlet route, battery ownership, bathroom space, skin sensitivity, or budget. Write it as an example, not as something WhoAdvice personally experienced.
+- **Quick summaries:** Give the answer early. In a roundup, approved top-pick cards can serve this role. Do not restate the same winners again in a second summary box.
+- **Who should buy this:** Make the intended buyer and disqualifying tradeoff explicit. Prefer an original Summary or Verdict over a repeated heading on every product card unless the article contract approves that field.
+- **Decision boxes:** Use when a reader faces two or more clear branches. Write short if/then rules and preserve nuance in the surrounding prose.
+- **Comparison callouts:** Name the competing options and the condition that changes the better choice: “Choose A for X; choose B when Y matters more.”
+- **Mini tips:** Use one concrete action, measurement, compatibility check, or safety reminder. Avoid vague labels followed by ordinary prose.
+- **Visual suggestions:** Propose a visual only when it explains dimensions, sequence, fit, or comparison more clearly than prose. Exact products require exact-model or properly licensed imagery.
+
+Emotional connection comes from recognizing the real consequence of a poor choice—wasted money, repeated passes, fatigue, awkward setup, irritation, or uncertainty—and resolving it honestly. Never simulate intimacy with “we know how frustrating this is,” fictional anecdotes, or unsupported sensory experience.
+
+Specifications should support judgment, not dominate the voice. Keep the number when it changes the decision, translate it into a consequence, and move the remaining catalog data to a comparison table or research record.
+
 ## Tone by article type
 
 ### Best-product roundup
@@ -315,3 +331,7 @@ Before approving copy, confirm:
 - Product paragraphs do not follow an identical sentence template.
 - The tone is helpful rather than promotional.
 - The language is original and not copied from reference articles.
+- Concrete scenarios clarify difficult decisions without pretending they happened to the writer.
+- The intended buyer and meaningful exclusion are easy to identify.
+- Boxes, callouts, tips, and quick summaries are useful rather than repetitive decoration.
+- Emotional language recognizes a real consequence and leads to practical guidance.

@@ -273,17 +273,21 @@ Choose a heavier-duty design when thicker maintained growth or a long hedge face
 
 ### Compare battery platform, capacity, runtime and charger speed
 
-Existing platform ownership can be decisive. A compatible battery may reduce the need for another charger and make a tool-only version economical. Confirm the exact platform and connector; equal voltage labels do not make batteries interchangeable.
+<callout>
 
-If this is your first tool on a battery platform, compare kits that include both the battery and charger. Amp-hours describe charge capacity within a platform, while watt-hours help compare stored energy; neither tells you exactly how long a trimming session will last. Brand runtime tests use different conditions, and WORX's published answers conflict.
+> **Battery-package decision**
+>
+> - **Already own the exact platform?** Compare bare-tool and kit prices. A kit may provide a lower-cost spare battery.
+> - **Starting a new platform?** Price the tool, battery, and charger together.
+> - **Trimming a larger property?** Check attributed runtime, charger speed, and spare-battery cost. Voltage alone cannot predict the session.
 
-Also check charger speed. A small battery paired with a slow charger may be fine for short weekly touch-ups but frustrating during a large-yard workload. A second compatible battery can extend a session, though its price and added ownership cost belong in the decision.
+</callout>
+
+Confirm the exact platform and connector because equal voltage labels do not make batteries interchangeable. Amp-hours describe charge capacity within a platform, while watt-hours help compare stored energy; neither establishes runtime under your hedge conditions. Brand tests use different methods, and WORX's published runtime answers conflict.
 
 ### Compare the complete kit cost and long-term ownership cost
 
-The visible tool price is only part of the purchase. Add the required battery, charger, possible spare battery, blade maintenance, and replacement support. A tool-only listing can look inexpensive until a first-time buyer adds power components. When every hedge is close to an outlet, [corded hedge trimmers](/garden-tools/best-corded-hedge-trimmers/) offer a lower-cost route without a battery package.
-
-Platform owners face the opposite issue: another complete kit may duplicate chargers but provide a useful spare battery at a lower combined price than buying that battery separately. Compare exact kit contents rather than model-family marketing. Prices change too frequently to treat a temporary discount as a permanent product advantage.
+The visible tool price is only part of the purchase. Add blade maintenance, replacement support, and the power components identified in the decision box. Compare exact kit contents rather than model-family marketing, and do not treat a temporary discount as a permanent advantage. When every hedge is close to an outlet, [corded hedge trimmers](/garden-tools/best-corded-hedge-trimmers/) offer a lower-cost route without a battery package.
 
 Long-term value also includes whether compatible batteries remain widely available, whether the gearbox or blade can be serviced, and whether warranty support is clear. The lowest checkout price is not automatically the lowest ownership cost.
 

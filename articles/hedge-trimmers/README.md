@@ -18,6 +18,7 @@ This directory is the shared workspace for the WhoAdvice hedge-trimmer content c
 - `audits/` — cluster-wide hierarchy, topology, consistency, and final-readiness audit records
 - `content-strategy.md` — canonical keyword ownership, content priorities, cannibalization boundaries, and expansion roadmap
 - `research/` — dated cluster-level discovery inputs, including raw keyword exports and question banks that apply across multiple articles
+- `publisher-cms-guide.md` — publisher entry point for moving the seven completed drafts into the CMS and recording publication-day checks
 
 Keep durable cluster navigation and strategy at this root. Put cluster-wide audit reports in `audits/`. Keep an article-specific `audit.md` inside its article folder when the report applies only to that package.
 

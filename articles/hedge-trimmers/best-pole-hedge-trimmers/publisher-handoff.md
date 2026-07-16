@@ -16,16 +16,16 @@ long_tail_keywords_used:
   - pole trimmer for tall hedges
   - how much reach do I need for a tall hedge
   - bare tool or battery-and-charger kit
-seo_title: 5 Best Pole Hedge Trimmers for Tall Hedges (2026)
+seo_title: 8 Best Pole Hedge Trimmers for Tall Hedges (2026)
 h1: The Best Pole Hedge Trimmers for Reach and Control
 meta_description: Compare the best pole hedge trimmers for tall hedges, including cordless, telescopic, and gas options, with clear reach, weight, and package tradeoffs.
 canonical: /garden-tools/best-pole-hedge-trimmers/
 recommended_slug: /garden-tools/best-pole-hedge-trimmers/
-article_excerpt: Compare usable reach, working weight, head adjustment, and complete package cost across four homeowner pole trimmers and one specialist gas alternative.
+article_excerpt: Compare usable reach, working weight, head adjustment, and complete package cost across seven homeowner pole trimmers and one specialist gas alternative.
 category: Garden Tools
 recommended_tags: [hedge trimmers, pole hedge trimmers, cordless garden tools]
 affiliate_links_approved: true
-ranked_products: 4
+ranked_products: 7
 specialist_alternative: Husqvarna 122LKH
 featured_image_filename: best-pole-hedge-trimmers.webp
 featured_image_alt_text: Exact pole hedge trimmer models selected for tall residential hedges
@@ -34,7 +34,7 @@ suggested_schema_types: [Article, BreadcrumbList, ItemList]
 
 ## CMS metadata
 
-- SEO title: `5 Best Pole Hedge Trimmers for Tall Hedges (2026)`
+- SEO title: `8 Best Pole Hedge Trimmers for Tall Hedges (2026)`
 - H1: `The Best Pole Hedge Trimmers for Reach and Control`
 - Meta description: `Compare the best pole hedge trimmers for tall hedges, including cordless, telescopic, and gas options, with clear reach, weight, and package tradeoffs.`
 - Canonical: `/garden-tools/best-pole-hedge-trimmers/`
@@ -44,9 +44,12 @@ suggested_schema_types: [Article, BreadcrumbList, ItemList]
 1. DEWALT DCPH820M1 — Best Overall
 2. CRAFTSMAN CMCPHT818D1 — Best Independently Tested Homeowner Option
 3. WORX WG252.9 — Best Telescopic Design
-4. BLACK+DECKER LPHT120B — Best for Light Maintenance
+4. Sun Joe SJH904E — Best Corded Convertible
+5. Earthwise CVPH43018 — Best Documented Corded Value
+6. BLACK+DECKER LPHT120B — Best for Light Maintenance
+7. GARCARE GPHT06 — Best Corded Adjustment Range
 
-Husqvarna 122LKH is an unnumbered specialist gas alternative and must remain outside the four-product homeowner ranking.
+Husqvarna 122LKH is an unnumbered specialist gas alternative and must remain outside the seven-product homeowner ranking.
 
 In CMS product components, render the heading/title as the exact brand and model only. Render each award separately in the Editorial badge field. Do not append the badge to the product title.
 
@@ -58,6 +61,9 @@ In CMS product components, render the heading/title as the exact brand and model
 | CRAFTSMAN CMCPHT818D1 kit | `https://amzn.to/44qzyGB` |
 | WORX WG252.9 bare tool | `https://amzn.to/4hel9ol` |
 | BLACK+DECKER LPHT120B bare tool | `https://amzn.to/3QYflF0` |
+| GARCARE GPHT06 | `https://amzn.to/4vyfa1m` |
+| Sun Joe SJH904E | `https://amzn.to/4ppeidX` |
+| Earthwise CVPH43018 | `https://amzn.to/4bwjhnh` |
 | Husqvarna 122LKH | `https://amzn.to/3SSCJnY` |
 
 Render commercial buttons with `rel="sponsored"`. Immediately before publication, check every redirect, raw Amazon destination, exact variation, seller, fulfillment, stock, and package contents. WORX and BLACK+DECKER must remain labeled as bare tools unless their approved destinations change.
@@ -92,11 +98,19 @@ No new generated images are required. Use exact-model product photography alread
 - Do not show WORX or BLACK+DECKER as battery-and-charger kits unless the image is clearly labeled as platform compatibility rather than package contents.
 - Write descriptive exact-model alt text; do not repeat the primary keyword mechanically.
 
+### Supporting decision graphic
+
+- Purpose: separate physical tool or shaft length from a manufacturer maximum-reach claim that includes an assumed user height and arm position.
+- Layout: a simple two-panel diagram. The first panel labels the tool's physical length from handle to blade tip. The second shows the same tool held by a generic six-foot user and labels the combined figure as user-inclusive claimed reach.
+- Caption: `Tool length and user-inclusive reach are different measurements; check the assumptions behind every maximum-reach claim.`
+- Alt text: `Diagram comparing a pole hedge trimmer's physical tool length with a user-inclusive maximum-reach claim`
+- Keep all explanatory measurements and caveats in HTML text. Do not invent a universal reach figure or imply that advertised reach is a safe working height.
+
 ## Structured data
 
 - Use `Article` or `BlogPosting` with accurate author, reviewer, headline, dates, and lead image.
 - Use `BreadcrumbList` only when visible breadcrumbs match it.
-- If using `ItemList`, include only the four ranked homeowner products in positions 1–4.
+- If using `ItemList`, include the seven ranked homeowner products in positions 1–7; keep the unnumbered Husqvarna specialist alternative outside that list.
 - Keep Husqvarna outside the ordered list; omit `ItemList` if the CMS cannot preserve this distinction.
 - Do not publish `Review` or `AggregateRating` schema, invent ratings from evidence scores, or imply first-party testing.
 - Do not add static offer prices or availability unless the CMS maintains them reliably.
@@ -104,7 +118,7 @@ No new generated images are required. Use exact-model product photography alread
 ## Publication freshness checks
 
 - Exact-model CPSC recall search repeated July 15, 2026; no exact-model recall result identified. Repeat if publication occurs on a later date.
-- All five publisher-confirmed short links were checked July 15, 2026 and redirected to the recorded ASINs.
+- All eight publisher-confirmed short links must be rechecked against their recorded ASINs immediately before publication.
 - Retain `Not published or independently verified` for DEWALT working weight unless an exact-model source resolves it.
 - Reconfirm the CRAFTSMAN weight conflict and keep the independent tested-setup attribution.
 - Confirm Husqvarna's current standard accessories and warranty; do not promise a strap unless the exact package includes it.

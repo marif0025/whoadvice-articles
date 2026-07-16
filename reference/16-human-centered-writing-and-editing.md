@@ -104,6 +104,21 @@ Use these devices only when they improve comprehension.
 
 One effective device is better than several decorative ones.
 
+## Decision-support components
+
+Treat quick summaries, decision boxes, “who should buy this” guidance, comparison callouts, mini tips, and visual suggestions as optional decision tools, not mandatory furniture.
+
+1. Add a quick summary when a reader benefits from an immediate route into a long page. Approved top-pick cards already satisfy this need in many roundups.
+2. Add a real-life scenario when it converts an abstract constraint into a recognizable choice. Keep it hypothetical and evidence-safe unless a named contributor supplied the experience.
+3. State who should buy a recommendation and who should skip it, but use existing Summary, Verdict, award, best-for, and caveat fields before creating another repeated subheading.
+4. Use a decision box for a branching choice. It should contain concise if/then rules, not a duplicate buying guide.
+5. Use a comparison callout when two close options need a direct tie-breaker.
+6. Use a mini tip for one concrete action or check. Do not scatter generic tips through every section.
+7. Suggest a visual only when it materially clarifies a relationship, measurement, sequence, or product difference. Put implementation details in the publisher handoff.
+8. Select FAQs from real buyer intent. Answer genuine secondary questions and remove questions already resolved clearly in the main body.
+
+These devices do not justify specification overload. Move comprehensive data to tables and retain in prose only the figures that change the reader's choice. They also do not justify fake empathy: recognize the consequence, explain the tradeoff, and give the reader a usable next step.
+
 ## Separate writing from editing
 
 Never treat a generated first draft as publication-ready. Edit in this order so surface polishing does not hide structural weakness.

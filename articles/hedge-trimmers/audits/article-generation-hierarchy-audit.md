@@ -19,7 +19,7 @@ The hub should answer **which power/reach format fits the garden and which mixed
 | Article | Canonical role | Primary keyword | Main decision | Current coverage | Verdict |
 |---|---|---|---|---|---|
 | `best-hedge-trimmers/article.md` | Parent hub | `best hedge trimmer` | Choose corded, cordless, standard handheld, or pole reach, then select a representative exact model | Mixed-format ranking; power types; hedge size, reach, cord route, battery package, and blade/capacity guidance | **Pass — broad parent intent is clear** |
-| `best-corded-hedge-trimmers/article.md` | Corded leaf | `best corded hedge trimmer` | Confirm a cord is practical, then compare blade size, stated capacity, weight, handles, cord retention, and complete extension-cord cost | Corded-only ranking; 22-inch, compact, saw-tip, and rotating-handle formats; outlet route and cord requirements | **Pass — specific leaf intent is clear** |
+| `best-corded-hedge-trimmers/article.md` | Corded leaf | `best corded hedge trimmer` | Confirm a cord is practical, then compare blade size, stated capacity, weight, handles, cord retention, and complete extension-cord cost | Corded-only ranking; standard 22-inch, rotating-handle 24-inch, compact, and saw-tip formats; outlet route and cord requirements | **Pass — specific leaf intent is clear** |
 | `best-cordless-hedge-trimmers/article.md` | Cordless leaf | `best cordless hedge trimmers` | Compare complete kits by hedge condition, loaded weight, controls, battery platform, runtime evidence, and ownership cost | Cordless-only ranking; kit identity; loaded weight; battery/runtime/platform; jam and support considerations | **Pass — specific leaf intent is clear** |
 
 ## Generation-readiness audit

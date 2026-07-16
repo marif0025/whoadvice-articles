@@ -12,7 +12,7 @@ Keep `best-hedge-trimmers` as the mixed-power hub and treat the corded and cordl
 The topology, canonical-path, shared-product evidence, and affiliate-approval gaps identified in the initial audit are resolved:
 
 1. Shared product facts are synchronized for the three overlapping products. The BEHT350FF weight is 6.5 lb in both articles, and the WG261 runtime conflict is disclosed without an unsupported duration inference.
-2. Amazon Gate 1 and publisher Gate 2 approval are complete for all eleven normalized ranked product records across the cluster.
+2. Amazon Gate 1 and publisher Gate 2 were complete for the original eleven records. On July 16, the publisher reported two corded offers unavailable; their replacements have catalog identities but remain pending live-offer and Special-Link confirmation.
 
 ## Local topology and intent map
 
@@ -79,8 +79,8 @@ Use a “same facts, different decision” model:
 | Hub | WORX WG261 kit | `https://www.amazon.com/dp/B07MVLYF7L` | Exact kit recorded; local evidence observed out of stock before publisher approval | Confirm the selected variation includes 2.0 Ah battery and charger, not `WG261.9` bare tool |
 | Hub | DEWALT DCPH820M1 kit | `https://www.amazon.com/dp/B084CZXM9V` | Exact kit recorded | Confirm 4.0 Ah battery, charger, strap, and sheath remain included |
 | Corded | BLACK+DECKER BEHT350FF | `https://www.amazon.com/dp/B07CBYR1DN` | Exact destination recorded | Same identity/action as hub; avoid separate conflicting destination metadata |
-| Corded | BLACK+DECKER BEHTS300 | `https://www.amazon.com/dp/B077ZC3NGZ` | Exact 20-inch sawblade model confirmed by publisher | Recheck seller, stock, price, and affiliate redirect before publication |
-| Corded | Greenworks 22122 | `https://www.amazon.com/dp/B0069Z7JV8` | Exact model confirmed by publisher; older specification records conflict | Use manual values and confirm the 22122 variation, not 2200102 |
+| Corded | CRAFTSMAN CMEHTS8022 | `https://www.amazon.com/dp/B083XJYQXH` | Exact catalog identity supported; live offer not independently verified | Confirm exact variation, seller, stock, eligibility, and generate publisher Special Link |
+| Corded | GARCARE GHT08 | `https://www.amazon.com/dp/B01GJBTWB6` | Exact model and publisher Special Link confirmed | Recheck seller, stock, package, and redirect before publication |
 | Corded | BLACK+DECKER BEHT100 | `https://www.amazon.com/dp/B08LYYWBWN` | Exact compact model confirmed by publisher | Recheck seller, stock, price, and affiliate redirect before publication |
 | Cordless | EGO HT2601 kit | `https://www.amazon.com/dp/B0BRXK7NT2` | Same exact ASIN as hub | Maintain one shared destination record and publication-day status check |
 | Cordless | Greenworks HT40B212 kit | `https://www.amazon.com/dp/B086PSCXJT` | Exact ASIN recorded; loaded weight remains unknown | Confirm 2.0 Ah kit variation, seller/stock, and warranty; do not infer loaded weight |

@@ -15,9 +15,9 @@ primary_reader: Homeowner who cannot safely see and control all hedge faces with
 main_decision: Choose a pole trimmer by usable reach, complete working weight, balance, shaft design, head articulation, blade and stated capacity, battery package, and ground-level control
 evidence_model: Exact-model manufacturer pages and manuals, CPSC recall records, current authorized-retailer availability, transparent independent testing where available, competitor discovery, and community questions; no WhoAdvice hands-on testing
 recommended_slug: /garden-tools/best-pole-hedge-trimmers/
-target_length: 2400-3200 words
-provisional_product_count: 5
-ranking_status: Parts 1-4 complete; CMS publication checks pending
+target_length: 3600-4300 words
+provisional_product_count: 8 including one specialist gas alternative
+ranking_status: Rescored July 16, 2026; CMS publication checks pending
 shared_product_archive: ../products/
 amazon_required: true
 ```
@@ -121,9 +121,17 @@ Do not create an award merely to include another affiliate product. Do not reuse
 - A shared product may appear in both pages only when its facts, package, ASIN, and status remain synchronized and each review answers a different decision.
 - Do not reuse the hub's product-card wording.
 
-## Approval gate
+## Approved ranking
 
-Stop after Part 1 for approval of exact products, packages, order, awards, exclusions, and evidence gaps. Do not draft the article from this brief alone.
+1. DEWALT DCPH820M1 — Best Overall
+2. CRAFTSMAN CMCPHT818D1 — Best Independently Tested Homeowner Option
+3. WORX WG252.9 — Best Telescopic Design
+4. Sun Joe SJH904E — Best Corded Convertible
+5. Earthwise CVPH43018 — Best Documented Corded Value
+6. BLACK+DECKER LPHT120B — Best for Light Maintenance
+7. GARCARE GPHT06 — Best Corded Adjustment Range
+
+Husqvarna 122LKH remains an unnumbered specialist gas alternative.
 
 ## Required supporting files before drafting
 
