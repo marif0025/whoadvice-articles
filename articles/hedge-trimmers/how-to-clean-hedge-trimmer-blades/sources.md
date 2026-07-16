@@ -18,7 +18,7 @@
   - Use resin solvent for pitch and sticky residue, briefly distribute it as directed, then wipe dry.
   - Never use water for cleaning the trimmer; avoid solvents on plastic.
   - Lubricate blades with lightweight machine oil before and after each use.
-- Limitation: Hosted on EGO's French regional domain but the PDF contains the North American English HT2600/HT2600-FC manual. Recheck a current US manual before publication.
+- Limitation: Hosted on EGO's French regional domain but the PDF contains the North American English HT2600/HT2600-FC manual. Drafting may use the captured manual, but locating or reopening a current US-hosted manual before publication is mandatory. Remove or revise the EGO comparison row if the current US instructions differ.
 
 ### STIHL HSA 150 R/HSA 150 T owner's instruction manual
 
@@ -96,7 +96,7 @@
   - Read precautions and use PPE as required.
   - Store locked and ventilated; protect from sunlight and temperatures above 122°F.
   - Avoid vapors during a release, ventilate, and eliminate ignition sources.
-- Limitation: Applies only to the identified product/formulation and does not establish hazards for every cleaner.
+- Limitation: Applies only to the identified product/formulation and does not establish hazards for every cleaner. The SDS establishes handling, storage, exposure, ventilation, heat, and ignition precautions. It does not independently establish compatibility with a specific hedge-trimmer blade, coating, seal, plastic, or housing.
 
 ## Recall and public-safety records
 
@@ -195,7 +195,8 @@ Community pages below are retained only as question and terminology inputs. They
 
 ## Publication-day checks
 
-- Reopen current US manuals and support pages for every named example.
+- Reopen current US manuals and support pages for every named example. Locating or reopening a current US-hosted EGO HT2600/HT2600-FC manual is mandatory; remove or revise that row if its instructions differ from the captured manual.
+- Do not draft the Husqvarna comparison row until the current official page is captured. If it remains unavailable, use a four-row comparison and record the removal in `publisher-handoff.md`.
 - Confirm the STIHL product SDS revision and label have not changed.
 - Repeat exact-model CPSC and manufacturer recall searches.
 - Confirm internal-link destinations are published before adding links.

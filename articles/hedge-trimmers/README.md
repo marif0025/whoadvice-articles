@@ -11,7 +11,7 @@ This directory is the shared workspace for the WhoAdvice hedge-trimmer content c
 - `corded-vs-cordless-hedge-trimmer/` — power-format comparison package
 - `what-size-hedge-trimmer-do-i-need/` — blade-length and stated-capacity explainer package
 - `hedge-trimmer-vs-loppers-vs-pruning-saw/` — thick-stem and tool-selection explainer package
-- `how-to-sharpen-hedge-trimmers/` — approved sharpening brief; research and drafting pending
+- `how-to-sharpen-hedge-trimmers/` — Part 4 editorial audit complete; conditional CMS handoff pending live-page checks and responsible human safety review
 - `how-to-clean-hedge-trimmer-blades/` — cleaning and lubrication brief plus completed Part 1 research; contract approval and drafting pending
 - `how-to-use-a-hedge-trimmer/` — approved safe-use brief; research and drafting pending
 - `products/` — one normalized raw research file per exact product/model/package across the cluster

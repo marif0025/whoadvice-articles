@@ -71,7 +71,7 @@ Start with power isolation and the manual. Most routine care follows the same br
 
 ## Evidence requirements
 
-- Build an exact-manual matrix across representative corded, cordless, and gas models.
+- Build an exact-manual matrix across representative hedge trimmers, supplemented by clearly labeled brand-level support where it demonstrates conflicting maintenance guidance.
 - Record each manual's power-isolation, cleaning agent, water, resin removal, lubricant, application, inspection, and storage instructions separately.
 - Use current safety data sheets or authoritative chemical documentation when discussing hazards or compatibility limits.
 - Verify whether maintenance frequency is time-based, use-based, or condition-based for each example; do not invent one schedule.
@@ -131,4 +131,3 @@ Research should combine product-substitution questions when the answer is the sa
 - `article-contract.md` — approved sequence, table fields, warnings, FAQs, and maintenance boundaries
 - `sources.md` — manuals, manufacturer maintenance pages, safety authorities, and chemical documentation
 - `publisher-handoff.md` — canonical, diagrams, internal links, safety review, schema, and CMS tasks
-

@@ -2,7 +2,7 @@
 
 ```yaml
 article_type: Research-based safety and operating guide
-topic: Preparing, operating, stopping, clearing, and maintaining a powered hedge trimmer for routine home hedge work
+topic: Preparing, operating, stopping, clearing, and transitioning a powered hedge trimmer to safe post-use care for routine home hedge work
 primary_keyword: how to use a hedge trimmer
 secondary_keywords:
   - how to use an electric hedge trimmer
@@ -27,9 +27,9 @@ The reader must decide whether the planned work is routine surface trimming with
 
 ## Page role
 
-- Own the full operating sequence from pre-use inspection through post-use cleaning.
+- Own the operating sequence through shutdown, power isolation, visual inspection, sheathing, transport, and the storage transition.
 - Provide power-format branches for corded, cordless, gas, and pole tools without ranking them.
-- Route blade size, product selection, thick branches, sharpening, and detailed cleaning to their canonical pages.
+- Route blade size, product selection, thick branches, resin removal, lubrication, blade cleaning, and sharpening to their canonical pages.
 - Avoid becoming a horticultural hedge-pruning calendar or plant-specific pruning guide.
 
 ## Opening angle
@@ -38,21 +38,16 @@ Begin with the work-area and tool-fit check. Before starting, identify people, p
 
 ## Recommended structure
 
-1. Direct answer: prepare, inspect, control, stop, isolate, and clean
-2. Decide whether a hedge trimmer is the right tool
-3. Read the exact manual and inspect the machine
-4. Check the hedge and surrounding work area
-5. PPE and clothing based on authoritative guidance
-6. Prepare a corded, cordless, or gas power source
-7. Starting stance, grip, and safe cutting zone
-8. A controlled cutting sequence for sides and top
-9. How power format changes operation
-10. What to do if the blade stalls or jams
-11. Pole hedge-trimmer reach and overhead boundaries
-12. Weather, wet vegetation, heat, noise, neighbors, and wildlife constraints
-13. Shutdown, transport, cleaning, and storage
-14. When to stop and call a qualified professional
-15. FAQs
+1. Direct answer and stop rules
+2. Tool fit and the pre-use decision table
+3. Exact manual, recall timing, and tool inspection
+4. Work-area and PPE preparation
+5. Corded, cordless, and gas setup and operating differences
+6. Stance, control, and a sides-first cutting sequence
+7. Jam, blade coast-down, power isolation, and shutdown
+8. Pole reach, weather, fatigue, wildlife, and professional boundaries
+9. Transport, storage, and the next maintenance step
+10. Consolidated FAQs
 
 ## Required pre-use decision table
 
@@ -120,24 +115,18 @@ Begin with the work-area and tool-fit check. Before starting, identify people, p
 - Do not target plant-specific terms such as `pruning azaleas` or become a seasonal pruning calendar.
 - Do not create a second corded-versus-cordless comparison.
 
-## FAQ candidates for research
+## Approved FAQ set
 
 - What is the safest way to use a hedge trimmer for the first time?
-- Should you trim the sides or top of a hedge first?
 - Can you use a hedge trimmer on wet hedges or in rain?
 - What PPE should you wear when using a hedge trimmer?
 - How do you keep an extension cord away from a corded hedge trimmer?
-- How do you use a cordless hedge trimmer safely?
-- What should you do when hedge-trimmer blades stall or jam?
-- Can you use a hedge trimmer on thick branches?
+- Can a hedge trimmer cut thick branches?
 - Is it safe to use a hedge trimmer from a ladder?
 - When should you use a pole hedge trimmer?
-- How should a hedge trimmer be carried and transported?
-- What maintenance should be done after every use?
-- When should you stop and hire a professional?
-- When should hedges not be trimmed because of nesting birds or protected wildlife?
+- When should trimming stop because of a bird nest?
 
-Research should retain FAQs that add a concise answer not already complete in the main sections. Safety answers must lead with the action the reader should take.
+FAQ answers must add a concise decision or caveat not already complete in the main sections. Safety answers must lead with the action the reader should take.
 
 ## Required supporting files before drafting
 
@@ -145,4 +134,3 @@ Research should retain FAQs that add a concise answer not already complete in th
 - `article-contract.md` — approved sequence, format-specific branches, warnings, tables, FAQs, and conclusion logic
 - `sources.md` — manuals, regulators, electrical safety, extension or horticultural sources, and community-question register
 - `publisher-handoff.md` — canonical, diagrams, internal links, safety review, regional caveats, schema, and CMS tasks
-

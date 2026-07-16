@@ -2,7 +2,7 @@
 
 ```yaml
 article_type: Research-based maintenance and safety guide
-topic: Sharpening powered hedge-trimmer blades safely with a file, rotary tool, or professional service
+topic: Diagnosing powered hedge-trimmer blades and choosing a manual-approved hand-file, professional service, or replacement route
 primary_keyword: how to sharpen hedge trimmers
 secondary_keywords:
   - how to sharpen a hedge trimmer
@@ -20,7 +20,7 @@ primary_reader: Hedge-trimmer owner deciding whether the blade needs cleaning, D
 main_decision: Identify the blade condition, confirm the exact manufacturer's sharpening instructions, and choose a safe maintenance route without altering blade geometry or working on a connected tool
 evidence_model: Exact-model manuals and manufacturer service guidance, CPSC and occupational or consumer safety guidance, and qualified sharpening-service criteria; no WhoAdvice hands-on testing
 recommended_slug: /garden-tools/how-to-sharpen-hedge-trimmers/
-target_length: 1800-2500 words
+target_length: 1800-2300 words
 product_rankings: none
 affiliate_role: No maintenance-product recommendations by default; link to the approved hedge-trimmer guide only when replacement is the supported outcome
 ```
@@ -44,17 +44,18 @@ Lead with diagnosis and power isolation. A dirty blade may need cleaning rather 
 ## Recommended structure
 
 1. Direct answer: hedge-trimmer blades can often be sharpened, but the exact manual and blade condition decide the method
-2. Safety gate: isolate the power source and secure the tool
-3. Is the blade dull, dirty, misaligned, or damaged?
-4. Check the manual before choosing a method
-5. Tools and protective equipment permitted by the researched methods
-6. How to sharpen hedge trimmers with a hand file
-7. How to sharpen hedge trimmers with a Dremel or rotary tool
-8. Deburring, cleaning, and lubricating after sharpening
-9. Reassembly and controlled post-maintenance checks
-10. When to use professional sharpening
-11. When blade replacement or tool replacement is safer
-12. FAQs
+2. Quick decision table: clean, sharpen, service, or replace
+3. Safety gate: isolate the power source and check the exact model for recalls
+4. Is the blade dull, dirty, misaligned, or damaged?
+5. Find the manual, permitted tool, angle, and access method
+6. Tools and protective equipment for a manual-approved hand-file procedure
+7. How to sharpen hedge trimmers with a hand file, including the hidden-edge stop rule at the point of access
+8. How to handle covered or inaccessible cutting edges
+9. Can you sharpen hedge trimmers with a Dremel or grinder?
+10. Remove burrs and filings, apply the specified lubricant, restore guards, and complete the manual-approved check
+11. When to use professional sharpening
+12. When blade replacement or tool replacement is safer
+13. FAQs
 
 ## Required diagnostic table
 
@@ -68,14 +69,30 @@ Lead with diagnosis and power isolation. A dirty blade may need cleaning rather 
 
 This table is diagnostic routing, not a substitute for the exact manual.
 
+Place a simplified four-route version immediately after the direct answer:
+
+| Blade condition | Correct route |
+|---|---|
+| Sticky, dirty, or dragging | Clean and lubricate first |
+| Clean and intact, with rounded cutting edges | Check the exact manual and sharpen only if it permits owner sharpening |
+| Access method or geometry is unclear | Use professional service |
+| Bent, cracked, loose, misaligned, or badly chipped | Stop and use manufacturer-directed service or replacement |
+
 ## Method boundaries
 
 - Do not publish one universal bevel angle, file size, stroke count, grinder speed, tooth side, or blade-removal procedure.
 - Do not assume a Dremel or rotary tool is approved merely because third-party tutorials demonstrate it.
+- The powered-tool section must answer directly: `Do not use a powered sharpening tool unless the exact model's current manual explicitly permits it and provides the complete procedure.`
+- Do not supply generic grinder speed, stone diameter, rotary-bit type, cooling technique, angle range, or number of passes.
 - Preserve manufacturer geometry; do not claim that changing an angle improves performance.
 - Treat heat discoloration, excessive material removal, powered-tool kick, and blade movement as risks requiring sourced controls.
 - Do not tell readers to bypass guards, switches, interlocks, battery terminals, spark-plug precautions, or manufacturer service limits.
 - Do not imply that sharpening repairs bent, cracked, loose, or misaligned blades.
+- Do not treat blade removal or reassembly as a universal stage. Mention either only within an exact-model branch that permits it.
+- Put this warning inside the hand-file sequence where access becomes a problem: `Never reconnect, briefly run, or pry the blades merely to expose covered cutting edges unless the exact manual provides that procedure.`
+- If an exact-angle comparison is used, label it: `These are examples, not interchangeable sharpening settings.`
+- Keep the legacy ECHO HC-200 example internal unless a current supported-model manual confirms equivalent instructions.
+- Keep historical recall examples and local service prices in research. Public copy should use a concise exact-model recall check, one current RYOBI example at most, and no local-price examples by default.
 
 ## Evidence requirements
 
@@ -105,11 +122,11 @@ Use brand-neutral instructional diagrams. Final visuals must be checked against 
 - Purpose: distinguish resin buildup, a rounded intact edge, and visible blade damage.
 - Generation prompt: `Editorial technical triptych of a generic powered hedge-trimmer blade on a clean white background. Panel one shows sticky green-brown resin buildup on intact teeth. Panel two shows a clean but gently rounded cutting edge in close-up. Panel three shows an obviously bent or cracked tooth marked only with a restrained red caution symbol. Brand-neutral, realistic metal geometry, no hands, no powered tool in motion, no text, no measurements, generous space for CMS labels, 16:9 horizontal.`
 
-### Image 2 — file versus rotary-tool decision
+### Image 2 — DIY file versus professional-service decision
 
 - Placement: before the two method sections.
-- Purpose: support a method selector without depicting an unsupported universal angle.
-- Generation prompt: `Brand-neutral editorial comparison illustration of a disconnected hedge-trimmer blade secured against movement. Left side shows a hand file aligned with the existing factory bevel; right side shows a small rotary tool near the same existing bevel with restrained spark-free positioning. No numerical angle, no exposed battery or cable, no hands near teeth, no brands, no text, clean charcoal and muted green technical style, 3:2 horizontal.`
+- Purpose: support the evidence-backed method selector without depicting an unsupported powered method or universal angle.
+- Generation prompt: `Brand-neutral editorial decision illustration featuring the same disconnected hedge-trimmer blade in two panels. Left panel shows an intact blade secured against movement with a hand file aligned to the existing factory bevel. Right panel shows the intact tool with its blade cover fitted at a professional service counter beside a generic service checklist. No numerical angle, powered grinder, exposed battery, cable, brands, or text; no hands near teeth; clean charcoal and muted green technical style, 3:2 horizontal.`
 
 ## Cannibalization boundaries
 
@@ -145,4 +162,3 @@ Research should select only FAQs with distinct answers. Merge overlapping electr
 - `article-contract.md` — approved method scope, procedure order, tables, warnings, FAQs, and stop-work boundaries
 - `sources.md` — exact manuals, manufacturer service guidance, safety authorities, and dated service observations
 - `publisher-handoff.md` — canonical, diagrams, internal links, safety review, schema, and CMS tasks
-
