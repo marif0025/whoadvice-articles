@@ -46,14 +46,16 @@ A roundup introduction should usually be 120–220 words.
 
 It should contain:
 
-1. The reader’s problem or decision
+1. The reader's real decision, expressed as an interesting opening question when that phrasing feels natural
 2. One useful distinction
 3. The article’s research basis
 4. A preview of how recommendations are organized
 
+Prefer a controlling opening question when it naturally exposes a real choice, boundary, misconception, or tradeoff. Begin answering it in the next sentence, let the major sections resolve it, and close the loop in the conclusion. If a direct statement is clearer, use the statement instead. Never force a question or use a string of decorative hooks.
+
 When the design includes separate top-pick cards, keep the introduction product-neutral. Do not name, rank, describe, or link individual products inline. Write original short descriptions for the top-pick cards in their own block immediately after the introduction. Do not reuse the introduction, comparison-table cells, product Summary, or Verdict verbatim.
 
-Do not open with a dictionary definition, a sweeping statement about history, or a generic paragraph about confidence and self-care.
+Do not open with a dictionary definition, a sweeping statement about history, a generic paragraph about confidence and self-care, or a question whose only purpose is to manufacture engagement.
 
 ## 4. Build paragraphs around one idea
 

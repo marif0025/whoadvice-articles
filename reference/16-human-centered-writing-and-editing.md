@@ -20,6 +20,19 @@ A publishable article should feel as though an informed editor:
 
 Human quality comes from judgment and specificity, not decorative personality.
 
+## Use a controlling question when it earns its place
+
+Prefer one interesting opening question when it captures the reader's actual decision better than a direct statement. It may expose a tradeoff, test an assumption, or define a safety boundary. The following sentence should begin answering it; do not delay the answer for suspense. If question phrasing feels forced or generic, open with the useful answer instead.
+
+Treat this as the article's narrative thread:
+
+1. The introduction frames the controlling question, when used, and the decision variables.
+2. Each major section answers a distinct part of that question.
+3. Callouts shorten a difficult branch or action instead of decorating the page.
+4. The conclusion answers the opening question, when used, in the same decision order.
+
+Avoid question stacks, generic hooks such as `Ready to transform your routine?`, and questions that the article never explicitly resolves.
+
 ## Before drafting: make the voice specific
 
 Record these choices in the article contract:
@@ -126,6 +139,7 @@ Never treat a generated first draft as publication-ready. Edit in this order so 
 ### Pass 1: brief and intent
 
 - Does the draft serve the approved reader, search intent, and article contract?
+- If the first sentence uses a question, is it specific and decision-bearing, and does the next sentence begin the answer?
 - Does it answer the main decision early?
 - Has it drifted into unrelated coverage or written for a keyword rather than a person?
 
@@ -196,7 +210,8 @@ Use plagiarism checks, fact checks, editorial review, and source verification as
 ## Compact publication checklist
 
 - Reader, situation, and main decision are explicit.
-- The opening begins with useful tension or a concrete distinction.
+- The opening uses a decision-bearing question only when it is more natural than a direct answer.
+- When a controlling question is used, the major sections answer it and the conclusion closes it.
 - Each section performs a distinct job.
 - Facts lead to consequences; recommendations include tradeoffs.
 - Specific nouns and verbs replace vague praise and adjective piles.

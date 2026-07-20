@@ -1287,18 +1287,20 @@ Follow the WhoAdvice voice and banned-pattern files.
 
 Requirements:
 
-- Address the reader's real decision immediately.
+- Prefer an interesting, decision-bearing first question when it naturally exposes the reader's real choice, boundary, misconception, or tradeoff. Use a direct answer when question phrasing would feel forced.
+- When a question is used, begin answering it in the next sentence; do not delay the answer for suspense.
 - Explain why the choice is difficult or what variables matter.
 - State how WhoAdvice approached the article honestly.
 - Preview the practical value of the guide.
 - Use the primary key phrase naturally, preferably within the opening paragraph when it reads well.
 - Do not define an obvious term only to insert a keyword.
-- Do not open with a broad history, rhetorical question, fake empathy, or generic statement such as `In today's world`.
+- Do not open with broad history, fake empathy, a generic statement such as `In today's world`, a question stack, or a decorative curiosity hook.
 - Do not claim testing if no testing occurred.
 - When the approved design includes separate top-pick cards, do not name, rank, describe, or link individual products in the introduction.
 - Reserve product recommendations for the quick-picks or top-pick card block immediately after the introduction.
 - Do not reveal every conclusion before the quick-picks section.
 - Keep the introduction proportionate to the article.
+- When the introduction uses a controlling question, ensure the approved outline answers it section by section and the conclusion closes it directly.
 
 Provide the final introduction only. Create alternatives or an audit only when the editor asks for them.
 ```
@@ -2004,6 +2006,8 @@ Use the following sequence for articles such as `Best Epilators`, `Best Curl Cre
 46. Manual CMS and link check
 47. Publish
 
+When several related pages form a cluster, run `17-final-cluster-sync.md` after every included article has completed its individual audit and before the CMS publication steps. Do not use cluster syncing to hide an unresolved page-level blocker.
+
 ---
 
 # 40. Master orchestration prompt
@@ -2298,6 +2302,6 @@ Use the individual prompts in this library only when a stage needs a separate ow
 
 The prompts should produce a chain of reviewable editorial decisions:
 
-`Reader intent → evidence → classification → criteria → ranking → outline → prose → verification → editing → SEO → publication`
+`Reader intent → evidence → classification → criteria → ranking → outline → prose → verification → editing → SEO → individual audit → cluster sync when applicable → publication`
 
 A later stage must not conceal weaknesses from an earlier stage. Better prose cannot repair weak evidence, and SEO optimization cannot justify an unsupported claim.

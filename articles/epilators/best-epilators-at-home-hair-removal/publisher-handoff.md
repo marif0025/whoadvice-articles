@@ -110,18 +110,26 @@ internal_links:
   - intent: Send face-first shoppers to dedicated precision recommendations
     anchor: facial epilator guide
     url: https://whoadvice.com/skin-care/best-face-epilators/
-    status: included_in_draft_target_resolves_but_supporting_article_needs_refresh
+    status: included_in_draft_local_support_refresh_complete_publish_with_cluster
+  - intent: Explain exact-area permission before pubic-hair or bikini-line use
+    anchor: pubic-hair and bikini-line permission
+    url: /skin-care/can-you-use-an-epilator-on-pubic-hair/
+    status: included_in_draft_publish_with_support_page
+  - intent: Give underarm readers the manual-first technique sequence
+    anchor: underarm epilation steps
+    url: /skin-care/how-to-epilate-underarms/
+    status: included_in_draft_publish_with_support_page
   - intent: Compare mechanical epilation with light-based hair reduction
     anchor: contextual, not exact-match
     url: pending_relevant_IPL_page
     status: add_when_available
-  - intent: Support safe use or maintenance without expanding the buying guide
+  - intent: Support maintenance without expanding the buying guide
     anchor: contextual
-    url: pending_relevant_support_page
-    status: add_only_when_directly_useful
+    url: pending_relevant_maintenance_page
+    status: add_only_when_available_and_directly_useful
 ```
 
-Also add a contextual return link from the facial roundup to this pillar. Editorial/SEO owns destinations and anchor intent; CMS implements and tests the links.
+The face, pubic-hair, and underarm support articles each include a contextual return link to this pillar. Editorial/SEO owns destinations and anchor intent; CMS implements and tests the links.
 
 The facial URL resolved during the July 20, 2026 audit, but the published page is dated May 6, 2024 and contains outdated product and claim coverage. Refresh it before treating the two-way cluster link as complete.
 
@@ -152,6 +160,23 @@ Use exact-model images only:
 
 Editorial must revise alt text to match the final image composition. CMS stores and renders the image-specific wording.
 
+### Types-card image-generation prompt
+
+Place this visual after the opening paragraph of `Types of epilators`, beside the HTML type shortcut. It should help readers see that “type” is a sequence of decisions rather than one flat product category.
+
+```text
+Create a clean editorial infographic for a consumer buying guide, landscape 16:9, warm off-white background, charcoal linework, muted sage and dusty rose accents, generous spacing, accessible high contrast. Build four visually distinct cards from left to right: hair-capture mechanism shown by rotating tweezer plates versus a curved manual spring; power and use shown by a cordless wet/dry device symbol versus a corded plug; treatment area shown by a broad leg silhouette versus a small facial precision zone; head design shown by fixed, pivoting, and fully flexible motion arcs. Use generic unbranded devices, no logos, no model-specific resemblance, no skin contact, no pain imagery, no performance claims, no decorative beauty products. Leave clean header space above each card for HTML labels added by the publisher. Do not render words, letters, numbers, badges, or watermarks inside the image. Polished magazine infographic, not a product advertisement.
+```
+
+**Suggested filename:** `epilator-types-decision-cards.webp`
+**Suggested alt text:** `Four epilator type decisions: mechanism, power, treatment area, and head movement.`
+
+Do not place decision-critical wording only inside the image. The adjacent HTML copy remains the accessible source of meaning.
+
+### Optional free-stock route for the featured image
+
+Use free stock only for a neutral personal-care setting or unbranded flat lay; do not use it as an exact-model product image. Search [Pexels personal-care images](https://www.pexels.com/search/personal%20care/) or [Unsplash personal-care images](https://unsplash.com/s/photos/personal-care), review the [Pexels license](https://www.pexels.com/license/) or [Unsplash license](https://unsplash.com/license), and verify the individual asset and any recognizable-person, trademark, or property restrictions at download time. Prefer the generated types graphic when the visual needs to explain the comparison.
+
 ## CMS implementation
 
 - Preserve the existing canonical URL.
@@ -181,6 +206,6 @@ Editorial must revise alt text to match the final image composition. CMS stores 
 - Private marketplace identifiers are absent from visible review rows.
 - Types, buying guide, expectations, FAQs, and conclusion follow the Part 2 contract.
 - The required Part 3 methodology, hierarchy, evidence-alignment, and freshness-language revisions are complete.
-- The workflow audit reports **3,697 words, 40 headings, and 0 flags** after synchronizing Bellabe's approved public name.
+- The final cluster-sync audit reports **3,778 words, 40 headings, and 0 flags** after adding the controlling question, type shortcut, and image marker.
 - SEO title length is 55 characters; meta description length is 148 characters.
-- Remaining work is limited to CMS implementation, the outdated facial-support refresh, and publication-day variation, seller, price, redirect, image, year, and recall checks.
+- Remaining work is limited to responsible editorial review, synchronized cluster deployment, CMS implementation, and publication-day variation, seller, price, redirect, image, year, and recall checks.

@@ -44,7 +44,7 @@ Owner feedback may identify recurring usability patterns, but it is not a standa
 
 ## Article structure
 
-1. Metadata, disclosure, and product-neutral decision-led opening
+1. Metadata, disclosure, and product-neutral opening that asks one controlling choice question and begins answering it immediately
 2. Three original Top 3 cards
 3. Six-column comparison table
 4. Seven ranked product cards
@@ -137,9 +137,11 @@ Use related terms naturally where useful: best epilators, electric epilator, wet
 ## Internal-link plan
 
 - Include the dedicated [facial epilator guide](https://whoadvice.com/skin-care/best-face-epilators/) where readers need face-first recommendations.
+- Link the pubic-hair permission guide where the types section explains that a bikini or precision attachment name does not establish exact-area permission.
+- Link the underarm technique guide where the buying guide explains the added control and skin positioning needed for underarms.
 - Add an epilator-versus-IPL explainer link when a relevant page is published.
 - Add supporting hair-removal or epilator-maintenance links only when they directly advance the reader's decision or safe use.
-- Add a contextual return link from the facial roundup to this pillar during CMS work.
+- Retain the contextual return links from all three support articles to this pillar.
 
 Editorial/SEO owns destinations and anchor intent. CMS owns implementation and live-link testing.
 

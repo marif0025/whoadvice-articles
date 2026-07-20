@@ -11,7 +11,7 @@
 **Commercial disclosure:** This informational guide contains no affiliate links or product recommendations.
 -->
 
-Before you epilate an underarm, confirm that the manufacturer permits your exact epilating head and attachment for that area. An included shaver or trimmer does not automatically mean the epilating head is suitable there. You should also check the manual’s warnings for your current skin condition before proceeding.
+Can you epilate your underarms with the device you already own? Only if the manufacturer permits your exact epilating head and attachment for that area. An included shaver or trimmer does not automatically mean the epilating head is suitable there. You should also check the manual’s warnings for your current skin condition before proceeding.
 
 The safe answer to how to epilate underarms is not one universal routine. Hair length, wet or dry use, attachment, angle, speed, and cleaning rules vary between devices. For example, current instructions for some cordless Philips models differ from the support available for a corded model.
 
@@ -32,6 +32,8 @@ Check the skin warnings and any situations requiring a doctor’s advice. Do not
 A washable head does not prove that the handle is shower-safe. The exact model’s symbols and instructions control.
 
 > **Stop before you begin:** Do not proceed if the manual says not to use the device on the current skin condition or situation. Stop if epilation cuts the skin, causes bleeding, or produces unusual, severe, or worsening pain.
+
+<!-- IMAGE BRIEF: Place the four-panel underarm-technique illustration here, immediately before the numbered steps. Use the approved prompt in publisher-handoff.md. The illustration supports the steps but does not replace them. -->
 
 ## How to epilate underarms step by step
 

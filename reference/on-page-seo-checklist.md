@@ -30,6 +30,8 @@ Use this checklist for buying guides, product roundups, and supporting articles 
 
 ## 4. Opening and answer-first structure
 
+- [ ] Prefer one interesting opening question when it naturally states the reader's real decision, boundary, misconception, or tradeoff; use a direct answer when that is clearer.
+- [ ] When a question is used, begin answering it in the next sentence; do not use suspense, a question stack, or a generic curiosity hook.
 - [ ] Use the primary keyword naturally within the first 100 words.
 - [ ] Explain who the guide is for and what decision it resolves.
 - [ ] Give the leading recommendation or direct answer early.
@@ -94,6 +96,10 @@ Use this checklist for buying guides, product roundups, and supporting articles 
 - [ ] Set width and height to reduce layout shift, compress files, and use modern formats where supported.
 - [ ] Keep important comparison information available as HTML text, not only inside an image.
 - [ ] Record purposeful visual suggestions in the brief or publisher handoff: exact-model images, measurement diagrams, decision flows, comparison graphics, or process illustrations. Do not request a visual that merely decorates the page.
+- [ ] For roundup type sections, add a generation-ready prompt for a useful type-card or decision graphic when the categories are easier to compare visually.
+- [ ] For tip, technique, and safety articles, mark the exact insertion point and provide a generation-ready prompt only where an image clarifies an action, boundary, sequence, or manual symbol.
+- [ ] Keep every decision, warning, and comparison available as HTML text; generated images must not carry essential meaning alone.
+- [ ] When recommending free-stock services, link to the source and license, verify the individual asset at download time, and avoid stock that implies an exact product, technique, result, or medical permission.
 
 ## 10. Structured data and SERP eligibility
 
@@ -123,6 +129,8 @@ Use this checklist for buying guides, product roundups, and supporting articles 
 - [ ] Record unresolved CMS tasks separately from completed article edits.
 - [ ] Schedule a refresh based on product turnover and search-result volatility.
 - [ ] Confirm quick summaries, decision boxes, callouts, tips, scenarios, and visuals are selective, nonrepetitive, evidence-safe, and useful on mobile.
+- [ ] Confirm at least one meaningful callout earns its place by shortening a decision, comparison, action, warning, or compatibility check; do not add a decorative callout quota.
+- [ ] When the opening uses a controlling question, confirm the section sequence and conclusion form one answer path.
 - [ ] Confirm FAQs come from genuine buyer intent and resolve secondary purchase, compatibility, safety, use-case, or ownership questions not already answered clearly in the body.
 
 ## Source notes

@@ -3,7 +3,7 @@
 - **Audit date:** July 20, 2026
 - **Article:** `/skin-care/best-epilators/`
 - **Workflow stage:** Part 4 complete
-- **Outcome:** Editorial QA passed; ready for CMS after recorded time-sensitive checks
+- **Outcome:** `ready_for_editorial_review`
 - **Evidence model:** Research-based; no hands-on testing
 
 ## Part 3 revision verification
@@ -26,7 +26,7 @@ python3 /mnt/c/Users/marif/.codex/skills/whoadvice-article-workflow/scripts/audi
 Result:
 
 ```text
-Words: 3697
+Words: 3778
 Headings: 40
 Flags: 0
 ```
@@ -43,13 +43,15 @@ Additional checks:
 
 ## Contract audit
 
-- Product-neutral opening followed by three distinct Top 3 cards.
+- Product-neutral opening uses one natural decision question, begins answering it immediately, and is followed by three distinct Top 3 cards.
 - Approved six-column comparison table retained.
 - Visible product-card field order retained.
 - Methodology, grouped types, buying guide, expectations, six FAQs, and conclusion follow the approved order.
 - Bellabe Original Facial Hair Remover and Remington EP1050FCDN appear only as type examples; unverified Bellabe model `118` is excluded from public copy.
 - IPL, shaving, and waxing remain separate comparison categories.
 - Facial and bikini-area language remains restricted to exact manufacturer approval.
+- The `Type shortcut` callout gives a usable area-to-power-to-head decision order without repeating the buying guide.
+- The types-card image marker and generation prompt are synchronized with the publisher handoff; all essential meaning remains in HTML.
 
 ## Claim and evidence audit
 
@@ -78,7 +80,8 @@ Unresolved regional, catalog-field, and structured marketplace conflicts remain 
 ## Link audit
 
 - The facial-epilator internal link resolves to the intended WhoAdvice URL.
-- The target facial article is dated May 6, 2024 and remains outdated; refresh it and add a contextual backlink before treating cluster linking as complete.
+- The pillar now links to the completed facial, pubic-hair permission, and underarm-technique packages at the relevant decision points; all three support articles link back to the pillar.
+- The deployed facial target remains the older version until this synchronized local cluster is published, so deploy the pillar and support refresh together.
 - Philips manual, Philips troubleshooting, NHS, and AAD links resolve to the intended authoritative pages.
 - No IPL or maintenance page was linked because no validated relevant WhoAdvice destination is currently available.
 - Affiliate short-link destinations were publisher-confirmed earlier but still require publication-day redirect and exact-variation checks.
@@ -98,4 +101,4 @@ Unresolved regional, catalog-field, and structured marketplace conflicts remain 
 - Confirm exact-model images and write final composition-specific alt text.
 - Implement disclosure, sponsored link attributes, canonical, metadata, Article, BreadcrumbList, and ItemList schema.
 - Test the six-column table, buttons, links, accessibility, mobile layout, indexability, sitemap, page speed, and published page.
-- Refresh the facial-epilator support article and add its backlink to the pillar.
+- Publish the synchronized facial, pubic-hair permission, and underarm-technique support pages with the pillar and verify all reciprocal links on the rendered pages.

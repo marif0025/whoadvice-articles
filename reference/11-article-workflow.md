@@ -318,6 +318,8 @@ Follow all project files.
 
 Drafting rules:
 
+- Prefer one specific controlling opening question when it frames the reader's actual decision naturally; otherwise lead with the direct answer.
+- When a controlling question is used, begin answering it immediately, organize the major sections as an answer path, and close it in the conclusion.
 - Use the approved ranking.
 - Do not introduce new facts from memory.
 - Keep attribution attached to claims.
@@ -379,6 +381,7 @@ Edit against:
 Check:
 
 - Opening specificity
+- A decision-bearing opening question only where it reads naturally; when used, it is answered immediately and carried through the article
 - Paragraph rhythm
 - Repetition
 - Generic transitions
@@ -396,6 +399,7 @@ Check:
 - Specification overload that belongs in tables or research records
 - Emotional recognition tied to practical help rather than fake shared experience
 - Purposeful visual suggestions recorded in the publisher handoff
+- One or more meaningful callouts only where they shorten a real decision, comparison, action, warning, or compatibility check
 - FAQs based on genuine secondary buyer intent rather than keyword coverage
 
 ### Output
@@ -503,6 +507,8 @@ When the result is `blocked` or `needs_revision`, return the article to writing 
 
 A responsible human editor reviews the completed article and Final Article Audit report. `ready_for_editorial_review` is not publication approval. The editor may approve, return the article for revision, request manual fact review, or require another audit. Finalize the CMS handoff only after approval, including disclosure, links, metadata, schema notes, images, canonical and indexability settings, and time-sensitive checks.
 
+When an article belongs to a cluster, run `17-final-cluster-sync.md` after every page has completed its individual audit and before CMS publication. This is the final cluster-level synchronization pass; it does not replace article-level factual, editorial, SEO, or medical review.
+
 ## Stage 15: Update cycle
 
 At the scheduled review:
@@ -562,3 +568,5 @@ An article is complete only when:
 - The voice is warm, direct, and specific.
 - The prose does not rely on AI filler.
 - The final copy is original.
+- The opening uses a controlling question only where it fits; when used, the article resolves it.
+- Meaningful callouts and visual prompts are present where they improve decisions or comprehension, with implementation details synchronized to the publisher handoff.

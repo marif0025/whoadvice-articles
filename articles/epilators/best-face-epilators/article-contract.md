@@ -89,12 +89,19 @@ Bellabe is conditionally approved under its public product name. Do not display 
 
 ## Opening contract
 
-- Start with manufacturer-approved facial areas and the decision between electric convenience and manual control.
+- Start with one controlling question about which facial areas the manufacturer actually approves, then begin answering it immediately before moving to electric convenience versus manual control.
 - Explain that facial suitability cannot be inferred from a body epilator, a retailer title, attachment count, or tweezer count.
 - State that WhoAdvice researched exact products, manufacturer documentation, current retailer identities, and recurring owner-reported patterns.
 - Keep the opening product-neutral because the Top 3 cards immediately provide recommendations.
 - Use `best epilator for face` naturally within the first 100 words.
 - Do not begin with a dictionary definition, beauty-confidence framing, or generic hair-removal history.
+
+## Callout and types-visual contract
+
+- Place one `Electric or manual?` callout at the start of `Types of facial epilators`.
+- Give a direct tie-breaker based on automatic capture versus battery-free hand control, while retaining manufacturer-approved areas as the first filter.
+- Place the two-card visual marker beside the callout and use the generation prompt in `publisher-handoff.md`.
+- Keep the complete comparison in HTML and do not let the graphic imply whole-face approval.
 
 ## Top 3 cards
 
@@ -303,7 +310,7 @@ The total target remains **2,200–3,200 words**. These ranges are allocation co
 - Confirm that Braun's facial epilation head remains dry-use only and that only the cleansing brush carries wet/dry approval.
 - Confirm Remington's exact `EP1050FCDN` identity and ignore the unrelated generic feature block.
 - Verify whether private publisher evidence confirms Bellabe model `118`; omit it publicly if not.
-- Add exact-product images only and verify that packaging matches the ranked product.
+- Add exact-product images only for ranked-product depictions and verify that packaging matches. A separate generic editorial electric-versus-manual type graphic may be used under the approved prompt.
 - Implement mobile table scrolling, disclosure placement, sponsored links, canonical, metadata, and schema.
 - Confirm that all four products were rechecked during 2026 before retaining `2026` in the SEO title and H1.
 - In any later year, comprehensively refresh the article and update the year; otherwise remove the year from the SEO title and H1.

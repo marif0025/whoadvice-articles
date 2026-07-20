@@ -86,7 +86,7 @@ Before drafting:
 primary_keyword: how to epilate underarms
 target_market: United States
 evidence_model: expert-led informational; exact manuals plus authoritative medical guidance
-opening_angle: check manufacturer-permitted underarm use and the current skin situation before explaining technique
+opening_angle: ask whether the reader's existing device can epilate underarms, answer immediately with exact-head permission, then check the current skin situation before technique
 product_ranking: none
 product_cards: none
 step_format: action -> exact manual requirement -> reason -> stop condition
@@ -105,7 +105,7 @@ target_length: 1800-2100 words
 
 ### Opening answer
 
-- State the first decision: confirm that the manufacturer permits underarm epilation and do not proceed when the manual's skin warnings apply.
+- Ask whether the reader's existing device can epilate underarms, then immediately state the first decision: confirm that the manufacturer permits underarm epilation and do not proceed when the manual's skin warnings apply.
 - Use the primary keyword naturally in the first 100 words.
 - Avoid promising reduced pain or irritation.
 

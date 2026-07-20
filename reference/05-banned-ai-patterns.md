@@ -308,7 +308,7 @@ Bad:
 
 > Want smoother skin? Tired of irritation? Ready to upgrade your routine?
 
-Ask a question only when it frames a real distinction that the next sentence answers.
+Prefer one controlling opening question when it frames a real distinction that the next sentence can begin to answer. Do not force question phrasing when a direct statement is stronger. Ban question strings, vague curiosity hooks, and questions that could introduce almost any article. When a controlling question is used, carry it through the section logic and resolve it in the conclusion.
 
 ## 23. Overuse of em dashes and fragments
 

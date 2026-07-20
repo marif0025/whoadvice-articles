@@ -59,7 +59,7 @@ claims_requiring_final_verification:
 part_2_status: approved_corrections_applied
 part_3_status: editorial_review_passed_targeted_revisions_complete
 part_4_status: complete_editorial_qa
-mechanical_audit_words: 2785
+mechanical_audit_words: 2860
 mechanical_audit_headings: 32
 mechanical_audit_flags: 0
 ```
@@ -166,6 +166,23 @@ Use exact-product images only:
 - Bellabe Original Facial Hair Remover showing the manual spring tool without an unverified model number
 
 Editorial must revise alt text to match the final image composition. CMS stores and renders the image-specific wording.
+
+### Facial-epilator types-card image-generation prompt
+
+Place this visual after the opening paragraph of `Types of facial epilators`, beside the HTML electric-or-manual callout.
+
+```text
+Create a refined two-card editorial comparison graphic for a facial epilator buying guide, landscape 3:2, warm ivory background, charcoal outlines, muted sage and soft terracotta accents, generous whitespace, accessible contrast. Left card: a generic narrow electric facial epilator head with a subtle power symbol and controlled directional arrows. Right card: a generic curved manual spring facial hair remover held by two simplified hands with a gentle rolling-motion arrow. Include a small neutral lower-face outline in each card only to suggest scale and placement; keep the eye and eyebrow area visually separate and do not show active plucking. No brands, logos, model likenesses, claims, pain cues, redness, before-and-after results, cosmetics, or decorative clutter. Leave blank header and caption areas for publisher-added HTML. Do not render text, letters, numbers, badges, or watermarks inside the image. Calm evidence-led magazine infographic, not an advertisement.
+```
+
+**Suggested filename:** `electric-vs-manual-facial-epilator-cards.webp`
+**Suggested alt text:** `Electric and manual facial epilator formats compared by powered capture and hand-controlled spring use.`
+
+Keep manufacturer-approved areas and all decision rules in HTML copy. The graphic must not imply that either tool is approved for the whole face.
+
+### Optional free-stock route for the featured image
+
+A neutral bathroom or skin-care setting can come from [Pexels skin-care images](https://www.pexels.com/search/skin%20care/) or [Unsplash skin-care images](https://unsplash.com/s/photos/skin-care). Review the [Pexels license](https://www.pexels.com/license/) or [Unsplash license](https://unsplash.com/license), do not substitute a generic stock beauty tool for a ranked exact product, and confirm the individual asset's license and recognizable-person restrictions before publishing.
 
 ## CMS implementation
 

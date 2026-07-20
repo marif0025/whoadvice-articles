@@ -7,7 +7,7 @@
 **Article type:** Research-based product roundup  
 **Evidence model:** Research-based; WhoAdvice will not imply hands-on testing  
 **Cluster research date:** July 15, 2026  
-**Status:** Part 4 editorial QA complete; ready for CMS after recorded publication-day checks
+**Status:** Part 4 and final cluster sync complete; ready for responsible editorial review
 
 ## Assignment
 
@@ -101,7 +101,7 @@ Part 1 products, order, awards, generic two-type structure, and seven buying-gui
 primary_keyword: best epilator for face
 target_market: United States
 evidence_model: research-based roundup; no hands-on testing
-opening_angle: choose facial approval and precision before comparing accessory count or brand prestige
+opening_angle: ask which facial areas the manufacturer approves, answer immediately, then compare electric convenience with manual control
 intro_product_mentions: none when separate top-pick cards are used
 top_pick_card_count: 3
 top_pick_card_fields: [award, exact product name, original short description]
@@ -127,7 +127,7 @@ target_length: 2200-3200 words after ranking approval
 
 ### Opening
 
-- Start with the facial-approval and precision decision.
+- Start with one controlling question about manufacturer-approved facial areas and begin answering it in the next sentence.
 - Use the primary keyword within the first 100 words.
 - State the research-only evidence model.
 - Keep named recommendations out of the introduction when top-pick cards are present.
@@ -136,6 +136,12 @@ target_length: 2200-3200 words after ranking approval
 
 - Separate three-card component after the introduction.
 - Each card includes award, exact product, reader fit, and main tradeoff.
+
+### Types callout and visual
+
+- Add one `Electric or manual?` callout that gives a genuine tie-breaker without repeating product cards.
+- Place the two-card editorial graphic beside the callout using the prompt in `publisher-handoff.md`.
+- Keep every area limit and format decision in HTML.
 
 ## Best face epilators at a glance
 

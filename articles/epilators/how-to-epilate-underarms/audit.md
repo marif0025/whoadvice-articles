@@ -28,7 +28,7 @@ python3 /mnt/c/Users/marif/.codex/skills/whoadvice-article-workflow/scripts/audi
 Final result:
 
 ```text
-Words: 1999
+Words: 2035
 Headings: 27
 Flags: 0
 ```
@@ -39,6 +39,8 @@ Flags: 0
 
 - Final editorial QA confirmed the `ready_for_editorial_review` outcome. The requested minor-cut sentence was revised to avoid implying that AAD and MedlinePlus prescribe one identical ordered sequence.
 - The manual-first opening, compact device-branch table, 11 steps, two stop callouts, aftercare section, reaction pathway, short-lived-result explanation, five-method comparison, seven FAQs, and decision conclusion remain in the approved order.
+- The opening question naturally frames exact-device permission and is answered immediately.
+- The four-panel technique image marker and generation prompt are synchronized; the visual cannot replace the HTML steps or imply one universal angle.
 - The standardized pain rule and urgent-help wording are consistent.
 - Device cleaning, cosmetic aftercare, and wound care remain separate.
 - Philips models appear only as exact-instruction examples, not recommendations.
@@ -64,8 +66,8 @@ No unsupported public claim was located. The draft does not diagnose a condition
 
 ## Voice and readability audit
 
-- The opening begins with the reader’s proceed-or-stop decision.
-- No generic market framing, fake empathy, fake testing, manufactured consensus, decorative questions, inflated product language, or retailer-style feature dump appears.
+- The opening begins with one natural proceed-or-stop question and answers it immediately.
+- No generic market framing, fake empathy, fake testing, manufactured consensus, forced question stack, inflated product language, or retailer-style feature dump appears.
 - Paragraphs are short, actions lead safety explanations, and exact-model limitations are stated in consumer language.
 - Repetition remains only where it protects the reader: before use, during movement, before switching sides, in reaction care, in the bleeding FAQ, and in the conclusion.
 - The seven FAQs answer in their first sentence and refer back to fuller sections instead of reproducing them.

@@ -57,7 +57,7 @@ meta_description: "Learn how to epilate underarms using your exact device instru
 ## Opening contract
 
 - Allocate **120–140 words**.
-- Begin with the proceed-or-stop decision: confirm permitted underarm use for the exact head and check whether the manual's current-skin warnings apply.
+- Begin with one controlling question about whether the reader's existing device may be used on the underarms, then answer it immediately with the exact-head permission and current-skin checks.
 - Give the direct answer early: underarm epilation can be an intended use for some devices, but the correct hair length, wet/dry setting, cap, angle, and cleaning method vary.
 - State that the guide is based on exact instructions and qualified medical sources, without implying personal testing.
 - Do not open with grooming background, confidence language, a pain hack, or a product recommendation.
@@ -271,12 +271,14 @@ Use natural descriptive anchors and do not repeat one exact-match anchor across 
 
 ## Visual contract
 
-Visuals are optional and must clarify a real action:
+The primary required visual brief is a four-panel process illustration placed immediately before the numbered steps. It must clarify the manual check, raised arm and taut skin, slow controlled movement, and instruction-led cleaning without implying one universal angle.
+
+The handoff may also retain this optional supporting visual:
 
 - A neutral process illustration showing raised arm, stretched skin, slow movement, and direction changes without depicting injury.
 - A compact manual-symbol graphic only if it accurately distinguishes wet-use, washable-part, and no-water symbols from the exact source.
 
-Do not use a generic product image that implies recommendation, an unlabeled injury photo, or a decorative before-and-after result. Editorial writes image-specific alt text; CMS verifies licensing, stores the text, sets dimensions, and renders the asset.
+Use the exact insertion marker in `article.md` and the generation-ready prompt in `publisher-handoff.md`. Do not use a generic product image that implies recommendation, an unlabeled injury photo, or a decorative before-and-after result. Editorial writes image-specific alt text; CMS verifies licensing, stores the text, sets dimensions, and renders the asset.
 
 ## Publication and Part 4 controls
 

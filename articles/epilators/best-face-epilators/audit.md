@@ -3,7 +3,7 @@
 - **Audit date:** July 20, 2026
 - **Article:** `/skin-care/best-face-epilators/`
 - **Workflow stage:** Part 4 complete
-- **Outcome:** Editorial QA passed; ready for CMS after recorded time-sensitive checks
+- **Outcome:** `ready_for_editorial_review`
 - **Evidence model:** Research-based; no hands-on testing
 
 ## Part 3 revision verification
@@ -25,7 +25,7 @@ python3 /mnt/c/Users/marif/.codex/skills/whoadvice-article-workflow/scripts/audi
 Result after the Part 4 metadata synchronization:
 
 ```text
-Words: 2785
+Words: 2860
 Headings: 32
 Flags: 0
 ```
@@ -44,7 +44,7 @@ Additional checks:
 
 ## Contract audit
 
-- Product-neutral opening followed by three distinct Top 3 cards.
+- Product-neutral opening uses one natural manufacturer-area question, begins answering it immediately, and is followed by three distinct Top 3 cards.
 - Approved six-column comparison table retained with the shortened Braun area cell.
 - Visible product-card field order and bullet limits retained.
 - Methodology weights total 100%, and no unsupported numeric product scores appear.
@@ -53,6 +53,8 @@ Additional checks:
 - Braun's facial epilation head remains described as dry-only; wet/dry wording is limited to the cleansing brush.
 - Remington uses only model-specific evidence.
 - Bellabe appears under the approved public name without model `118`.
+- The electric-or-manual callout gives a genuine format tie-breaker while keeping approved facial areas as the first filter.
+- The two-card image marker and generation prompt are synchronized with the publisher handoff; the graphic cannot imply approval for the whole face.
 
 ## Claim and evidence audit
 

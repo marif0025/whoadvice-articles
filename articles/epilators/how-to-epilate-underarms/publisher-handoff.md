@@ -34,7 +34,7 @@ qualified_human_review_required: medical and editorial review before publication
 ## Part 4 audit summary
 
 - Severity counts: 0 blockers, 0 critical findings, 0 warnings, and 0 suggestions.
-- Mechanical audit: 1,999 words, 27 headings, and 0 flags; `git diff --check` passes.
+- Mechanical audit: 2,035 words, 27 headings, and 0 flags after the final cluster-sync additions; `git diff --check` passes.
 - Contract, evidence, voice, readability, SEO, heading hierarchy, and public wording exclusions pass.
 - Philips exact-model claims, AAD cut care, MedlinePlus escalation guidance, and NHS supplementary guidance were rechecked live on July 20, 2026.
 - The NHS page remains past its displayed review-due date and requires another publication-day check.
@@ -71,6 +71,19 @@ qualified_human_review_required: medical and editorial review before publication
 - Purpose: distinguish wet-use permission, washable removable parts, and a no-water symbol.
 - Suggested alt text: `Common epilator manual symbols distinguishing wet use, washable parts, and parts that must remain dry.`
 - Verify every symbol against the exact source before production.
+
+**Primary image-generation prompt — technique sequence:**
+
+```text
+Create a four-panel editorial process illustration for an adult underarm-epilation guide, landscape 16:9, clean flat-vector style, warm off-white background, charcoal outlines, muted teal and terracotta accents, inclusive medium skin tone, modest crop from shoulder to upper torso, no face required. Panel 1: hand checking an unbranded device and its manual side by side. Panel 2: arm raised while the free hand gently keeps underarm skin taut. Panel 3: a generic epilator held lightly against the underarm with one slow movement arrow and a second small arrow showing that hair direction can change; do not show a universal degree. Panel 4: device switched off beside a removable head being cleaned according to a manual symbol. No injury, blood, redness, pain expression, before-and-after result, brand, logo, model-specific likeness, product claim, text, letters, numbers, or watermark. Leave caption space below each panel for publisher-added HTML. Calm instructional health-editorial tone, not a beauty advertisement.
+```
+
+**Suggested filename:** `underarm-epilation-four-step-technique.webp`
+**Suggested alt text:** `Four-part underarm epilation sequence showing a manual check, taut skin, slow controlled movement, and device cleaning.`
+
+Verify the final pose and device handling against the exact instructions cited in the article. Keep every safety and technique step in HTML.
+
+**Optional free-stock route:** Use a neutral bathroom-context photo only as a secondary lifestyle image. One possible starting point is [Pexels personal-care bathroom photography](https://www.pexels.com/search/bathroom%20personal%20care/) or [Unsplash bathroom routine photography](https://unsplash.com/s/photos/bathroom-routine). Review the [Pexels license](https://www.pexels.com/license/) or [Unsplash license](https://unsplash.com/license), avoid photos that show an unverified device technique, irritated skin, or a recognizable person in a sensitive or misleading context, and verify the individual asset before use.
 
 Editorial owns image-specific alt text and source selection. CMS owns licensing, dimensions, responsive formats, storage, rendering, and accessibility testing.
 

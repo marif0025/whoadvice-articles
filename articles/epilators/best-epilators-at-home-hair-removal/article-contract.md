@@ -85,12 +85,19 @@ The draft must not change this order, add a product, or alter an award without r
 
 ## Opening contract
 
-- Start with the choice between head control, wet/dry flexibility, package size, and corded value.
+- Start with one controlling question that asks whether head control, wet/dry flexibility, package size, or corded value matters most, then begin answering it immediately.
 - Explain that a larger bundle or higher tweezer count is not automatically the better purchase.
 - State that WhoAdvice researched exact models, manufacturer documentation, current retailer identities, and available owner-feedback patterns.
 - Keep the opening product-neutral because the Top 3 cards immediately provide the recommendations.
 - Use `best epilator` naturally within the first 100 words.
 - Do not begin with a dictionary definition, beauty-confidence framing, or a generic history of hair removal.
+
+## Callout and types-visual contract
+
+- Place one `Type shortcut` callout at the start of `Types of epilators`; it must put the decision order in one line: treatment area, power, then head movement.
+- Place the types-card image marker beside that callout and use the generation prompt in `publisher-handoff.md`.
+- The graphic must compare mechanism, power/use, treatment area, and head movement without brands or claims.
+- Keep all labels and decision rules in HTML; the image is explanatory and must not become the only source of meaning.
 
 ## Top 3 cards
 
@@ -272,7 +279,7 @@ Use `## Which epilator is best?` and keep it between 80 and 150 words.
 - Repeat the CPSC recall search for all seven exact models.
 - Confirm the SES9-041 title/copy identity while retaining the private `P_13457` catalog-field conflict.
 - Use manufacturer bullets/manuals—not conflicting Amazon structured water-resistance fields—for SE7-041 and SES9-441 wet/dry status.
-- Add exact-model images only.
+- Add exact-model product images only. A separate unbranded editorial type-decision graphic may be used under the approved prompt.
 - Implement mobile table scrolling, disclosure placement, sponsored links, canonical, metadata, and schema.
 - Confirm that all seven products were rechecked during 2026 and that their major specifications and availability remain current before retaining `2026` in the SEO title and H1.
 - In any later year, comprehensively refresh the article and update the year; otherwise remove the year from the SEO title and H1.
@@ -329,7 +336,7 @@ Approved contract components:
 ## Part 4 completion status
 
 - **Status:** Editorial QA complete on July 20, 2026.
-- **Mechanical audit:** 3,697 words; 40 headings; 0 flags after synchronizing Bellabe's approved public name.
+- **Mechanical audit:** 3,778 words; 40 headings; 0 flags after the final cluster-sync additions.
 - **Evidence alignment:** Epilator-specific irritation, damaged-skin, movement, repeated-pass, cleaning, and worn-part claims use the Philips US manual covering BRE708/00 and BRE728/00.
 - **Link audit:** Draft links resolve; the facial support article is live but outdated and requires its planned refresh.
 - **Remaining:** CMS implementation and time-sensitive publication-day checks in `publisher-handoff.md`.
