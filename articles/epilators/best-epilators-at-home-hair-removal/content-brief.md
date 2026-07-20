@@ -1,327 +1,173 @@
 # Best Epilator: Final Content Brief
 
-**Primary keyword:** best epilator  
-**Article type:** Research-based product roundup and general buying guide  
-**Target market:** United States  
-**Research date:** July 13, 2026  
-**Pillar URL:** `/skin-care/best-epilators/`  
-**Evidence model:** Research-based; WhoAdvice did not conduct hands-on testing  
-**Article status:** Final draft completed; CMS verification remains
+**Primary keyword:** best epilator
+**Article type:** Research-based product roundup and buying guide
+**Target market:** United States
+**Research date:** July 20, 2026
+**Pillar URL:** `/skin-care/best-epilators/`
+**Evidence model:** Research-based; no hands-on-testing claim
+**Article status:** Part 4 editorial QA complete; CMS and publication-day verification remain
 
 ## Assignment
 
-Help US shoppers choose a mechanical, root-plucking epilator by body area, budget, power format, and desired level of control. Compare exact models using manufacturer documentation, intended-use guidance, current price tiers, competitor discovery, and recurring owner feedback.
+Help US shoppers choose an exact mechanical epilator by treatment area, head control, power format, useful package contents, and budget. Keep IPL, shavers, trimmers, dermaplaning tools, and electrolysis devices out of the seven-product ranking.
 
-Do not mix IPL devices, electric shavers, dermaplaning tools, bikini trimmers, or electrolysis devices into the epilator ranking.
+The commercial decision is:
 
-## Search intent and editorial angle
+> A larger bundle or higher tweezer count is not automatically better. Choose the simplest model whose treatment-area approval, head movement, power, and genuinely useful attachments fit the routine.
 
-The dominant intent is commercial investigation. Readers want:
+## Locked ranking and awards
 
-- A clear leading recommendation
-- Budget, mid-range, and premium alternatives
-- A quick comparison of meaningful differences
-- Separate guidance for body and facial use
-- Realistic information about discomfort, irritation, and ingrown hairs
-- Help choosing between corded, cordless, wet/dry, fixed-head, and flexible-head models
+| Rank | Exact product | Editorial badge | Primary buyer fit | Decisive limitation |
+|---:|---|---|---|---|
+| 1 | Braun Silk-épil 9 Flex SES9-041 | Best Overall | Premium wet/dry control around curved body areas | Premium price; no SES9-441 body trimmer |
+| 2 | Philips Epilator Series 8000 BRE708/00 | Best Streamlined ProGuide Kit | Current Philips features without a nine-attachment package | Three-hour charge; fewer grooming extras |
+| 3 | Braun Silk-épil 7 SE7-041 | Best Wet/Dry Braun Value | Wide-head Braun wet/dry versatility below the premium Flex model | Shorter stated runtime than leading cordless picks |
+| 4 | Philips Epilator Series 9000 BRE728/00 | Best Full Kit | Shoppers who will use a broad nine-attachment package | Extra pieces add cost and storage |
+| 5 | Braun Silk-épil 9 SES9-441 | Best Body-Grooming Kit | Mixed body epilation, trimming, and shaving | Pivoting head is less adaptable than SES9-041 |
+| 6 | Philips Epilator Series 2000 BRE227/00 | Best Corded Epilator | Simple dry sessions with uninterrupted power | Cord restricts movement; no shower use |
+| 7 | Braun Silk-épil 3 3-270 | Best Budget Braun Kit | Lower-cost Braun epilating, shaving, and trimming | Narrower 20-tweezer head can need more passes |
 
-The editorial angle is:
+Do not change the order, add products, or alter awards without reopening Part 1.
 
-> The best epilator depends on the area treated and the controls that improve that specific routine. A larger bundle or higher tweezer count is not automatically a better purchase.
+## Ranking weights
 
-The article must remain useful without retailer links. It should explain who each model suits, why it earned its position, and which limitation could change the decision.
+- **25% — Epilation design and body-area fit**
+- **20% — Head control, maneuverability, and useful settings**
+- **15% — Wet/dry flexibility, power, runtime, and charging**
+- **15% — Exact-model evidence, safety, cleaning, and support**
+- **10% — Useful attachments and package distinction**
+- **10% — Value relative to nearby alternatives**
+- **5% — Current US availability and support**
 
-## Corrections carried forward from the live article
+Owner feedback may identify recurring usability patterns, but it is not a standalone weighted criterion.
 
-The completed draft corrects these issues:
+## Article structure
 
-1. IPL devices are excluded from the product ranking and explained as a separate light-based category.
-2. Epilation is not described as painless.
-3. The article does not imply WhoAdvice conducted hands-on testing.
-4. Exact models and intended areas are retained throughout the table and product sections.
-5. Product copy includes reader fit, tradeoffs, summaries, verdicts, and specific pros and cons.
-6. The ranking methodology and evidence limitations are visible.
-7. Facial use is restricted to manufacturer-approved models or attachments.
-8. Manufacturer performance claims remain qualified.
-9. Generic and repetitive FAQ questions were replaced with community-led questions.
-10. Prices are handled as dated tiers rather than permanent evergreen facts.
+1. Metadata, disclosure, and product-neutral decision-led opening
+2. Three original Top 3 cards
+3. Six-column comparison table
+4. Seven ranked product cards
+5. Research methodology
+6. Grouped epilator types
+7. Pre-purchase buying guide
+8. Epilation expectations
+9. Six researched FAQs
+10. Final decision
 
-## Approved ranking and product roles
+### Top 3
 
-| Rank | Exact product | Final classification | Price tier | Best fit | Main limitation |
-|---:|---|---|---|---|---|
-| 1 | Philips Epilator Series 8000 BRE740/14 | Mid-range wet/dry body kit | Mid-range | Broad leg and body use with useful grooming attachments | Fixed head is less natural around knees and ankles |
-| 2 | Braun Silk-épil 9 Flex SkinSpa 9-481 3D | Premium flexible-head body kit | High-end | Shoppers who value contour contact and refined body control | Premium price is difficult to justify for basic leg use |
-| 3 | Panasonic ES-EL7A-P | Beginner-focused wide-head body epilator | Mid-range | Beginners who want a gentle cap, 3 speeds, and fast leg coverage | Wide head feels bulky on small areas |
-| 4 | Philips Epilator Series 2000 BRE227/00 | Low-cost corded body epilator | Cheap | Straightforward dry home use with uninterrupted power | No wet use or cordless movement |
-| 5 | Braun Silk-épil 3 3-270 | Budget epilator, shaver, and trimmer kit | Cheap | Buyers who want a light, 2 speeds, and backup grooming heads | Small 20-tweezer head can require repeat passes |
-| 6 | Braun FaceSpa Pro 911 | Dedicated rechargeable facial system | Mid-range | Upper lip, chin, cheeks, and other approved small facial areas | Too slow and specialized for large body areas |
+1. Braun Silk-épil 9 Flex SES9-041 — Best Overall
+2. Philips Epilator Series 8000 BRE708/00 — Best Streamlined ProGuide Kit
+3. Braun Silk-épil 7 SE7-041 — Best Wet/Dry Braun Value
 
-### Final award labels
+Top-pick descriptions must be original and must not repeat table, Summary, or Verdict wording.
 
-- Philips Series 8000 BRE740/14: **Best Mid-Range Wet/Dry Body Kit**
-- Braun Silk-épil 9 Flex 9-481: **Best Premium Flexible-Head Body Epilator**
-- Panasonic ES-EL7A-P: **Best Beginner Body Epilator**
-- Philips Series 2000 BRE227/00: **Best Low-Cost Corded Body Epilator**
-- Braun Silk-épil 3 3-270: **Best Budget Epilator, Shaver, and Trimmer Kit**
-- Braun FaceSpa Pro 911: **Best Dedicated Facial Epilator System**
+### Comparison table
 
-Competitor frequency determined investigation priority, not the final ranking.
+Use exactly:
 
-## Price-tier framework
+- Rank and product
+- Editorial badge
+- Power and use
+- Head and control
+- Key inclusions
+- Main tradeoff
 
-Use typical US prices checked immediately before publication.
+Keep private evidence gaps out of buyer-facing tradeoff cells. Do not include prices or affiliate links in the table.
 
-| Tier | Working band | Reader expectation |
-|---|---:|---|
-| Cheap | Under $60 | Basic dry use, corded power, smaller head, or fewer controls |
-| Mid-range | $60–$140 | Cordless wet/dry use, better coverage, more controls, or useful caps |
-| High-end | Above $140 | Flexible head, refined handling, or a genuinely useful premium kit |
+### Visible product-card order
 
-These are editorial working bands. A temporary sale does not permanently change a product's tier.
+1. Exact product title
+2. Editorial badge
+3. Summary, 50–60 words
+4. Verdict, 25–30 words
+5. Pros
+6. Cons
+7. `Check price on Amazon` CTA
 
-## Evaluation framework
+Do not display slug, brand, ASIN, or raw retailer URL as editorial rows. The canonical product files and publisher handoff retain those structured fields. No extra paragraph follows `Cons`.
 
-| Criterion | Weight | Decision factors |
-|---|---:|---|
-| Epilation design and likely efficiency | 25% | Head width, tweezer/disc design, contour contact, and likely need for repeat passes |
-| Comfort and control | 20% | Wet/dry status, speed settings, grip, pivot/flex, light, and sensitive caps |
-| Area suitability | 20% | Manufacturer-approved areas, head precision, included caps, and face/body restrictions |
-| Ease of use and maintenance | 15% | Power format, runtime, charge time, washable parts, and cleaning instructions |
-| Value | 10% | Dated price, useful accessories, support, warranty, and expected use case |
-| Review-pattern confidence | 10% | Recurring benefits and complaints across recent owner discussions |
+## Type framework
 
-Accessory count alone does not improve a score.
+Present types as grouped decisions rather than one flat taxonomy:
 
-## Required product fields
+- **Mechanism:** tweezer-style and spring
+- **Power and use:** cordless wet/dry, corded dry, replaceable-battery, and manual
+- **Treatment area:** facial, body, and bikini/precision
+- **Head design:** fixed, pivoting, fully flexible, wide, and precision
 
-Every product section contains:
+Bellabe Original Facial Hair Remover and Remington EP1050FCDN may appear only as brief type examples. They are not ranked body-roundup products. Keep Bellabe model `118` private unless the required publisher evidence confirms it.
 
-1. Title
-2. Slug
-3. Editorial badge
-4. Brand
-5. Summary
-6. Verdict
-7. Pros
-8. Cons
+## Buying-guide factors
 
-Working limits:
-
-- Summary: maximum 50–60 words
-- Verdict: maximum 25–30 words
-- Pros and cons: short, plain, specific, and evidence-based
-
-The final draft currently keeps summaries within 49–52 words and verdicts within 23–24 words.
-
-## Final comparison-table fields
-
-The table uses:
-
-- Ranked product and classification
-- Price and power
-- Intended areas
-- Strongest reason to choose it
-- Main drawback
-
-These fields help a reader make a decision and avoid repeating the editorial badge as the only distinction.
-
-## Final article structure
-
-# Best Epilator for At-Home Hair Removal in 2026
-
-### Opening
-
-Use three concise paragraphs:
-
-1. Explain root-plucking epilation and its main tradeoff without generic convenience claims.
-2. Frame the choice around treatment area, head design, control, and approved facial use.
-3. Explain the research scope without naming winners in prose.
-
-Do not name the leading products in the opening because the separate numbered Top 3 component handles that decision.
-
-### Top 3 picks component
-
-Place the component immediately after the opening and before the full comparison table:
-
-1. Philips Epilator Series 8000 BRE740/14
-2. Braun Silk-épil 9 Flex SkinSpa 9-481 3D
-3. Panasonic ES-EL7A-P
-
-The CMS component owns the numbered Top 3 presentation. Keep the product names out of the surrounding opening paragraphs to avoid repetition.
-
-## Best epilator picks at a glance
-
-Present the final six-product comparison table and dated price-tier note. The table remains useful because it compares all six products and shows power, intended areas, strongest reason to buy, and main drawback.
-
-## Best epilator reviews
-
-Give every ranked product its own H2 and required product fields.
-
-## How we ranked the best epilators
-
-Disclose the research-only evidence model, criteria, weights, and treatment of manufacturer claims.
-
-## Types of epilators by hair-removal mechanism
-
-Cover authentic mechanisms:
-
-- Spring epilators
-- Rotating-disc epilators
-- Tweezer-style epilators
-
-Do not classify wet/dry, facial, corded, or cordless as separate mechanisms.
-
-## Common epilator formats
-
-Explain:
-
-- Wet and dry epilators
-- Corded dry epilators
-- Facial epilators
-
-## Epilator vs IPL hair removal
-
-State that an epilator physically pulls existing hairs from the root, while IPL uses repeated pulses of light to reduce future growth. IPL is not a type of mechanical epilator.
-
-## How to choose the best epilator
-
-Use short H3 sections covering:
-
-- Treatment area
-- Power format
-- Head movement
-- Speed and control
-- Runtime and charging
-- Useful attachments
-- Cleaning and support
-- Safety and intended-use limits
-
-Add the practical editor's note already included in the final draft.
-
-## What to expect from an electric epilator
-
-Set realistic expectations about discomfort, temporary irritation, ingrown hairs, non-permanent results, and manual-led cleaning and intended-area rules.
-
-## Questions epilator shoppers actually ask
-
-Use community research to answer:
-
-1. Is an epilator worth buying if I am prone to ingrown hairs?
-2. Is it better to epilate wet or dry?
-3. Why does my epilator break hairs instead of pulling them from the root?
-4. Does epilator pain get better after the first few uses?
-5. Can I use the same epilator on my face, underarms, and bikini line?
-6. Are wet/dry epilators worth paying more for?
-
-Reddit, Quora, and forum searches identify questions; manufacturer instructions and authoritative health sources verify answers. Quora access was blocked during this research cycle, so no Quora-specific finding is attributed.
-
-## Which epilator is best?
-
-End with the Philips Series 8000 as the broadest overall fit, then distinguish the Philips Series 2000 budget choice, Panasonic beginner choice, Braun 9 Flex premium choice, and Braun FaceSpa facial choice.
+- Treatment Area
+- Epilator Type
+- Wet/Dry and Power
+- Head Design
+- Speed and Comfort Controls
+- Battery and Charging
+- Attachments
+- Cleaning and Support
+- Safety
+- Epilator vs. IPL
+
+Keep this section to pre-purchase rules. The type section explains classifications; the buying guide explains what to check before spending.
+
+## Evidence and safety controls
+
+- Attribute manufacturer runtime, design, and performance statements.
+- Describe review-derived observations only as recurring owner-reported patterns, never verified performance.
+- Do not claim testing, painless use, irritation-free results, permanent removal, or universal suitability.
+- State that discomfort may become more manageable for some users but does not decrease for everyone.
+- Direct recurrent or severe ingrown hairs, persistent irritation, signs of infection, or skin-condition questions toward appropriate professional advice.
+- Use the exact manual for facial, underarm, bikini-line, water-use, and damaged-skin limits.
+- Keep SES9-041 catalog-field and regional-source notes private.
+- Use manufacturer bullets/manuals rather than conflicting structured marketplace water-resistance fields for SE7-041 and SES9-441.
 
 ## SEO package
 
-**SEO title:** Best Epilator in 2026: 6 Top Picks for Face and Body  
-**H1:** Best Epilator for At-Home Hair Removal in 2026  
-**Meta description:** Find the best epilator for your budget and routine. Compare six researched picks for legs, face, sensitive areas, wet/dry use, and beginners.  
-**Recommended slug:** `/skin-care/best-epilators/`
+**SEO title:** Best Epilator in 2026: 7 Picks for At-Home Hair Removal
+**H1:** 7 Best Epilators for At-Home Hair Removal in 2026
+**Meta description:** Find the best epilator for your routine. Compare seven researched picks for wet/dry use, flexible heads, body grooming, full kits, and corded value.
+**Slug:** `/skin-care/best-epilators/`
 
-### Related terms
-
-Use naturally where relevant:
-
-- best epilators
-- electric epilator
-- hair removal from the root
-- wet and dry epilator
-- cordless epilator
-- facial epilator
-- epilator for legs
-- sensitive-area cap
-- best epilator for beginners
-
-Do not target keyword density or insert terms solely for SEO.
+Use related terms naturally where useful: best epilators, electric epilator, wet and dry epilator, cordless epilator, epilator for legs, facial epilator, and hair removal from the root. Do not target keyword density.
 
 ## Internal-link plan
 
-Included:
+- Include the dedicated [facial epilator guide](https://whoadvice.com/skin-care/best-face-epilators/) where readers need face-first recommendations.
+- Add an epilator-versus-IPL explainer link when a relevant page is published.
+- Add supporting hair-removal or epilator-maintenance links only when they directly advance the reader's decision or safe use.
+- Add a contextual return link from the facial roundup to this pillar during CMS work.
 
-- Link to the existing facial epilator guide using the anchor “facial epilator guide.”
+Editorial/SEO owns destinations and anchor intent. CMS owns implementation and live-link testing.
 
-Required after publication:
+The facial guide resolves at the intended URL, but its May 2024 content is outdated. Refresh that supporting article and add a contextual return link before treating the cluster connection as complete.
 
-- Add a contextual link from the facial epilator guide back to this pillar.
-- Link from relevant waxing and hair-removal articles when readers are comparing methods.
-- Use natural anchors and avoid repeating the exact primary keyword sitewide.
+## Word allocation
 
-## Supporting article cluster
+- Total: 3,000–3,800 words
+- Opening and Top 3: 250–350
+- Comparison table: concise cells only
+- Seven product cards: 900–1,150 total
+- Methodology: 180–250
+- Types: 450–650
+- Buying guide: 700–950
+- Expectations: 250–350
+- FAQs: 450–650
+- Conclusion: 80–150
 
-| Priority | Supporting article | Primary keyword | Scope |
-|---:|---|---|---|
-| 1 | Best Facial Epilators | best facial epilator | Dedicated facial devices, precision, and approved facial areas |
-| 2 | How to Use an Epilator | how to use an epilator | Preparation, technique, cleaning, and troubleshooting |
-| 3 | Epilator vs Waxing | epilator vs waxing | Cost, discomfort, speed, regrowth, and mess |
-| 4 | Epilator vs Shaving | epilator vs shaving | Root removal versus surface cutting and upkeep |
-| 5 | Best Epilator for Bikini Line | best epilator for bikini area | Manufacturer-approved external bikini-line use |
-| 6 | Best Epilator for Legs | best epilator for legs | Coverage, speed, power, runtime, and contouring |
-| 7 | Best Epilator for Beginners | best epilator for beginners | Control features, learning curve, and realistic expectations |
-| 8 | Wet vs Dry Epilator | wet vs dry epilator | Comfort, efficiency, cleanup, and safety |
-| 9 | Epilator vs IPL | epilator vs IPL | Mechanical removal versus light-based reduction |
-| 10 | Epilator Irritation Guide | epilator irritation | Expert-led safety article requiring medical sourcing |
+The overall ceiling takes precedence; individual ranges are balance controls and should not all be maximized.
 
-The pillar owns the broad term **best epilator**. Supporting articles must provide meaningfully deeper, narrower coverage rather than copying the pillar.
+## Publication freshness
 
-## Evidence and source requirements
-
-Use:
-
-1. Exact-model manufacturer pages and manuals
-2. Government and medical guidance for safety
-3. Strong original reporting or testing
-4. Retail pages for dated availability and price discovery
-5. Reviews and community discussions for attributed experience patterns
-6. Competitor roundups for discovery only
-
-The complete URLs, Amazon links, community-question list, verification notes, and unresolved checks are stored in `sources.md`.
-
-## Competitor snapshot
-
-The July 13, 2026 editorial competitor set was:
-
-1. Which? — broad UK inventory across budget, body, premium, and facial models
-2. Good Housekeeping — US-focused awards including Braun, Philips, and Panasonic
-3. The Guardian — UK tested guide separating overall, compact, luxury, speed, and facial uses
-
-Cross-competitor investigation priorities were Philips Series 8000, Braun Silk-épil 9 Flex, Panasonic wide-head wet/dry models, budget Braun/Philips devices, and a dedicated facial option.
-
-UK variants and prices were not transferred directly to US recommendations.
-
-## Final verification checklist
-
-Before publication:
-
-- Confirm every Amazon URL still resolves to the exact model and intended US listing.
-- Recheck Braun Silk-épil 3 3-270 and FaceSpa Pro 911 US availability.
-- Check current prices at two reputable US sellers and confirm the tiers.
-- Confirm manufacturer pages, manuals, warranty, and replacement-head availability.
-- Recheck the CPSC recall database.
-- Confirm product images show the exact US variants.
-- Implement the SEO metadata and appropriate schema in the CMS.
-- Test the comparison table and retailer buttons on mobile.
-- Confirm the affiliate disclosure appears once in the intended template location.
-- Add the planned inbound internal links.
+- Confirm all seven products were rechecked during 2026.
+- Recheck exact variation, availability, seller, fulfillment, price, and affiliate redirect.
+- Confirm major specifications and package contents remain current.
+- Repeat the CPSC recall search.
+- Update the year after a comprehensive later refresh; otherwise remove it from the SEO title and H1.
 
 ## Definition of done
 
-Editorial drafting is complete when:
-
-- Only mechanical epilators appear in the product ranking.
-- Every product uses an exact model and verified intended areas.
-- Rankings and award labels follow the stated criteria.
-- Research-only evaluation and affiliate relationships are disclosed.
-- Product sections contain a clear reader fit and meaningful tradeoff.
-- Health and safety language relies on authoritative guidance and manuals.
-- The table, product copy, pros/cons, FAQs, and conclusion agree.
-- The page has a distinct role from every supporting article.
-- The publisher handoff identifies all remaining CMS and freshness work.
+Part 4 editorial QA is complete. The article follows the locked ranking and field order, stays within the target length, keeps evidence limitations private, includes the approved qualifications and link intent, and synchronizes the full package. Remaining work is limited to CMS implementation and time-sensitive publication checks recorded in `publisher-handoff.md` and `audit.md`.

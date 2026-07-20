@@ -7,7 +7,7 @@
 **Article type:** Expert-led use, reaction, and safety guide  
 **Evidence model:** Exact device manuals plus authoritative medical guidance; Reddit supplies questions only  
 **Cluster research date:** July 15, 2026  
-**Status:** Brief created; authoritative research and claim-ledger approval required before drafting
+**Status:** Part 4 audit completed on July 20, 2026; ready for qualified medical/editorial review and conditional CMS handoff
 
 ## Assignment
 
@@ -19,7 +19,7 @@ Product selection remains on the best-epilator pillar. This page must not become
 
 The reader needs to know:
 
-1. Whether their exact epilator and attachment are approved for underarm use.
+1. Whether the manufacturer permits their exact epilator and attachment for underarm epilation.
 2. How the manual says to prepare, position the skin, operate the device, and clean it.
 3. Which temporary reactions may occur and which warning signs require stopping or professional care.
 4. Why hair may appear again sooner than a brand’s maximum-duration claim suggests.
@@ -60,7 +60,7 @@ Do not publish a product ranking or repeat the pillar’s product reviews.
 
 Before drafting:
 
-1. Collect current US manuals for pillar products explicitly approved for underarms.
+1. Collect current US manuals for pillar products the manufacturer explicitly permits for underarms.
 2. Record intended area, required attachment, hair-length instructions, wet/dry rules, skin-positioning instructions, speed guidance, cleaning, warnings, and contraindications exactly.
 3. Locate qualified medical guidance for temporary irritation, cuts/bleeding, ingrown hairs, infection warning signs, and when to seek care.
 4. Verify any claim about pores, pain reduction, hair thickness, regrowth, exfoliation, deodorant, moisturizers, antiseptics, or numbing products before use; remove unsupported advice.
@@ -68,6 +68,8 @@ Before drafting:
 6. Record manufacturer duration claims as claims, not guaranteed outcomes.
 7. Use Reddit only to identify questions and conflicting experiences.
 8. Stop for approval of the step sequence, expected-reaction wording, stop signs, and unresolved evidence.
+
+**Completed packet:** See `research.md` and `sources.md`. Exact operational evidence is retained from the Philips BRE708/BRE728 manual and official Philips BRE227 support. Braun 3-270, SE7-041, SES9-041, and SES9-441 are excluded as technique sources until official manuals are captured directly.
 
 ## Evidence hierarchy
 
@@ -84,16 +86,17 @@ Before drafting:
 primary_keyword: how to epilate underarms
 target_market: United States
 evidence_model: expert-led informational; exact manuals plus authoritative medical guidance
-opening_angle: check device approval and current skin condition before explaining technique
+opening_angle: check manufacturer-permitted underarm use and the current skin situation before explaining technique
 product_ranking: none
 product_cards: none
 step_format: action -> exact manual requirement -> reason -> stop condition
+stop_rule_placement: before the procedure and beside the movement/pressure steps
 comparison_table: optional method-decision table only
 faq_product_reference_rule: use a model only when its current manual directly supports the answer
 public_marketplace_names_allowed: false
 public_community_names_allowed: false
-conclusion_pattern: approved device -> controlled technique -> reaction check -> alternative or professional care when needed
-target_length: 1600-2300 words
+conclusion_pattern: manufacturer-permitted device -> controlled technique -> reaction check -> alternative or professional care when needed
+target_length: 1800-2100 words
 ```
 
 ## Proposed structure
@@ -102,24 +105,34 @@ target_length: 1600-2300 words
 
 ### Opening answer
 
-- State the first decision: confirm underarm approval and do not proceed over skin that conflicts with verified warnings.
+- State the first decision: confirm that the manufacturer permits underarm epilation and do not proceed when the manual's skin warnings apply.
 - Use the primary keyword naturally in the first 100 words.
 - Avoid promising reduced pain or irritation.
 
 ## Before you epilate your underarms
 
-### Confirm the device and attachment are approved
+### Confirm the manufacturer permits the device and attachment for underarms
 ### Check the manual’s hair-length guidance
 ### Follow the exact wet/dry instructions
 ### Check the skin and stop when warnings apply
 
 Do not add generic preparation steps unless evidence supports them across the intended models.
 
+Use a compact manual-check box rather than the full research matrix:
+
+| Device branch | Reader must confirm |
+|---|---|
+| Cordless wet/dry | Wet or dry permission, angle, attachment, and hair length |
+| Corded | Wet-use limitations, angle, cap, and cleaning rules |
+| Washable-head only | Which parts can be rinsed after unplugging |
+
 ## How to epilate underarms step by step
 
-- Build the final sequence from approved manuals.
+- Build the final sequence from verified manuals and exact-model support.
 - Explain skin positioning, device angle/direction, speed, pressure, and number of passes only as supported.
 - Make model-specific differences visible instead of inventing one universal technique.
+- Place a stop box before the procedure and repeat the stop rule beside the movement/pressure steps.
+- Move the one-sided reaction checkpoint out of the numbered procedure: pause before switching sides if the first underarm is bleeding, cut, becoming progressively more irritated, or causing unusual, severe, or worsening pain.
 
 ## What to do immediately after epilation
 
@@ -131,6 +144,9 @@ Do not add generic preparation steps unless evidence supports them across the in
 - Distinguish expected temporary reactions from stop signs only with qualified evidence.
 - Lead serious-reaction guidance with the action the reader should take.
 - Do not diagnose from symptoms.
+- Enforce three action levels: basic first aid for a cut or bleeding; prompt medical advice for worsening pain, warmth, swelling, increasing redness, pus, fever, chills, or feeling unwell; urgent medical help for severe bleeding, bleeding that does not stop with firm direct pressure, or a severe or rapidly worsening reaction.
+- Use AAD and MedlinePlus as the primary US authorities; NHS guidance is supplementary.
+- The article may describe warning signs and next actions but must not identify a condition from symptoms or photographs.
 
 ## Why underarm hair may appear again within days
 
@@ -144,24 +160,24 @@ Do not add generic preparation steps unless evidence supports them across the in
 
 ## Questions readers ask about underarm epilation
 
-- Is pinpoint bleeding normal when epilating underarms?
-- Why did one underarm react more strongly than the other?
-- How long should redness or tenderness last?
-- Should underarms be epilated wet or dry?
-- How long should underarm hair be?
+- Can you use an epilator on your underarms?
+- How long should underarm hair be before epilating?
+- Is it better to epilate underarms wet or dry?
+- Is bleeding after underarm epilation normal?
+- How long can redness or tenderness last?
 - Why is hair visible again after only a few days?
-- Is epilation or waxing better for a beginner?
+- Can you apply deodorant after epilating?
 
 ## When underarm epilation is not the right method
 
-- Summarize device approval, skin reaction, pain tolerance, repeated irritation, and alternative-method decisions.
+- Summarize manufacturer-permitted use, skin reaction, pain tolerance, repeated irritation, and alternative-method decisions.
 
 ## Internal-link contract
 
 | Source | Destination | Suggested anchor | Placement |
 |---|---|---|---|
 | Pillar | This support page | `how to epilate underarms safely` | Treatment-area guidance after product selection |
-| This support page | Pillar | `compare epilators approved for underarm use` | Device/attachment approval section |
+| This support page | Pillar | `compare epilators made for underarm use` | Device/attachment permission section |
 | This support page | Future irritation guide after validation | Descriptive irritation anchor | Reaction section only when it adds depth |
 | This support page | Future epilator-vs-waxing guide after validation | `epilator versus waxing` | Method comparison section |
 
@@ -187,4 +203,4 @@ Do not add generic preparation steps unless evidence supports them across the in
 
 ## Approval gate
 
-Do not draft `article.md` until the manual-derived step sequence, medical sources, reaction wording, stop signs, and claim ledger are approved.
+Part 2 is approved after minor amendments. The binding contract is recorded in `article-contract.md`, and Part 3 drafting is authorized.

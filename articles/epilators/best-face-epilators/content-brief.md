@@ -7,7 +7,7 @@
 **Article type:** Research-based product roundup  
 **Evidence model:** Research-based; WhoAdvice will not imply hands-on testing  
 **Cluster research date:** July 15, 2026  
-**Status:** Brief created; exact-model Part 1 research, ranking, and article-contract approval required before drafting
+**Status:** Part 4 editorial QA complete; ready for CMS after recorded publication-day checks
 
 ## Assignment
 
@@ -93,9 +93,9 @@ Finalize weights only after candidate discovery:
 
 Do not award points for unverified specifications. Do not equate a larger tweezer count with better facial performance.
 
-## Proposed article contract
+## Article-contract status
 
-This is provisional until the ranked products are approved.
+Part 1 products, order, awards, generic two-type structure, and seven buying-guide headings are approved. The corrected Part 2 contract in `articles/epilators/best-face-epilators/article-contract.md` controls the Part 3 draft.
 
 ```yaml
 primary_keyword: best epilator for face
@@ -105,20 +105,25 @@ opening_angle: choose facial approval and precision before comparing accessory c
 intro_product_mentions: none when separate top-pick cards are used
 top_pick_card_count: 3
 top_pick_card_fields: [award, exact product name, original short description]
-product_card_fields: [Title, Slug, Editorial badge, Brand, Summary, Verdict, Pros, Cons]
+product_card_fields: [Title, Editorial badge, Summary, Verdict, Pros, Cons, Check price on Amazon CTA]
+private_product_fields: [Slug, Brand, ASIN, Raw affiliate URL, Affiliate link, Private model-verification status]
 extra_product_paragraphs: false
+pros_per_product: 2-3
+cons_per_product: 1-2
+maximum_product_card_length: 160 words excluding CTA
 comparison_columns: [ranked product and award, approved facial areas, head/control design, power and cleaning, best fit, main limitation]
 buying_guide_scope: pre-purchase only
 faq_product_reference_rule: mention a selected product only when it directly answers the question
-public_marketplace_names_allowed: false
+public_marketplace_mentions_rule: Amazon may appear only in the required affiliate disclosure and approved CTA label
 public_community_names_allowed: false
-conclusion_pattern: face-only versus face-and-body decision -> leading facial pick -> alternatives -> manual/area caveat
+conclusion_length: 80-120 words
+conclusion_pattern: electric convenience versus manual control -> leading facial pick -> alternatives -> manufacturer-approved-area caveat
 target_length: 2200-3200 words after ranking approval
 ```
 
 ## Proposed structure
 
-# Best Epilator for Face: [Approved Decision-Led Descriptor]
+# 4 Best Facial Epilators for Precise Hair Removal in 2026
 
 ### Opening
 
@@ -143,25 +148,28 @@ target_length: 2200-3200 words after ranking approval
 - Keep summaries at 50–60 words and verdicts at 25–30 words.
 - No prose after Cons unless separately approved.
 
-## How we researched facial epilators
+## How we ranked the best facial epilators
 
 - Explain evidence sources, ranking criteria, review limitations, exact-area verification, recalls, and lack of hands-on testing.
 
-## Dedicated facial epilator or face-and-body device?
+## Types of facial epilators
 
-- Compare precision, treatment speed, approved areas, price, storage, and versatility.
-- Link uncertain cross-area shoppers to the pillar.
+### Electric facial epilators
+### Manual facial epilators
 
-## How to choose a facial epilator
+Do not create additional type groups by power, facial subarea, head format, or mechanism variation.
 
-### Check the exact approved facial areas
-### Compare head size and control
-### Decide whether you need one speed or more
-### Check power, runtime, and charging
-### Confirm cleaning and replacement-head support
-### Judge the full package, not the attachment count
+## How to choose the best facial epilator
 
-## Questions facial-epilator shoppers ask
+### Start With the Areas the Manufacturer Actually Approves
+### Decide Whether You Need a Face-Only or Face-and-Body Epilator
+### Choose Between Electric and Manual Facial Epilators
+### Match Head Width and Direction Control to the Treatment Area
+### Check Power Type and Attachment-Specific Wet/Dry Approval
+### Match the Capture Mechanism to Fine, Short, or Coarser Hair
+### Check Cleaning, Replacement Support, and the Extras You Will Actually Use
+
+## Frequently asked questions about facial epilators
 
 - Can I use a body epilator on my face?
 - Should I use a dedicated facial epilator or a facial cap?
@@ -195,15 +203,21 @@ Keep reciprocal links in Markdown drafts when both pages exist. Do not use the e
 - Use qualified medical guidance for safety, irritation, or professional-care advice.
 - Keep marketplace and community names out of public prose by default.
 
-## CMS-owned work
+## Editorial and CMS ownership
+
+- Editorial/SEO selects internal-link destinations and anchor intent; CMS implements them.
+- Research/editorial selects authoritative sources for claims; CMS renders the approved links.
+- Editorial writes image-specific alt text; CMS stores and renders it.
+
+## CMS implementation work
 
 - Canonical, redirects, breadcrumbs, sitemap, and indexing
 - Affiliate disclosure, buttons, and sponsored link attributes
-- Product and lead images with exact-model checks and alt text
+- Product and lead images with exact-product checks and editorially supplied alt text
 - Article, BreadcrumbList, and truthful ItemList schema
 - Author/reviewer fields and update date
 - Mobile comparison-table testing and page performance
 
 ## Approval gate
 
-Do not draft `article.md` yet. Approve the exact products, order, awards, evidence gaps, and final article contract after Part 1 research.
+Part 2 and Part 3 are approved, and Part 4 editorial QA is complete. Remaining work is limited to CMS implementation and the recorded publication-day checks.
