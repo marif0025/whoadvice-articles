@@ -2,7 +2,7 @@
 
 ## Voice in one sentence
 
-Write like a sharp beauty editor helping a friend make a sensible purchase: warm, specific, lively, and honest about what the evidence can and cannot prove.
+Write like a sharp consumer editor helping a friend make a sensible decision: warm, specific, lively, and honest about what the evidence can and cannot prove.
 
 ## Core voice traits
 

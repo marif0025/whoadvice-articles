@@ -1,17 +1,17 @@
 # Content brief: Best bug zapper racket
 
-**Status:** `topology_scoped_brief`; Part 1 exact-product research and ranking approval required  
-**Canonical URL:** `/home-gadgets/best-bug-zapper-racket/`  
-**Primary keyword:** best bug zapper racket  
-**Primary secondary keyword:** best electric fly swatter  
-**Other families:** fly-zapper racket; mosquito bat; rechargeable fly swatter  
-**Intent:** Active handheld-device selection  
-**Cluster role:** Commercial branch  
+**Status:** `part_4_complete_ready_for_editorial_review`; the revised 4-product package passed the final local audit
+**Canonical URL:** `/home-gadgets/best-bug-zapper-racket/`
+**Primary keyword:** best bug zapper racket
+**Primary secondary keyword:** best electric fly swatter
+**Other families:** fly-zapper racket; mosquito bat; rechargeable fly swatter
+**Intent:** Active handheld-device selection
+**Cluster role:** Commercial branch
 **Current-page action:** Refresh the existing canonical
 
 ## Brief boundary
 
-This brief does not approve the products or model strings observed on the current page. Part 1 must recapture the page, verify exact identities and packages, and approve the ranking before drafting.
+The approved Part 1 set is YISSVIC WD-981, Flowtron FLWBZR5, The Executioner Pro, and the exact ZAP IT! battery-racket package at ASIN B0859NZM5H. WD-981 is the proposed contract anchor. The other products retain their named manual, runtime, model-number, and US-package evidence limitations; approval does not convert those unknowns into facts. No fifth handheld is required.
 
 ## Reader decision
 
@@ -22,7 +22,7 @@ Help the reader choose a handheld electric racket for active contact with indivi
 - **Working H1:** Best Bug Zapper Rackets and Electric Fly Swatters
 - **Title direction:** Lead with `best bug zapper racket`; include electric fly swatter naturally.
 - **Meta direction:** Compare electric fly swatters by guard design, activation controls, charging, balance, and any verified base mode.
-- **Recommended length:** 2,400–3,300 words after product approval.
+- **Recommended length:** 2,400–3,000 words after contract approval.
 
 ## Required opening
 
@@ -49,7 +49,7 @@ Help the reader choose a handheld electric racket for active contact with indivi
 ## Recommended answer path
 
 1. **Quick racket decision** — insect frequency, active reach, control preference, charging, storage, and whether a base mode is genuinely needed.
-2. **Top picks** — only after exact-model and ranking approval.
+2. **Top picks** — the approved contract uses three cards: WD-981, FLWBZR5, and The Executioner Pro.
 3. **Comparison table** — exact model, power, guard design, activation controls, lock, indicators, verified base mode, charging, dimensions/weight if decision-relevant, and main drawback.
 4. **How we researched** — exact variants, manuals, controls, charging, guarding, recalls, availability, and source conflicts.
 5. **Product cards** — active-use fit, evidence, material drawback, and close-alternative callouts.
@@ -74,12 +74,12 @@ Help the reader choose a handheld electric racket for active contact with indivi
 
 Grid voltage is not a performance score and must not substitute for evidence of usability or insect-control outcomes.
 
-## Product research gate
+## Completed product gate and publication-day checks
 
-- Verify all YISSVIC, Mosiller, Buzbug, GeckoMan, and ZAP IT! model/variant strings observed in discovery; none are approved.
-- Use exact manuals or manufacturer instructions for grid layers, activation, lock, charging, stationary modes, cleaning, and storage.
-- Confirm current US package, availability, recalls, retailer eligibility, and affiliate status.
-- Resolve visually similar or relabeled models before ranking.
+- Preserve the approved four-product set and publisher-confirmed links. YsChois 3688-W, Mosiller WD-942, Aspectek HR28A8, and other discovery-only variants remain excluded unless Part 1 is explicitly reopened.
+- Use exact manuals or manufacturer instructions for grid layers, activation, lock, charging, stationary modes, cleaning, and storage; mark fields `not verified` where exact instructions are missing.
+- Reconfirm the current US package, availability, recall status, seller, fulfillment, redirect, and affiliate variation before publication.
+- Do not merge visually similar or relabeled models. Any identity change reopens Part 1.
 
 ## Claim and evidence controls
 
@@ -99,7 +99,7 @@ Grid voltage is not a performance score and must not substitute for evidence of 
 
 - Is an electric fly swatter better than a stationary bug zapper?
 - Can a bug-zapper racket kill mosquitoes?
-- Are rechargeable rackets more practical than battery-powered models?
+- Are rechargeable rackets more practical than replaceable-battery models?
 - What does a base or automatic mode do?
 - How should an electric racket be cleaned and stored?
 - Are bug-zapper rackets safe around children or pets?
@@ -116,4 +116,4 @@ Internal and affiliate links, disclosures, buttons, exact-model images, author/r
 
 ## Next gate
 
-WhoAdvice Part 1 exact-product research and ranking approval, including variant normalization and base-mode verification.
+Complete responsible editorial review, then perform the CMS and publication-day checks in `publisher-handoff.md` and `audit.md`.

@@ -26,7 +26,7 @@ Perform the final WhoAdvice cluster sync after every complete article has passed
 [PASTE CLUSTER ROOT]
 [PASTE PAGE INVENTORY AND PAGE-OWNERSHIP MAP]
 
-Follow all current WhoAdvice project references, especially the fact-checking policy, banned AI patterns, human-centered writing standard, on-page SEO checklist, article workflow, and this final cluster-sync reference.
+Follow the route in `reference/README.md`, especially the fact-checking policy, banned AI patterns, human-centered writing standard, `18-on-page-seo-checklist.md`, canonical article lifecycle, and this final cluster-sync reference. Do not load optional handbooks or prompt recipes unless an unresolved issue requires them.
 
 1. Inventory the pillar, commercial support pages, and informational or tip pages. Identify briefs or incomplete packages without drafting them.
 2. Confirm one primary intent and keyword owner per URL. Flag cannibalization, scope leakage, duplicated FAQ ownership, and thin support pages.

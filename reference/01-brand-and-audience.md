@@ -2,11 +2,15 @@
 
 ## Project purpose
 
-WhoAdvice publishes practical, research-led guidance for people choosing products and routines in:
+WhoAdvice publishes practical, research-led guidance for people choosing products, tools, and routines in categories including:
 
 - Skin care
 - Hair care
 - Personal care
+- Garden tools
+- Home and household gadgets
+
+The site may expand into other consumer categories when the team can apply the same evidence, safety, exact-product, and decision-support standards. Category expansion does not lower the trust contract or justify generic criteria.
 
 The site should help readers make a decision, not merely give them more products to browse.
 
@@ -31,7 +35,7 @@ WhoAdvice does **not** claim to operate a testing laboratory or to have personal
 
 ## Core brand position
 
-WhoAdvice is a careful shopping guide, not a product catalog and not a beauty marketing channel.
+WhoAdvice is a careful shopping guide, not a product catalog or product-marketing channel.
 
 The brand should feel:
 
@@ -114,6 +118,33 @@ Readers usually care about:
 - Suitability for sensitive areas
 - Noise, grip, storage, and cleaning
 - Safety instructions and contraindications
+
+### Garden tools
+
+Readers usually care about:
+
+- Job size, material, and required reach
+- Power source and total system cost
+- Cutting, trimming, or clearing capacity
+- Weight, balance, grip, and control
+- Cord, battery, charger, fuel, or extension-system constraints
+- Setup, maintenance, storage, and replacement parts
+- Noise, vibration, debris, electrical, blade, and fire risks
+- Weather, wildlife, and local-use constraints
+- Warranty, repair support, recalls, and long-term availability
+
+### Home and household gadgets
+
+Readers usually care about:
+
+- The specific household problem the product can and cannot solve
+- Mechanism, coverage, capacity, placement, and power needs
+- Setup burden, controls, cleaning, and recurring consumables
+- Noise, light, odor, heat, electrical, child, pet, and fire risks
+- Realistic performance boundaries rather than marketing promises
+- Indoor, outdoor, room-size, or environmental suitability
+- Durability, warranty, replacement parts, and recalls
+- Total ownership cost and current availability
 
 ## The trust contract
 

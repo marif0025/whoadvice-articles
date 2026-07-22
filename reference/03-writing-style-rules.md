@@ -42,7 +42,7 @@ Delete paragraphs that only repeat the heading or keyword.
 
 ## 3. Keep introductions focused
 
-A roundup introduction should usually be 120–220 words.
+A roundup introduction should usually be 120–200 words unless the approved article contract sets another range.
 
 It should contain:
 

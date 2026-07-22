@@ -1,16 +1,16 @@
 # Content brief: Best outdoor bug zapper
 
-**Status:** `topology_scoped_brief`; Part 1 exact-product research and ranking approval required  
-**Canonical URL:** `/home-gadgets/best-outdoor-bug-zapper/`  
-**Primary keyword:** best outdoor bug zapper  
-**Secondary families:** outdoor bug zapper; outdoor fly zapper; plug-in outdoor bug zapper; rechargeable bug zapper  
-**Intent:** Outdoor grid-zapper selection  
-**Cluster role:** Commercial branch  
+**Status:** `part_1_refresh_complete_pending_approval`; 5 Amazon-route products researched July 22, 2026
+**Canonical URL:** `/home-gadgets/best-outdoor-bug-zapper/`
+**Primary keyword:** best outdoor bug zapper
+**Secondary families:** outdoor bug zapper; outdoor fly zapper; plug-in outdoor bug zapper; rechargeable bug zapper
+**Intent:** Outdoor grid-zapper selection
+**Cluster role:** Commercial branch
 **Current-page action:** Refresh the existing canonical after exact-model research
 
 ## Brief boundary
 
-This brief preserves the outdoor page’s canonical and decision ownership. It does not approve current live products, rankings, awards, coverage claims, or production copy.
+This brief preserves the outdoor page’s canonical and decision ownership. The refreshed pool is Flowtron BK-15D, BK-40D, BK-80D, GOOTOP Zap T6 Pro, and Buzbug MO-008C New Black ASIN B0CNSZ5VHX. Current live rankings, awards, coverage claims, and production copy remain unapproved. MO-008C is a plug-in indoor/outdoor model and must not inherit specifications from unavailable MO-005B or MA015C.
 
 ## Reader decision
 

@@ -1,5 +1,13 @@
 # WhoAdvice: Article Workflow
 
+## Purpose and authority
+
+This file owns the canonical article lifecycle, stage boundaries, approval behavior, Final Article Audit status, manual editorial review, publication handoff, and refresh cycle. Use `reference/README.md` to select the article-type profile and supporting references.
+
+For a normal one-agent product roundup, use `15-fast-roundup-workflow.md` as the controlling format profile inside this lifecycle. Use the detailed handbook in `13-article-production-guide.md` only when granular ownership or review is warranted, and use individual recipes from `14-article-prompt-library.md` only when a stage benefits from a reusable prompt.
+
+Do not force roundup ranking, awards, cards, or product files onto a single-product review, comparison, informational guide, how-to article, or problem-and-solution article. Route those formats through the article-type sections identified in `reference/README.md`.
+
 ## Operating principle
 
 Research, evidence review, product selection, ranking, writing, and editing are separate stages.
@@ -278,8 +286,8 @@ Build the outline from intent and evidence.
 3. Disclosure
 4. Introduction
 5. Quick picks
-6. Product reviews
-7. Comparison table
+6. Comparison table
+7. Product reviews
 8. How products were selected
 9. Buying guide
 10. Relevant safety or use guidance
@@ -314,7 +322,7 @@ Approve the outline before drafting. Remove sections that duplicate one another.
 
 ## Stage 9: Drafting
 
-Follow all project files.
+Follow the routed normative files and approved article contract. Do not load every project file or let an optional prompt recipe override the selected workflow profile.
 
 Drafting rules:
 
@@ -526,7 +534,7 @@ At the scheduled review:
 
 Do not refresh the date without substantive verification.
 
-## Standard ChatGPT project behavior
+## Standard workflow-agent behavior
 
 When asked to create an article:
 
@@ -536,7 +544,7 @@ When asked to create an article:
 4. State assumptions in working documents.
 5. Mark missing evidence instead of inventing it.
 6. Provide the requested stage output in a structured, reviewable format.
-7. Wait for approval only when the user explicitly wants a manual gate; otherwise continue through the requested scope while preserving separate stage outputs.
+7. Honor the approval behavior of the selected profile. For the normal four-part roundup, pause after research/ranking and article-contract approval unless the user explicitly requests one uninterrupted run. Never treat silence as approval at a configured mandatory gate.
 
 ## Suggested article request format
 

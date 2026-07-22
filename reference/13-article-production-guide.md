@@ -1,10 +1,12 @@
-# WhoAdvice: Step-by-Step Article Production Guide
+# WhoAdvice: Detailed Article Production Handbook
 
 ## Purpose
 
 For normal product roundups handled by one agent, use `15-fast-roundup-workflow.md` as the default four-part path. Use this longer guide only when the assignment needs granular human approval, separate owners, high-risk evidence review, or extensive product scoring.
 
-This guide explains how to use the WhoAdvice editorial project files to produce accurate, useful, search-focused articles in skin care, hair care, and personal care.
+This handbook is explanatory rather than a competing workflow authority. `11-article-workflow.md` owns lifecycle and gates, the selected article-type profile owns format details, and `reference/README.md` owns routing and precedence.
+
+This guide explains how to use the WhoAdvice editorial project files to produce accurate, useful, search-focused consumer articles across the site's approved categories.
 
 The process is designed for:
 
@@ -35,7 +37,7 @@ When instructions appear to conflict, apply this order:
 
 SEO must never override truthfulness or safety. Voice must never turn uncertainty into confidence. A polished sentence is not acceptable when its underlying claim is weak.
 
-## 1.2 Do not ask ChatGPT to write the article in one pass
+## 1.2 Do not ask an agent to write the article in one pass
 
 A one-pass article tends to produce:
 
@@ -50,21 +52,11 @@ A one-pass article tends to produce:
 
 Instead, create and approve the evidence and decision logic before polished prose.
 
-## 1.3 Use one master chat for each article
+## 1.3 Keep one authoritative article workspace
 
-Create one primary chat inside the WhoAdvice project for each article.
+Keep approved research, contracts, decisions, drafts, audits, and handoffs in the article's workspace package. Files in the active project are the durable source of truth; a chat, task, or agent session is only a working interface.
 
-Recommended chat name:
-
-`[Article Type] Primary Keyword — YYYY-MM`
-
-Examples:
-
-- `Roundup — Best Epilators — 2026-06`
-- `Guide — How to Use Curl Cream — 2026-06`
-- `Review — Braun Silk-épil 9 — 2026-06`
-
-Keep the article's approved outputs in that chat. For unusually large research projects, a separate research chat may be used, but its final evidence summary must be brought into the master article chat.
+When separate research or review tasks are used, synchronize their approved outputs into the article package before the next stage begins.
 
 ## 1.4 Use manual review gates
 
@@ -82,39 +74,22 @@ Do not approve a stage only because its formatting looks complete. Review the lo
 
 ---
 
-# 2. One-time ChatGPT project setup
+# 2. Tool-neutral workspace setup
 
-## Step 1: Create the project
+## Step 1: Confirm the project and reference map
 
-Create a ChatGPT project named:
+Confirm the active project root and read `reference/README.md`. Select the article-type route and load only the normative files needed for the current stage.
 
-`WhoAdvice Editorial Project`
+Keep approved artifacts in the article package. Do not treat a platform-specific project, uploaded file collection, or conversation history as the durable source of truth.
 
-Add all editorial files to the project:
+## Step 2: Configure portable workflow instructions
 
-- `01-brand-and-audience.md`
-- `02-voice-and-tone.md`
-- `03-writing-style-rules.md`
-- `04-editorial-positions.md`
-- `05-banned-ai-patterns.md`
-- `06-product-review-guidelines.md`
-- `07-fact-checking-policy.md`
-- `08-approved-claims-and-sources.md`
-- `09-good-writing-examples.md`
-- `10-bad-writing-examples.md`
-- `11-article-workflow.md`
-- `12-seo-content-checklist.md`
-- `13-article-production-guide.md`
-- `16-human-centered-writing-and-editing.md`
-
-## Step 2: Add project-level instructions
-
-Use the following as the main project instruction:
+Use the following as a tool-neutral instruction when the execution environment needs one:
 
 ```text
-You are the editorial research and writing assistant for WhoAdvice, covering skin care, hair care, and personal care.
+You are the editorial research and writing assistant for WhoAdvice, covering the consumer categories defined in the active brand and audience reference.
 
-Treat all uploaded WhoAdvice editorial files as binding project instructions. Apply them according to this priority: factual accuracy and safety; source and claim policies; editorial positions and product-review rules; brand voice and writing style; SEO; formatting.
+Use `reference/README.md` to select the binding files and apply their documented precedence. Do not load or treat every reference as an independent workflow.
 
 WhoAdvice articles are research-based unless genuine testing records are provided. Never imply that WhoAdvice, its editors, or its writers personally tested, tried, wore, used, measured, or experienced a product without documented first-hand testing.
 
@@ -153,7 +128,7 @@ special_constraints:
 hands_on_testing_available: false
 ```
 
-Unknown fields may remain blank. ChatGPT must record assumptions rather than silently filling them.
+Unknown fields may remain blank. The workflow agent must record assumptions rather than silently filling them.
 
 ---
 
@@ -1169,7 +1144,7 @@ Before publishing, manually verify:
 
 ---
 
-## Step 20: Schedule the update cycle
+## Step 21: Schedule the update cycle
 
 Do not change the article date without meaningful review.
 
@@ -1217,9 +1192,11 @@ Use every phase:
 12. Fact check
 13. Editorial edit
 14. SEO audit
-15. Publication package
-16. CMS QA
-17. Update schedule
+15. Final Article Audit
+16. Manual editorial approval
+17. Publication package
+18. CMS QA
+19. Update schedule
 
 This is the most evidence-intensive article type.
 
@@ -1239,7 +1216,9 @@ Use:
 10. Fact check
 11. Editorial edit
 12. SEO audit
-13. Publication package
+13. Final Article Audit
+14. Manual editorial approval
+15. Publication package
 
 Do not use a numerical score unless the scoring model is defined and consistently applied across WhoAdvice reviews.
 
@@ -1257,7 +1236,10 @@ Use:
 8. Outline
 9. Draft
 10. Fact check
-11. Editorial and SEO passes
+11. Editorial pass
+12. SEO pass
+13. Final Article Audit
+14. Manual editorial approval and publication package
 
 The conclusion should not merely declare one universal winner. It should explain which product is better for which reader.
 
@@ -1275,7 +1257,9 @@ Use a lighter workflow:
 8. Fact check
 9. Editorial edit
 10. SEO audit
-11. Publication package
+11. Final Article Audit
+12. Manual editorial approval
+13. Publication package
 
 Do not create product rankings unless the article's intent requires them.
 
@@ -1323,9 +1307,11 @@ Do not create product rankings unless the article's intent requires them.
 - [ ] The prose matches the WhoAdvice voice.
 - [ ] Repetition and AI patterns are removed.
 
-## Gate 6: Publication approved
+## Gate 6: Final audit and publication approved
 
 - [ ] Fact-checking is complete.
+- [ ] The Final Article Audit has no blocker or critical finding.
+- [ ] A responsible human editor has approved publication.
 - [ ] Metadata matches the page.
 - [ ] Links and variants are correct.
 - [ ] Images are correct and accessible.
@@ -1347,7 +1333,9 @@ When a topic does not justify the full product-ranking workflow, do not skip res
 7. Fact-check separately.
 8. Edit for WhoAdvice voice.
 9. Run the SEO checklist.
-10. Complete publication QA.
+10. Run the Final Article Audit.
+11. Obtain manual editorial approval.
+12. Complete publication QA.
 
 This process is suitable for straightforward explainers and how-to articles. It is not sufficient for a major product roundup.
 
@@ -1428,6 +1416,8 @@ EDITORIAL VOICE / ANTI-AI PASS
     ↓
 SEO AND INFORMATION-GAIN PASS
     ↓
+FINAL ARTICLE AUDIT
+    ↓ manual editorial approval
 PUBLICATION PACKAGE
     ↓
 HUMAN CMS QA

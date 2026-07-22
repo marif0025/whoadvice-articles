@@ -1,226 +1,179 @@
 # Part 1 research and ranking: Best bug zapper
 
-**Status:** `part_1_research_complete_pending_approval`  
-**Research date:** July 21, 2026  
-**Availability snapshot consolidated:** July 21, 2026, 13:36 PKT  
-**Target market:** United States  
-**Primary keyword:** `best bug zapper`  
-**Evidence model:** Research-based commercial format-selection roundup; no hands-on testing  
-**Next gate:** Approve formats, exact products, display order, labels, exclusions, and conditional evidence requirements before Part 2
+**Status:** `part_1_approved`
+
+**Re-evaluated:** July 22, 2026
+
+**Target market:** United States
+
+**Primary keyword:** `best bug zapper`
+
+**Page role:** Commercial pillar and format-selection guide
+
+**Evidence model:** Research-based roundup; no hands-on testing
+
+**Part 1 decision:** Approved for a 10-product Part 2 contract under the publisher-approved four-handheld exception
 
 ## Executive decision
 
-The pillar can support a four-format decision path without becoming four branch rankings. Two representatives are ready for editorial approval, while two should remain conditional:
+The current cluster contains 19 active normalized records across 11 brands. Indoor, outdoor, and solar each have five researched Amazon-route products. Handheld has four because LiBa WD-942 failed the publisher availability check and no sufficiently verified replacement was found. The publisher instructed the project to leave that gap and move forward, so the missing fifth handheld no longer blocks the pillar contract.
 
-| Display order | Format decision | Exact product | Proposed editorial label | Part 1 status |
-|---:|---|---|---|---|
-| 1 | Indoor passive capture | Safer Home Indoor Plug-in Fly Trap SH502, one trap plus two cards | Best indoor stationary trap | Approve |
-| 2 | Outdoor plug-in grid | Flowtron BK-40D, Midnight Black package | Best outdoor plug-in representative | Approve |
-| 3 | Off-grid solar grid | Flowtron SLZ-10 / FLWSLZ10 | Best off-grid format option | Conditional: obtain exact manual or equivalent manufacturer instructions |
-| 4 | Active handheld contact | BLACK+DECKER BDPC976, one racket | Best for active handheld use | Conditional: capture the exact manual and reconfirm the current seller route |
+The pillar should publish 10 product cards, grouped by format rather than ranked from 1 to 10. The shortlist includes three indoor choices, three outdoor plug-in choices, three solar choices, and one handheld choice. This meets the requested 10-product pillar scope while avoiding conditional products whose model, manual, or current package remains too uncertain.
 
-This is a decision order, not a claim that an indoor glue trap outranks an outdoor grid. The four formats solve different jobs and should not receive a universal performance score.
+## Search intent and current editorial pattern
 
-### Solar decision
+The dominant US result pattern remains a commercial roundup mixing stationary grid zappers, indoor traps, solar devices, and electric rackets. The results often compare wattage, voltage, advertised coverage, or retailer popularity as though those fields prove equivalent performance.
 
-```yaml
-solar_format_status: survives_conditionally
-reason: >-
-  A normalized current model now exists with an official manufacturer page,
-  consistent identifiers, and several US retail routes. The exact manual is not
-  publicly available, the manufacturer page is sold out, and early ownership
-  evidence is thin, so final product approval is conditional.
-fallback_if_condition_fails: exclude_the_solar_product_card_and_route_the_power_decision_to_the_provisional_solar_branch
-```
+WhoAdvice should instead resolve the format decision first:
 
-## Search intent and current editorial SERP
-
-The current US result set is commercial and list-led. Prominent pages mix outdoor grids, indoor grid units, glue/fan traps, solar lanterns, and rackets under one query. They usually rank products before helping readers choose a mechanism. The SERP repeatedly uses voltage and advertised coverage as shorthand for performance and often overstates mosquito, environmental, or child/pet outcomes.
-
-WhoAdvice's distinct job is therefore format selection first: identify the insect/location/power/maintenance/active-vs-passive decision, name one representative exact product per surviving format, and route deeper comparison to branch pages.
+1. Identify the insect problem, desired outcome, and location.
+2. Choose passive capture or active contact.
+3. Match indoor, outdoor plug-in, solar, or handheld power to the setting.
+4. Compare placement, guarding, cleaning, consumables, charging, and replacement support.
+5. Keep mosquito expectations realistic: killing an insect at the device does not establish fewer bites, a smaller population, or disease protection.
 
 ### Three useful editorial competitors
 
-| Competitor | Current usefulness | Products/mechanisms surfaced | Useful pattern | Gap or risk WhoAdvice should avoid |
-|---|---|---|---|---|
-| HGTV, updated June 16, 2026 | Current broad-query competitor | Outdoor, indoor, solar, portable, and racket products | Confirms the mixed-format commercial SERP and names a pick per use case | Uses broad `safe`, `nontoxic`, mosquito, and bug-free language; relies heavily on retailer inventory |
-| Popular Mechanics, updated June 21, 2024 | Older but editorially useful | Grid zappers plus a clearly labeled non-zapper DynaTrap | Separates non-zapper mechanism and includes mosquito limitations and cleanup/location factors | Stale product set; still treats coverage and grid voltage as decision shorthand |
-| Forbes Vetted, May 7, 2024 | Older expert-informed format reference | Indoor, outdoor, solar, racket, glue/fan alternatives | Uses entomologist input and recognizes different capture mechanisms | Product freshness is weak and some comfort/mosquito framing exceeds evidence |
-
-## Candidate universe
-
-Discovery used current editorial results, the existing WhoAdvice capture, official brand catalogs, major US retailers, manuals, and recall results. A marketplace mention alone did not qualify a product.
-
-| Format | Candidate | Identity / availability finding | Pillar decision |
+| Competitor | Current pattern | Useful element | Gap WhoAdvice should correct |
 |---|---|---|---|
-| Indoor | Safer Home SH502, 1 device + 2 cards | Official exact page, exact Amazon package/ASIN, IFU and replacements; high identity confidence | Selected; call it a trap, never a zapper |
-| Indoor | Zevo plug-in flying-insect trap | Strong retail presence but generation/package identifiers remain inconsistent across `Model 4`, `Model 5`, and refill bundles | Reject for pillar; resolve on indoor branch |
-| Indoor | ASPECTEK indoor electronic zapper | Current editorial/retailer presence but no durable manufacturer-backed exact package was normalized in this pass | Reject for pillar |
-| Indoor | DynaTrap DT152 / DT3005W family | Distinct products and mechanisms; current pillar capture used a different DynaTrap model | Branch-only discovery; do not merge model records |
-| Indoor | Flowtron FLWINZ11/14/16/20/26 family | Official catalog is current, but the page exposes size variants and sold-out states; one exact package was not necessary for the pillar | Branch-only candidate universe |
-| Outdoor | Flowtron BK-40D | Current official model, family manual, warranty, exact ASIN/UPC, and US fulfillment route | Selected |
-| Outdoor | GOOTOP Zap T6 Pro / generic GOOTOP title | Current SERP prominence but model naming, official manufacturer documentation, and package durability remain weak | Reject for pillar |
-| Outdoor | BLACK+DECKER BDPC912 | Exact model/manual evidence exists, but it offers no clearer pillar role than BK-40D and would duplicate the outdoor branch comparison | Reject for pillar; branch alternative |
-| Outdoor | Flowtron BK-15D / BK-80D | Current official siblings with the same core format | Reject for pillar; Flowtron/outdoor comparison belongs on a branch |
-| Outdoor | New Fi 24MW and FVOAI Zap X3 Pro | Retailer-title identities without sufficient durable manufacturer/manual evidence | Reject |
-| Solar | Flowtron SLZ-10 / FLWSLZ10 | Official exact page, matching UPC/part number, and multiple US retail routes; manual unavailable and direct page sold out | Selected conditionally |
-| Solar | OnBeam solar zapper | Current editorial and retail visibility, but no stronger exact-manufacturer/manual record than FLWSLZ10 was established | Reject for pillar |
-| Solar | Wulyno SJZ-071 | Cross-page ownership and manufacturer/manual identity remain unresolved | Reject |
-| Solar | Kiies/Evolpol SOBZ-01 | Same identifier appears under conflicting brands | Reject |
-| Solar | Pure Garden solar stake set | Landscape-light/set format is materially different and current evidence did not establish a durable exact zapper package for this pillar | Reject |
-| Handheld | BLACK+DECKER BDPC976 | Exact current ASIN/model/GTIN and active-contact format; manual resource is exposed but fetch failed | Selected conditionally |
-| Handheld | ZAP IT! rechargeable packages | Multiple sizes, power types, packs, and ASINs make the visible product name insufficient as a stable model | Reject for pillar |
-| Handheld | Flowtron FLWBZR5 tri-fold racket | Official exact current product, but no exact manual was found and early charging feedback is concerning; stationary mode would complicate the simple active-use role | Reject for pillar; branch candidate only after deeper review |
-| Handheld | iMirror BZ-001 | CPSC recall 25-396 for fire risk during extended use | Excluded and added to unavailable register |
+| [HGTV](https://www.hgtv.com/shopping/outdoors/best-bug-zappers) | Nine use-case picks across plug-in, solar, portable, and handheld formats | Broad format and brand coverage | Several products rely on retailer identity more than stable public model documentation |
+| [Popular Mechanics](https://www.popularmechanics.com/home/g36425456/best-bug-zappers/) | Conventional roundup mixing brands and mechanisms | Ownership factors and recognizable use cases | The 2024 update is stale for a fast-turnover Amazon category |
+| [This Old House](https://www.thisoldhouse.com/pest-control/best-bug-zapper) | Six picks, comparison table, buying guide, FAQs, and methodology | Clear product-card and comparison structure | Treats voltage, wattage, and claimed coverage too readily as performance proxies and uses loose mosquito language |
 
-## Format eligibility decisions
+Competitors are discovery and structure sources only. Exact-model facts, safety boundaries, and rankings come from product records, manuals, manufacturer pages, and authoritative guidance.
 
-| Format | Does it deserve pillar representation? | Evidence-based reason |
-|---|---|---|
-| Indoor stationary | Yes | The SERP treats small indoor traps and grid units as competing choices; the pillar must explain the mechanism difference clearly |
-| Outdoor plug-in | Yes | This is the dominant conventional zapper format and has mature exact-model/manual support |
-| Solar-powered | Conditional yes | A viable exact current model exists, but manual and stock depth are weaker than plug-in products |
-| Handheld racket | Yes | Active contact is a materially different reader job and appears consistently in the commercial SERP |
+## Current 19-product candidate register
 
-## Ranking method
+| Format | Product | Exact-model status | Pillar decision |
+|---|---|---|---|
+| Indoor | Safer Home SH502 | Verified | Include; label accurately as a UV glue-board trap |
+| Indoor | BLACK+DECKER BDPC959 | Verified | Include |
+| Indoor | Buzbug MA015 | Verified | Include |
+| Indoor | Aspectek HR292-5 | Amazon unit-label check remains | Defer to indoor branch |
+| Indoor | Flowtron FLWINZ11 | Exact manual/current package unresolved | Exclude from pillar |
+| Outdoor | Flowtron BK-15D | Exact family manual and model/ASIN match | Include |
+| Outdoor | Flowtron BK-40D | Verified exact model/package | Include; outdoor anchor |
+| Outdoor | Flowtron BK-80D | Exact family manual and model/ASIN match | Defer to outdoor branch to avoid family duplication |
+| Outdoor | Buzbug MO-008C, New Black | Exact model, manual record, UPC, and selected ASIN agree | Include |
+| Outdoor | GOOTOP Zap T6 Pro | Identity strong; manual provenance limited | Defer to outdoor branch |
+| Solar | PIC DFST | Exact model, official page, and exact manual | Include |
+| Solar | PIC FLPT | Exact model, official page, and exact manual | Include |
+| Solar | PIC SOLAR-PLZ | Exact manual and current US route; official page absent | Include with source-limit wording |
+| Solar | Flowtron FLWSLZ10 | Exact manual missing and source conflicts remain | Exclude from pillar |
+| Solar | OnBeam SE566 | Exact manual missing and package conflict remains | Exclude from pillar |
+| Handheld | YISSVIC WD-981 | Exact manual copy and current package identity; manual is not manufacturer-hosted | Include with provenance limit |
+| Handheld | Flowtron FLWBZR5 | Sold-out/manual/runtime conflicts remain | Exclude from pillar |
+| Handheld | ZAP IT! battery-racket package B0859NZM5H | Public model number not located | Exclude from pillar |
+| Handheld | The Executioner Pro | US package/manual route still requires reconciliation | Exclude from pillar |
 
-Eligibility gates were applied before any label: exact identity, assigned-format fit, intended-location evidence, mechanism clarity, power/maintenance evidence, current US purchase route, and no disqualifying recall. A failed identity, safety, or availability gate cannot be rescued by popularity or claimed performance.
+The active files remain the shared cluster archive. Products deferred from the pillar may still serve a branch article after its own evidence gate.
 
-For comparing candidates within a format, use these predeclared weights. Scores should be whole numbers only if Part 2 later needs a private tie-break; do not publish cross-format totals.
+## Approved 10-product pillar shortlist
 
-| Criterion | Weight | What it establishes |
-|---|---:|---|
-| Exact-product confidence | 20% | Model, package, images, manual, and retailer destination agree |
-| Format fit | 20% | Clearly represents the assigned reader job without duplicating another branch |
-| Location evidence | 15% | Exact indoor/outdoor/covered/weather placement from primary evidence |
-| Mechanism clarity | 10% | Grid, glue card, fan chamber, or active racket contact is unambiguous |
-| Power practicality | 10% | Outlet, solar/USB-C, rechargeable, or replaceable-battery burden is documented |
-| Ownership burden | 10% | Cleaning, cards, bulbs, lures, charging, and replacement needs are known |
-| Guarding and access | 5% | Physical construction and access limits only; no general safety inference |
-| Evidence quality | 5% | Strength and consistency of manuals, manufacturer sources, regulators, and retailers |
-| Current US availability | 5% | Credible route, exact variation, and package stability |
+This is a decision sequence, not a universal performance ranking.
 
-The main limitation is mandatory editorial output, not a scored criterion.
+### Indoor
 
-## Product decision summaries
+1. **Safer Home SH502 — Best indoor glue-board trap**
 
-### Safer Home SH502
+   Strongest indoor passive-capture identity and package evidence. It must never be described as an electrified zapper. Its nonreplaceable LED and recent manufacturer-site reports of dimming or failure are material ownership limitations.
+2. **BLACK+DECKER BDPC959 — Best indoor electric-grid zapper**
 
-- **Why selected:** Strong exact identity, clear indoor-only placement, established replacement-card system, current direct and Amazon routes, and a mechanism that exposes the key indoor choice.
-- **Main limitation:** Ongoing glue-card cost and recent manufacturer-site reports of non-replaceable LED failure/dimming.
-- **Public identity rule:** `Indoor plug-in trap`; never imply an electrified grid.
+   Exact retailer/manual agreement, replaceable lamp, and collection tray provide the clearest conventional indoor-grid comparison.
+3. **Buzbug MA015 — Indoor grid alternative**
 
-### Flowtron BK-40D
+   Current official product route, manual index, selected ASIN, pull-out tray, and replaceable-bulb design support inclusion. Manufacturer coverage, voltage, target-insect, lifespan, and generalized safety wording remain attributed claims.
 
-- **Why selected:** Mature exact model, current official support, exact family manual, two-year warranty, replaceable parts, and stable Amazon identity.
-- **Main limitation:** Outdoor mains placement and replacement lure/bulb ownership; advertised acreage does not prove mosquito or bite control.
-- **Public identity rule:** `Outdoor plug-in grid zapper` with manufacturer claims attributed.
+### Outdoor plug-in
 
-### Flowtron SLZ-10 / FLWSLZ10
+4. **Flowtron BK-40D — Best outdoor plug-in bug zapper**
 
-- **Why conditionally selected:** It resolves the earlier solar identity problem with one exact model, consistent UPC/part number, official page, and several current US routes.
-- **Main limitation:** Exact instructions are not publicly available, direct stock is sold out, retailer fields conflict, and early user evidence is too thin.
-- **Approval condition:** Obtain the exact manual or manufacturer instructions covering charge, runtime, weather exposure, cleaning, battery warnings, and storage.
+   The strongest exact outdoor identity, family manual, current retailer route, replacement ecosystem, and clear outdoor-only placement instructions.
+5. **Flowtron BK-15D — Compact Flowtron outdoor option**
 
-### BLACK+DECKER BDPC976
+   A smaller exact family model with the same official manual trail. It is a size/use-case alternative, not proof that claimed acreage predicts results.
+6. **Buzbug MO-008C, New Black — Indoor/outdoor plug-in alternative**
 
-- **Why conditionally selected:** Current exact retailer package and ASIN, simple replaceable-AA power, and a clean active-contact job without passive-protection ambiguity.
-- **Main limitation:** The exact manual fetch failed and the current seller/featured-offer presentation is inconsistent.
-- **Approval condition:** Capture the BDPC976 manual and reconfirm the live exact seller route; do not substitute the BDPC974 manual.
+   The selected B0CNSZ5VHX variation reconciles with the official model, UPC, and manual record. Only the New Black one-unit package belongs in the contract.
 
-## Shared-page allocation matrix
+### Solar
 
-| Exact product | Pillar | Indoor | Outdoor | Solar | Racket | Allocation decision |
-|---|---:|---:|---:|---:|---:|---|
-| Safer Home SH502 | Yes | Yes | No | No | No | Short mechanism/fit verdict on pillar; full comparative job belongs to indoor branch |
-| Flowtron BK-40D | Yes | No | Yes | No | No | Short outdoor-format verdict on pillar; outdoor branch owns full review; Flowtron page may compare family only if retained |
-| Flowtron SLZ-10 / FLWSLZ10 | Conditional | No | Mention only | Conditional | No | Solar owns full review if manual gate passes; outdoor may route readers without duplicating review |
-| BLACK+DECKER BDPC976 | Conditional | No | No | No | Conditional | Pillar gives active-use verdict; racket branch owns detailed comparison after exact manual capture |
+7. **PIC DFST — Best solar torch-style option**
 
-Shared identity, specifications, manuals, location limits, maintenance, recall findings, ASINs, and destinations live only in `articles/bug-zappers/products/`. Page-specific verdicts and labels may differ.
+   Exact manual, current official page, and stake/portable format provide the strongest solar identity.
+8. **PIC FLPT — Best hanging solar lantern option**
+
+   Exact manual and official page distinguish it from DFST and support a hanging/portable use case.
+9. **PIC SOLAR-PLZ — Compact solar lantern alternative**
+
+   Exact manual and current US route support comparison, but the missing current official product page limits strong claims and requires a publication-day package check.
+
+### Handheld
+
+10. **YISSVIC WD-981 — Best handheld electric racket**
+
+    The exact manual copy covers charging, manual and automatic/base modes, cleaning, storage, and residual-charge warnings. The selected black one-pack with charging base must be rechecked before publication because the manual is archived rather than manufacturer-hosted.
+
+## Format allocation and cannibalization control
+
+- The pillar gives each selected model a concise format-fit card.
+- Indoor, outdoor, solar, and racket branch pages own deeper within-format comparisons.
+- The pillar must not reproduce branch rankings, full maintenance instructions, or Flowtron family analysis.
+- A shared model may receive a different page-level verdict only when the reader job differs; exact identity and factual fields must remain identical.
+- The Flowtron brand page remains behind its separate retention gate.
+
+## Eligibility and ranking method
+
+Products were screened before labels for exact model/package, intended location, mechanism, power, current US route, manual/instruction evidence, cleaning and consumables, identity conflicts, recall results, and retailer-destination status.
+
+Private format-level weights:
+
+| Criterion | Weight |
+|---|---:|
+| Exact identity and manual confidence | 20% |
+| Format and reader-job fit | 20% |
+| Location and placement evidence | 15% |
+| Ownership, cleaning, and consumables | 15% |
+| Power or charging practicality | 10% |
+| Mechanism clarity | 10% |
+| Current US availability | 5% |
+| Evidence quality and conflict burden | 5% |
+
+Do not publish cross-format scores. A glue-board trap, outdoor grid, solar lantern, and handheld racket solve different jobs.
 
 ## Claim ledger
 
-| Claim needed for decision | Type | Evidence | Strength | Allowed wording | Status |
-|---|---|---|---|---|---|
-| SH502 is one trap plus two glue cards | Identity/package | Manufacturer plus Amazon exact record | High | Direct fact | Verified |
-| SH502 uses UV LED and a glue card indoors | Mechanism/location | Manufacturer plus retailer IFU/safety block | High | Direct fact; call it a trap | Verified |
-| SH502 may have LED longevity complaints | User experience | Several recent manufacturer-site reviews | Low-medium | `Recent owner reviews on the brand site report...` | Usable only as attributed pattern after final sample review |
-| BK-40D is outdoor-only and plug-in | Location/power | Manufacturer page plus family manual | High | Direct fact | Verified |
-| BK-40D should be placed 25 feet from living areas | Instruction | Manufacturer exact page/manual | High | `Flowtron recommends...` | Verified |
-| BK-40D covers one acre or controls mosquitoes | Manufacturer performance claim | Manufacturer/retailer | Low for outcome | Do not use as performance proof; coverage only as attributed marketing if necessary | Restricted |
-| FLWSLZ10 uses solar plus USB-C charging | Power | Manufacturer plus matching retailers | High | Direct design fact | Verified |
-| FLWSLZ10 runs up to eight hours and is weather-resistant | Brand claim without accessible manual | Manufacturer copy | Medium-low | Hold until exact instructions are obtained | Unresolved |
-| BDPC976 is a replaceable-AA active racket | Identity/power/mechanism | Exact Amazon model record | Medium-high | Direct fact with active-contact boundary | Verified |
-| BDPC976 is harmless or safe for humans/pets | Safety marketing | Retailer/brand copy only | None for blanket conclusion | Remove | Prohibited |
-| Conventional UV-only zappers reduce mosquito biting | Effectiveness | AMCA and approved cluster effectiveness packet | High against inference | State that direct kills do not establish bite/population reduction | Verified boundary |
-| No selected exact model appeared in CPSC recall searches | Recall check | CPSC exact-model and category searches, July 21, 2026 | Medium | Internal check only; do not claim `recall-free` | Complete for this gate |
-
-## Recall and regulatory check
-
-- **Check date:** July 21, 2026.
-- Exact-model searches located no CPSC recall for SH502, BK-40D, FLWSLZ10/SLZ-10, or BDPC976.
-- CPSC recall 25-396 covers iMirror BZ-001, not the selected BLACK+DECKER model. BZ-001 is excluded.
-- Flowtron's `EPA registered` or establishment-style language is not treated as EPA efficacy, safety, or product approval.
-- UL/certification statements remain manufacturer claims unless the exact listing is independently verified in the relevant certification directory.
-
-## Availability and commercial gate
-
-| Product | Official page | Public manual | Current US route | Amazon exact match | Availability confidence |
-|---|---|---|---|---|---|
-| Safer Home SH502 | Current/direct route | IFU exposed | Safer direct; Amazon sold by Amazon | Verified, B09T3T1FYN | High |
-| Flowtron BK-40D | Current but direct variant sold out | Exact model-family manual | Amazon, fulfilled by Amazon | Verified, B00004R9VW | High |
-| Flowtron FLWSLZ10 | Current but sold out | Not publicly located | Lowe's; marketplace routes at Best Buy/Newegg | Provisional, B0FQPMV7B5 | Medium |
-| BLACK+DECKER BDPC976 | No separate official page found | Exact listing exposes PDF; fetch failed | Amazon third-party seller, Amazon fulfillment | Verified, B09V4D3BJ6 | Medium |
-
-Affiliate links remain `null` and `pending_publisher_confirmation` in each normalized record. No Special Link was generated or inferred.
-
-## SERP and FAQ validation
-
-| Question | Validation signal | Decision |
+| Claim area | Evidence status | Public wording rule |
 |---|---|---|
-| What type of bug zapper should I buy? | Mixed-format broad SERP | Keep as the pillar's opening decision, not necessarily as a repetitive FAQ |
-| Are indoor and outdoor bug zappers interchangeable? | Competitor location sections and incompatible exact-product instructions | Keep; answer no and lead with the model's stated location |
-| Do bug zappers work on mosquitoes? | Strong recurring result; AMCA and extension evidence | Keep and route to the effectiveness guide; distinguish kills from fewer bites/population |
-| Is a solar bug zapper as practical as a plug-in model? | Solar results emphasize charge/runtime/cloudy-day concerns | Keep only if solar survives the manual gate |
-| Is a bug-zapper racket better for occasional insects? | Current racket coverage frames active contact versus passive traps | Keep; define it as an active, visible-insect job |
-| Can I leave a bug zapper on all night? | Appears in current competitor FAQ coverage | Defer to exact manuals; do not give a universal answer |
+| Exact model, package, ASIN | Verified in normalized product record, with named limits | Use only the selected variation and publication-day check |
+| SH502 mechanism | High confidence | Call it a UV glue-board trap, not an electrified zapper |
+| Manufacturer coverage or acreage | Brand claim only | Attribute when necessary; never score or promise the area outcome |
+| Voltage, wattage, or UV wavelength | Specification or brand claim | Use only when it changes setup/ownership; never treat as performance proof |
+| Mosquito attraction or kills | Product/mechanism claim | Do not infer fewer bites, a smaller population, or disease protection |
+| Solar runtime and charging | Manufacturer/manual dependent | Attribute `up to` claims and explain sunlight and battery dependence |
+| Weather suitability | Exact-model manual/product evidence only | Do not generalize to immersion, storms, or all-weather exposure |
+| Guarding and household safety | Physical feature only | Do not claim general child, pet, shock, or fire safety |
+| Indoor fly/gnat capture | Mechanism and manufacturer claims | Adult capture does not remove drain, produce, or potting-media breeding sources |
+| Owner-reported durability | Low-to-medium confidence pattern | Attribute and avoid universal defect language |
+| EPA or establishment wording | Regulatory identity only | Never convert it into EPA efficacy or safety approval |
 
-Community discussions reinforced concern about mosquito expectations, battery longevity, replacement charging, and active-versus-passive use. They were used to identify questions, not as proof of product facts or efficacy.
+## Recall and safety review
 
-## Rejected-product ledger
+- CPSC category and exact-model searches were refreshed July 22, 2026.
+- iMirror BZ-001 remains excluded under CPSC recall 25-396 because its rechargeable battery can catch fire during extended use.
+- No matching exact-model recall was located for the 10 selected products. Do not publish `recall-free`; repeat the search before publication.
+- Open-grid devices require exact manual placement and cleaning language. No blanket child, pet, food-area, weather, or electrical-safety claim is approved.
 
-| Candidate | Rejection reason | Reconsideration condition |
-|---|---|---|
-| iMirror BZ-001 | Exact CPSC fire-hazard recall | Do not reconsider unless CPSC publishes a valid remedy/new unaffected model record |
-| Wulyno SJZ-071 | Manufacturer, model, and outdoor/solar ownership unresolved | Exact official identity plus manual and stable US package |
-| Kiies/Evolpol SOBZ-01 | Same identifier used by conflicting brands | Manufacturer/UPC/package resolution |
-| GOOTOP Zap T6 Pro | Durable official model/manual record not established | Exact official model, manual, and package integrity |
-| FVOAI Zap X3 Pro / New Fi 24MW | Retailer-title identities without adequate primary documentation | Manufacturer and exact manual become available |
-| ZAP IT! generic racket packages | Sizes, packs, power types, and ASINs are not a stable single model | Normalize one exact current package and manual |
-| Flowtron FLWBZR5 | No exact manual; early charging complaints; passive mode complicates pillar job | Branch research resolves instructions, reliability pattern, and mode boundaries |
-| Zevo `Model 4` / `Model 5` | Consumer labels and refill generations are insufficient exact identities | Normalize current package/model/UPC and refill compatibility |
+## Affiliate and availability state
 
-## Unresolved evidence register
+- All 19 active normalized records contain a raw Amazon URL, ASIN, and publisher-supplied affiliate link.
+- The 10 selected contract products use only the publisher-confirmed normalized destination for their exact package.
+- Affiliate eligibility affected retailer linking, not editorial order or verdicts.
+- Recheck exact variation, redirect, seller, fulfillment, stock, price, and current route at publication.
+- Sixteen unavailable, recalled, no-Amazon, or unresolved products remain in `../products/unavailable-products.md`; none may be restored without a fresh Part 1 amendment.
 
-| Priority | Item | Why it matters | Required resolution |
-|---|---|---|---|
-| Approval condition | FLWSLZ10 exact manual or manufacturer instructions | Solar charge, weather, cleaning, storage, and runtime boundaries affect format fit | Obtain and archive exact instructions; otherwise remove solar product recommendation |
-| Approval condition | BDPC976 exact manual | Safety controls, cleaning, and storage cannot be borrowed from BDPC974 | Capture exact PDF and reconcile all fields |
-| Approval condition | BDPC976 seller/featured-offer state | Current US route appears internally inconsistent on Amazon | Recheck exact listing before Part 2 and publication |
-| Commercial | FLWSLZ10 Amazon match | ASIN is based on matching third-party catalog data because direct fetch failed | Publisher verifies exact variation before any Special Link |
-| Editorial | SH502 LED longevity pattern | Could materially affect ownership verdict | Review a larger dated sample across at least one additional retailer before drafting a durability statement |
-| Regulatory wording | Flowtron UL/EPA language | Manufacturer wording can be mistaken for efficacy or general safety approval | Independently verify only if public copy needs the certification; otherwise omit |
+## Part 1 gate resolution
 
-## Approval request
+Part 1 is approved for the pillar contract with 10 selected products. The four-product handheld research pool is an explicit publisher-approved exception after replacement research failed; only YISSVIC WD-981 enters the pillar shortlist. The deeper handheld branch remains at four researched candidates and may retain that limitation in its own gate.
 
-Approve or revise:
-
-1. Four surviving formats and the decision order: indoor trap, outdoor plug-in, solar conditional, handheld conditional.
-2. SH502 and BK-40D as approved exact representatives.
-3. FLWSLZ10 and BDPC976 as conditional representatives subject to the named evidence gates.
-4. The four page-specific editorial labels.
-5. The rejected-product ledger and shared-page allocation.
-6. The rule that solar is removed from the product shortlist if its exact instruction gate fails.
-
-Part 2 remains locked until this gate is approved. No article prose has been drafted.
+The corrected Part 2 contract is approved. Part 3 drafting may proceed without reopening Part 1.

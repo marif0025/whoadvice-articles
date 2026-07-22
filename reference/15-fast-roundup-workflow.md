@@ -1,5 +1,7 @@
 # WhoAdvice Fast Roundup Workflow
 
+This is the controlling article-type profile for a normal one-agent product roundup inside the canonical lifecycle in `11-article-workflow.md`. Use `reference/README.md` for other article types.
+
 ## Purpose
 
 Use this four-part workflow for research-based product roundups. It replaces the 17-prompt “minimal” sequence when one agent can research, write, and audit the article in the same workspace.
@@ -187,9 +189,13 @@ Classify findings as `blocker`, `critical`, `warning`, or `suggestion`. Any bloc
 
 Keep audit and revision separate. Show findings first, return affected copy to writing, synchronize changed files, and rerun the audit.
 
+When the article belongs to a cluster, complete its individual audit and responsible manual editorial review before running `17-final-cluster-sync.md`. Cluster sync cannot clear a page-level blocker or critical finding.
+
 ## Routing rules
 
 Use the four-part workflow by default for a major roundup.
+
+Do not use this profile for a single-product review, product comparison, informational guide, how-to article, or problem-and-solution article. Route those formats through `reference/README.md`.
 
 Use one combined run only when the user explicitly asks for a complete article without approval gates. Even then, create and follow the article contract internally before drafting.
 

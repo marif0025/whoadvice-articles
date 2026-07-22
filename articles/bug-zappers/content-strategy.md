@@ -4,19 +4,19 @@
 **Input:** User-supplied SEMrush Keyword Strategy Builder export plus the supplied cross-context segment assessment
 **Market:** United States
 **Detailed analysis:** `research/keyword-cluster-2026-07-20.md`
-**Status:** `topology_audit_execution_approved` — continued audit execution approved on July 20, 2026
+**Status:** `pillar_part_4_complete_ready_for_editorial_review`; no live-site update authorized
 **Effectiveness sub-gate:** `manual_editorial_review_complete`; prepublication validation pending for `/home-gadgets/do-bug-zappers-work/`
-**Core brief milestone:** Seven remaining canonical pages now have topology-scoped content briefs; page-specific research and retention gates remain unchanged
+**Core brief milestone:** 19 active Amazon-route product records across eleven brands are normalized; the pillar's 10-product Part 1 shortlist, corrected contract, local draft, and Part 4 audit are complete
 
 ## Approval scope and locked gates
 
-The seven-page topology audit and the corrected research/brief for **Do bug zappers work?** are approved. This approval does **not** authorize drafting, production rewrites, new or existing product rankings, awards, shared-product placement, Flowtron retention, support-page launches, redirects, canonical changes, or broad mosquito-effectiveness claims.
+The seven-page topology audit and the corrected research/brief for **Do bug zappers work?** are approved. The best-bug-zapper pillar Part 1 packet, corrected 10-product contract, local draft, and Part 4 audit are complete. Responsible editorial review remains required. The racket branch's 4-product Part 1 set and Part 2 contract are approved; the indoor, outdoor, and solar branches retain their own gates. This does **not** authorize production rewrites, Flowtron retention, support-page launches, redirects, canonical changes, or broad mosquito-effectiveness claims.
 
 During the audit:
 
 - preserve every existing `/home-gadgets/` canonical;
 - evaluate all seven live pages as one cluster;
-- retain solar and racket provisionally;
+- retain racket based on its approved four-product packet and retain solar subject to its own Part 1 approval;
 - treat Flowtron as conditional on meaningful traffic, backlinks, affiliate value, current-model depth, or an independently dedicated SERP;
 - separate normalized product facts from page-specific verdicts;
 - classify every effectiveness claim as supported, needs qualification, product-specific only, unsupported, or remove;
@@ -41,7 +41,7 @@ Use a new **do bug zappers work?** guide as the evidence foundation for the comm
 | `/home-gadgets/best-bug-zapper/` | Commercial pillar | Choose the right zapper mechanism and location | Live; refresh required |
 | `/home-gadgets/best-indoor-bug-zapper/` | Commercial branch | Compare indoor stationary devices and enclosed traps | Live; refresh required |
 | `/home-gadgets/best-outdoor-bug-zapper/` | Commercial branch | Compare weather-suitable outdoor grid zappers | Search-indexed production content confirmed; raw text fetch returned an error |
-| `/home-gadgets/best-solar-bug-zapper/` | Commercial branch | Compare solar-powered outdoor models | Live; keep provisionally and reverify products |
+| `/home-gadgets/best-solar-bug-zapper/` | Commercial branch | Compare solar-powered outdoor models | Five exact products researched; page value sustained pending Part 1 approval |
 | `/home-gadgets/best-bug-zapper-racket/` | Commercial branch | Compare handheld electric fly swatters/rackets | Search-indexed production content confirmed; raw text fetch returned an error |
 | `/home-gadgets/best-flowtron-bug-zapper/` | Brand/model-family page | Compare current Flowtron models | Live; keep only if traffic, links, revenue, and current models justify it |
 | `/home-gadgets/best-mosquito-killer/` | Adjacent alternative guide | Choose among evidence-appropriate mosquito-control mechanisms | Live; reposition away from zapper duplication |
@@ -112,4 +112,4 @@ Use a new **do bug zappers work?** guide as the evidence foundation for the comm
 9. Create article contracts only after product and evidence approval.
 10. Run the final SEO/cannibalization audit after all refreshed drafts are complete.
 
-The locally available portions of the first four steps are complete. Search Console, backlink, and affiliate inputs remain pending because they have not been supplied. Product rankings, awards, shared-product allocation, final topology, and production changes remain behind later approval gates.
+The locally available topology and effectiveness work is complete. Step 8 is complete for the pillar and all four commercial branches. The racket branch is intentionally approved at four products after LiBa WD-942 failed availability; no fifth product is required, and its revised Part 3 draft and Part 4 audit are complete locally. Search Console, backlink, and affiliate inputs remain pending because they have not been supplied. Responsible racket review, other branch contracts, public rewrites, CMS work, and production changes remain behind their explicit later approval gates.

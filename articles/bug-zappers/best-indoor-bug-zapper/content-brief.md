@@ -1,16 +1,16 @@
 # Content brief: Best indoor bug zapper
 
-**Status:** `topology_scoped_brief`; Part 1 exact-product research and ranking approval required  
-**Canonical URL:** `/home-gadgets/best-indoor-bug-zapper/`  
-**Primary keyword:** best indoor bug zapper  
-**Secondary families:** indoor bug zapper; fly zapper indoor; plug-in bug zapper; indoor gnat zapper  
-**Intent:** Indoor stationary-device selection  
-**Cluster role:** Commercial branch  
+**Status:** `part_1_refresh_complete_pending_approval`; 5 Amazon-route products researched July 22, 2026
+**Canonical URL:** `/home-gadgets/best-indoor-bug-zapper/`
+**Primary keyword:** best indoor bug zapper
+**Secondary families:** indoor bug zapper; fly zapper indoor; plug-in bug zapper; indoor gnat zapper
+**Intent:** Indoor stationary-device selection
+**Cluster role:** Commercial branch
 **Current-page action:** Refresh the existing canonical
 
 ## Brief boundary
 
-This brief does not approve the products currently visible on the live page. Product identity, availability, package, mechanism, indoor rating, manual, placement, consumables, and retailer eligibility must be reverified in Part 1.
+The refreshed Part 1 packet screens SH502, Aspectek HR292-5, BLACK+DECKER BDPC959, Buzbug MA015, and Flowtron FLWINZ11. SH502, BDPC959, and MA015 are the proposed contract anchors; HR292-5 and FLWINZ11 retain their named package or manual gates. MA015C is excluded after its Amazon route became unavailable.
 
 ## Reader decision
 

@@ -80,8 +80,8 @@ availability_confidence: medium
 affiliate_key: flowtron-flwslz10-amazon-us
 raw_amazon_url: https://www.amazon.com/dp/B0FQPMV7B5
 asin: B0FQPMV7B5
-affiliate_link: null
-affiliate_status: pending_publisher_confirmation
+affiliate_link: https://amzn.to/4b1ZPP9
+affiliate_status: publisher_confirmed
 exact_model_status: provisional_third_party_match
 ```
 

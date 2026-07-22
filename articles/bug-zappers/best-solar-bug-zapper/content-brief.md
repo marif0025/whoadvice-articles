@@ -1,16 +1,16 @@
 # Content brief: Best solar bug zapper
 
-**Status:** `topology_scoped_brief_provisional`; Part 1 exact-product research and page-value confirmation required  
-**Canonical URL:** `/home-gadgets/best-solar-bug-zapper/`  
-**Primary keyword:** best solar bug zapper  
-**Secondary families:** solar bug zapper; solar-powered bug zapper; solar mosquito zapper  
-**Intent:** Off-grid outdoor product selection  
-**Cluster role:** Provisional commercial branch  
-**Current-page action:** Preserve and research; refresh only if current exact products sustain a distinct shortlist
+**Status:** `part_1_refresh_complete_pending_approval`; 5 Amazon-route products researched and page value sustained July 22, 2026
+**Canonical URL:** `/home-gadgets/best-solar-bug-zapper/`
+**Primary keyword:** best solar bug zapper
+**Secondary families:** solar bug zapper; solar-powered bug zapper; solar mosquito zapper
+**Intent:** Off-grid outdoor product selection
+**Cluster role:** Commercial solar/off-grid branch, pending Part 1 approval
+**Current-page action:** Preserve; exact manuals and current routes sustain a distinct shortlist, but do not refresh before approval
 
 ## Brief boundary
 
-This page remains provisional. Strong query demand and an existing URL justify research, but exact-model stability and independent page value are not yet proven. The brief does not approve the current products, the page’s retention after research, or any rankings.
+The refreshed Part 1 packet sustains a distinct solar page with PIC DFST, PIC FLPT, PIC SOLAR-PLZ, Flowtron FLWSLZ10, and OnBeam SE566. Current live products and rankings remain unapproved; FLWSLZ10 and SE566 remain conditional on exact-manual/package gates.
 
 ## Reader decision
 

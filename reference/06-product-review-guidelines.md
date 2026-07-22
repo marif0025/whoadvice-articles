@@ -137,6 +137,10 @@ Do not reverse-engineer criteria to make a preferred product win.
 
 ## 5. Category-specific evaluation
 
+Start with a category-specific extraction and evaluation schema. Do not force every product into a universal device, beauty, or household template. Keep only fields that change identity, eligibility, safety, comparison, ownership cost, or reader fit.
+
+For a category not listed below, define and approve the schema before scoring. The generic criteria in Section 4 are a starting point, not a substitute for category knowledge.
+
 ### Skin care
 
 Evaluate:
@@ -208,6 +212,35 @@ Evaluate:
 - Safety instructions
 - Recalls
 - Review patterns for comfort and durability
+
+### Garden tools
+
+Evaluate:
+
+- Exact tool type, model, variant, and included package
+- Intended material, job size, reach, and capacity
+- Power source and required battery, charger, cord, fuel, or accessories
+- Weight, balance, handles, controls, and adjustability
+- Guarding, lockouts, braking, electrical protection, and other safety features
+- Manual-defined setup, operation, maintenance, transport, and storage limits
+- Noise, vibration, debris, weather, wildlife, and local-use constraints
+- Replacement blades, lines, chains, filters, batteries, and service support
+- Warranty, recalls, model status, and parts availability
+- Review patterns for control, durability, runtime, and maintenance burden
+
+### Home and household gadgets
+
+Evaluate:
+
+- Exact mechanism, model, configuration, coverage, and capacity
+- Intended indoor, outdoor, room-size, or environmental use
+- Power, placement, ventilation, clearance, and installation requirements
+- Controls, indicators, guarding, cleaning, and recurring consumables
+- Child, pet, electrical, heat, fire, chemical, and exposure boundaries
+- Realistic performance limits and claims requiring attribution
+- Noise, light, odor, mess, and day-to-day ownership burden
+- Replacement parts, warranty, recalls, and current support
+- Review patterns for reliability, setup, upkeep, and failure modes
 
 ## 6. Product eligibility rules
 

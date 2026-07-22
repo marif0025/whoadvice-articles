@@ -1,8 +1,10 @@
-# WhoAdvice: SEO Content Checklist
+# WhoAdvice: SEO Content Standard
 
 ## Purpose
 
-Use this file as the SEO context for every WhoAdvice article in skin care, hair care, and personal care.
+Use this file as the canonical SEO policy, planning standard, and source of numeric SEO rule values for every WhoAdvice article. Use `18-on-page-seo-checklist.md` as the compact execution checklist during contract review, final audit, refreshes, and cluster sync.
+
+When these two files drift, this file owns the policy value and `18` must be corrected. Do not add new policy to the deprecated `on-page-seo-checklist.md` compatibility pointer.
 
 SEO must improve how clearly the article satisfies a reader's search. It must not distort the editorial voice, weaken factual accuracy, force keywords into sentences, or encourage unsupported product claims.
 
@@ -236,7 +238,7 @@ Use the primary key phrase, where natural, in:
 - Meta description
 - URL slug
 - H1/article title
-- First 100–150 words
+- First 100 words
 - At least one relevant H2 or H3 when it accurately describes that section
 - Body copy a few natural times
 - Conclusion or verdict when it reads naturally
@@ -478,7 +480,7 @@ This makes content easier for readers, search engines, and AI systems to underst
 The introduction must:
 
 - Confirm the reader is on the right page within the first few sentences.
-- Use the primary key phrase naturally within the first 100–150 words.
+- Use the primary key phrase naturally within the first 100 words.
 - Identify the central choice, problem, or confusion.
 - Add one useful distinction rather than generic background.
 - State the research or testing model honestly.
@@ -968,7 +970,7 @@ The article cannot be marked ready until the following checks pass.
 - [ ] One primary key phrase is defined.
 - [ ] The primary phrase appears naturally in the SEO title.
 - [ ] The primary phrase appears naturally in the H1 or a close variation.
-- [ ] The primary phrase appears in the first 100–150 words.
+- [ ] The primary phrase appears in the first 100 words.
 - [ ] The primary phrase appears in the slug where appropriate.
 - [ ] At least one useful heading contains the phrase or a relevant variation.
 - [ ] Long-tail terms are used only in relevant sections.

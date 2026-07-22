@@ -4,23 +4,11 @@
 
 This file contains reusable prompts for researching, planning, writing, checking, and publishing WhoAdvice articles.
 
-The prompts are designed to work with the other WhoAdvice project files. They are not substitutes for those files. Every prompt assumes that the following project documents are available and binding:
+This is an optional prompt cookbook, not a competing workflow specification. Use `reference/README.md` to select the canonical lifecycle, article-type profile, and normative policy files before choosing a prompt.
 
-- `01-brand-and-audience.md`
-- `02-voice-and-tone.md`
-- `03-writing-style-rules.md`
-- `04-editorial-positions.md`
-- `05-banned-ai-patterns.md`
-- `06-product-review-guidelines.md`
-- `07-fact-checking-policy.md`
-- `08-approved-claims-and-sources.md`
-- `09-good-writing-examples.md`
-- `10-bad-writing-examples.md`
-- `11-article-workflow.md`
-- `12-seo-content-checklist.md`
-- `13-article-production-guide.md`
+Keep one authoritative article workspace package. A chat, task, or agent session may help execute a stage, but approved artifacts in the active project remain the durable source of truth.
 
-Use one master chat for each article. Run the prompts in order and approve the output at the marked review gates.
+Use only the prompt needed for the routed stage. Do not run the long sequence for a normal one-agent roundup when `15-fast-roundup-workflow.md` applies.
 
 ---
 
@@ -52,7 +40,7 @@ A human editor should approve the important outputs before the next stage begins
 
 ## 1.2 Reuse the article context block
 
-Complete this block once at the beginning of the article chat. Keep it updated when decisions change.
+Complete this block once in the article workspace. Keep it updated when decisions change.
 
 ```yaml
 ARTICLE_CONTEXT:
@@ -60,7 +48,7 @@ ARTICLE_CONTEXT:
   topic:
   working_title:
   article_type: product_roundup
-  category: skin_care | hair_care | personal_care
+  category:
   primary_keyword:
   secondary_keywords: []
   target_country:
@@ -106,7 +94,7 @@ EVIDENCE RULES
 
 ## 1.4 Output discipline
 
-At every stage, ask ChatGPT to:
+At every stage, ask the workflow agent to:
 
 - Work only on the requested stage
 - Avoid drafting later sections prematurely
@@ -119,19 +107,12 @@ At every stage, ask ChatGPT to:
 
 # 2. Prompt 0 — Start the article workspace
 
-Use this once at the beginning of the article chat.
+Use this once at the beginning of the article workspace.
 
 ```text
 You are starting a new WhoAdvice article project.
 
-Read and follow every uploaded WhoAdvice editorial file. Use this instruction priority:
-
-1. Factual accuracy, safety, and honest disclosure
-2. Fact-checking and approved-source policies
-3. Editorial positions and product-review guidelines
-4. Brand voice and writing style
-5. SEO requirements
-6. Formatting preferences
+Read `reference/README.md`, classify the assignment, and load only the routed normative files for this stage. Apply the precedence defined in that map.
 
 Create an `ARTICLE WORKSPACE` using the context below. Do not research or draft the article yet.
 
@@ -1178,7 +1159,7 @@ Product ID: [PRODUCT ID]
 [PASTE APPROVED PRODUCT CONTENT BRIEF]
 [PASTE APPROVED CLAIMS]
 
-Follow all WhoAdvice editorial files, especially:
+Follow the approved article contract and the routed normative files, especially when applicable:
 
 - `02-voice-and-tone.md`
 - `03-writing-style-rules.md`
@@ -2012,10 +1993,10 @@ When several related pages form a cluster, run `17-final-cluster-sync.md` after 
 
 # 40. Master orchestration prompt
 
-Use this prompt when you want ChatGPT to manage the workflow while still pausing at approval gates.
+Use this prompt when you want a workflow agent to manage the routed process while still pausing at approval gates.
 
 ```text
-Manage this WhoAdvice article through the complete editorial workflow using `14-article-prompt-library.md`.
+Manage this WhoAdvice article through the route selected from `reference/README.md`. Use `11-article-workflow.md` for lifecycle and gates, the selected article-type profile for format, and only the necessary prompt recipes from `14-article-prompt-library.md`.
 
 [PASTE ARTICLE_CONTEXT]
 
@@ -2042,7 +2023,7 @@ Operating rules:
 8. Never imply hands-on testing without documented test evidence.
 9. Never fill missing product evidence by guessing.
 10. Never copy competitor wording or structure.
-11. Follow all uploaded WhoAdvice files.
+11. Follow the routed normative files and approved contract; do not load every reference by default.
 
 Begin with Prompt 0, then Prompt 1. Do not research or draft the article until the assignment classification is approved.
 ```
@@ -2069,8 +2050,9 @@ For a how-to, explainer, or problem-and-solution article with no product ranking
 14. Prompt 29 — Fact check
 15. Prompt 32 — Editorial edit
 16. Prompt 33 — SEO audit
-17. Prompt 35 — Publication package
-18. Prompt 36 — Final gate
+17. Prompt 36 — Final Article Audit
+18. Manual editorial approval
+19. Prompt 35 — Publication package
 
 ## Informational-section writing prompt
 
@@ -2128,7 +2110,9 @@ For a research-based single-product review:
 12. Prompt 15 — SEO brief
 13. Prompt 16 — Outline
 14. Use the single-review prompt below
-15. Fact-check, editorial, SEO, and publication prompts
+15. Prompts 29, 32, and 33 — Fact-check, editorial, and SEO passes
+16. Prompt 36 — Final Article Audit, followed by manual editorial approval
+17. Prompt 35 — Publication package
 
 ## Single-product review writing prompt
 
@@ -2204,7 +2188,7 @@ Requirements:
 - End with `Choose X if...`, `Choose Y if...`, and `Consider another option if...` guidance.
 - Do not imply hands-on testing.
 
-Follow all WhoAdvice editorial and SEO files.
+Follow the routed normative editorial and SEO files plus the approved comparison contract.
 After the article, include a private comparative-claims audit.
 ```
 
@@ -2249,7 +2233,7 @@ Audit and update this existing WhoAdvice article for freshness and accuracy.
 [PASTE OR LINK EXISTING ARTICLE]
 [PASTE CURRENT ARTICLE_CONTEXT]
 
-Follow all WhoAdvice project files.
+Use `reference/README.md` to load only the refresh route and references affected by the change. Preserve approved, stable stages.
 
 Check:
 

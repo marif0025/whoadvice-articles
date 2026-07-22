@@ -81,8 +81,8 @@ availability_confidence: high
 affiliate_key: flowtron-bk-40d-amazon-us
 raw_amazon_url: https://www.amazon.com/dp/B00004R9VW
 asin: B00004R9VW
-affiliate_link: null
-affiliate_status: pending_publisher_confirmation
+affiliate_link: https://amzn.to/4yAbRta
+affiliate_status: publisher_confirmed
 exact_model_status: verified
 ```
 

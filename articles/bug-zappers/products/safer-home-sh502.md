@@ -81,8 +81,8 @@ availability_confidence: high
 affiliate_key: safer-home-sh502-amazon-us
 raw_amazon_url: https://www.amazon.com/dp/B09T3T1FYN
 asin: B09T3T1FYN
-affiliate_link: null
-affiliate_status: pending_publisher_confirmation
+affiliate_link: https://amzn.to/4yGfON5
+affiliate_status: publisher_confirmed
 exact_model_status: verified
 ```
 
