@@ -86,4 +86,30 @@ affiliate_status: publisher_confirmed
 exact_model_status: verified
 ```
 
-Publication-day note: Confirm the one-device/two-card package, seller, fulfillment, stock, and redirect before linking.
+Publication-day check — July 22, 2026: The Special Link resolved to B09T3T1FYN. Amazon showed the SH502 one-trap/two-card package in stock, sold and shipped by Amazon.com. Recheck immediately before publication because offer state can change.
+
+## Indoor-roundup source snapshot — July 22, 2026
+
+### Official product and instruction records
+
+- Product page: https://www.saferbrand.com/safer-home-indoor-fly-trap-sh502
+- Official manual index: https://www.saferbrand.com/manuals
+- Exact instruction PDF: https://www.saferbrand.com/media/wysiwyg/sb/pdf/sb_us_instructions_SH502.pdf
+- Source type: Exact-model manufacturer page and exact official instructions
+- Price/availability observed: The manufacturer page displayed `$17.99` and the current SH502 product route.
+- Raw identity observed: `SH502`; one trap; two StickyTech cards; standard indoor outlet; compatible SH503, SH506, and SH512 cards.
+- Raw mechanism observed: UV LED attraction to a replaceable adhesive card. There is no electrified killing grid.
+- Raw placement observed: Indoor wall-outlet use near observed flying-insect activity.
+
+### Normalized interpretation
+
+- Article mechanism: `UV glue-board trap`; public copy must not call SH502 an electric zapper.
+- Decision role: Strong differentiated residential option when the reader prefers hidden adhesive capture to an electrified grid.
+- Ownership burden: Recurring cards; the LED is not user-replaceable.
+- Review signal checked July 22, 2026: The live brand page reported 15 total reviews and exposed nine reviews in the accessible page content. Five visible reviews dated June 2025 through May 2026 described LED dimming, partial light loss, or failure. The distribution also showed nine five-star reviews, which contradicts a universal-defect reading. The page labels the review set as covering this and similar products, so use this only as anecdotal page-level ownership evidence, not a defect rate or exact-variant failure claim.
+
+### Blocked or conflicting fields
+
+- The manufacturer page uses both `SH502` and `CSH502`. The consumer package, official manual entry, UPC, and Amazon record support SH502; retain the alias as an internal conflict note.
+- No independent comparative capture test or measured sound evidence was located.
+- Manufacturer target-insect, child/pet, continuous-catch, and elimination wording remains attributed marketing and does not establish source control or mosquito-bite reduction.
