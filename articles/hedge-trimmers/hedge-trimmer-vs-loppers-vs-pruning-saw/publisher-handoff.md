@@ -46,3 +46,7 @@ Use generic, brand-neutral illustrations with no diameter promises, logos, baked
 - Add image dimensions, compression, descriptive alt text, and responsive behavior.
 - Validate `Article` or `BlogPosting` and `BreadcrumbList` markup against visible content.
 - Test the comparison table on mobile and verify accessibility and page performance.
+
+## Canonical image-production reference
+
+Use [`../image-production-plan.md#hedge-trimmer-vs-loppers-vs-pruning-saw`](../image-production-plan.md#hedge-trimmer-vs-loppers-vs-pruning-saw) for both completed prompts, alt intent, and exact `article.md` comment placements.

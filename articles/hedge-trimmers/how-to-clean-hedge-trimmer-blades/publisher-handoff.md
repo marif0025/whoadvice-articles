@@ -121,3 +121,7 @@ CMS must select final dimensions, generate or source the images, compress them, 
 - No universal water, cleaner, oil, frequency, or powered-distribution instruction.
 - No disinfection, homemade cleaner, blade removal, filing, grinding, or adjustment procedure.
 - No claim of hands-on testing, longer tool life, healthier plant cuts, universal material compatibility, or recall-free status.
+
+## Canonical image-production reference
+
+Use [`../image-production-plan.md#how-to-clean-hedge-trimmer-blades`](../image-production-plan.md#how-to-clean-hedge-trimmer-blades) for the canonical prompts and exact heading-based placements.

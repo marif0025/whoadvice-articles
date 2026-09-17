@@ -7,6 +7,8 @@
 **Proposed canonical:** `/home-gadgets/do-bug-zappers-work/`
 **Role:** Cluster evidence-control page
 
+**Shared audience input:** The dated question map in [`../research/reddit-audience-research-2026-07-23.md`](../research/reddit-audience-research-2026-07-23.md) records the recurring gap between visible kills and expected mosquito-bite relief. It identifies questions only; the endpoint conclusions below remain controlled by authoritative evidence.
+
 ## Direct research conclusion
 
 A conventional UV-light electric-grid bug zapper can kill an insect that is attracted close enough to contact its grid. That narrow mechanical outcome does not establish that the device will reduce an insect population, prevent bites, protect a stated area, or control every insect a shopper calls a fly or gnat.

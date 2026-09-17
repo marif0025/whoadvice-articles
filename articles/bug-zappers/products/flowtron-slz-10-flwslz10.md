@@ -85,4 +85,4 @@ affiliate_status: publisher_confirmed
 exact_model_status: provisional_third_party_match
 ```
 
-Publication-day note: Do not use the Amazon destination until the publisher confirms the exact FLWSLZ10 package and Special Link. The solar recommendation remains conditional on obtaining the exact manual or equivalent manufacturer instructions.
+Publication-day note: The Special Link is publisher-confirmed, but the exact Amazon package match remains provisional. Do not publish the destination until the publisher rechecks that it resolves to FLWSLZ10, and do not recommend the product until the exact manual or equivalent manufacturer instructions are available.

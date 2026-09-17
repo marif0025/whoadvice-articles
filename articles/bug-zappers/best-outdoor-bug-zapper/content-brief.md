@@ -1,6 +1,6 @@
 # Content brief: Best outdoor bug zapper
 
-**Status:** `part_1_refresh_complete_pending_approval`; 5 Amazon-route products researched July 22, 2026
+**Status:** `part_1_packet_synchronized_pending_approval`; 5 Amazon-route products proposed for approval
 **Canonical URL:** `/home-gadgets/best-outdoor-bug-zapper/`
 **Primary keyword:** best outdoor bug zapper
 **Secondary families:** outdoor bug zapper; outdoor fly zapper; plug-in outdoor bug zapper; rechargeable bug zapper
@@ -76,9 +76,10 @@ Coverage must use the cluster’s manufacturer-claim data model and cannot becom
 
 ## Product research gate
 
-- Recapture and verify the exact current page candidates from primary sources; discovery records are not approvals.
-- Confirm exact model, current US package, manual, outdoor rating, mounting, cord/power, weather limits, service method, guards, recalls, and availability.
-- Resolve Flowtron BK-40D and Wulyno SJZ-071 cross-page ownership before ranking.
+- Approve or revise the five current candidates; discovery records are not approvals.
+- Keep GOOTOP's third-party-manual limit visible and require package/manufacturer instructions before publishing exact cord, weather, cleaning, or safety directions.
+- Confirm exact model, current US package, outdoor rating, mounting, cord/power, weather limits, service method, guards, recalls, and availability before publication.
+- Keep the Flowtron brand page on retention hold; this branch may compare BK-family sizes without granting the separate brand URL independent ownership.
 - Store shared facts once under `articles/bug-zappers/products/`.
 
 ## Claim and evidence controls
@@ -118,4 +119,4 @@ Internal and affiliate links, disclosures, buttons, exact-model images, author/r
 
 ## Next gate
 
-WhoAdvice Part 1 exact-product research and ranking approval, including outdoor/solar/Flowtron overlap resolution.
+Approve or revise the five-product Part 1 set, its family-variant treatment, BK-40D leading role, GOOTOP manual limit, and MO-008C dual-rated boundary. Stop before the article contract.

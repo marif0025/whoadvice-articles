@@ -96,3 +96,7 @@ claims_requiring_final_verification:
 - Set canonical URL, author/reviewer, updated date, breadcrumbs, sitemap entry, and indexing controls.
 - Test mobile table scrolling, button destinations, accessibility, layout shift, and page speed.
 - Complete the immediately-before-publication freshness checks listed above.
+
+## Canonical image-production reference
+
+Use [`../image-production-plan.md#best-cordless-hedge-trimmers`](../image-production-plan.md#best-cordless-hedge-trimmers) for the hero prompt, six type-card prompts, exact product-image sourcing records, filenames, alt intent, and precise CMS placements.

@@ -62,7 +62,7 @@ These sources inform current SERP coverage and reader questions only. Their rank
 
 - [r/pestcontrol: indoor office flying bug killers](https://www.reddit.com/r/pestcontrol/comments/1udz4b9/indoor_office_flying_bug_killers/), June 24, 2026
 - [r/houseplants: fungus gnats, best solution](https://www.reddit.com/r/houseplants/comments/1rt7cid/fungus_gnats_whats_your_best_solution/), March 14, 2026
-- [r/homeowners: sudden fly infestation](https://www.reddit.com/r/homeowners/comments/1pxbpr6/sudden_fly_infestation/), January 2026
+- [r/homeowners: sudden fly infestation](https://www.reddit.com/r/homeowners/comments/1pxbpr6/sudden_fly_infestation/), December 27, 2025
 
 Community discussions identify concerns only. Product, insect, placement, food-area, and safety claims require the stronger sources above.
 

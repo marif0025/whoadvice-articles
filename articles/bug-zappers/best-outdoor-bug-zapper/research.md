@@ -1,25 +1,27 @@
 # Part 1 research and ranking: Best outdoor bug zapper
 
-> **July 22 Amazon refresh — current decision (supersedes the earlier six-product set below):** The current Amazon-route set is Flowtron BK-15D, BK-40D, BK-80D, GOOTOP Zap T6 Pro, and Buzbug MO-008C. BK-40D remains the best-documented recommendation candidate; BK-15D/BK-80D are family variants; GOOTOP has a verified ASIN/model but a third-party-manual limit; MO-008C New Black ASIN B0CNSZ5VHX is the normalized same-brand replacement after MO-005B failed availability. AVANTI 59709, PSLBZ25, BDPC958, MA015C, and MO-005B are preserved in the unavailable register.
+> **Current Part 1 decision:** The five-product Amazon-route set is Flowtron BK-15D, BK-40D, BK-80D, GOOTOP Zap T6 Pro, and Buzbug MO-008C New Black. BK-40D is the best-documented recommendation candidate; BK-15D and BK-80D are size variants rather than separate mechanism winners; GOOTOP retains a third-party-manual limit; MO-008C is the separately normalized replacement after MO-005B failed availability.
 
-**Status:** `part_1_refresh_complete_pending_approval`
+**Status:** `part_1_packet_synchronized_pending_approval`
 **Research date:** July 22, 2026
+**Packet synchronized:** July 27, 2026; no new live research or product approval
 **Market:** United States
 **Evidence model:** Research-based; no hands-on testing
 **Next gate:** Part 1 approval, then article contract
 
+**Shared audience input:** Use [`../research/reddit-audience-research-2026-07-23.md`](../research/reddit-audience-research-2026-07-23.md) for outdoor outlet-route, placement, replacement-lamp, mosquito-expectation, noise, and debris questions. Treat those discussions as anecdotal; exact manuals and authoritative guidance control every answer and recommendation.
+
 ## Decision summary
 
-Six exact outdoor candidates were researched. Five are usable in a later comparison; one is rejected pending resolution of contradictory official copy. The three Flowtron sizes are not three universal performance ranks—they are variant choices within one corded grid family.
+Five current Amazon-route outdoor candidates are proposed for approval. Three are variants within one Flowtron family, so they must not receive artificial awards based on wattage or advertised acreage. GOOTOP is eligible only with its manual-provenance limit visible. MO-008C is a verified dual-rated package evaluated here for an outdoor plug-in job.
 
 | Editorial role | Exact product | Power/mechanism | Part 1 decision | Main limitation |
 |---|---|---|---|---|
-| Best documented mainstream grid | Flowtron BK-40D | AC UV/grid | Approved | Mains placement, bulb/lure ownership; acreage is marketing |
-| Smaller Flowtron-family option | Flowtron BK-15D | AC UV/grid | Approved for comparison | Verify exact route/parts before contract |
-| Larger Flowtron-family option | Flowtron BK-80D | AC UV/grid | Approved for comparison | Size does not prove better mosquito outcomes |
-| Best direct-value route | AVANTI 59709 | 18W AC UV/grid | Approved for comparison | 90-day warranty; retailer claims require manual boundaries |
-| Fan-capture alternative | SereneLife/Pyle PSLBZ25 | AC UV/fan | Approved for comparison | Different mechanism; IPX4 is not unlimited weather exposure |
-| BLACK+DECKER alternative | BLACK+DECKER BDPC958 | Corded UV/grid by title/images | Rejected pending resolution | Official body copy describes the wrong indoor glue-trap mechanism |
+| Best-documented outdoor starting point | Flowtron BK-40D | Outdoor AC UV bulb, lure, and guarded grid | Proposed leading recommendation | Grounded power route, placement, and recurring bulb/lure ownership |
+| Smaller Flowtron-family option | Flowtron BK-15D | Outdoor AC UV/grid | Proposed comparison option | A smaller family variant, not a different mechanism or proven outcome |
+| Larger Flowtron-family option | Flowtron BK-80D | Outdoor AC UV/grid | Proposed comparison option | Higher wattage and acreage language do not prove fewer bites |
+| Diverse-brand grid option | GOOTOP Zap T6 Pro | Plug-in UV/grid lantern | Proposed conditional comparison | Exact identity is strong; manual provenance is third-party |
+| Dual-rated plug-in alternative | Buzbug MO-008C, New Black | Indoor/outdoor AC UV/grid | Proposed comparison option | Must stay on the selected New Black one-unit package and outdoor-permitted instructions |
 
 ## Eligibility and ranking method
 
@@ -29,33 +31,34 @@ Private later-contract weights: exact identity/manual 20%; outdoor placement and
 
 ## Product findings
 
-### Flowtron BK-40D — approved
+### Flowtron BK-40D — proposed leading recommendation
 
 - Current exact model, official product page, family manual, warranty/parts ecosystem, UPC, Amazon ASIN B00004R9VW, and US route.
 - Primary drawback: outdoor mains placement and ongoing bulb/lure servicing. Manufacturer acreage and mosquito-control language is not outcome proof.
 
-### Flowtron BK-15D and BK-80D — approved for comparison
+### Flowtron BK-15D and BK-80D — proposed family comparisons
 
 - Both appear in the current official outdoor family and exact family manual.
 - They create smaller/larger family choices, but specifications, bulbs, advertised acreage, and accessories must remain variant-specific.
-- Recheck exact current retail destinations before the contract; no Amazon ASIN was inferred.
+- Exact Amazon identities and publisher-confirmed Special Links are stored in their shared product records. Recheck offers and packages before publication.
 
-### AVANTI 59709 — approved for comparison
+### GOOTOP Zap T6 Pro — proposed conditional comparison
 
-- Exact current Harbor Freight route, item 59709, UPC 193175479211, exact owner manual, add-to-cart state, and 281-review ownership pool.
-- The page displayed $34.99 and a 90-day warranty on capture. Price is a discovery record only.
-- Use manual placement/cleaning instructions; do not convert the half-acre or mosquito copy into tested performance.
+- ASIN B09PQF39PG, model Zap T6 Pro, manufacturer part `mwd-33`, brand page, dimensions, and retailer identity agree.
+- The available manual copy is third-party. Do not give GOOTOP the leading award or publish exact cord, weather, cleaning, or safety instructions that cannot be reopened from the package or manufacturer.
+- Coverage, voltage, housing, and target-insect language remain attributed claims.
 
-### SereneLife/Pyle PSLBZ25 — approved for comparison
+### Buzbug MO-008C New Black — proposed comparison
 
-- Exact official product/manual route supports indoor/outdoor UV-plus-fan capture and IPX4.
-- It belongs as the non-grid alternative, not as a direct voltage/acreage competitor.
-- Public copy must explain chamber cleaning and any manual placement limits.
+- Official page, manual record, FAQ, UPC 199874670638, selected New Black one-unit package, and Amazon ASIN B0CNSZ5VHX agree.
+- The model is explicitly dual-rated; this branch may evaluate its outdoor outlet, placement, weather, lamp, tray, and cleaning job without duplicating an indoor verdict.
+- Do not transfer specifications from unavailable MO-005B, MA015C, or the unselected white MO-008C variation.
 
-### BLACK+DECKER BDPC958 — rejected pending resolution
+### Superseded discovery set
 
-- Exact model, GTIN, corded power, chain, and brush are visible on the official page.
-- Official text contradicts the outdoor grid title/images by describing an indoor glue trap. Without the exact manual, mechanism and location are unsafe to normalize.
+- AVANTI 59709 and SereneLife/Pyle PSLBZ25 were supported in the earlier non-Amazon discovery set but are outside the current Amazon-required pool.
+- BLACK+DECKER BDPC958 remains excluded because its official title/images and body copy conflict on mechanism and location.
+- MA015C and MO-005B failed current Amazon routes and remain in `../products/unavailable-products.md`.
 
 ## SERP and reader-decision findings
 
@@ -63,14 +66,14 @@ Editorial competitors consistently emphasize acreage and voltage, yet current ev
 
 ## Recall, regulatory, and claim controls
 
-- CPSC exact-model/category searches on July 22, 2026 found no matching recall for the six candidates; do not publish `recall-free`.
+- CPSC exact-model/category searches recorded in the five current product files found no matching recall as of July 21–22, 2026; do not publish `recall-free`.
 - Conventional UV-only grid kills do not establish fewer bites or a reduced mosquito population.
 - `Weather-resistant`, IPX4, ETL/UL, EPA registration/establishment, voltage, and acreage require exact attribution and must not become blanket safety or efficacy conclusions.
 - Verify extension-cord and receptacle language from each exact manual before drafting setup advice.
 
 ## Affiliate and publication gate
 
-Publisher-confirmed affiliate links for the three Flowtron variants and GOOTOP are preserved. MO-008C remains pending publisher confirmation. Recheck its selected New Black B0CNSZ5VHX variation, seller, package, stock, manual, recall result, and redirect before publication.
+Publisher-confirmed Special Links for all five candidates are preserved in their shared product records. This commercial confirmation does not clear GOOTOP's manual-provenance limit or any publication-day seller, fulfillment, stock, package, redirect, manual, or recall check.
 
 ## Approval request
 

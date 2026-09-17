@@ -1,9 +1,12 @@
-# Bug-zapper next topology approval package
+# Bug-zapper topology approval package — July 20 historical snapshot
 
-**Current gate:** `topology_audit_execution_approved`
+**Snapshot status:** Historical gate record; use `../content-brief-index.md` for current page stages
+**Gate at snapshot:** `topology_audit_execution_approved`
 **Effectiveness sub-gate:** `manual_editorial_review_complete`; prepublication validation pending for `/home-gadgets/do-bug-zappers-work/`
 **Package date:** July 20, 2026
-**Implementation:** Local Part 3 informational draft authorized and complete; no production or commercial-page changes authorized
+**Implementation at snapshot:** Local Part 3 informational draft authorized and complete; no production or commercial-page changes authorized
+
+This file preserves the July 20 approval boundary and is not the current cluster status board. Later pillar, indoor, racket, audience-research, and packet-synchronization work is tracked in the cluster index and each page package.
 
 ## Package status
 

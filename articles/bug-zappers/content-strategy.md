@@ -4,13 +4,15 @@
 **Input:** User-supplied SEMrush Keyword Strategy Builder export plus the supplied cross-context segment assessment
 **Market:** United States
 **Detailed analysis:** `research/keyword-cluster-2026-07-20.md`
-**Status:** `pillar_part_4_complete_ready_for_editorial_review`; no live-site update authorized
+**Status:** `cluster_in_progress_four_local_packages_complete`; no live-site update authorized
 **Effectiveness sub-gate:** `manual_editorial_review_complete`; prepublication validation pending for `/home-gadgets/do-bug-zappers-work/`
-**Core brief milestone:** 19 active Amazon-route product records across eleven brands are normalized; the pillar's 10-product Part 1 shortlist, corrected contract, local draft, and Part 4 audit are complete
+**Core brief milestone:** 19 active Amazon-route product records across eleven brands are normalized; four local article packages are complete; outdoor and solar Part 1 packets are synchronized for approval
 
 ## Approval scope and locked gates
 
-The seven-page topology audit and the corrected research/brief for **Do bug zappers work?** are approved. The best-bug-zapper pillar Part 1 packet, corrected 10-product contract, local draft, and Part 4 audit are complete. Responsible editorial review remains required. The racket branch's 4-product Part 1 set and Part 2 contract are approved; the indoor, outdoor, and solar branches retain their own gates. This does **not** authorize production rewrites, Flowtron retention, support-page launches, redirects, canonical changes, or broad mosquito-effectiveness claims.
+The seven-page topology audit and the corrected research/brief for **Do bug zappers work?** are approved. The pillar, indoor, and racket roundups have complete local Part 4 packages; responsible editorial review and their named publication checks remain required. The effectiveness guide has completed manual editorial review and awaits prepublication validation. Outdoor and solar are paused at their synchronized Part 1 approval gates. This does **not** authorize production rewrites, Flowtron retention, support-page launches, redirects, canonical changes, or broad mosquito-effectiveness claims.
+
+The July 23 Reddit audience packet at `research/reddit-audience-research-2026-07-23.md` is the shared community-question source for the cluster. It replaces ad hoc FAQ guessing with dated, traceable concerns while keeping Reddit anecdotal and subordinate to manuals and authoritative evidence. The pillar revision uses three quick picks, one decision-useful comparison table, and one unified 10-product card sequence; its re-audit returned zero mechanical flags and it is ready for responsible editorial review.
 
 During the audit:
 
@@ -21,7 +23,7 @@ During the audit:
 - separate normalized product facts from page-specific verdicts;
 - classify every effectiveness claim as supported, needs qualification, product-specific only, unsupported, or remove;
 - use the controlled mechanism taxonomy in `research/mechanism-taxonomy.md`;
-- keep unavailable Search Console, backlink, and affiliate evidence explicitly pending rather than inferred.
+- keep unavailable Search Console, backlink, and page-attributable affiliate-performance evidence explicitly pending rather than inferred.
 - attach exact page/heading/claim locators to every current-copy claim finding;
 - audit mosquito statements against separate attraction, entry, kill, abundance, landing, bite, population, and disease-risk endpoints;
 - capture HTTP, canonical, robots, sitemap, title/H1, structured-data, internal-link, and publication metadata for every live URL;
@@ -101,15 +103,15 @@ Use a new **do bug zappers work?** guide as the evidence foundation for the comm
 
 ## Approved workflow order
 
-1. Capture current page copies, canonicals, Search Console, backlinks, and affiliate data.
+1. Capture current page copies and canonicals; request unavailable Search Console, backlink, and page-level affiliate-performance inputs.
 2. Build the formal page-ownership and product-overlap matrices.
 3. Complete research for **Do bug zappers work?**
 4. Audit effectiveness claims across all seven live pages.
 5. Reverify exact product identities and availability.
-6. Make the Flowtron consolidation decision.
-7. Approve the final cluster topology.
-8. Begin Part 1 commercial research page by page.
-9. Create article contracts only after product and evidence approval.
-10. Run the final SEO/cannibalization audit after all refreshed drafts are complete.
+6. Complete non-Flowtron Part 1 research page by page without treating missing performance data as proof that the Flowtron URL has no value.
+7. Make the Flowtron retain-or-merge decision when its performance and link inputs are available.
+8. Approve final cluster topology before any redirect, canonical, or coordinated live implementation.
+9. Create article contracts only after each page's product and evidence approval.
+10. Run the final SEO/cannibalization audit after all retained pages have complete, individually audited drafts.
 
-The locally available topology and effectiveness work is complete. Step 8 is complete for the pillar and all four commercial branches. The racket branch is intentionally approved at four products after LiBa WD-942 failed availability; no fifth product is required, and its revised Part 3 draft and Part 4 audit are complete locally. Search Console, backlink, and affiliate inputs remain pending because they have not been supplied. Responsible racket review, other branch contracts, public rewrites, CMS work, and production changes remain behind their explicit later approval gates.
+The locally available topology and effectiveness evidence work is complete. Part 1 is approved for the pillar, indoor, and racket pages; outdoor and solar now have internally synchronized packets but still require explicit approval. The pillar, indoor, and racket drafts have completed Part 4 locally, while the effectiveness guide has completed manual editorial review. Search Console, backlink, and page-attributable affiliate-performance inputs remain pending because they have not been supplied. Outdoor and solar contracts, the mosquito-alternative research route, the Flowtron retain-or-merge decision, responsible editorial reviews, CMS work, and production changes remain behind their explicit later gates.

@@ -1,6 +1,6 @@
 # Current bug-zapper product matrix
 
-**Snapshot:** July 22, 2026  
+**Snapshot:** July 22, 2026; status synchronized July 27, 2026
 **Market:** United States  
 **Gate:** Active records require a raw Amazon US destination and ASIN; recommendation eligibility additionally requires exact-model identity and adequate primary instructions.
 
@@ -9,7 +9,7 @@
 - 19 active product records, all with raw Amazon destinations and ASINs.
 - 11 brands represented: Flowtron, Safer Home, BLACK+DECKER, PIC, Aspectek, Buzbug, GOOTOP, OnBeam, The Executioner, ZAP IT!, and YISSVIC.
 - Indoor, outdoor, and solar retain five researched current-route products each; the publisher approved the handheld branch at four after LiBa WD-942 failed the availability check and waived the earlier fifth-product requirement.
-- All 19 publisher-supplied affiliate links are preserved and marked `publisher_confirmed`, including the selected Buzbug MO-008C New Black variation.
+- All 19 publisher-supplied Special Links are preserved and marked `publisher_confirmed`, including the selected Buzbug MO-008C New Black variation. Commercial-link confirmation does not clear a separate exact-manual, exact-package, stock, seller, or publication-day gate.
 - Sixteen unavailable, recalled, no-Amazon, or unresolved records are preserved in `products/unavailable-products.md`.
 
 ## Indoor pool
@@ -30,7 +30,7 @@
 | Flowtron BK-40D | B00004R9VW | Exact family manual and current package | Proposed main outdoor anchor |
 | Flowtron BK-80D | B00004R9VV | Exact family manual | Larger family option |
 | GOOTOP Zap T6 Pro | B09PQF39PG | Exact identity; third-party manual limit | Conditional diverse-brand grid |
-| Buzbug MO-008C, New Black | B0CNSZ5VHX | Official page/manual, Amazon model, and UPC agree | Current same-brand plug-in replacement; affiliate link pending |
+| Buzbug MO-008C, New Black | B0CNSZ5VHX | Official page/manual, Amazon model, and UPC agree | Current same-brand plug-in replacement; publisher-confirmed Special Link |
 
 ## Solar pool
 
@@ -53,4 +53,4 @@
 
 ## Part 2 boundary
 
-This matrix is a researched candidate pool, not a 19-product publish list. The pillar uses only YISSVIC WD-981 as its handheld representative. The deeper racket branch now carries all four publisher-approved products into its proposed Part 2 contract, with missing manuals, model numbers, runtime conflicts, and publication-day checks kept visible. Only WD-981 receives a `Best` award in the proposed contract.
+This matrix is a researched candidate pool, not a 19-product publish list. The pillar uses only YISSVIC WD-981 as its handheld representative. The deeper racket branch carried all four publisher-approved products through its approved contract and completed local Part 4 with missing manuals, model numbers, runtime conflicts, and publication-day checks still visible. Only WD-981 receives a `Best` award in that branch.

@@ -148,3 +148,7 @@ No new generated images are required. Use exact-model product photography alread
 - Add `rel="sponsored"`, author, reviewer, publication/update dates, canonical, breadcrumbs, sitemap entry, and indexability controls.
 - Test mobile table scrolling, buttons, accessibility, structured data, page speed, and Core Web Vitals.
 - Record final responsible human approval in the CMS.
+
+## Canonical image-production reference
+
+Use [`../image-production-plan.md#best-pole-hedge-trimmers`](../image-production-plan.md#best-pole-hedge-trimmers) for the brand-neutral hero alternative, four type-card prompts, supporting reach graphic, exact product-image sourcing records, and precise CMS placements.

@@ -46,3 +46,7 @@ Use brand-neutral illustrations without product likenesses, unsafe ladder positi
 - Add image dimensions, compression, descriptive alt text, and responsive behavior.
 - Validate `Article` or `BlogPosting` and `BreadcrumbList` markup against visible content.
 - Test the sizing matrix on mobile and verify accessibility and page performance.
+
+## Canonical image-production reference
+
+Use [`../image-production-plan.md#what-size-hedge-trimmer-do-i-need`](../image-production-plan.md#what-size-hedge-trimmer-do-i-need) for both completed prompts, filenames, alt intent, and exact `article.md` comment placements.

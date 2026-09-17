@@ -81,3 +81,7 @@ Do not expose community or marketplace research URLs in public prose.
 - Implement internal/external links, canonical, breadcrumbs, image licensing, dimensions, compression, and responsive table behavior.
 - Check mobile layout, accessibility, Core Web Vitals, page speed, indexability, sitemap inclusion, and final link destinations.
 - Record responsible human editorial review before publication.
+
+## Canonical image-production reference
+
+Use [`../image-production-plan.md#corded-vs-cordless-hedge-trimmer`](../image-production-plan.md#corded-vs-cordless-hedge-trimmer) for the canonical prompts and exact `article.md` comment placements.

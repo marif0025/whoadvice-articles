@@ -145,3 +145,7 @@ CMS must choose final dimensions, compress responsive files, and confirm the vis
 - No HSE 52 or legacy ECHO public example without a contract revision.
 - No local service prices, national price range, affiliate links, retailer recommendations, or product rankings.
 - No competitor or community names as evidence and no hands-on-testing claim.
+
+## Canonical image-production reference
+
+Use [`../image-production-plan.md#how-to-sharpen-hedge-trimmers`](../image-production-plan.md#how-to-sharpen-hedge-trimmers) for the canonical prompts and exact heading-based placements.

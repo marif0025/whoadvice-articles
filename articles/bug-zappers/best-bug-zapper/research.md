@@ -2,7 +2,7 @@
 
 **Status:** `part_1_approved`
 
-**Re-evaluated:** July 22, 2026
+**Re-evaluated:** July 23, 2026
 
 **Target market:** United States
 
@@ -12,13 +12,13 @@
 
 **Evidence model:** Research-based roundup; no hands-on testing
 
-**Part 1 decision:** Approved for a 10-product Part 2 contract under the publisher-approved four-handheld exception
+**Part 1 decision:** Same 10 products retained; July 23 presentation and community-research amendment approved
 
 ## Executive decision
 
 The current cluster contains 19 active normalized records across 11 brands. Indoor, outdoor, and solar each have five researched Amazon-route products. Handheld has four because LiBa WD-942 failed the publisher availability check and no sufficiently verified replacement was found. The publisher instructed the project to leave that gap and move forward, so the missing fifth handheld no longer blocks the pillar contract.
 
-The pillar should publish 10 product cards, grouped by format rather than ranked from 1 to 10. The shortlist includes three indoor choices, three outdoor plug-in choices, three solar choices, and one handheld choice. This meets the requested 10-product pillar scope while avoiding conditional products whose model, manual, or current package remains too uncertain.
+The pillar should publish the same 10 product cards in one unified sequence rather than four separate format lists. The shortlist still contains three indoor choices, three outdoor plug-in choices, three solar choices, and one handheld choice. Three quick-pick cards lead with Safer Home SH502, Flowtron BK-40D, and PIC DFST; YISSVIC WD-981 remains in the full list because its active-contact job is narrower.
 
 ## Search intent and current editorial pattern
 
@@ -41,6 +41,22 @@ WhoAdvice should instead resolve the format decision first:
 | [This Old House](https://www.thisoldhouse.com/pest-control/best-bug-zapper) | Six picks, comparison table, buying guide, FAQs, and methodology | Clear product-card and comparison structure | Treats voltage, wattage, and claimed coverage too readily as performance proxies and uses loose mosquito language |
 
 Competitors are discovery and structure sources only. Exact-model facts, safety boundaries, and rankings come from product records, manuals, manufacturer pages, and authoritative guidance.
+
+## Reddit and audience-language research
+
+The cluster-wide theme map is stored in [`../research/reddit-audience-research-2026-07-23.md`](../research/reddit-audience-research-2026-07-23.md). It records identifiable discussions, dates, repeated concerns, verification sources, excluded promotional communities, and the editorial decision for each question.
+
+Recurring buyer concerns were:
+
+- whether visible zapper catches translate into fewer mosquito bites;
+- quiet adhesive capture versus snap noise and visible grid debris indoors;
+- identifying and removing a breeding source when fruit flies, drain flies, or fungus gnats recur;
+- solving outdoor outlet routing and manual-approved placement before buying a large grid;
+- whether a hanging or stake-style solar unit can receive useful daylight;
+- replacement lamps, cards, lures, batteries, and long-term parts support;
+- choosing a racket only when active contact with one or two visible insects is acceptable.
+
+These are anecdotal audience signals. They shape the three quick picks, comparison columns, buying factors, and FAQ questions, but do not prove exact-model performance, safety, specifications, or mosquito-control outcomes. Exact-product searches dominated by affiliate-style, bot-generated, or deal posts were excluded from recommendation evidence.
 
 ## Current 19-product candidate register
 
@@ -116,7 +132,8 @@ This is a decision sequence, not a universal performance ranking.
 
 ## Format allocation and cannibalization control
 
-- The pillar gives each selected model a concise format-fit card.
+- The pillar gives each selected model one concise card inside a single 10-product sequence.
+- The article must not split those cards into separate indoor, outdoor, solar, or handheld lists.
 - Indoor, outdoor, solar, and racket branch pages own deeper within-format comparisons.
 - The pillar must not reproduce branch rankings, full maintenance instructions, or Flowtron family analysis.
 - A shared model may receive a different page-level verdict only when the reader job differs; exact identity and factual fields must remain identical.
@@ -174,6 +191,6 @@ Do not publish cross-format scores. A glue-board trap, outdoor grid, solar lante
 
 ## Part 1 gate resolution
 
-Part 1 is approved for the pillar contract with 10 selected products. The four-product handheld research pool is an explicit publisher-approved exception after replacement research failed; only YISSVIC WD-981 enters the pillar shortlist. The deeper handheld branch remains at four researched candidates and may retain that limitation in its own gate.
+Part 1 remains approved with the same 10 selected products. The July 23 amendment adds cluster-wide Reddit audience research, three quick picks, one decision-useful comparison table, and one unified public product list. It does not change exact-model eligibility or create a Reddit-derived performance award.
 
-The corrected Part 2 contract is approved. Part 3 drafting may proceed without reopening Part 1.
+The corrected Part 2 contract is approved. The four-product handheld research pool remains an explicit publisher-approved exception; only YISSVIC WD-981 enters the pillar shortlist.

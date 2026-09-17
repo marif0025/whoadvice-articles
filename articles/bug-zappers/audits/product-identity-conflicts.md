@@ -1,8 +1,10 @@
 # Bug-zapper product identity conflict register
 
-**Status:** Preliminary identity discovery; no exact model or placement approved
+**Status:** Historical initial-production conflict register; current active candidates are controlled by `../products/` and the current product matrix
 **Date:** July 20, 2026
 **Scope:** Conflicts visible across current WhoAdvice copies and initial primary-source discovery
+
+This register preserves why legacy production products were not trusted automatically. It does not override later exact-product records, exclusions, approved placements, or page-specific Part 1 decisions.
 
 ## Rules
 

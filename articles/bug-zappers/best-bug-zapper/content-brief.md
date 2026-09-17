@@ -1,6 +1,6 @@
 # Content brief: Best bug zapper
 
-**Status:** `part_4_complete_ready_for_editorial_review`; the revised local 10-product draft passed Part 4 with zero mechanical flags
+**Status:** `july_23_revision_ready_for_editorial_review`
 **Canonical URL:** `/home-gadgets/best-bug-zapper/`
 **Primary keyword:** best bug zapper
 **Secondary families:** bug zapper; best insect zapper; types of bug zappers; best mosquito zapper
@@ -10,7 +10,7 @@
 
 ## Brief boundary
 
-This brief defines ownership and the article shape. The Amazon refresh has 19 active records across eleven brands. Indoor, outdoor, and solar retain five current-route products; handheld remains at four under the publisher-approved exception after no sufficiently verified replacement was found. Part 1 locks 10 pillar cards: three indoor, three outdoor plug-in, three solar, and one handheld. The corrected contract, local draft, and targeted Part 4 revision are complete. Responsible editorial review, CMS work, and publication-day checks remain pending.
+This brief defines ownership and the article shape. The Amazon refresh has 19 active records across eleven brands. Indoor, outdoor, and solar retain five current-route products; handheld remains at four under the publisher-approved exception after no sufficiently verified replacement was found. Part 1 still locks the same 10 pillar cards. The July 23 editorial revision changes their presentation to three quick picks, one comparison table, and one unified product-card sequence. Responsible editorial review, CMS work, and publication-day checks remain pending.
 
 ## Reader decision
 
@@ -59,7 +59,7 @@ The expanded Part 1 makes two decisions in order:
 Do not force a weak candidate into any format. Solar now survives as a branch and pillar format because three exact PIC models have manuals and current routes; Flowtron FLWSLZ10 remains excluded from the pillar set until its manual gate passes.
 
 - **Candidate pool:** 19 active Amazon-route records across indoor, outdoor, solar, and handheld; the approved pillar shortlist contains 10 products, and conditional records cannot receive awards.
-- **Format balance:** Use-case grouping rather than a cross-format rank; the locked shortlist contains only the strongest evidence-backed representatives from Part 1.
+- **Format balance:** One unified product-card sequence, with format communicated inside each card rather than through separate indoor, outdoor, solar, and handheld product lists.
 - **Product-count authority:** Part 1 locks the publishable 10-product shortlist. Part 2 defines presentation, order, awards, fields, section structure, and drafting controls. Adding or substituting a model requires a recorded Part 1 amendment and contract update.
 - **Runner-up lists:** Do not add unresearched generic alternatives outside the approved set.
 - **Budget award:** Not permitted unless a price methodology is approved.
@@ -67,9 +67,9 @@ Do not force a weak candidate into any format. Solar now survives as a branch an
 ## Recommended answer path
 
 1. **Quick format decision** — short if/then routes for room, patio/yard, off-grid location, and active handheld use.
-2. **Top picks by format** — four leading format picks followed by six approved exact-model alternatives for more specific setups.
-3. **Comparison table** — product, editorial badge, format and mechanism, intended location, power, recurring upkeep, and main limitation; no universal rank or internal evidence-status column.
-4. **Product cards** — short format-fit verdicts that route deeper comparison to each branch page.
+2. **Three starting points** — SH502 for quiet indoor capture, BK-40D for a supported outdoor plug-in setup, and DFST for a sunny outlet-free position.
+3. **Comparison table** — one ten-row table showing best fit, how insects are handled, setup reality, actual replacement needs, and the main reason to skip.
+4. **Unified product list** — all 10 cards under one H2, with no separate format lists.
 5. **How we researched** — exact-model, manual, availability, safety, recall, and evidence process.
 6. **Types and mechanisms** — indoor glue-card trap, outdoor stationary grid, solar grid, and handheld racket in the locked taxonomy.
 7. **What bug zappers can and cannot control** — compact evidence boundary and conditional route to the effectiveness guide.
@@ -84,12 +84,11 @@ Use only after Part 1 approval:
 | Field | Rule |
 |---|---|
 | Product | Must match the normalized shared record |
-| Editorial badge | State the approved reader job without implying a universal rank |
-| Format and mechanism | Use `research/mechanism-taxonomy.md`; label SH502 as a UV glue-board trap |
-| Intended location | Verify from manufacturer/manual evidence |
-| Power | Distinguish mains, solar, rechargeable, or replaceable battery |
-| Recurring upkeep | State only verified cleaning, cards, bulbs, lures, battery, or replacement requirements |
-| Main limitation | One material fit, evidence, or ownership boundary |
+| Best fit | Name the reader situation, not an editorial badge |
+| How it handles insects | Translate the controlled mechanism into plain language; label SH502 as glue-card capture |
+| Setup reality | Combine the location, power route, solar exposure, or active-use burden that can rule out the device |
+| What you will replace | Name actual cards, bulbs, starters, lures, lamps, batteries, or the support limitation |
+| Main reason to skip | State one material fit, evidence, or ownership boundary |
 
 Do not use voltage, wattage, UV wavelength, or advertised acreage as a performance score.
 
@@ -123,13 +122,15 @@ Flowtron receives a link only if its retention gate is approved.
 
 ## FAQ candidates
 
-- Is an indoor glue trap the same as a bug zapper?
-- Are indoor and outdoor bug zappers interchangeable?
-- Do bug zappers work on mosquitoes?
-- Is a solar bug zapper as practical as a plug-in model?
-- Is a bug-zapper racket better for occasional insects?
+- Will a bug zapper reduce mosquito bites?
+- Is a glue trap or an electric-grid zapper better for indoor flies?
+- Where should an outdoor bug zapper go relative to a patio or door?
+- Can an indoor bug zapper be used in a garage or outdoors?
+- Is a solar bug zapper worth choosing when there is no outlet?
+- Is an electric racket practical for one or two visible insects?
+- Will a light trap solve recurring fruit flies, drain flies, or fungus gnats?
 
-Validate questions during Part 1/current SERP review. Do not force product names into answers.
+The questions are validated in `../research/reddit-audience-research-2026-07-23.md`. Community discussions identify the concern only; manuals and authoritative sources control the answers. Do not force product names into answers.
 
 ## Public wording exclusions
 
@@ -141,4 +142,4 @@ Internal and affiliate links, disclosure, product buttons, exact-model images, a
 
 ## Next gate
 
-Complete responsible editorial review using `article.md` and `audit.md`. Conditional products must remain out of recommendation copy unless their evidence gates pass through a recorded Part 1 amendment and the contract is formally updated. The completed Part 4 package does not authorize CMS or live-site changes.
+Complete responsible editorial review using `article.md` and `audit.md`. The July 23 re-audit returned 4,455 words, 44 headings, and zero mechanical flags. Conditional products must remain out of recommendation copy unless their evidence gates pass through a recorded Part 1 amendment and the contract is formally updated. The completed Part 4 package does not authorize CMS or live-site changes.

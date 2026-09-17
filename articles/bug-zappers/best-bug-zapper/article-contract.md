@@ -4,7 +4,7 @@
 
 **Contract date:** July 22, 2026
 
-**Editorial corrections approved:** July 22, 2026
+**Editorial corrections approved:** July 23, 2026
 
 **Canonical page:** `/home-gadgets/best-bug-zapper/`
 
@@ -28,19 +28,19 @@ marketplace_name_exceptions:
 public_community_names_allowed: false
 intro_length: 140-200 words
 intro_product_mentions: none
-top_pick_card_count: 4
+top_pick_card_count: 3
 top_pick_card_fields:
   - Editorial badge
   - Exact product name
   - Original short description of buyer fit and main tradeoff
 comparison_columns:
   - Product
-  - Editorial badge
-  - Format and mechanism
-  - Intended location
-  - Power
-  - Recurring upkeep
-  - Main limitation
+  - Best fit
+  - How it handles insects
+  - Setup reality
+  - What you will replace
+  - Main reason to skip
+product_list_structure: one unified 10-product sequence with no separate indoor, outdoor, solar, or handheld product lists
 product_card_fields:
   - Title
   - Slug
@@ -93,61 +93,49 @@ cms_owned:
   - sitemap, indexability, accessibility, and page-speed testing
 ```
 
-## Approved 10-product order carried into the contract
+## Approved unified 10-product sequence
 
-The order is grouped by reader job. The numbers below are contract references only. Do not display product numbers from 1 to 10 in the final article or imply a universal rank.
-
-### Indoor
+Display every card under one product-list H2. Do not create separate indoor, outdoor, solar, or handheld product-list sections. The sequence is editorially useful but not a cross-format laboratory-performance score.
 
 1. **Safer Home SH502 — Best indoor glue-board trap**
 2. **BLACK+DECKER BDPC959 — Best indoor electric-grid zapper**
 3. **Buzbug MA015 — Indoor grid alternative**
-
-### Outdoor plug-in
-
 4. **Flowtron BK-40D — Best outdoor plug-in bug zapper**
 5. **Flowtron BK-15D — Compact Flowtron outdoor option**
 6. **Buzbug MO-008C, New Black — Indoor/outdoor plug-in alternative**
-
-### Solar
-
 7. **PIC DFST — Best solar torch-style option**
 8. **PIC FLPT — Best hanging solar lantern option**
 9. **PIC SOLAR-PLZ — Compact solar lantern alternative**
-
-### Handheld
-
 10. **YISSVIC WD-981 — Best handheld electric racket**
 
 The draft must not add a product, restore an unavailable model, alter the selected variation, or create a new award without reopening Part 1.
 
 ## Opening contract
 
-- Start with one controlling decision: whether the reader needs quiet indoor capture, an outdoor plug-in grid, off-grid solar placement, or active contact with a visible insect.
-- Begin answering immediately. Different formats solve different jobs and cannot be compared through one universal performance score.
+- Start with the wrong-outcome risk: a high-voltage or loud device may not solve the insect problem or outcome the reader actually has.
+- Begin answering immediately with the insect, location, passive-versus-active, and power-route decisions. Different formats solve different jobs and cannot be compared through one universal performance score.
 - Use `best bug zapper` naturally in the first 100 words.
 - State that WhoAdvice researched exact models, manuals or instructions, current US routes, ownership requirements, and recall records without claiming hands-on testing.
 - State the central outcome limit once: killing an insect at the device does not prove fewer mosquito bites or area-wide population control.
-- Keep the introduction product-neutral because four format cards follow immediately.
-- Introduce the complete set clearly: WhoAdvice selected four leading format picks and six additional exact-model alternatives for more specific setups.
+- Keep the introduction product-neutral because three quick-pick cards follow immediately.
+- Introduce the complete set clearly: WhoAdvice created one 10-product recommendation list, with three quick picks for the broadest indoor, outdoor plug-in, and outlet-free situations.
 - Do not open with a definition, generic summer scene, fear-based pest language, or a promise of a bug-free space.
 
-## Four top-pick cards
+## Three top-pick cards
 
 Place these immediately after the introduction:
 
-1. **Best indoor trap — Safer Home SH502**
-2. **Best outdoor plug-in bug zapper — Flowtron BK-40D**
-3. **Best solar torch-style option — PIC DFST**
-4. **Best handheld electric racket — YISSVIC WD-981**
+1. **Best for quiet indoor capture — Safer Home SH502**
+2. **Best supported outdoor plug-in — Flowtron BK-40D**
+3. **Best for a sunny spot without an outlet — PIC DFST**
 
 Each receives an original short description explaining buyer fit and the main tradeoff. Do not copy the comparison table, Summary, or Verdict. Do not place ASINs or affiliate links in these cards.
 
-The SH502 top card must say that it is a UV glue-board trap, not an electric-grid zapper. The four cards are leading format picks; the remaining six products are approved alternatives, not unexplained lower-tier filler.
+The SH502 top card must say that it is a UV glue-board trap, not an electric-grid zapper. WD-981 remains in the unified list but not the quick-pick block because active contact with a visible insect is a narrower job than the three leading setup routes.
 
 ## Quick format-decision callout
 
-Place one compact `Choose by setup` callout after the top-pick cards:
+Place one compact `Choose in 20 seconds` callout after the top-pick cards:
 
 - Choose an indoor glue-board trap for quiet passive capture without an electrical killing grid.
 - Readers specifically wanting an indoor electric grid should consider the BLACK+DECKER BDPC959.
@@ -159,20 +147,21 @@ Keep these rules in normal HTML text. The callout must not claim one format cont
 
 ## Comparison-table contract
 
-Group the table rows under Indoor, Outdoor plug-in, Solar, and Handheld. Use these seven columns exactly:
+Use one table with all ten products and no format subheadings. Use these six columns exactly:
 
 1. Product
-2. Editorial badge
-3. Format and mechanism
-4. Intended location
-5. Power
-6. Recurring upkeep
-7. Main limitation
+2. Best fit
+3. How it handles insects
+4. Setup reality
+5. What you will replace
+6. Main reason to skip
 
 - Do not add a universal rank or score.
 - Do not add live prices, ratings, review counts, wattage, voltage, UV wavelength, or advertised acreage unless a field is later approved for a specific decision need.
-- Use the controlled mechanism taxonomy.
-- Label SH502 as a UV glue-board trap in the table; do not shorten its mechanism to `zapper`.
+- Translate the controlled mechanism taxonomy into plain-language `How it handles insects` cells.
+- Make `Setup reality` resolve the location, power route, active/passive burden, or solar exposure that can rule out the product.
+- Make `What you will replace` name the actual card, bulb, starter, lure, lamp, or support limitation rather than use the abstract word `upkeep`.
+- Label SH502 as glue-card capture in the table; do not shorten its mechanism to `zapper`.
 - Keep cells concise enough for horizontal mobile scrolling.
 - Do not put affiliate links in the table; each product card owns its destination.
 
@@ -199,6 +188,7 @@ Use exactly these fields and this order for all 10 products:
 - Render the affiliate link as `Check price on Amazon` using only the matching publisher-confirmed record.
 - Put the material-connection disclosure before the first affiliate link.
 - Keep the selected exact model, ASIN, package, and destination consistent with the shared product file.
+- Put all ten cards under one `Our 10 bug-zapper and trap recommendations` H2. Do not insert format H2s or separate format lists between cards.
 
 ### Product-specific boundaries
 
@@ -217,6 +207,8 @@ Use `## How we selected the best bug zappers` after the product cards.
 
 - State the research-only evidence model.
 - Explain the format-first screening factors: identity/manual confidence, job fit, location evidence, ownership, power practicality, mechanism clarity, availability, and conflict burden.
+- Explain that Reddit and other buyer discussions were used to identify recommendation criteria and FAQ questions, not to prove specifications, safety, efficacy, or exact-model performance.
+- Reference the internal cluster theme map in `../research/reddit-audience-research-2026-07-23.md`; keep public community names out of the article.
 - Keep the private numerical percentages in `research.md`; do not publish the weighting table unless a later editorial amendment identifies a meaningful reader need.
 - Explain that the 19-product archive was narrowed to 10 cards and that unresolved products were excluded rather than given decorative awards.
 - State that affiliate eligibility did not determine order, awards, pros, cons, or verdicts.
@@ -267,15 +259,16 @@ Do not add general cleaning instructions, maintenance procedures, or pesticide a
 
 Use `## Frequently asked questions about bug zappers` with these questions:
 
-1. Is an indoor glue trap the same as a bug zapper?
-2. Are indoor and outdoor bug zappers interchangeable?
-3. Do bug zappers work on mosquitoes?
-4. Is a solar bug zapper as practical as a plug-in model?
-5. Is a bug-zapper racket better for occasional insects?
-6. Does higher voltage or wattage mean a bug zapper works better?
-7. Can a bug zapper solve fruit flies, drain flies, or fungus gnats indoors?
+1. Will a bug zapper reduce mosquito bites?
+2. Is a glue trap or an electric-grid zapper better for indoor flies?
+3. Where should an outdoor bug zapper go relative to a patio or door?
+4. Can an indoor bug zapper be used in a garage or outdoors?
+5. Is a solar bug zapper worth choosing when there is no outlet?
+6. Is an electric racket practical for one or two visible insects?
+7. Will a light trap solve recurring fruit flies, drain flies, or fungus gnats?
 
 - Answer each question in the first sentence.
+- Keep the questions traceable to the July 23 cluster Reddit theme map, but verify all factual answers from manuals and authoritative sources.
 - Use exact manuals and authoritative effectiveness guidance for location and outcome claims.
 - Mention a selected product only when it is the clearest direct example.
 - Do not mention marketplaces, competitor sites, Reddit, forums, or internal evidence status.
@@ -286,8 +279,8 @@ Use `## Frequently asked questions about bug zappers` with these questions:
 Use `## Which bug zapper is best for your setup?` and keep it between 80 and 150 words.
 
 - Restate that location, mechanism, and desired outcome decide the purchase before brand or voltage.
-- Lead with SH502 for quiet indoor glue-board capture, BK-40D for a conventional outdoor plug-in grid, DFST for solar torch placement, and WD-981 for active handheld contact.
-- Distinguish BDPC959 when the reader specifically wants an indoor electrical grid.
+- Lead with the same three quick picks in order: SH502 for quiet indoor glue-board capture, BK-40D for a conventional outdoor plug-in grid, and DFST for a sunny outlet-free position.
+- Distinguish BDPC959 when the reader specifically wants an indoor electrical grid and WD-981 when active contact with one visible insect is the job.
 - Repeat one material caveat: a visible catch or kill does not prove fewer mosquito bites or source elimination.
 - Do not list all 10 products again.
 
@@ -339,7 +332,7 @@ Flowtron receives no brand-page link unless its separate retention gate is appro
 - Use exact-model product images only; do not substitute visually similar variants.
 - One optional unbranded format-decision graphic may compare indoor glue-board, plug-in grid, solar grid, and handheld racket. All decision rules must remain in HTML.
 - Editorial writes image-specific alt text; CMS stores, renders, sizes, and compresses the images.
-- Recommend `Article` or `BlogPosting`, visible `BreadcrumbList`, and a truthful `ItemList` for the 10 grouped products.
+- Recommend `Article` or `BlogPosting`, visible `BreadcrumbList`, and a truthful `ItemList` for the unified 10-product sequence.
 - Do not recommend Google Product rich-result markup for this multi-product roundup.
 
 ## Publication-day checks
@@ -358,7 +351,7 @@ Flowtron receives no brand-page link unless its separate retention gate is appro
 
 The total target is **3,600–4,500 words**, with a practical drafting aim of **4,000–4,300 words**. These ranges guide balance; the overall ceiling takes precedence.
 
-- Introduction, four top-pick cards, and format callout: **350–420 words**
+- Introduction, three top-pick cards, and decision callout: **320–390 words**
 - Comparison table: **concise cells only**
 - Ten product cards: **1,300–1,450 words total**
 - Methodology: **180–220 words**
@@ -370,4 +363,4 @@ The total target is **3,600–4,500 words**, with a practical drafting aim of **
 
 ## Part 2 gate resolution
 
-The contract is approved after editorial corrections. Part 3 drafting is unlocked with the 10-product set, format-grouped order, four leading format cards plus six approved alternatives, table columns, card fields, section sequence, buying-guide factors, FAQs, wording exclusions, affiliate rules, and CMS boundary locked. Part 3 must not reopen Part 1 or alter these choices silently.
+The contract is approved after the July 23 editorial corrections. Part 3 uses the same 10 products in one unified product-card sequence, three quick-pick cards, the revised decision-useful table, Reddit-validated FAQ set, card fields, wording exclusions, affiliate rules, and CMS boundary. No product or exact-model award changed.

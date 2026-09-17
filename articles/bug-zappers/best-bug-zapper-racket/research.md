@@ -7,6 +7,8 @@
 **Evidence model:** Research-based roundup; no hands-on testing
 **Next gate:** Responsible editorial review, CMS implementation, and publication-day freshness checks
 
+**Shared audience input:** Use [`../research/reddit-audience-research-2026-07-23.md`](../research/reddit-audience-research-2026-07-23.md) for active-versus-unattended use, one-or-two-insect fit, battery choice, durability, and storage questions. Do not turn an isolated owner comment into an exact-model performance or reliability conclusion.
+
 ## Approved decision
 
 The publisher approved the four current Amazon-route handheld products for this branch. No fifth racket is required, and no unavailable or discovery-only product should be restored to fill a numerical target.

@@ -12,14 +12,14 @@
 | Mechanism | Solar UV/grid lantern |
 | Power | Integrated solar charging |
 | Intended location | Outdoor portable/hanging use |
-| Amazon ASIN | Provisional catalog match B082DMLBRT; publisher must verify |
+| Amazon ASIN | B082DMLBRT; publisher-confirmed destination, exact package recheck required at publication |
 
 ## Evidence and interpretation
 
 - Exact manual: https://pic-corp.com/wp-content/uploads/2022/08/SOLAR-PLZ_Manual_94911-CHN-1_v82219a.pdf
 - Current Home Depot route: https://www.homedepot.com/p/313964649
 - Home Depot displayed exact model SOLAR-PLZ and $24.61 on capture.
-- The Amazon identifier is not approved for an affiliate destination until the publisher confirms the exact package.
+- The publisher confirmed the Amazon destination and Special Link for ASIN B082DMLBRT. Recheck the exact package at publication because no current official product page was located.
 
 ## Availability and decision
 

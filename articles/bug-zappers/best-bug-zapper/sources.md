@@ -1,6 +1,6 @@
 # Sources: Best bug zapper research, contract, and Part 4 package
 
-**Accessed:** July 21-22, 2026
+**Accessed:** July 21-23, 2026
 **Market:** United States
 
 Raw retailer and Amazon URLs are research records, not approved affiliate links.
@@ -53,7 +53,7 @@ The normalized shared records below are the controlling product sources for the 
 - [PIC FLPT current Lowe's route](https://www.lowes.com/pd/PIC-Flame-Effect-Solar-Portable-Insect-Killer-Torch-Outdoor-Insect-trap/5013904699)
 - [PIC SOLAR-PLZ exact manual](https://pic-corp.com/wp-content/uploads/2022/08/SOLAR-PLZ_Manual_94911-CHN-1_v82219a.pdf)
 - [PIC SOLAR-PLZ current Home Depot route](https://www.homedepot.com/p/313964649)
-- PIC SOLAR-PLZ provisional raw Amazon route: https://www.amazon.com/dp/B082DMLBRT
+- PIC SOLAR-PLZ publisher-confirmed Amazon destination: https://www.amazon.com/dp/B082DMLBRT
 
 ### Handheld
 
@@ -91,6 +91,24 @@ The normalized shared records below are the controlling product sources for the 
 - [Good Housekeeping fly-swatter testing](https://www.goodhousekeeping.com/home-products/g64245739/best-fly-swatters/)
 - Cluster effectiveness packet: `../do-bug-zappers-work/research.md`
 - Locked taxonomy: `../research/mechanism-taxonomy.md`
+
+## Community question research
+
+- [Cluster-wide Reddit audience theme map, July 23, 2026](../research/reddit-audience-research-2026-07-23.md)
+- [r/homeowners: Give me your best mosquito control methods](https://www.reddit.com/r/homeowners/comments/1lpgfrl/give_me_your_best_mosquito_control_methods/), July 1, 2025
+- [r/pestcontrol: What do y'all think of those light-based fly-killing plugins?](https://www.reddit.com/r/pestcontrol/comments/1d41syw/what_do_yall_think_of_those_lightbased_flykilling/), May 30, 2024
+- [r/HomeImprovement: What's the best electric bug zapper you found?](https://www.reddit.com/r/HomeImprovement/comments/qswfjl/whats_the_best_electric_bug_zapper_you_found/), November 13, 2021
+- [r/pestcontrol: How effective are bug zappers for general flying insect control?](https://www.reddit.com/r/pestcontrol/comments/v44qsb/how_effective_are_bug_zappers_for_general_flying/), June 3, 2022
+- [r/HomeImprovement: Adding exterior outlet](https://www.reddit.com/r/HomeImprovement/comments/v5g3v5/adding_exterior_outlet/), June 5, 2022
+- [r/Electricity: End-to-end string lights plus bug zapper?](https://www.reddit.com/r/Electricity/comments/1djswq4/end_to_end_string_lights_plus_bug_zapper/), June 19, 2024
+- [r/pestcontrol: Bug zapper isn't as effective](https://www.reddit.com/r/pestcontrol/comments/1bcbm9y/bug_zapper_isnt_as_effective/), March 11, 2024
+- [r/BuyItForLife: Long-lasting electric fly swatter](https://www.reddit.com/r/BuyItForLife/comments/sxj40h/request_long_lasting_electric_fly_swatter/), February 21, 2022
+- [r/homeowners: Best way to control mosquitoes living on a lake?](https://www.reddit.com/r/homeowners/comments/1rqp9vh/best_way_to_control_mosquitoes_living_on_a_lake/), March 11, 2026
+- [r/houseplants: Fungus gnats, what's your best solution?](https://www.reddit.com/r/houseplants/comments/1rt7cid/fungus_gnats_whats_your_best_solution/), March 14, 2026
+- [r/pestcontrol: Indoor office flying bug killers](https://www.reddit.com/r/pestcontrol/comments/1udz4b9/indoor_office_flying_bug_killers/), June 24, 2026
+- [r/homeowners: Sudden fly infestation](https://www.reddit.com/r/homeowners/comments/1pxbpr6/sudden_fly_infestation/), December 27, 2025
+
+Community sources are anecdotal and identify questions, language, and ownership concerns only. They do not support specifications, safety claims, mosquito efficacy, or exact-model performance. Promotional, bot-generated, affiliate-style, and deal-focused posts were excluded from recommendation evidence.
 
 Competitor pages were used for SERP structure, question coverage, and candidate discovery only. Exact product facts and recommendation gates come from stronger exact-product sources. Prices, stock, sellers, and review counts require publication-day rechecks.
 

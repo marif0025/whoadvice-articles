@@ -8,7 +8,7 @@ seo_title: "Best Bug Zappers in 2026: 10 Picks by Location and Use"
 h1: "10 Best Bug Zappers and Indoor Traps by Use Case"
 meta_description: "Compare 10 researched bug zappers and indoor traps for plug-in, outdoor, solar, and handheld use, with buying advice and realistic mosquito limits."
 recommended_slug: /home-gadgets/best-bug-zapper/
-article_excerpt: "Compare four leading bug-zapper and indoor-trap formats plus six exact-model alternatives, with setup, upkeep, and mosquito-evidence limits made clear."
+article_excerpt: "Start with three strong indoor, outdoor plug-in, and outlet-free picks, then compare one unified list of 10 researched bug zappers and traps."
 category: Home Gadgets
 recommended_tags:
   - Bug Zappers
@@ -28,12 +28,11 @@ part_4_status: complete_ready_for_editorial_review
 
 ## Product order and destinations
 
-The order below is grouped by format and must not render as a universal 1-to-10 ranking. The raw Amazon URLs are private identity records. The visible article uses the exact ASIN and publisher-confirmed `Check price on Amazon` destination required by the approved contract.
+Render the ten products as one sequence under one product-list heading. Do not split the cards into indoor, outdoor, solar, or handheld lists. The raw Amazon URLs are private identity records. The visible article uses the exact ASIN and publisher-confirmed `Check price on Amazon` destination required by the approved contract.
 
 ```yaml
 products:
-  - group: indoor
-    group_order: 1
+  - list_order: 1
     title: Safer Home Indoor Plug-in Fly Trap SH502
     badge: Best indoor glue-board trap
     brand: Safer Home
@@ -42,8 +41,7 @@ products:
     raw_amazon_url: https://www.amazon.com/dp/B09T3T1FYN
     affiliate_link: https://amzn.to/4yGfON5
     affiliate_status: publisher_confirmed
-  - group: indoor
-    group_order: 2
+  - list_order: 2
     title: BLACK+DECKER BDPC959 Indoor Bug Zapper
     badge: Best indoor electric-grid zapper
     brand: BLACK+DECKER
@@ -52,8 +50,7 @@ products:
     raw_amazon_url: https://www.amazon.com/dp/B08ZYGZ3H9
     affiliate_link: https://amzn.to/4wgr6FV
     affiliate_status: publisher_confirmed
-  - group: indoor
-    group_order: 3
+  - list_order: 3
     title: Buzbug MA015 Indoor Bug Zapper
     badge: Indoor grid alternative
     brand: Buzbug
@@ -62,8 +59,7 @@ products:
     raw_amazon_url: https://www.amazon.com/dp/B09WK6MTGY
     affiliate_link: https://amzn.to/4yzrwsA
     affiliate_status: publisher_confirmed
-  - group: outdoor_plug_in
-    group_order: 1
+  - list_order: 4
     title: Flowtron BK-40D Outdoor Insect Killer
     badge: Best outdoor plug-in bug zapper
     brand: Flowtron
@@ -72,8 +68,7 @@ products:
     raw_amazon_url: https://www.amazon.com/dp/B00004R9VW
     affiliate_link: https://amzn.to/4yAbRta
     affiliate_status: publisher_confirmed
-  - group: outdoor_plug_in
-    group_order: 2
+  - list_order: 5
     title: Flowtron BK-15D Outdoor Insect Killer
     badge: Compact Flowtron outdoor option
     brand: Flowtron
@@ -82,8 +77,7 @@ products:
     raw_amazon_url: https://www.amazon.com/dp/B00004R9VZ
     affiliate_link: https://amzn.to/4bGkt7F
     affiliate_status: publisher_confirmed
-  - group: outdoor_plug_in
-    group_order: 3
+  - list_order: 6
     title: Buzbug MO-008C Outdoor LED Bug Zapper, New Black
     badge: Indoor/outdoor plug-in alternative
     brand: Buzbug
@@ -92,8 +86,7 @@ products:
     raw_amazon_url: https://www.amazon.com/dp/B0CNSZ5VHX
     affiliate_link: https://amzn.to/4vGRCqU
     affiliate_status: publisher_confirmed
-  - group: solar
-    group_order: 1
+  - list_order: 7
     title: PIC Portable Solar Insect Killer Torch DFST
     badge: Best solar torch-style option
     brand: PIC
@@ -102,8 +95,7 @@ products:
     raw_amazon_url: https://www.amazon.com/dp/B082T4F16Y
     affiliate_link: https://amzn.to/4wj08xC
     affiliate_status: publisher_confirmed
-  - group: solar
-    group_order: 2
+  - list_order: 8
     title: PIC Solar Portable Insect Killer Lantern FLPT
     badge: Best hanging solar lantern option
     brand: PIC
@@ -112,8 +104,7 @@ products:
     raw_amazon_url: https://www.amazon.com/dp/B08XDXRV14
     affiliate_link: https://amzn.to/4yxQwR9
     affiliate_status: publisher_confirmed
-  - group: solar
-    group_order: 3
+  - list_order: 9
     title: PIC Solar Insect Killer Lantern SOLAR-PLZ
     badge: Compact solar lantern alternative
     brand: PIC
@@ -122,8 +113,7 @@ products:
     raw_amazon_url: https://www.amazon.com/dp/B082DMLBRT
     affiliate_link: https://amzn.to/4b4AvIe
     affiliate_status: publisher_confirmed
-  - group: handheld
-    group_order: 1
+  - list_order: 10
     title: YISSVIC WD-981 Electric Fly Swatter
     badge: Best handheld electric racket
     brand: YISSVIC
@@ -180,6 +170,7 @@ Do not add the Flowtron brand-page link unless its independent retention gate pa
 
 - Exact model, ASIN, package, manual, and claim limits come from the shared records under `articles/bug-zappers/products/`.
 - The current shortlist source map is in `sources.md`.
+- Dated Reddit questions, recommendation concerns, and excluded promotional sources are recorded in `../research/reddit-audience-research-2026-07-23.md`; they shape decisions and FAQs but do not prove product performance.
 - The controlled public sentence is: `Conventional outdoor UV-only zappers have not been shown to reduce mosquito biting rates.`
 - Use `/home-gadgets/do-bug-zappers-work/` for the deeper evidence route rather than expanding this commercial article.
 - Manufacturer acreage, voltage, runtime, attraction, target-insect, weather, and safety language must remain attributed where retained.
@@ -188,14 +179,14 @@ Do not add the Flowtron brand-page link unless its independent retention gate pa
 ## Image plan and editorial alt text
 
 **Featured image filename:** `best-bug-zappers-by-use-case-2026.webp`
-**Featured image direction:** A licensed or publisher-created editorial layout showing the four exact leading formats without changing product identity: Safer Home SH502, Flowtron BK-40D, PIC DFST, and YISSVIC WD-981. Do not substitute similar models or copy marketplace-hosted imagery without permission.
-**Draft alt text:** `Indoor glue-board trap, outdoor plug-in zapper, solar torch zapper, and handheld electric racket.`
+**Featured image direction:** A licensed or publisher-created editorial layout showing the three exact quick picks without changing product identity: Safer Home SH502, Flowtron BK-40D, and PIC DFST. Do not substitute similar models or copy marketplace-hosted imagery without permission.
+**Draft alt text:** `Indoor glue-board trap, outdoor plug-in zapper, and solar torch zapper.`
 
 Use exact-model images for all 10 product cards. Final alt text must describe the actual image composition rather than repeat the badge.
 
 ### Optional format-decision graphic
 
-Place after the four leading format cards, beside the HTML `Choose by setup` callout.
+Place after the three quick-pick cards, beside the HTML `Choose in 20 seconds` callout.
 
 ```text
 Create a clean editorial comparison graphic for a consumer buying guide, landscape 16:9, warm off-white background, charcoal linework, muted green and amber accents, generous spacing, and accessible contrast. Show four generic, clearly different mechanism cards from left to right: an indoor wall-outlet light with a hidden adhesive card; a hanging outdoor guarded electric-grid lantern connected to a grounded outlet; a solar-panel torch staked in sunny ground; and a handheld electric racket aimed at one visible flying insect. Use generic unbranded forms with no logos, model-specific resemblance, voltage numbers, acreage claims, mosquito-protection claims, sparks near people, exposed food, children, pets, or water. Leave clean header space for publisher-added HTML labels. Do not render words, letters, numbers, badges, or watermarks inside the image. Polished magazine infographic, not an advertisement.
@@ -210,9 +201,9 @@ All decisions and cautions must remain available as HTML text. The graphic is ex
 
 - Preserve `/home-gadgets/best-bug-zapper/` as the canonical URL.
 - Implement the approved SEO title, H1, meta description, disclosure, author, reviewer, and updated date.
-- Render `Article` or `BlogPosting`, visible `BreadcrumbList`, and a truthful 10-item `ItemList` grouped in the same decision order.
+- Render `Article` or `BlogPosting`, visible `BreadcrumbList`, and a truthful 10-item `ItemList` in the same unified sequence as the article.
 - Do not add Product rich-result markup to this multi-product roundup unless current eligibility requirements are independently satisfied.
-- Keep the comparison tables horizontally usable on small screens.
+- Keep the comparison table horizontally usable on small screens.
 - Add `rel="sponsored"` to affiliate links and test the visible CTA order.
 - Store exact-model images, image dimensions, compression, and final alt text.
 - Test canonical, robots, XML sitemap inclusion, indexability, accessibility, structured data, mobile layout, and page speed.
@@ -231,4 +222,4 @@ All decisions and cautions must remain available as HTML text. The graphic is ex
 
 ## Part 4 status
 
-The revised local draft follows the approved 10-product contract and passed the workflow validator at 4,453 parsed words, 52 headings, and zero flags. The Part 4 revision removed buyer-facing package-management and evidence-status language, preserved all ten destinations and card limits, and strengthened the mechanism and effectiveness distinctions. Responsible editorial review and every CMS and publication-day check listed above remain pending.
+The July 23 local draft follows the revised 10-product contract: three quick picks, one decision-useful comparison table, and one unified product-card sequence. It passed the workflow validator at 4,455 parsed words, 44 headings, and zero flags. All ten destinations and evidence limits remain intact, and the cluster now has a dated Reddit audience-research packet for recommendation criteria and FAQ validation. Responsible editorial review and every CMS and publication-day check listed above remain pending.

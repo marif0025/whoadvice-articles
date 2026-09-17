@@ -157,3 +157,7 @@ Safety information shown in an image must remain available in article text. CMS 
 - No claim that GFCI protection or an ingress rating makes wet trimming safe.
 - No detailed cleaning, lubrication, sharpening, battery repair, fueling, spark-plug, or engine-service procedure.
 - No implication of WhoAdvice hands-on testing or individualized legal advice.
+
+## Canonical image-production reference
+
+Use [`../image-production-plan.md#how-to-use-a-hedge-trimmer-safely`](../image-production-plan.md#how-to-use-a-hedge-trimmer-safely) for all three canonical prompts and exact `article.md` comment placements.

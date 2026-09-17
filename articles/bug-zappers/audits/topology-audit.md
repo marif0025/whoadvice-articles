@@ -5,6 +5,8 @@
 **Scope:** Seven existing WhoAdvice production URLs plus the approved effectiveness support page
 **Production mutation:** None authorized
 
+**Progress update — July 27, 2026:** Four local article packages are complete. Outdoor and solar Part 1 packets have been synchronized but remain unapproved. Flowtron remains on retention hold, and the mosquito-alternative page remains at topology-brief stage. Current page stages live in `../content-brief-index.md`.
+
 ## Evidence lanes and current gaps
 
 | Evidence lane | Current state | How it may be used |

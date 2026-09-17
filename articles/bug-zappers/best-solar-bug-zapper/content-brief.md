@@ -1,6 +1,6 @@
 # Content brief: Best solar bug zapper
 
-**Status:** `part_1_refresh_complete_pending_approval`; 5 Amazon-route products researched and page value sustained July 22, 2026
+**Status:** `part_1_packet_synchronized_pending_approval`; 5 Amazon-route records researched, 3 proposed for Part 2
 **Canonical URL:** `/home-gadgets/best-solar-bug-zapper/`
 **Primary keyword:** best solar bug zapper
 **Secondary families:** solar bug zapper; solar-powered bug zapper; solar mosquito zapper
@@ -10,7 +10,7 @@
 
 ## Brief boundary
 
-The refreshed Part 1 packet sustains a distinct solar page with PIC DFST, PIC FLPT, PIC SOLAR-PLZ, Flowtron FLWSLZ10, and OnBeam SE566. Current live products and rankings remain unapproved; FLWSLZ10 and SE566 remain conditional on exact-manual/package gates.
+The refreshed Part 1 research pool contains PIC DFST, PIC FLPT, PIC SOLAR-PLZ, Flowtron FLWSLZ10, and OnBeam SE566. The proposed public shortlist is DFST, FLPT, and SOLAR-PLZ. Current live products and rankings remain unapproved; FLWSLZ10 and SE566 stay outside Part 2 unless their exact-manual/package gates pass.
 
 ## Reader decision
 
@@ -75,9 +75,9 @@ Do not rank by unverified battery capacity, voltage, wattage, or retailer-only c
 
 ## Product research gate
 
-- Reverify every observed model and resolve the shared `SOBZ-01` model-string conflict across brands.
-- Resolve Wulyno SJZ-071 ownership between solar and outdoor.
-- Require current official/manual evidence for charging, battery, runtime, weather, mounting, cleaning, and serviceability.
+- Approve or revise the three-product shortlist and the decision to hold FLWSLZ10 and SE566 outside Part 2.
+- Require exact instructions before publishing charging, battery, runtime, weather, mounting, cleaning, or serviceability facts.
+- Do not transfer the different OnBeam brand-page package into SE566.
 - Confirm current US availability, recalls, package integrity, and retailer eligibility.
 - If a credible distinct shortlist does not survive, return to topology review rather than drafting a thin page.
 
@@ -116,4 +116,4 @@ Internal and affiliate links, disclosure, buttons, exact-model images, author/re
 
 ## Next gate
 
-WhoAdvice Part 1 exact-product research plus a solar-page retention check. Approve a contract only if a stable, distinct solar shortlist remains.
+Approve or revise the three-product shortlist, DFST leading role, SOLAR-PLZ source limitation, and exclusion of both manual-blocked candidates from Part 2. Stop before the article contract.
