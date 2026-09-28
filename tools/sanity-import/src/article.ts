@@ -223,6 +223,80 @@ export function markdownLinks(lines: string[]): { text: string; url: string }[] 
     return links
 }
 
+export type LabelledCards = {
+    /** Paragraphs before the first card, rendered as prose above the cards. */
+    before: string[]
+    cards: { label: string; lines: string[] }[]
+    /** Paragraphs after the last card, rendered as prose below the cards. */
+    after: string[]
+    errors: string[]
+}
+
+const LEADING_LABEL = /^\*\*([^*]+?)\*\*[:.]?\s*/
+
+/**
+ * Splits a block of Markdown into cards, one per paragraph that opens with a
+ * bold label. The label becomes the card title. Two forms:
+ *
+ * - `**Spring epilators.** A bent coil traps...` (the text after the label
+ *   starts a sentence): the card text is that sentence onward.
+ * - `**Spring epilators** use a bent coil...` (the label is the sentence's
+ *   subject): the card text keeps the label, unbolded.
+ *
+ * One type per paragraph: a second bold span in a card paragraph, or plain
+ * text between cards, is an error for the author to fix in article.md.
+ */
+export function splitLabelledParagraphs(lines: string[]): LabelledCards {
+    const paragraphs: string[][] = []
+    let current: string[] = []
+    for (const line of lines) {
+        if (line.trim() === '') {
+            if (current.length) paragraphs.push(current)
+            current = []
+        } else {
+            current.push(line)
+        }
+    }
+    if (current.length) paragraphs.push(current)
+
+    const result: LabelledCards = { before: [], cards: [], after: [], errors: [] }
+    for (const paragraph of paragraphs) {
+        const first = paragraph[0].trim()
+        const label = first.match(LEADING_LABEL)?.[1].trim().replace(/[.:]$/, '')
+        if (!label) {
+            if (result.cards.length === 0) result.before.push(...paragraph, '')
+            else result.after.push(...paragraph, '')
+            continue
+        }
+        if (result.after.length > 0) {
+            result.errors.push(`card "${label}" follows plain text; keep plain text above or below all the cards`)
+        }
+        const text = paragraph.join(' ')
+        if ((text.match(/\*\*[^*]+?\*\*/g) ?? []).length > 1) {
+            result.errors.push(`paragraph "${label}" has more than one bold label; give each type its own paragraph`)
+        }
+        const rest = paragraph.join('\n').trim().replace(LEADING_LABEL, '')
+        const standalone = /^[A-Z0-9"“‘'[]/.test(rest)
+        result.cards.push({ label, lines: [standalone ? rest : `${label} ${rest}`] })
+    }
+    return result
+}
+
+/**
+ * `<!-- INTERNAL-LINK HOLD: /path/ -->` comments mark a link left out until
+ * its page is live. Comments are stripped before import, so `plan` lists
+ * these as open tasks instead.
+ */
+export function findLinkHolds(text: string): { url: string; line: number }[] {
+    const holds: { url: string; line: number }[] = []
+    text.replace(/\r\n?/g, '\n').split('\n').forEach((line, index) => {
+        for (const match of line.matchAll(/<!--\s*INTERNAL-LINK HOLD:\s*(\S+)\s*-->/g)) {
+            holds.push({ url: match[1], line: index + 1 })
+        }
+    })
+    return holds
+}
+
 /** Accent-, case- and punctuation-insensitive form, for matching names. */
 export function normalizeName(value: string): string {
     return value

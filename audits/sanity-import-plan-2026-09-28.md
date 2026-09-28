@@ -105,7 +105,7 @@ Files are in `~/personal/blog`. Priority: **P1** blocks editable imports, **P2**
 | S6 | Product-level badge, summary, verdict, pros and cons are read-only and deprecated, but still shown | `sanity/schemas/product.ts:124-201` | Editors open a product to fix copy and find it locked. The copy lives on each article's Products tab. | Hide these fields when empty, and add a product description that points to the article's Products tab. | P1 |
 | S7 | `editorial_badge` is free text, and its help text suggests "Expert Tested • 2026" | `article/index.ts:49-56` | Invites the testing claim the audit flagged (TRUST-01). | Replace it with a list of approved labels, defaulting to "Research-Based Buying Guide". | P2 |
 | S8 | No editor-set reviewed date. The hero shows `_updatedAt`. `publishedAt` is optional, but missing it prints "NaN" and likely breaks listing cards. | `article/index.ts:78-83`, site report item 4 | Dates change whenever anyone saves, and imports without `publishedAt` break pages. | Add `reviewedAt`, make `publishedAt` required, and render them instead of `_updatedAt` (audit RULES-08). | P2 |
-| S9 | Links inside FAQ answers, type items and guide items are not rendered | site report item 2 | Internal links in those blocks become plain text. | Project their `markDefs` and render them with the article's Portable Text components. | P2 |
+| S9 | Links inside FAQ answers, type items and guide items are not rendered | site report item 2 | Internal links in those blocks become plain text. | Project their `markDefs` and render them with the article's Portable Text components. **Built 2026-09-28, uncommitted; Arif commits:** the link renderers moved to `src/components/ui/article-marks.tsx`, `PortableTextComponent` takes them as `marks`, the type, guide and FAQ cards pass them, and `ARTICLE_BODY_PROJECTION` resolves `inlineLink` in item content and FAQ answers. Both type-card links render on `dev`. | P2 |
 | S10 | Studio "Revalidate now" sends `type: "content"`, which the routes reject with 400 since `33fcd0f` | `sanity/lib/revalidateContent.ts:14`, site report item 6 | Editors can't refresh a page after publishing. | Send `type: "article"` or `"post"` with the slug and category. | P2 |
 | S11 | `articleProduct.product` is not required ("LEGACY" note) | `objects/article-product.ts:17-23` | Product rows without a product can be saved; the site drops them silently. | Restore `Rule.required()` once phase 0 is done. | P2 |
 | S12 | The article body allows H1 | `fragments/article-block-content.ts:8` | A second H1 is possible. | Remove H1 from the article's styles. The importer never emits one. | P3 |
@@ -214,7 +214,7 @@ Commands:
 - `node src/cli.ts validate <package>` checks `cms.yaml`.
 
 The first two contracts carry Arif's decisions of 2026-09-28:
-- **Epilator pillar:** reuse the four exact-model legacy products (`5d377c8d`, `ff951841`, `72f77ba3`, `be9bcb5d`), and create new products for SE7-041, BRE708/00 and BRE728/00. Types renders as cards; How to choose renders as prose.
+- **Epilator pillar:** reuse the four exact-model legacy products (`5d377c8d`, `ff951841`, `72f77ba3`, `be9bcb5d`), and create new products for SE7-041, BRE708/00 and BRE728/00. Types renders as cards; How to choose renders as prose. **Changed in phase 4:** both render as grouped cards (`cards: labelled_paragraphs`), Types in four "Types by …" groups, How to choose in four groups of its ten factors.
 - **Clock article:** its three How to choose sections stay prose.
 - **Both:** the badge is Research-Based Buying Guide, and each keeps its current author (emily-cooper, max-collins).
 
@@ -259,6 +259,7 @@ Rules:
 - **Schema check.** It reads `documents validate --format ndjson` markers by path. The only error it accepts is "must be published" on a weak reference to a product the import owns. That state is how the article is kept from publishing before its products.
 - **`record.json` keeps two flags per product,** `created` and `pending`, until the product is published. They let `publish-products` still find every product the import owes, however many times the import was re-applied.
 - **Re-runs converge.** Once applied, a repeat plan is only the two article edits. Its revision check refuses a stale plan, and its draft check refuses a draft edited in Studio. Both were tested live on `dev`.
+- **Grouped cards (added in phase 4).** A types or guide section can set `cards: labelled_paragraphs`. Each H3 is then a group heading, and each `**Label.** text` paragraph under it is a card. Arif asked for this on 2026-09-28 after seeing one card per H3 on `dev`, and both epilator sections now use it. The README has the rules.
 
 ### 6.4 Write rules
 

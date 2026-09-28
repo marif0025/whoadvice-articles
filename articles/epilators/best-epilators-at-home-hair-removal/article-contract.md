@@ -75,7 +75,7 @@ cms_implementation_owned:
 
 1. **Braun Silk-épil 9 Flex SES9-041 — Best Overall**
 2. **Philips Epilator Series 8000 BRE708/00 — Best Streamlined ProGuide Kit**
-3. **Braun Silk-épil 7 SE7-041 — Best Wet/Dry Braun Value**
+3. **Braun Silk-épil 7 SE7-041 — Best Wet/Dry Braun for Legs** *(was "Best Wet/Dry Braun Value"; renamed 2026-09-28 because no US price was found for the SE7-041)*
 4. **Philips Epilator Series 9000 BRE728/00 — Best Full Kit**
 5. **Braun Silk-épil 9 SES9-441 — Best Body-Grooming Kit**
 6. **Philips Epilator Series 2000 BRE227/00 — Best Corded Epilator**
@@ -87,7 +87,7 @@ The draft must not change this order, add a product, or alter an award without r
 
 - Start with one controlling question that asks whether head control, wet/dry flexibility, package size, or corded value matters most, then begin answering it immediately.
 - Explain that a larger bundle or higher tweezer count is not automatically the better purchase.
-- State that WhoAdvice researched exact models, manufacturer documentation, current retailer identities, and available owner-feedback patterns.
+- State in one plain sentence what WhoAdvice checked: manufacturer documentation, current retail listings, and recurring owner-reported patterns. The methodology section holds the detail. *(Amended 2026-09-28, Arif: no internal research terms such as "retailer identities".)*
 - Keep the opening product-neutral because the Top 3 cards immediately provide the recommendations.
 - Use `best epilator` naturally within the first 100 words.
 - Do not begin with a dictionary definition, beauty-confidence framing, or a generic history of hair removal.
@@ -103,7 +103,7 @@ The draft must not change this order, add a product, or alter an award without r
 
 1. **Best Overall — Braun Silk-épil 9 Flex SES9-041**
 2. **Best Streamlined ProGuide Kit — Philips Series 8000 BRE708/00**
-3. **Best Wet/Dry Braun Value — Braun Silk-épil 7 SE7-041**
+3. **Best Wet/Dry Braun for Legs — Braun Silk-épil 7 SE7-041**
 
 Each card receives one original short description covering buyer fit and the main tradeoff. Do not copy the comparison table, Summary, or Verdict. Do not add ASINs or affiliate links to the Top 3 cards.
 
@@ -137,8 +137,11 @@ Use exactly these visible fields and this order for all seven products:
 
 - Keep `slug`, `brand`, `ASIN`, `raw affiliate URL`, and `affiliate_link` in the structured product record for CMS use; do not display them as editorial rows.
 - Use the publisher-confirmed ASIN and affiliate link from the canonical cluster product file behind the rendered card.
-- Summary: 50–60 words.
-- Verdict: 25–30 words.
+- Summary: at most 60 words. Don't repeat the table's cells or the package list; say what the list means for the buyer.
+- Verdict: at most 30 words. Name who should choose this model, and when its nearest sibling is the better pick. No trailing filler such as "for regular body sessions".
+- A drawback stated in the table and Cons is not restated in the Summary, Verdict, Top 3 card, and conclusion. Each field adds something new.
+- In prose, use short model names (Silk-épil 9 Flex, Silk-épil 9 body-grooming kit, Silk-épil 7, Silk-épil 3, Series 8000, Series 9000, Series 2000). Codes stay in titles and the table.
+*(Amended 2026-09-28, Arif: length ranges became maximums, to stop padding and repetition.)*
 - Pros and cons: short, parallel, specific, and traceable to evidence.
 - Put buyer fit, distinction, and the decisive drawback inside the approved fields.
 - Do not add a paragraph after `Cons`.
@@ -211,16 +214,17 @@ Avoid duplicating the type section: the type section explains classifications; t
 Retain `## What to expect from epilation` as a separate section after the buying guide.
 
 - Cover discomfort, temporary irritation, ingrown-hair risk, broken hairs, and non-permanent results using appropriately qualified evidence.
-- State that discomfort may become more manageable for some users, but do not promise that it decreases for everyone.
+- State that discomfort may become more manageable for some users, but do not promise that it decreases for everyone. Say this once; FAQ 4 carries the full caveat, so this section does not repeat it word for word.
 - For recurrent or severe ingrown hairs, irritation, or a skin condition, avoid individualized medical conclusions and direct the reader toward appropriate professional advice.
 - Keep use and aftercare advice brief and source-led.
+*(Amended 2026-09-28, Arif: one statement of each caveat.)*
 - Do not describe epilation as painless, irritation-free, permanent, or suitable for everyone.
 
 ## FAQ contract
 
 Use `## Frequently asked questions about epilators` with these questions:
 
-1. Is an epilator worth buying if I am prone to ingrown hairs?
+1. Is an epilator worth buying if I'm prone to ingrown hairs?
 2. Is it better to epilate wet or dry?
 3. Why does an epilator break hairs instead of pulling them from the root?
 4. Does epilator discomfort decrease with regular use?
@@ -228,6 +232,12 @@ Use `## Frequently asked questions about epilators` with these questions:
 6. Are wet/dry epilators worth paying more for?
 
 - Answer each question in the first sentence.
+- Don't repeat the body section a question relates to *(amended 2026-09-28, Arif)*:
+  - FAQ 1 answers the buying question and points to the ingrown-hair guidance in What to expect.
+  - FAQ 3 answers in one or two sentences; the sourced troubleshooting checklist stays in What to expect.
+  - FAQ 4 carries the discomfort caveat.
+  - FAQ 6 adds what the "Wet/dry and power" guide card doesn't say, or is cut.
+  - FAQ 5 links to the facial and pubic-hair support pages once they are live, instead of restating their permission rules.
 - Use manufacturer manuals and authoritative health guidance for safety and intended-use answers.
 - Qualify discomfort carefully: it may become more manageable for some users, but it does not necessarily decrease for everyone.
 - For recurrent or severe ingrown hairs, irritation, or a skin condition, avoid individualized medical conclusions and direct the reader toward appropriate professional advice.
@@ -240,10 +250,17 @@ Use `## Frequently asked questions about epilators` with these questions:
 Use `## Which epilator is best?` and keep it between 80 and 150 words.
 
 - Restate that treatment area and head control should decide the purchase.
-- Lead with Braun SES9-041 for the strongest overall fit.
-- Distinguish BRE708/00 for a streamlined ProGuide package, BRE728/00 for the larger kit, SE7-041 for wet/dry Braun value, and BRE227/00 for corded simplicity.
-- Include one material caveat: the leading flexible-head model costs more and does not include SES9-441's body trimmer.
+- Lead with the Silk-épil 9 Flex (SES9-041) for the strongest overall fit.
+- Answer the opening question's branches as conditions, not badge names: curves, shower or cordless use versus working near an outlet, a larger kit, and the lowest cost. Answer the cost branch only once dated prices are on file.
+- Turn the caveat into a pointer: readers who want the separate body trimmer choose the SES9-441.
 - Do not repeat all seven products without decision logic.
+*(Amended 2026-09-28, Arif: the conclusion answers the question instead of restating the badges.)*
+
+## Treatment areas
+
+*(Added 2026-09-28, Arif.)* The cluster gives the pillar the underarm, bikini-line and face-and-body buying intent. The pillar states approved areas only where a manufacturer source is on file:
+- For the Philips BRE708/00, BRE728/00 and BRE227/00, use the permissions sourced in the support pages' research (underarm `research.md` L59–60, pubic `research.md` L88 and L200). Cite them in `sources.md`.
+- For the Braun models, say that area permissions are unconfirmed and that readers should check the manual.
 
 ## SEO contract
 

@@ -12,7 +12,7 @@ import type { SanityClient } from '@sanity/client'
 import { parse } from 'yaml'
 
 import { applyPlan } from '../src/apply.ts'
-import { parseArticle } from '../src/article.ts'
+import { findLinkHolds, parseArticle, splitLabelledParagraphs } from '../src/article.ts'
 import { buildArticle, BuildError } from '../src/build.ts'
 import { Contract } from '../src/contract.ts'
 import { classifyValidation, makePlan, sourceHash, type Plan } from '../src/plan.ts'
@@ -88,7 +88,9 @@ test('text before the first FAQ question stops the build', () => {
 })
 
 test('an unexpected line in a review is reported, not silently dropped', () => {
-    const broken = articleText.replace('**Verdict:** This is the strongest', 'A stray paragraph.\n\n**Verdict:** This is the strongest')
+    const anchor = '**Verdict:** Choose it when knees, ankles, and other curves decide'
+    const broken = articleText.replace(anchor, `A stray paragraph.\n\n${anchor}`)
+    assert.notEqual(broken, articleText, 'the fixture anchor is no longer in article.md')
     const result = buildArticle(parseArticle(broken), contract(), ref)
     assert.ok(result.notes.some((note) => note.includes('A stray paragraph')))
 })
@@ -241,7 +243,69 @@ test('"must be published" on a draft-only product an earlier run created is expe
     assert.deepEqual([result.expected, result.errors.length], [1, 0])
 })
 
+test('labelled paragraphs become one card per type under each group heading', () => {
+    const result = buildArticle(parseArticle(articleText), contract(), ref)
+    const groups = result.content.filter((block) => block._type === 'typesSection') as unknown as { items: { title: string }[] }[]
+    assert.deepEqual(
+        groups.map((group) => group.items.map((item) => item.title)),
+        [
+            ['Tweezer-style epilators', 'Spring epilators'],
+            ['Cordless wet/dry epilators', 'Corded dry epilators', 'Replaceable-battery epilators', 'Manual epilators'],
+            ['Facial epilators', 'Body epilators', 'Bikini and precision formats'],
+            ['Fixed heads', 'Pivoting heads', 'Fully flexible heads', 'Wide heads', 'Precision heads and caps'],
+        ],
+    )
+    const h3 = result.content
+        .filter((block) => block._type === 'block' && block.style === 'h3')
+        .map((block) => (block.children as { text: string }[]).map((child) => child.text).join(''))
+    assert.ok(h3.includes('Types by mechanism') && h3.includes('Types by head design'))
+})
+
+test('two bold labels in one card paragraph stop the build and fail validation', async () => {
+    const broken = articleText.replace('**Pivoting heads.** They add controlled movement', '**Pivoting heads.** They add **controlled** movement')
+    assert.notEqual(broken, articleText)
+    assert.throws(() => buildArticle(parseArticle(broken), contract(), ref), BuildError)
+    const { validate } = await import('../src/validate.ts')
+    const issues = validate({ contract: { ...parse(contractText), needs_review: [] }, articleText: broken })
+    assert.ok(issues.some((issue) => issue.code === 'CARD_PARAGRAPH'))
+})
+
+test('plain text between cards stops the build', () => {
+    const broken = articleText.replace('**Wide heads.** They cover', 'A stray note.\n\n**Wide heads.** They cover')
+    assert.notEqual(broken, articleText)
+    assert.throws(() => buildArticle(parseArticle(broken), contract(), ref), BuildError)
+})
+
+test('a card repeats its title only when the title is the sentence subject', () => {
+    const split = splitLabelledParagraphs([
+        '**Spring epilators.** A bent coil traps hair.',
+        '',
+        '**Tweezer-style epilators** use rotating plates.',
+    ])
+    assert.deepEqual(
+        split.cards.map((card) => [card.label, card.lines[0]]),
+        [
+            ['Spring epilators', 'A bent coil traps hair.'],
+            ['Tweezer-style epilators', 'Tweezer-style epilators use rotating plates.'],
+        ],
+    )
+})
+
 test('the source hash covers both files', () => {
     assert.notEqual(sourceHash('a', 'b'), sourceHash('a', 'c'))
     assert.notEqual(sourceHash('a', 'b'), sourceHash('x', 'b'))
+})
+
+test('held internal links are found with their line, other comments are not', () => {
+    const text = [
+        '# Title',
+        'Read our underarm epilation steps<!-- INTERNAL-LINK HOLD: /skin-care/how-to-epilate-underarms/ --> first.',
+        '<!-- CMS IMAGE: hero -->',
+        'Two <!-- INTERNAL-LINK HOLD: /a/ --> on <!--INTERNAL-LINK HOLD: /b/--> one line.',
+    ].join('\n')
+    assert.deepEqual(findLinkHolds(text), [
+        { url: '/skin-care/how-to-epilate-underarms/', line: 2 },
+        { url: '/a/', line: 4 },
+        { url: '/b/', line: 4 },
+    ])
 })

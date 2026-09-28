@@ -4,7 +4,10 @@
 version: 1
 # audit.md: ready_for_editorial_review. Four content gaps from the 2026-09-25
 # site audit (CON-27, CON-31, CON-32, CON-33) must close before approval.
-status: ready_for_editorial_review
+# Approved by Arif on 2026-09-28 ("migrate it to production").
+status: approved_for_publication
+approved_by: Arif
+approved_at: 2026-09-28
 slug: best-epilators
 category: skin-care
 author: emily-cooper
@@ -42,9 +45,11 @@ products:
   - asin: B0CWJF37L8
     title: Braun Silk-épil 7 SE7-041
     brand: Braun
-    link: https://amzn.to/4gIcrP5
+    link: https://amzn.to/3VTOEmF
     review_heading: 3. Braun Silk-épil 7 SE7-041
-    top_pick_heading: "Best Wet/Dry Braun Value: Braun Silk-épil 7 SE7-041"
+    # Was "Best Wet/Dry Braun Value": no US price was found for the SE7-041
+    # (2026-09-28), so the badge names the wide head instead.
+    top_pick_heading: "Best Wet/Dry Braun for Legs: Braun Silk-épil 7 SE7-041"
     table_label: 3. Braun Silk-épil 7 SE7-041
     # Legacy "Braun Epilator Silk-épil 7" (cfc8cccb) names no model, so it may
     # not be the SE7-041; create a new product instead.
@@ -91,8 +96,16 @@ sections:
     block: prose
   - heading: Types of epilators
     block: typesSection
+    # Each H3 ("Types by mechanism", ...) is a group heading, and each type
+    # paragraph under it is a card (Arif, 2026-09-28).
+    cards: labelled_paragraphs
   - heading: How to choose the best epilator
-    block: prose
+    block: guideSection
+    # Same card structure as Types: each H3 ("Fit and format", ...) is a group
+    # heading, and each factor paragraph under it is a card (Arif, 2026-09-28).
+    # Cards are short, about 30 words like the Types cards, which puts the
+    # section below the contract's 700-950 words (Arif, 2026-09-28).
+    cards: labelled_paragraphs
   - heading: What to expect from epilation
     block: prose
   - heading: Frequently asked questions about epilators
@@ -101,7 +114,7 @@ sections:
   - heading: Which epilator is best?
     block: prose
 # Confirmed by Arif, 2026-09-28: author emily-cooper; badge Research-Based
-# Buying Guide; Types as cards and How to choose as prose; reuse the four
+# Buying Guide; Types and How to choose as grouped cards; reuse the four
 # exact-model legacy products and create new ones for SE7-041, BRE708/00 and
 # BRE728/00.
 needs_review: []

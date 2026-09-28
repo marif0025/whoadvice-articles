@@ -53,7 +53,7 @@ products:
     slug: braun-silk-epil-7-se7-041
     asin: B0CWJF37L8
     raw_affiliate_url: https://www.amazon.com/dp/B0CWJF37L8
-    affiliate_link: https://amzn.to/4gIcrP5
+    affiliate_link: https://amzn.to/3VTOEmF
     affiliate_status: publisher_confirmed
     cta_label: Check price on Amazon
   - rank: 4

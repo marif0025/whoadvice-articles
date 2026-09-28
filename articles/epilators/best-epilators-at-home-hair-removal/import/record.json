@@ -1,11 +1,11 @@
 {
   "dev": {
-    "appliedAt": "2026-09-28T10:09:08.943Z",
-    "transactionId": "dCn05mZyXQ0Qy0iA7gJURY",
-    "sourceHash": "3ece5c2a5b5b20f90dbc48293ca2658bee7d9f11680da40c7412aabfed914aa0",
+    "appliedAt": "2026-09-28T12:55:36.472Z",
+    "transactionId": "hlh1vcrzg3ToE6vxB96hYo",
+    "sourceHash": "d168b5c83ec092c641214bb866f09b3c6b7e8ce43bc157dee47608507641eb12",
     "article": {
       "id": "8a21d258-4bce-4b11-9cb7-cd5844e62601",
-      "draftRev": "dCn05mZyXQ0Qy0iA7gJURY"
+      "draftRev": "hlh1vcrzg3ToE6vxB96hYo"
     },
     "products": [
       {
@@ -14,31 +14,31 @@
         "mode": "existing",
         "change": "none",
         "created": false,
-        "pending": true
+        "pending": false
       },
       {
         "asin": "B0GNB94W8G",
         "id": "b833bcd0-3c9c-43f7-9fab-d3ac235a904b",
         "mode": "existing",
         "change": "none",
-        "created": true,
-        "pending": true
+        "created": false,
+        "pending": false
       },
       {
         "asin": "B0CWJF37L8",
         "id": "0ee303e7-615a-4f85-8355-3177353bbd09",
         "mode": "existing",
         "change": "none",
-        "created": true,
-        "pending": true
+        "created": false,
+        "pending": false
       },
       {
         "asin": "B0GNB4X5FV",
         "id": "3e030c78-7466-412a-8b9f-a505cab24f1a",
         "mode": "existing",
         "change": "none",
-        "created": true,
-        "pending": true
+        "created": false,
+        "pending": false
       },
       {
         "asin": "B0CQBY737Z",
@@ -46,7 +46,7 @@
         "mode": "existing",
         "change": "none",
         "created": false,
-        "pending": true
+        "pending": false
       },
       {
         "asin": "B0F13G2F1S",
@@ -54,13 +54,80 @@
         "mode": "existing",
         "change": "none",
         "created": false,
-        "pending": true
+        "pending": false
       },
       {
         "asin": "B06WGLSRPZ",
         "id": "be9bcb5d-3e3f-48cf-9da5-76ac8360d7d3",
         "mode": "existing",
         "change": "none",
+        "created": false,
+        "pending": false
+      }
+    ]
+  },
+  "production": {
+    "appliedAt": "2026-09-28T13:03:41.290Z",
+    "transactionId": "zQicUBX7lBDfMtKkfKsasF",
+    "sourceHash": "9a3b72dfdf81e211abfc384b6b3dc0b2d8dc12c80f2cb63e0820ec955f92d780",
+    "article": {
+      "id": "8a21d258-4bce-4b11-9cb7-cd5844e62601",
+      "draftRev": "zQicUBX7lBDfMtKkfKsasF"
+    },
+    "products": [
+      {
+        "asin": "B0FNXC28MM",
+        "id": "5d377c8d-15d6-4f14-b6c6-281ce588a89c",
+        "mode": "legacy",
+        "change": "set",
+        "created": false,
+        "pending": true
+      },
+      {
+        "asin": "B0GNB94W8G",
+        "id": "9f7abbf2-9f9a-436b-8d19-dad4afae9b83",
+        "mode": "new",
+        "change": "create",
+        "created": true,
+        "pending": true
+      },
+      {
+        "asin": "B0CWJF37L8",
+        "id": "3eadaad3-9460-4d5d-a3a6-8b744170bf80",
+        "mode": "new",
+        "change": "create",
+        "created": true,
+        "pending": true
+      },
+      {
+        "asin": "B0GNB4X5FV",
+        "id": "a279417a-498c-4d69-9f0e-5d55d484f2b7",
+        "mode": "new",
+        "change": "create",
+        "created": true,
+        "pending": true
+      },
+      {
+        "asin": "B0CQBY737Z",
+        "id": "ff951841-f94b-4585-90df-47ba5cc10539",
+        "mode": "legacy",
+        "change": "set",
+        "created": false,
+        "pending": true
+      },
+      {
+        "asin": "B0F13G2F1S",
+        "id": "72f77ba3-f329-4de5-a919-17d525f3984b",
+        "mode": "legacy",
+        "change": "set",
+        "created": false,
+        "pending": true
+      },
+      {
+        "asin": "B06WGLSRPZ",
+        "id": "be9bcb5d-3e3f-48cf-9da5-76ac8360d7d3",
+        "mode": "legacy",
+        "change": "set",
         "created": false,
         "pending": true
       }

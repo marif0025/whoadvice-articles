@@ -17,12 +17,12 @@ affiliate_key: braun_silk_epil_7_se7_041
 display_name: Braun Silk-epil 7 SE7-041
 brand: Braun
 model_number: SE7-041
-affiliate_link: https://amzn.to/4gIcrP5
+affiliate_link: https://amzn.to/3VTOEmF
 raw_amazon_url: https://www.amazon.com/dp/B0CWJF37L8
 asin: B0CWJF37L8
 affiliate_status: publisher_confirmed
 exact_model_status: publisher_confirmed_us_amazon_exact_model_verified_regional_manufacturer
 source_checked: Braun regional manufacturer page and current US retailer discovery
 checked_at: 2026-07-20
-notes: Exact Amazon model and package are verified; recheck seller, stock, redirect, and regional manual alignment before publication.
+notes: Exact Amazon model and package are verified; recheck seller, stock, redirect, and regional manual alignment before publication. On 2026-09-28 the earlier short link (amzn.to/4gIcrP5) redirected to ASIN B0CQBWLSY4, not B0CWJF37L8; replaced with amzn.to/3VTOEmF, which redirects to B0CWJF37L8.
 ```

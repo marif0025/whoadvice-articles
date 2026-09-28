@@ -63,6 +63,29 @@ Options:
   and strengthened on publish, as Studio does.
 - **IDs:** new documents get random IDs, never dotted or slug-derived.
 
+## Grouped cards
+
+By default a `typesSection` or `guideSection` makes one card per H3. With
+`cards: labelled_paragraphs` on the section in `cms.yaml`, each H3 becomes a
+group heading and each paragraph under it that opens with a bold label
+becomes a card:
+
+```markdown
+### Types by mechanism
+
+**Tweezer-style epilators.** Rotating rows of metal or ceramic plates grip...
+
+**Spring epilators.** A bent coil traps hairs as it turns...
+```
+
+- The label, without its trailing full stop or colon, is the card title.
+- When the text after the label starts a sentence (a capital letter), the
+  card body is that text. Otherwise the label is its subject and stays at the
+  start of the body, unbolded.
+- Plain paragraphs above the first card or below the last one render as
+  prose around that group. Plain text between cards, or a second bold span in
+  a card paragraph, stops the build.
+
 ## Guards
 
 - **Before plan:** `cms.yaml` must validate.

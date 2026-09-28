@@ -11,6 +11,7 @@ import {
     markdownLinks,
     normalizeName,
     parseArticle,
+    splitLabelledParagraphs,
     type Section,
 } from './article.ts'
 import { Contract, type ContractSection } from './contract.ts'
@@ -276,6 +277,21 @@ export function validate(input: ValidateInput): Issue[] {
             if (section.subsections.length === 0) error('ITEMS_MISSING', `"${section.heading}" (${block}) has no H3 items`)
             for (const sub of section.subsections) {
                 if (!sub.lines.some((line) => line.trim() !== '')) error('ITEM_EMPTY', `"${section.heading}": "${sub.heading}" is empty`)
+            }
+        }
+    }
+
+    for (const map of explicit.filter((section) => section.cards === 'labelled_paragraphs')) {
+        if (map.block !== 'typesSection' && map.block !== 'guideSection') {
+            error('CARDS_BLOCK', `"${map.heading}": cards applies only to typesSection and guideSection`)
+            continue
+        }
+        const section = article.sections.find((item) => item.heading === map.heading)
+        for (const sub of section?.subsections ?? []) {
+            const split = splitLabelledParagraphs(sub.lines)
+            for (const message of split.errors) error('CARD_PARAGRAPH', `"${map.heading}" > "${sub.heading}": ${message}`)
+            if (split.cards.length === 0) {
+                error('CARD_PARAGRAPH', `"${map.heading}" > "${sub.heading}": no paragraph opens with a bold label`)
             }
         }
     }

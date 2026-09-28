@@ -10,7 +10,14 @@
  * or `content` on them, so the section's H2 and intro stay normal blocks.
  */
 
-import { findTables, labelledList, labelledValue, type Article, type Section } from './article.ts'
+import {
+    findTables,
+    labelledList,
+    labelledValue,
+    splitLabelledParagraphs,
+    type Article,
+    type Section,
+} from './article.ts'
 import type { Contract } from './contract.ts'
 import { sequentialKeys, toPlainText, toPortableText, type Block } from './portable-text.ts'
 
@@ -171,6 +178,30 @@ export function buildArticle(
             case 'guideSection': {
                 const itemType = map.block === 'typesSection' ? 'typeItem' : 'guideItem'
                 content.push(...heading(section.heading), ...md(section.intro, where))
+
+                if (map.cards === 'labelled_paragraphs') {
+                    // Each H3 is a group heading; each labelled paragraph is a card.
+                    for (const sub of section.subsections) {
+                        const at = `${where} > ${sub.heading}`
+                        const split = splitLabelledParagraphs(sub.lines)
+                        if (split.errors.length > 0) throw new BuildError(`${at}: ${split.errors.join('; ')}`)
+                        if (split.cards.length === 0) throw new BuildError(`${at}: no paragraph opens with a bold label`)
+                        content.push(...md([`### ${sub.heading}`], at), ...md(split.before, at))
+                        content.push({
+                            _type: map.block,
+                            _key: keys(),
+                            items: split.cards.map((card) => ({
+                                _type: itemType,
+                                _key: keys(),
+                                title: card.label,
+                                content: md(card.lines, `${at} > ${card.label}`),
+                            })),
+                        })
+                        content.push(...md(split.after, at))
+                    }
+                    break
+                }
+
                 content.push({
                     _type: map.block,
                     _key: keys(),

@@ -56,6 +56,12 @@ const SectionMap = z
         block: z.enum(BLOCKS),
         /** faqSection only: emit FAQPage JSON-LD. Off unless the handoff asks. */
         faq_schema: z.boolean().optional(),
+        /**
+         * typesSection and guideSection only. `h3` (default): one card per H3.
+         * `labelled_paragraphs`: each H3 is a group heading, and each paragraph
+         * under it that opens with a bold label is one card.
+         */
+        cards: z.enum(['h3', 'labelled_paragraphs']).optional(),
     })
     .strict()
 

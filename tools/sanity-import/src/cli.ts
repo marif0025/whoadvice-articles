@@ -20,7 +20,7 @@ import { uuid } from '@sanity/uuid'
 import { parse, stringify } from 'yaml'
 
 import { applyPlan, publishProducts, readRecord } from './apply.ts'
-import { parseArticle } from './article.ts'
+import { findLinkHolds, parseArticle } from './article.ts'
 import { connect, DEFAULT_BLOG_DIR, DEFAULT_ENV_FILE } from './config.ts'
 import { Contract } from './contract.ts'
 import { draftContract } from './draft.ts'
@@ -165,6 +165,10 @@ if (command === 'plan') {
         hash,
         createdIds,
     })
+    // Comments never reach Sanity, so a held link would otherwise vanish silently.
+    for (const hold of findLinkHolds(articleText)) {
+        plan.notes.push(`INTERNAL-LINK HOLD ${hold.url} (article.md:${hold.line}): restore the link when that page is live`)
+    }
     const files = writePlan(packageDir, plan)
 
     console.log(`article  ${plan.article.mode.padEnd(8)} ${plan.article.id}  "${contract.title}"`)

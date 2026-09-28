@@ -122,10 +122,12 @@ test('a listed H2 missing from the article fails', () => {
 
 test('a table inside a prose section fails', () => {
     const input = load(EPILATORS)
+    const before = input.articleText
     input.articleText = input.articleText.replace(
-        'This is a research-based ranking;',
-        '| Factor | Weight |\n|---|---|\n| Fit | 25% |\n| Control | 20% |\n\nThis is a research-based ranking;',
+        'This is a research-based ranking.',
+        '| Factor | Weight |\n|---|---|\n| Fit | 25% |\n| Control | 20% |\n\nThis is a research-based ranking.',
     )
+    assert.notEqual(input.articleText, before, 'the fixture anchor is no longer in article.md')
     assert.ok(errorCodes(input).includes('PROSE_TABLE'))
 })
 
