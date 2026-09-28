@@ -1,0 +1,107 @@
+# Sanity contract for this package. The prose stays in article.md; this file
+# says what each part becomes in Sanity. Check with:
+#   cd tools/sanity-import && node src/cli.ts validate ../../articles/epilators/best-epilators-at-home-hair-removal
+version: 1
+# audit.md: ready_for_editorial_review. Four content gaps from the 2026-09-25
+# site audit (CON-27, CON-31, CON-32, CON-33) must close before approval.
+status: ready_for_editorial_review
+slug: best-epilators
+category: skin-care
+author: emily-cooper
+article_format: product_guide
+badge: Research-Based Buying Guide
+title: 7 Best Epilators for At-Home Hair Removal in 2026
+seo:
+  # article.md has "Best Epilator in 2026: 7 Picks for At-Home Hair Removal";
+  # head fields use " - ", never a colon (Arif, 2026-09-23).
+  meta_title: Best Epilator in 2026 - 7 Picks for At-Home Hair Removal
+  meta_description: Find the best epilator for your routine. Compare seven researched picks for wet/dry use, flexible heads, body grooming, full kits, and corded value.
+  keywords:
+    - best epilator
+  indexable: true
+dates:
+  # The live best-epilators article (8a21d258) keeps its published date.
+  published: keep
+products:
+  - asin: B0FNXC28MM
+    title: Braun Silk-épil 9 Flex SES9-041
+    brand: Braun
+    link: https://amzn.to/4prmaeK
+    review_heading: 1. Braun Silk-épil 9 Flex SES9-041
+    top_pick_heading: "Best Overall: Braun Silk-épil 9 Flex SES9-041"
+    table_label: 1. Braun Silk-épil 9 Flex SES9-041
+    # "Braun Silk-épil 9 Flex SES9-041 3D", no ASIN, has an image; used only by best-epilators
+    legacy_product: 5d377c8d-15d6-4f14-b6c6-281ce588a89c
+  - asin: B0GNB94W8G
+    title: Philips Epilator Series 8000 BRE708/00
+    brand: Philips
+    link: https://amzn.to/4pw4HSG
+    review_heading: 2. Philips Epilator Series 8000 BRE708/00
+    top_pick_heading: "Best Streamlined ProGuide Kit: Philips Epilator Series 8000 BRE708/00"
+    table_label: 2. Philips Epilator Series 8000 BRE708/00
+  - asin: B0CWJF37L8
+    title: Braun Silk-épil 7 SE7-041
+    brand: Braun
+    link: https://amzn.to/4gIcrP5
+    review_heading: 3. Braun Silk-épil 7 SE7-041
+    top_pick_heading: "Best Wet/Dry Braun Value: Braun Silk-épil 7 SE7-041"
+    table_label: 3. Braun Silk-épil 7 SE7-041
+    # Legacy "Braun Epilator Silk-épil 7" (cfc8cccb) names no model, so it may
+    # not be the SE7-041; create a new product instead.
+    legacy_product: none
+  - asin: B0GNB4X5FV
+    title: Philips Epilator Series 9000 BRE728/00
+    brand: Philips
+    link: https://amzn.to/4fmtFPE
+    review_heading: 4. Philips Epilator Series 9000 BRE728/00
+    table_label: 4. Philips Epilator Series 9000 BRE728/00
+  - asin: B0CQBY737Z
+    title: Braun Silk-épil 9 SES9-441
+    brand: Braun
+    link: https://amzn.to/4b3MOEK
+    review_heading: 5. Braun Silk-épil 9 SES9-441
+    table_label: 5. Braun Silk-épil 9 SES9-441
+    # "Braun Silk-épil 9 Epilator SES9-441", no ASIN, has an image; also used by braun-epilator
+    legacy_product: ff951841-f94b-4585-90df-47ba5cc10539
+  - asin: B0F13G2F1S
+    title: Philips Epilator Series 2000 BRE227/00
+    brand: Philips
+    link: https://amzn.to/4fa6R6V
+    review_heading: 6. Philips Epilator Series 2000 BRE227/00
+    table_label: 6. Philips Epilator Series 2000 BRE227/00
+    # Same title, no ASIN, has an image; used only by best-epilators
+    legacy_product: 72f77ba3-f329-4de5-a919-17d525f3984b
+  - asin: B06WGLSRPZ
+    title: Braun Silk-épil 3 3-270
+    brand: Braun
+    link: https://amzn.to/4fkA25V
+    review_heading: 7. Braun Silk-épil 3 3-270
+    table_label: 7. Braun Silk-épil 3 3-270
+    # Same title, no ASIN, has an image; used only by best-epilators. The
+    # unused duplicate eb046b5f is left alone.
+    legacy_product: be9bcb5d-3e3f-48cf-9da5-76ac8360d7d3
+sections:
+  - heading: Top 3 epilator picks
+    block: topPicks
+  - heading: Best epilators compared
+    block: comparisonTable
+  - heading: Best epilator reviews
+    block: productReviews
+  - heading: How we ranked the best epilators
+    block: prose
+  - heading: Types of epilators
+    block: typesSection
+  - heading: How to choose the best epilator
+    block: prose
+  - heading: What to expect from epilation
+    block: prose
+  - heading: Frequently asked questions about epilators
+    block: faqSection
+    faq_schema: false
+  - heading: Which epilator is best?
+    block: prose
+# Confirmed by Arif, 2026-09-28: author emily-cooper; badge Research-Based
+# Buying Guide; Types as cards and How to choose as prose; reuse the four
+# exact-model legacy products and create new ones for SE7-041, BRE708/00 and
+# BRE728/00.
+needs_review: []

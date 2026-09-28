@@ -1,0 +1,93 @@
+# Sanity contract for this package. The prose stays in article.md; this file
+# says what each part becomes in Sanity. Check with:
+#   cd tools/sanity-import && node src/cli.ts validate ../../articles/digital-clocks
+version: 1
+# audit.md: ready for editorial review. The article is already published in
+# Sanity (29e6d35e), imported by the earlier script and edited in Studio since.
+status: ready_for_editorial_review
+slug: best-digital-clocks
+# article.md's Slug (/best-digital-clocks/) has no category; the live article is in Home Gadgets.
+category: home-gadgets
+author: max-collins
+article_format: product_guide
+badge: Research-Based Buying Guide
+title: The 7 Best Digital Clocks for Bedrooms, Offices, and Classrooms
+seo:
+  meta_title: 7 Best Digital Clocks for Bedrooms, Offices & Classrooms
+  meta_description: We researched the best digital clocks for bedrooms, offices, and classrooms, comparing display size, brightness, alarms, power, and room fit.
+  keywords:
+    - best digital clocks
+  indexable: true
+dates:
+  published: keep
+products:
+  - asin: B07FNC6N1L
+    title: DreamSky DS312 Compact Digital Alarm Clock
+    brand: DreamSky
+    link: https://amzn.to/4riOwsT
+    review_heading: DreamSky DS312 Compact Digital Alarm Clock
+    top_pick_heading: "Best Overall for Bedrooms: DreamSky DS312 Compact Digital Alarm Clock"
+    table_label: DreamSky DS312
+  - asin: B0D9229N9B
+    title: JALL PH05 12-Inch Digital Wall Clock
+    brand: JALL
+    link: https://amzn.to/4yz8H86
+    review_heading: JALL PH05 12-Inch Digital Wall Clock
+    top_pick_heading: "Best Large-Format Classroom Clock: JALL PH05 12-Inch Digital Wall Clock"
+    table_label: JALL PH05
+  - asin: B07BFLYNNT
+    title: OCT17 Wooden Alarm Clock
+    brand: OCT17
+    link: https://amzn.to/4y2tzVA
+    review_heading: OCT17 Wooden Alarm Clock
+    top_pick_heading: "Best for Office Desks: OCT17 Wooden Alarm Clock"
+    table_label: OCT17 Wooden Alarm Clock
+  - asin: B0F2B45PNV
+    title: Zelaclock Digital Wall Clock
+    brand: Zelaclock
+    link: https://amzn.to/4y24XfA
+    review_heading: Zelaclock Digital Wall Clock
+    table_label: Zelaclock Digital Wall Clock
+  - asin: B07DQWT15Y
+    title: Amazon Basics Small Digital Oval Alarm Clock
+    brand: Amazon Basics
+    link: https://amzn.to/4yh2Jcx
+    review_heading: Amazon Basics Small Digital Oval Alarm Clock
+    table_label: Amazon Basics Small Oval Alarm Clock
+  - asin: B07RKTVQDR
+    title: JALL Digital Alarm Clock
+    brand: JALL
+    link: https://amzn.to/4xX8vQ1
+    review_heading: JALL Digital Alarm Clock
+    table_label: JALL Digital Alarm Clock
+  - asin: B0BFC7WQ6R
+    title: Amazon Echo Spot (2024 Release)
+    brand: Amazon
+    link: https://amzn.to/4AnfGmv
+    review_heading: Amazon Echo Spot (2024 Release)
+    table_label: Amazon Echo Spot (2024)
+sections:
+  - heading: Three leading digital clocks
+    block: topPicks
+  - heading: Digital clocks compared
+    block: comparisonTable
+  - heading: "Before you buy: can a screen you already own do the job?"
+    block: prose
+  - heading: How we selected these digital clocks
+    block: prose
+  - heading: Our seven digital-clock picks
+    block: productReviews
+  - heading: How to choose a bedroom digital clock
+    block: prose
+  - heading: How to choose an office digital clock
+    block: prose
+  - heading: How to choose a classroom digital clock
+    block: prose
+  - heading: Frequently asked questions
+    block: faqSection
+    faq_schema: false
+  - heading: Which digital clock should you choose?
+    block: prose
+# Confirmed by Arif, 2026-09-28: author max-collins; badge Research-Based
+# Buying Guide; the three How to choose sections stay prose, as on the live page.
+needs_review: []
