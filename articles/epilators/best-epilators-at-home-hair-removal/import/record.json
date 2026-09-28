@@ -1,0 +1,69 @@
+{
+  "dev": {
+    "appliedAt": "2026-09-28T10:09:08.943Z",
+    "transactionId": "dCn05mZyXQ0Qy0iA7gJURY",
+    "sourceHash": "3ece5c2a5b5b20f90dbc48293ca2658bee7d9f11680da40c7412aabfed914aa0",
+    "article": {
+      "id": "8a21d258-4bce-4b11-9cb7-cd5844e62601",
+      "draftRev": "dCn05mZyXQ0Qy0iA7gJURY"
+    },
+    "products": [
+      {
+        "asin": "B0FNXC28MM",
+        "id": "5d377c8d-15d6-4f14-b6c6-281ce588a89c",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": true
+      },
+      {
+        "asin": "B0GNB94W8G",
+        "id": "b833bcd0-3c9c-43f7-9fab-d3ac235a904b",
+        "mode": "existing",
+        "change": "none",
+        "created": true,
+        "pending": true
+      },
+      {
+        "asin": "B0CWJF37L8",
+        "id": "0ee303e7-615a-4f85-8355-3177353bbd09",
+        "mode": "existing",
+        "change": "none",
+        "created": true,
+        "pending": true
+      },
+      {
+        "asin": "B0GNB4X5FV",
+        "id": "3e030c78-7466-412a-8b9f-a505cab24f1a",
+        "mode": "existing",
+        "change": "none",
+        "created": true,
+        "pending": true
+      },
+      {
+        "asin": "B0CQBY737Z",
+        "id": "ff951841-f94b-4585-90df-47ba5cc10539",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": true
+      },
+      {
+        "asin": "B0F13G2F1S",
+        "id": "72f77ba3-f329-4de5-a919-17d525f3984b",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": true
+      },
+      {
+        "asin": "B06WGLSRPZ",
+        "id": "be9bcb5d-3e3f-48cf-9da5-76ac8360d7d3",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": true
+      }
+    ]
+  }
+}

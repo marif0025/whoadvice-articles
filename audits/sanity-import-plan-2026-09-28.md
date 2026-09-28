@@ -24,10 +24,11 @@ Replace it with a new importer driven by a small machine-readable file in each p
 - **Trades away:** about a week of work before the next article ships. Each package also needs a `cms.yaml` written and checked once.
 - **Verified:** the duplicate and orphan data (Arif's dataset export, checked locally, and his four query results), the dotted-ID visibility rule (Sanity docs), every importer and Studio defect cited below (code read at the file and line given).
 - **Uncertain:** whether `sanity documents validate --file` runs this schema's custom validators, and whether `@portabletext/sanity-bridge` 4.x supports `sanity` 5. Section 9 lists how to settle each.
-- **Next:** phase 3, the importer (section 7). As of 2026-09-28:
+- **Next:** phase 4, the rehearsal on `dev` (section 7). As of 2026-09-28:
 - Phase 0 is complete.
-- Phase 1 is built and tested, and waits for Arif's commit.
-- Phase 2's contracts pass validation.
+- Phase 1 is committed as `f409bdc`; Arif pushes it.
+- Phase 2 is pushed as `3279683`.
+- Phase 3 is built. Both packages are applied to `dev` as drafts.
 
 ---
 
@@ -251,6 +252,14 @@ Rules:
 9. **Publish products:** a separate command, run after review. It publishes the new product drafts in one atomic request, with `ifDraftRevisionId` guards. The editor then publishes the article in Studio. The importer never publishes an article.
 10. **Verify:** read everything back, then fetch the draft preview and, after publishing, the anonymous published page. Check the counts against the contract.
 
+**As built (phase 3, 2026-09-28).** `tools/sanity-import/README.md` is the reference. It differs from, or adds to, the pipeline above in these ways:
+- **Headings.** The site draws no heading for top picks, the comparison table, the product reviews, or the types and guide cards. So each of those gets its H2 as a normal heading block. The FAQ block draws its own H2 from `title`.
+- **Types and guide blocks carry only `items`.** The site's renderer also reads `title` and `content` on them, but the schema does not define those fields, so writing them would repeat the unknown-field fault that S5 fixed.
+- **Decision tables.** These also get a normal H2 block and no table title, so any intro text stays below the heading.
+- **Schema check.** It reads `documents validate --format ndjson` markers by path. The only error it accepts is "must be published" on a weak reference to a product the import owns. That state is how the article is kept from publishing before its products.
+- **`record.json` keeps two flags per product,** `created` and `pending`, until the product is published. They let `publish-products` still find every product the import owes, however many times the import was re-applied.
+- **Re-runs converge.** Once applied, a repeat plan is only the two article edits. Its revision check refuses a stale plan, and its draft check refuses a draft edited in Studio. Both were tested live on `dev`.
+
 ### 6.4 Write rules
 
 - **IDs:** new documents get a random ID from `@sanity/uuid`. Every root ID must match `^[A-Za-z0-9_-]+$`. References target root IDs only.
@@ -301,7 +310,7 @@ Beyond that, the proof is the rendered page: section counts in the DOM (3 top pi
 | 0 | **Done 2026-09-28.** Exported the dataset, deleted the 21 orphaned dotted documents (dotted and ASIN-twin counts both 0), and published the 7 blocked clock product drafts (0 pending). A copy of the export without the 21 is `backups/production-2026-09-28-clean.tar.gz`: 1,711 documents, assets intact. | Arif | S | Met. |
 | 1 | Studio fixes S1-S6, plus S16 and S17 found in testing. **Built and tested 2026-09-28, uncommitted; Arif commits.** | code, Arif commits | M | Met on `dev` (section 4, phase 1 result). |
 | 2 | Contract schema, normaliser, and `cms.yaml` for the epilator pillar and the clock article. **Done 2026-09-28**, uncommitted. | vault | M | Met: both contracts pass, and Arif confirmed every judgment call. |
-| 3 | The importer (section 6), with the broken fixtures | vault | L | Every fixture fails for the right reason. The pillar's plan passes `documents validate`. |
+| 3 | The importer (section 6), with the broken fixtures. **Done 2026-09-28.** | vault | L | Met. 33 tests; each importer guard failed its own test when disabled. Both plans pass `documents validate`, and both were applied to `dev` and read back field for field. |
 | 4 | Rehearsal on the `dev` dataset, seeded 2026-09-28 from the cleaned export. Never seed from the raw export, which still holds the 21 dotted documents. | Arif seeds dev; Claude runs the local site and Studio against it (`NEXT_PUBLIC_SANITY_DATASET=dev`) | M | The local page matches the contract counts, Studio edits work, and publish-products plus a Studio publish renders the page. |
 | 5 | Epilator pillar to production: apply as a draft, editor review, publish products, publish the article, unpublish the legacy post, revalidate, check the live page against the package | Arif and the editor | S | The live page matches the package (audit rule change 2, `live_verified`). |
 | 6 | Retire `scripts/import-digital-clocks-draft.ts`. Add the contract to `12` Part 14 and a publication stage to `11`. | vault | S | Only one importer and one handoff format remain. |

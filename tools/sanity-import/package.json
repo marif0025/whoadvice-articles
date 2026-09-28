@@ -9,10 +9,14 @@
   "scripts": {
     "draft": "node src/cli.ts draft",
     "validate": "node src/cli.ts validate",
-    "test": "node --test test/validate.test.ts",
+    "test": "node --test test/validate.test.ts test/importer.test.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@portabletext/markdown": "^2.4.0",
+    "@portabletext/schema": "^3.0.0",
+    "@sanity/client": "^8.7.0",
+    "@sanity/uuid": "^3.0.3",
     "yaml": "^2.9.1",
     "zod": "^4.6.5"
   },

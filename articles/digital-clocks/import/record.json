@@ -1,0 +1,69 @@
+{
+  "dev": {
+    "appliedAt": "2026-09-28T10:10:03.484Z",
+    "transactionId": "dCn05mZyXQ0Qy0iA7gJa6L",
+    "sourceHash": "99a708be21623d29af86a992f9b0b08a7275241f66333e34eac7cb9c8867481a",
+    "article": {
+      "id": "29e6d35e-1509-47cd-b32b-d9362c67608a",
+      "draftRev": "dCn05mZyXQ0Qy0iA7gJa6L"
+    },
+    "products": [
+      {
+        "asin": "B07FNC6N1L",
+        "id": "product-dreamsky-ds312-compact-digital-alarm-clock-b07fnc6n1l",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": false
+      },
+      {
+        "asin": "B0D9229N9B",
+        "id": "product-jall-ph05-12-inch-digital-wall-clock-b0d9229n9b",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": false
+      },
+      {
+        "asin": "B07BFLYNNT",
+        "id": "product-oct17-wooden-alarm-clock-b07bflynnt",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": false
+      },
+      {
+        "asin": "B0F2B45PNV",
+        "id": "product-zelaclock-digital-wall-clock-b0f2b45pnv",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": false
+      },
+      {
+        "asin": "B07DQWT15Y",
+        "id": "product-amazon-basics-small-digital-oval-alarm-clock-b07dqwt15y",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": false
+      },
+      {
+        "asin": "B07RKTVQDR",
+        "id": "product-jall-digital-alarm-clock-b07rktvqdr",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": false
+      },
+      {
+        "asin": "B0BFC7WQ6R",
+        "id": "product-amazon-echo-spot-2024-release-b0bfc7wq6r",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": false
+      }
+    ]
+  }
+}
