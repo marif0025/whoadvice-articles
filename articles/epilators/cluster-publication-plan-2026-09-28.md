@@ -77,9 +77,9 @@ Also live: the legacy article `/skin-care/braun-epilator/` ("Best Braun Epilator
        - One sitemap entry.
        - All product images load.
        - Layouts checked at 375, 866, 1280 and 1440 px.
-     - **Left open:**
-       - Two reused products still carry their legacy titles, "Braun Silk-épil 9 Flex SES9-041 3D" and "Braun Silk-épil 9 Epilator SES9-441". They show on the cards, the top picks, the table and in JSON-LD, while the table labels and the prose say "Braun Silk-épil 9 Flex SES9-041" and "Braun Silk-épil 9 SES9-441". The importer doesn't own a reused product's title, so this is a Studio edit. The SES9-441 rename also shows on `/skin-care/braun-epilator/`.
-       - The SES9-041 image is the legacy 488×488.
+     - **Fixed the same day:** two reused products still carried their legacy titles ("Braun Silk-épil 9 Flex SES9-041 3D", "Braun Silk-épil 9 Epilator SES9-441"). The importer doesn't own a reused product's title, so Arif renamed both in Studio to "Braun Silk-épil 9 Flex SES9-041" and "Braun Silk-épil 9 SES9-441". Publishing the products revalidated the page by itself (checked live). The SES9-441 rename also shows on `/skin-care/braun-epilator/`.
+     - **Left open:** the SES9-041 image is the legacy 488×488.
+     - **Blog changes deployed the same day** (Arif): the Sanity image loader (images now request their slot width), a Check Price button in the table's hover preview, and the Studio "Revalidate now" fix (it sent `type: "content"`, which the manual route has rejected since 2026-09-19).
    - Apply it to the production dataset as a draft (`--dataset production --confirm best-epilators`, `status: approved_for_publication`).
    - Publish the products (`publish-products`), then publish the article in Studio.
    - Revalidate, then check the live page:
@@ -110,4 +110,14 @@ Also live: the legacy article `/skin-care/braun-epilator/` ("Best Braun Epilator
 
 1. ~~Publish order~~: decided on 2026-09-28. The pillar goes first, with the links held.
 2. Who does the qualified medical review for the two informational pages, and when.
-3. Whether to add the importer's hold reporting (step 3 of section 3) now.
+3. ~~Hold reporting~~: built on 2026-09-28 (section 3).
+4. `/skin-care/braun-epilator/`: redirect to the pillar or keep it (step 6). Check its Search Console clicks first.
+
+## 6. Start here next time
+
+The pillar is live. The next page is **the face page** (step 3). It's the only page not waiting on the medical review, and the pillar's facial card already links to its URL, which still serves the legacy post.
+
+1. Copy pass under the contract amended on 2026-09-28 (field limits, no repeated fields, short model names, FAQ rules, conclusion as conditions). The package was written on 2026-07-20, before those rules.
+2. Evidence refresh: its research is from 2026-07-20. Check that the 4 products (Braun FaceSpa Pro 911, Remington EP1050FCDN, Tweezerman 5090-R, Bellabe) are still sold, and add dated US prices.
+3. Fix face L167: an absolute URL, and the anchor "guide to epilators for face and body" promises a comparison the pillar doesn't give. Make it relative and match the anchor to what the pillar delivers.
+4. `cms.yaml`, then a `dev` rehearsal. Production needs Arif's go-ahead again, because the one-off exception covered only the pillar.
