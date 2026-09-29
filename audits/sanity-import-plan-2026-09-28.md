@@ -278,14 +278,14 @@ Rules:
 | H3, H4 | `h3`, `h4`. H5 and H6 fail. H1 is only the title. |
 | Paragraph, bold, italic | `normal` blocks with `strong` and `em` |
 | Bullet and numbered lists, nested | `listItem` with `level` |
-| Blockquote | style `blockquote`. Lists inside a blockquote are flattened and reported. |
+| Blockquote | style `blockquote`. Lists inside a blockquote are flattened and reported. **Built 2026-09-29:** a blockquote opening with a bold, colon-ended title becomes a `calloutGroup`, and a GitHub alert (`> [!CAUTION]`, `[!TIP]`, `[!NOTE]`...) sets the callout's tone (tool README, Callouts). |
 | Link | `inlineLink` with `linkType: url` and `url`. `is_external` is true only for other hosts. Resolving internal links to article references is a later step. |
 | Inline code | Plain text, reported. The schema has no code mark. |
 | Table in a `comparisonTable` section | `comparisonTableBlock`. Rows are joined to products by ASIN through the contract, never by title words. |
 | Other table | `decisionComparisonTableBlock`. It fails if it doesn't fit the 2-6 column and 2-12 row limits. |
 | `<callout>` | `calloutGroup`. Items are plain strings, because the schema allows no formatting there. |
 | HTML comment | Dropped. `CMS IMAGE` and `INTERNAL-LINK HOLD` comments are listed in the plan as open tasks. |
-| Image | Uploaded with `client.assets.upload` as `iimage`, with alt text required. |
+| Image | **Built 2026-09-29:** a standalone `![alt](images/x.png "caption")` in the intro or prose becomes an `iimage` with alt and caption. The asset ID is computed from the file; `apply` uploads it first and refuses a different ID (tool README, Images). |
 | Anything `onDegradation` reports | Stops the run |
 
 ### 6.6 Checks that must fail when broken
@@ -312,8 +312,8 @@ Beyond that, the proof is the rendered page: section counts in the DOM (3 top pi
 | 1 | Studio fixes S1-S6, plus S16 and S17 found in testing. **Built and tested 2026-09-28, uncommitted; Arif commits.** | code, Arif commits | M | Met on `dev` (section 4, phase 1 result). |
 | 2 | Contract schema, normaliser, and `cms.yaml` for the epilator pillar and the clock article. **Done 2026-09-28**, uncommitted. | vault | M | Met: both contracts pass, and Arif confirmed every judgment call. |
 | 3 | The importer (section 6), with the broken fixtures. **Done 2026-09-28.** | vault | L | Met. 33 tests; each importer guard failed its own test when disabled. Both plans pass `documents validate`, and both were applied to `dev` and read back field for field. |
-| 4 | Rehearsal on the `dev` dataset, seeded 2026-09-28 from the cleaned export. Never seed from the raw export, which still holds the 21 dotted documents. | Arif seeds dev; Claude runs the local site and Studio against it (`NEXT_PUBLIC_SANITY_DATASET=dev`) | M | The local page matches the contract counts, Studio edits work, and publish-products plus a Studio publish renders the page. |
-| 5 | Epilator pillar to production: apply as a draft, editor review, publish products, publish the article, unpublish the legacy post, revalidate, check the live page against the package | Arif and the editor | S | The live page matches the package (audit rule change 2, `live_verified`). |
+| 4 | **Met 2026-09-28** for the pillar. The underarm support page was rehearsed and published on `dev` 2026-09-29 (cluster plan, step 5). Rehearsal on the `dev` dataset, seeded 2026-09-28 from the cleaned export. Never seed from the raw export, which still holds the 21 dotted documents. | Arif seeds dev; Claude runs the local site and Studio against it (`NEXT_PUBLIC_SANITY_DATASET=dev`) | M | The local page matches the contract counts, Studio edits work, and publish-products plus a Studio publish renders the page. |
+| 5 | **Met 2026-09-28: the pillar is live**, and the live check passed (cluster plan, step 2). Epilator pillar to production: apply as a draft, editor review, publish products, publish the article, unpublish the legacy post, revalidate, check the live page against the package | Arif and the editor | S | The live page matches the package (audit rule change 2, `live_verified`). |
 | 6 | Retire `scripts/import-digital-clocks-draft.ts`. Add the contract to `12` Part 14 and a publication stage to `11`. | vault | S | Only one importer and one handoff format remain. |
 
 The project has two datasets, `production` and `dev`, and both are public.

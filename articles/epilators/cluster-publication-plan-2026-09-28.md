@@ -10,8 +10,8 @@ It extends phase 5 of `audits/sanity-import-plan-2026-09-28.md`. The pillar's ow
 |---|---|---|---|---|
 | Pillar: best epilators | `/skin-care/best-epilators/` | A legacy article at this slug is live. The new version is rehearsed on `dev`. | Contract done; audit fixes pending | The audit's blockers B1–B6 |
 | Best face epilators | `/skin-care/best-face-epilators/` | A legacy **post** ("Best Face Epilators To Get Smooth And Shiny Skin") is live | Article, handoff and 4 product records ready. No `cms.yaml` yet. | Editorial review. Then `cms.yaml`, a `dev` rehearsal and images. |
-| Pubic-hair permission | `/skin-care/can-you-use-an-epilator-on-pubic-hair/` | Nothing (404) | Rewritten 2026-09-29 under the attribution rule. No `cms.yaml`. | None outstanding — editorial review only (see §4a) |
-| Underarm technique | `/skin-care/how-to-epilate-underarms/` | Nothing (404) | Rewritten 2026-09-29 under the attribution rule. No `cms.yaml`. | None outstanding — editorial review only (see §4a) |
+| Pubic-hair permission | `/skin-care/can-you-use-an-epilator-on-pubic-hair/` | Production: nothing (404). `dev`: a draft, never published. | Rewritten 2026-09-29 under the attribution rule. `cms.yaml` done and rehearsed. No images, no OG image. | Arif's read and publish on `dev`, the real `dates.published`, his go-ahead for production |
+| Underarm technique | `/skin-care/how-to-epilate-underarms/` | Production: nothing (404). `dev`: **published and complete** (checked 2026-09-29). | Rewritten, `cms.yaml` done, guide cards, 3 captioned images, caution callout, OG image. Committed `b247b7b`. | The real `dates.published`, the blog deploy (figures, callouts, layout), his go-ahead for production |
 
 Also live: the legacy article `/skin-care/braun-epilator/` ("Best Braun Epilator For Quick And Easy Hair Removal"). It overlaps with the pillar; see audit finding S3.
 
@@ -104,6 +104,19 @@ Also live: the legacy article `/skin-care/braun-epilator/` ("Best Braun Epilator
      - Both `plan` on `dev` passed the Studio schema check. Both `apply` to `dev` succeeded and were verified field for field: pubic-hair has its 2 decision tables (4 and 5 rows) and 8 FAQs; underarm has its 1 table (5 rows) and 7 FAQs, confirmed by a direct read-back of the draft documents.
      - Both are drafts only, so they 404 on the public `dev` site (the live route reads published content only). **Arif: open each in Studio to review, then publish on `dev` to check the rendered page** before I touch production.
      - **2026-09-29, underarm redesign.** Arif checked underarm on `dev` and found it thin: no images, and "callouts too dry, add types or guide cards for steps." Two importer features added and tested (39 pass, 1 pre-existing unrelated fail): a `**Title:**` blockquote now auto-promotes to a styled callout card, and a `**Tip:**` line inside a guide card becomes that card's EXPERT TIP box. Underarm's 11 steps now render as guide cards; its "Pause before switching sides" note is step 9's tip. Applied to the `dev` draft, verified field for field. **2026-09-29, card length:** Arif then found several cards ran 4–6 lines (steps 2, 5, 7, 9), stretching each row to the tallest card. All 11 trimmed to 83–150 characters (2–3 lines); content moved out went to that step's tip where still worth keeping (steps 2, 5, 7 gained new tips; step 9 kept its existing one), not dropped. Applied, verified: all 11 bodies ≤150 chars, 4 tips present. **Arif needs to publish it again on `dev` to see the cards** — the published copy he already checked is still the old plain version. The image gap is still open: he's generating the two planned illustrations himself from the prompts in `publisher-handoff.md`; I wire them in once he has files.
+     - **2026-09-29, underarm images and page design.** Arif published underarm on `dev` and asked for images, captions and better callouts. Now done and published on `dev`:
+       - **Three captioned figures.** The technique sequence is Arif's GPT render with its empty caption row cropped off. The water-symbol and hair-below-skin diagrams are hand-drawn SVG, because GPT's symbol card crossed out the whole device. The files and SVG sources are in `images/`, and each caption is the markdown image title.
+       - **Thumbnail.** It's panels 2–3 of the technique image at 1200x630, uploaded by Arif as the OG image. GPT's own cover was rejected because it drew three arms.
+       - **Stop rule.** "Stop before you begin" is a `> [!CAUTION]` callout, which renders as a warm caution card instead of green checks.
+       - **External links** site-wide are `nofollow` "for now" (Arif).
+       - **Blog, uncommitted, Arif commits:**
+         - the `ArticleFigure` component, plus a caption field on images;
+         - the callout redesign, with a `caution` tone;
+         - a centred 896px reading column, with cards, tables and carousels kept full width;
+         - a centred header when there is no hero image;
+         - the disclosure redesigned, and hidden on `editorial` articles.
+         The page needs that deploy before production looks like `dev`.
+       - **Importer and packages** committed as vault `b247b7b`.
    - Write the real `dates.published` value before production; `cms.yaml` currently holds a placeholder (2026-09-29, the rehearsal date).
    - Publish, then restore that page's held link in the pillar and re-apply the pillar.
 6. **Legacy cleanup.**
@@ -124,14 +137,22 @@ Also live: the legacy article `/skin-care/braun-epilator/` ("Best Braun Epilator
 
 ## 6. Start here next time
 
-The pillar is live. Pubic-hair and underarm are rehearsed on `dev` as drafts (step 5) and waiting on Arif's read and publish there. The face page (step 3) hasn't started.
+State on 2026-09-29, end of day:
+- The pillar is live.
+- Underarm is published and complete on `dev`.
+- Pubic-hair is a `dev` draft that has never been published.
+- The face page (step 3) hasn't started.
 
-**Pubic-hair and underarm — waiting on Arif:**
-1. Open each in Studio (`/studio/structure/article;3ae4a66e-1bdd-44d4-be1e-3ad8ef60e36a` for pubic-hair, `/studio/structure/article;12e449c1-8db1-4ca4-a4e8-2d9b7d7d0325` for underarm) and read the rewritten `article.md` against it.
-2. Publish each on `dev` and check the rendered page (both are drafts, so they don't render on the public `dev` site yet).
-3. Set the real `dates.published` in each `cms.yaml` before production.
-4. Give the go-ahead for production — the one-off exception covered only the pillar, so I need it again per page.
-5. The same day each goes live in production, restore that page's held link in the pillar and re-apply it.
+**Underarm — ready for production once Arif:**
+1. Commits and deploys the blog changes (figures, callouts, reading column, disclosure). Production renders with the old components until then.
+2. Sets the real `dates.published` in `cms.yaml` (it's still the 2026-09-29 placeholder), then sets `status: approved_for_publication`.
+3. Gives the go-ahead. The pillar's one-off exception doesn't cover this page. Arif runs the production commands: plan, apply `--confirm how-to-epilate-underarms`, then publishes in Studio and uploads the OG image there. The importer never writes the OG image.
+4. The same day, restores the pillar's held underarm link (section 3) and re-applies the pillar.
+
+**Pubic-hair — waiting on Arif's read:**
+1. Open it in Studio (`/studio/structure/article;3ae4a66e-1bdd-44d4-be1e-3ad8ef60e36a`), read it against `article.md`, then publish on `dev` and check the page.
+2. Its prose callouts were written before the `[!CAUTION]` syntax existed. Mark any stop rule as a caution callout, re-apply, and add an OG image. The anatomy diagram stays dropped (§4a), so its images are optional.
+3. Then the same production steps as underarm, and restore its two held links in the pillar.
 
 **Face page**, once its slot comes up:
 1. Copy pass under the contract amended on 2026-09-28 (field limits, no repeated fields, short model names, FAQ rules, conclusion as conditions). The package was written on 2026-07-20, before those rules.

@@ -86,6 +86,62 @@ becomes a card:
   prose around that group. Plain text between cards, or a second bold span in
   a card paragraph, stops the build.
 
+In either mode, a `**Tip:**` line inside a guide card becomes that card's
+`tip` (shown as a lightbulb tooltip on the site), not body text. Type cards
+have no tip field. Keep card bodies to three rendered lines at most.
+
+## Callouts
+
+A blockquote whose first span is bold and ends in a colon becomes a
+`calloutGroup` card; its sentences become the bullet items. Every other
+blockquote stays a plain quote.
+
+```markdown
+> **Before you start:** Check the manual. Clean the head.
+```
+
+A GitHub alert sets the callout's tone:
+
+```markdown
+> [!CAUTION]
+> **Stop before you begin:** Do not proceed if... Stop if...
+```
+
+- `CAUTION` and `WARNING` map to `caution`, a warm stop-rule card with dot
+  markers instead of checks.
+- `TIP` and `IMPORTANT` map to `primary`.
+- `NOTE` maps to `neutral`.
+- An alert without a bold-colon title, or with more than one paragraph,
+  stops the build.
+- Callout items are plain strings, so links or bold text inside a callout
+  are flattened.
+
+## Images
+
+A line holding only an image, in the intro or a prose section, becomes an
+`iimage` block. The optional title is the caption, which the site numbers
+as "Figure N":
+
+```markdown
+![Alt text for screen readers.](images/file.png "Caption shown under the figure.")
+```
+
+- Files live in the package's `images/` folder, as PNG, WebP or JPEG.
+  `validate` errors on a missing file, missing alt text or another type.
+- An image inside a card, FAQ or table stops the build.
+- The asset ID is computed from the file itself, the way Sanity names an
+  upload: `image-<sha1>-<width>x<height>-<ext>`. So the plan is exact before
+  anything is uploaded.
+- `apply` uploads any image the dataset lacks before the article actions,
+  and refuses if Sanity returns a different ID (the file changed since the
+  plan).
+- To replace an image, overwrite the file at the same path, then `plan` and
+  `apply` again.
+- The OG image is not written by the importer. Upload it in Studio.
+- `node scripts/placeholder-png.mjs <out.png> "LINE ONE" ["LINE TWO"]` writes
+  a labelled 1600x900 placeholder, so a page can show where an image goes
+  before the real one exists.
+
 ## Guards
 
 - **Before plan:** `cms.yaml` must validate.
@@ -104,7 +160,7 @@ becomes a card:
   stops the build. Dropped inline code keeps its text and is reported.
 - **Schema check:** the only error `plan` accepts from the check is "must be
   published" on a weak reference to a product the import owns and will
-  publish.
+  publish, or on an image asset `apply` will upload.
 
 Every guard and check in `test/` was shown to fail with its code disabled
 before it was trusted.
