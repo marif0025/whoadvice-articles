@@ -1,10 +1,10 @@
 # How to epilate underarms — Part 2 article contract
 
 ```yaml
-contract_status: PART 2 APPROVED — PART 3 DRAFTING AUTHORIZED
-contract_date: July 20, 2026
+contract_status: AMENDED SEPTEMBER 29, 2026 — QUALIFIED-REVIEW GATE REPLACED BY THE ATTRIBUTION RULE BELOW
+contract_date: July 20, 2026; amended September 29, 2026
 part_1_status: APPROVED AFTER REQUIRED CORRECTIONS
-article_type: Expert-led, research-based use and safety guide
+article_type: Research-based use and safety guide
 page_role: Non-commercial support article for the best-epilator pillar
 primary_keyword: how to epilate underarms
 secondary_terms:
@@ -20,7 +20,7 @@ main_decision: Confirm exact-device permission and instructions, use controlled 
 regional_english: US English
 tone_traits: [calm, direct, practical, safety-led, evidence-cautious]
 first_person_evidence_available: false
-evidence_model: Exact-model manuals and official support plus authoritative medical guidance; no WhoAdvice hands-on testing
+evidence_model: Exact-model manuals and official support, plus AAD/MedlinePlus/NHS wound and reaction guidance reported as direct, named-source attribution rather than WhoAdvice's own clinical synthesis (see the attribution rule below); no WhoAdvice hands-on testing
 public_marketplace_names_allowed: false
 public_community_names_allowed: false
 product_rankings: none
@@ -29,8 +29,17 @@ top_pick_cards: none
 affiliate_links: none
 comparison_table: method-decision table only
 product_schema: not_recommended
-qualified_human_review_required: medical and editorial review before publication
+qualified_human_review_required: none — see the attribution rule below, which replaces it
 ```
+
+## Attribution rule (added September 29, 2026, supersedes the in-house medical-review gate)
+
+Arif confirmed on 2026-09-29 that no qualified medical reviewer is, or will be, available. Rather than publish unreviewed original clinical judgment, or strip the reaction/wound-care content down to a vague pointer, this article reports only what a named, currently live, already-reviewed public health source says, sentence by sentence:
+
+- Every escalation sign, wound-care step, or symptom list must be attributed to one specific source (AAD, MedlinePlus, or NHS) by name, in the sentence that states it.
+- Nothing may combine two or more sources into a new tier, level, or decision tree that reads as WhoAdvice's own framework. If a synthesis is needed, it is out of scope for this article.
+- Every cited source must be re-checked live and current before each publish (`sources.md` records the check). A source that goes stale, is removed, or is no longer current is dropped from the article, not replaced with WhoAdvice's own wording.
+- This does not apply to manufacturer manual content (hair length, angle, wet/dry, warnings), which was never part of the gate — that is Philips's own instructions, already handled under the exact-manual rules below.
 
 ## Binding editorial decision
 
@@ -43,7 +52,7 @@ Product selection remains on the best-epilator pillar. This article must not ran
 ## Metadata contract
 
 ```yaml
-seo_title: "How to Epilate Underarms Safely: Step-by-Step Guide"
+seo_title: "How to Epilate Underarms Safely - Step-by-Step Guide"
 h1: "How to Epilate Underarms Safely"
 slug: "/skin-care/how-to-epilate-underarms/"
 meta_description: "Learn how to epilate underarms using your exact device instructions, controlled technique, and clear stop signs for bleeding or worsening irritation."
@@ -92,17 +101,17 @@ Cover only these decisions before the procedure:
 3. Inspect and clean the head as directed, and stop using a damaged or worn head.
 4. Confirm hair length, wet/dry permission, angle, cap, speed, and rinse symbols in the exact instructions.
 
-Use this compact decision table and no full product matrix:
+Use a compact bulleted list by device branch, not a table (a single-column table doesn't fit the CMS's decision-table block, which needs 2–6 data columns) and no full product matrix:
 
-| Device branch | Reader must confirm |
-|---|---|
-| Cordless wet/dry | Wet or dry permission, angle, attachment, and hair length |
-| Corded | Wet-use limitations, angle, cap, and cleaning rules |
-| Washable-head only | Which parts can be rinsed after unplugging |
+- Cordless wet/dry: wet or dry permission, angle, attachment, and hair length.
+- Corded: wet-use limitations, angle, cap, and cleaning rules.
+- Washable-head only: which parts can be rinsed after unplugging.
 
 Do not imply that a removable washable head makes the handle shower-safe or washable.
 
-## Procedure contract
+## Procedure contract (card rendering added 2026-09-29)
+
+The 11 steps render as `guideSection` cards (Arif: "callouts too dry, add guide cards for steps, use the info item") — each numbered H3 is one card, unchanged from the structure below. Step 9's "Pause before switching sides" note is a `**Tip:**` line inside its own step, which becomes that card's EXPERT TIP box, not a separate blockquote (a card can't safely hold a nested callout card). Any other `> **Title:** sentence.` blockquote in this article's prose sections (not inside a step) automatically renders as a styled callout card instead of a plain blockquote — no markup change needed beyond the bold, colon-terminated lead-in.
 
 Use exactly this 11-step decision sequence. Each device-variable step must tell the reader to follow the exact manual rather than turn the Philips examples into universal rules.
 
@@ -143,17 +152,16 @@ Do not prescribe a universal deodorant waiting period. If deodorant is mentioned
 
 ## Reaction and medical-language contract
 
-Lead with actions, not labels or possible diagnoses. Use these three levels:
+Lead with actions, not labels or possible diagnoses. Do not build a WhoAdvice-authored tier or level system. Instead, attribute each point to its one specific source, in the sentence that states it:
 
-- **Basic first aid:** If the skin is cut or bleeding, stop. Apply firm direct pressure with clean gauze or a clean cloth, then clean and cover a minor cut as appropriate, following AAD and MedlinePlus guidance.
-- **Prompt medical advice:** Seek appropriate professional advice for worsening pain, increasing redness or swelling, warmth, pus-like drainage, fever, chills, or feeling unwell.
-- **Urgent help:** Seek urgent medical help for severe bleeding, bleeding that does not stop with firm direct pressure, or a severe or rapidly worsening reaction.
+- **Cut or bleeding:** stop, apply firm direct pressure with clean gauze or a clean cloth, then follow AAD's own cut-care steps (wash with mild soap and water, petroleum jelly rather than a topical antibiotic, a sterile bandage) — attributed to AAD by name.
+- **When to contact a provider or call emergency services:** report MedlinePlus's own wound-guidance list (warmth and redness, a painful or throbbing sensation, fever, swelling, a red streak, pus-like drainage → contact your provider; severe or unstopping bleeding → call 911) — attributed to MedlinePlus by name, not re-tiered into "prompt" versus "urgent."
 
-Philips support may be attributed for temporary itchiness, redness, tightness, small bumps, or a burning sensation after epilation. Do not promise a fixed recovery time. Mention Philips's longer-than-three-days advice only as manufacturer guidance, while telling readers to seek help sooner for severe or worsening symptoms.
+Philips support may be attributed for temporary itchiness, redness, tightness, small bumps, or a burning sensation after epilation. Do not promise a fixed recovery time. Mention Philips's longer-than-three-days advice only as manufacturer guidance, while telling readers not to wait for that point if symptoms are severe or worsening.
 
-Ingrown-hair guidance may say that plucking-type removal can contribute to ingrown hairs and that readers should not scratch, pick, or squeeze them. Use MedlinePlus and AAD as the primary US medical sources; NHS guidance is supplementary and requires a publication-day freshness check.
+Ingrown-hair guidance may say that plucking-type removal can contribute to ingrown hairs and that readers should not scratch, pick, or squeeze them. Attribute the NHS's own signs for seeing a GP (very painful, hot, or swollen; a high temperature or feeling hot, cold, shivery, or unwell) to the NHS by name. Confirmed live and current 2026-09-29 (reviewed 09/2026); re-check on each future publish.
 
-The article may describe warning signs and appropriate next actions. It must not identify infection, folliculitis, dermatitis, hidradenitis, an ingrown hair, or another condition from symptoms or a photograph. For recurrent or severe irritation, ingrown hairs, or an existing skin condition, direct the reader to an appropriate qualified professional without individualized medical conclusions.
+The article may describe warning signs and appropriate next actions, each attributed to its source. It must not identify infection, folliculitis, dermatitis, hidradenitis, an ingrown hair, or another condition from symptoms or a photograph, and must not combine AAD, MedlinePlus, and NHS guidance into one WhoAdvice-authored decision tree. For recurrent or severe irritation, ingrown hairs, or an existing skin condition, direct the reader to see a doctor, without an individualized medical conclusion.
 
 ## Short-lived-result explanation contract
 
@@ -246,7 +254,7 @@ CMS owns implementation:
 
 - Rendering and testing approved internal and external links.
 - Canonical, breadcrumbs, sitemap, indexing, and correction-history fields.
-- Author, qualified medical reviewer, publication date, and updated date.
+- Author, publication date, and updated date. No medical-reviewer field; see the attribution rule.
 - Storing and rendering editorial alt text, captions, image dimensions, and licensed assets.
 - Mobile layout, accessible callouts/tables/steps, page performance, and final link testing.
 - Article or BlogPosting and visible BreadcrumbList schema. Use HowTo only if the final visible page and current search-engine requirements support it; schema must match the visible instructions.
@@ -285,11 +293,11 @@ Use the exact insertion marker in `article.md` and the generation-ready prompt i
 - Reopen the Philips BRE708/BRE728 manual and confirm its revision and model list.
 - Recheck the BRE227/00 support pages and water-symbol guidance.
 - Keep all Braun operating details excluded unless an official manual is directly captured through an approved research update.
-- Recheck AAD and MedlinePlus wording and the overdue NHS ingrown-hair freshness marker.
+- Recheck AAD, MedlinePlus, and NHS wording live before each publish (done 2026-09-29: AAD 2/11/22, MedlinePlus reviewed 10/14/2025, NHS reviewed 09/2026 — all current).
 - Confirm every internal destination is live and useful.
 - Validate metadata, heading hierarchy, table behavior, callout accessibility, schema, and link destinations.
-- Record qualified human medical and editorial review before publication. Passing Part 4 is not publication approval.
+- Record responsible editorial review before publication. The in-house qualified-medical-review gate is replaced by the attribution rule above; there is no other publication gate.
 
 ## Part 2 approval gate
 
-**Gate status: PART 2 APPROVED AFTER MINOR AMENDMENTS — PART 3 DRAFTING AUTHORIZED.** This contract applies the approved manual-first sequence, standardized pain stop rule, specific urgent-help wording, dedicated aftercare treatment, confirmed external source ledger, two stop boxes, exact seven FAQs, evidence boundaries, medical escalation levels, non-commercial scope, and 1,800–2,100-word target.
+**Gate status (amended 2026-09-29): ready for `cms.yaml` and a `dev` rehearsal.** This contract applies the approved manual-first sequence, standardized pain-stop rule, per-source attributed reaction and escalation wording (no WhoAdvice-authored tiers), dedicated aftercare treatment, confirmed external source ledger re-checked live 2026-09-29, two stop boxes, exact seven FAQs, evidence boundaries, non-commercial scope, and 1,800–2,100-word target. Editorial review, not a medical reviewer, is the remaining sign-off.

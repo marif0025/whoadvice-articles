@@ -1,0 +1,52 @@
+# Sanity contract for this package. The prose stays in article.md; this file
+# says what each part becomes in Sanity. Check with:
+#   cd tools/sanity-import && node src/cli.ts validate ../../articles/epilators/how-to-epilate-underarms
+version: 1
+# article-contract.md: rewritten 2026-09-29 under the attribution rule (no
+# qualified medical reviewer exists or ever will — Arif). Every reaction and
+# wound-care claim is attributed to one named, live-rechecked source (AAD,
+# MedlinePlus, NHS). Editorial review only from here; approve for production
+# when Arif has read it.
+# Card redesign, same day (Arif: "callouts too dry, add guide cards for
+# steps, use the info item"): the 11 steps render as guideSection cards
+# (each has an optional EXPERT TIP box), and a **Title:** blockquote in prose
+# now upgrades to a styled callout card instead of a plain italic quote.
+status: ready_for_editorial_review
+slug: how-to-epilate-underarms
+category: skin-care
+author: emily-cooper
+article_format: editorial
+badge: Research-Based Technique Guide
+title: How to Epilate Underarms Safely
+seo:
+  meta_title: How to Epilate Underarms Safely - Step-by-Step Guide
+  meta_description: Learn how to epilate underarms using your exact device instructions, controlled technique, and clear stop signs for cuts or worsening irritation.
+  keywords:
+    - how to epilate underarms
+    - underarm epilation
+    - epilator underarms wet or dry
+  indexable: true
+dates:
+  # New page (currently 404). Set to today for the dev rehearsal; Arif can
+  # move this to the actual go-live date before production.
+  published: 2026-09-29
+  reviewed: 2026-09-29
+products: []
+sections:
+  - heading: How to epilate underarms step by step
+    block: guideSection
+    # Default h3 mode: each numbered H3 becomes one card. Step 9 carries a
+    # **Tip:** line, which becomes that card's EXPERT TIP box.
+  - heading: Epilating versus waxing, shaving, trimming, or IPL
+    block: decisionTable
+  - heading: Questions about underarm epilation
+    block: faqSection
+    faq_schema: false
+  - heading: "*"
+    block: prose
+# Confirmed 2026-09-29: no products, no affiliate content (support article
+# for the best-epilators pillar). No hero image planned. The device-branch
+# table in "Before you epilate your underarms" is now a bulleted list (a
+# single-column table doesn't fit the decision-table block). Held pillar
+# link restores the day this page goes live (cluster-publication-plan-2026-09-28.md).
+needs_review: []

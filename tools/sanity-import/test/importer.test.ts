@@ -16,7 +16,7 @@ import { findLinkHolds, parseArticle, splitLabelledParagraphs } from '../src/art
 import { buildArticle, BuildError } from '../src/build.ts'
 import { Contract } from '../src/contract.ts'
 import { classifyValidation, makePlan, sourceHash, type Plan } from '../src/plan.ts'
-import { ConversionError } from '../src/portable-text.ts'
+import { ConversionError, promoteCallouts, sequentialKeys, toPortableText } from '../src/portable-text.ts'
 import { resolve, type Resolved } from '../src/resolve.ts'
 
 const ARTICLES = join(import.meta.dirname, '../../../articles')
@@ -308,4 +308,183 @@ test('held internal links are found with their line, other comments are not', ()
         { url: '/a/', line: 4 },
         { url: '/b/', line: 4 },
     ])
+})
+
+test('a bold-colon blockquote promotes to a calloutGroup card', () => {
+    const md = '> **Stop before you begin:** Do not proceed if unclear. Stop for a cut or bleeding.'
+    const blocks = promoteCallouts(toPortableText(md, sequentialKeys(), 'test'), sequentialKeys())
+    assert.deepEqual(blocks, [
+        {
+            _type: 'calloutGroup',
+            _key: 'k0000',
+            callouts: [
+                {
+                    _type: 'callout',
+                    _key: 'k0001',
+                    title: 'Stop before you begin',
+                    items: ['Do not proceed if unclear.', 'Stop for a cut or bleeding.'],
+                },
+            ],
+        },
+    ])
+})
+
+test('a blockquote with no bold colon lead-in stays a plain blockquote', () => {
+    const md = '> **The three-yes check**\n>\n> 1. First check\n> 2. Second check'
+    const before = toPortableText(md, sequentialKeys(), 'test')
+    const after = promoteCallouts(before, sequentialKeys())
+    assert.deepEqual(after, before)
+    assert.ok(after.every((block) => block._type !== 'calloutGroup'))
+})
+
+const withIntroImage = (text: string, line = "![Alt text](images/a.png)") => {
+    const at = text.indexOf("\n## ")
+    return `${text.slice(0, at)}\n\n${line}\n${text.slice(at)}`
+}
+
+test("an image line in the intro becomes an iimage block between the text blocks", () => {
+    const text = withIntroImage(articleText)
+    const result = buildArticle(parseArticle(text), contract(), ref, (file) => `asset-${file}`)
+    const index = result.content.findIndex((block) => block._type === "iimage")
+    assert.ok(index > 0, "no iimage block")
+    assert.deepEqual(result.content[index], {
+        _type: "iimage",
+        _key: result.content[index]._key,
+        alt: "Alt text",
+        asset: { _type: "reference", _ref: "asset-images/a.png" },
+    })
+    assert.equal(result.content[index + 1]?.style, "h2")
+    assert.ok(!JSON.stringify(result.content).includes("!["), "image markdown leaked into text")
+})
+
+test("an image inside a card stops the build", () => {
+    // One card per H3 (the underarm steps): the importer's own check.
+    const underarm = join(ARTICLES, "epilators/how-to-epilate-underarms")
+    const stepsText = readFileSync(join(underarm, "article.md"), "utf8")
+    const stepsContract = Contract.parse({ ...parse(readFileSync(join(underarm, "cms.yaml"), "utf8")), needs_review: [] })
+    const broken = stepsText.replace("### 3. Inspect and clean the epilating head\n", "$&\n![Alt](images/a.png)\n")
+    assert.notEqual(broken, stepsText)
+    assert.throws(() => buildArticle(parseArticle(broken), stepsContract, ref, (file) => file), /only stand in the intro or a prose section/)
+
+    // Labelled-paragraph cards join a card's lines, so the converter stops it.
+    const labelled = articleText.replace(/^(\*\*Wide heads\.\*\* They cover.*)$/m, "$1\n![Alt](images/a.png)")
+    assert.notEqual(labelled, articleText)
+    assert.throws(() => buildArticle(parseArticle(labelled), contract(), ref, (file) => file), /no `image` object/)
+})
+
+test("an image with no alt text stops the build", () => {
+    const text = withIntroImage(articleText, "![](images/a.png)")
+    assert.throws(() => buildArticle(parseArticle(text), contract(), ref, (file) => file), /no alt text/)
+})
+
+test("the asset ID is sha1, size and extension, as Sanity names an upload", async () => {
+    const { createHash } = await import("node:crypto")
+    const { assetIdFor } = await import("../src/images.ts")
+    const png = Buffer.alloc(33)
+    Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]).copy(png, 0)
+    png.writeUInt32BE(13, 8)
+    png.write("IHDR", 12, "ascii")
+    png.writeUInt32BE(1600, 16)
+    png.writeUInt32BE(900, 20)
+    const sha1 = createHash("sha1").update(png).digest("hex")
+    assert.equal(assetIdFor(png, "a.png"), `image-${sha1}-1600x900-png`)
+    assert.throws(() => assetIdFor(Buffer.from("not an image"), "a.txt"), /not a PNG, WebP or JPEG/)
+})
+
+async function imageApply(uploadedId: string) {
+    const { mkdtempSync, mkdirSync, writeFileSync } = await import("node:fs")
+    const { tmpdir } = await import("node:os")
+    const dir = mkdtempSync(join(tmpdir(), "import-"))
+    mkdirSync(join(dir, "import"))
+    mkdirSync(join(dir, "images"))
+    writeFileSync(join(dir, "images/a.png"), "bytes")
+    const plan = { ...(await planFor(datasetFor())), images: [{ file: "images/a.png", assetId: "image-planned" }] }
+    const order: string[] = []
+    // Sanity unchanged since the plan: every revision the plan read is still there.
+    const revs = [plan.article, ...plan.products].flatMap(({ id, basedOn }) => [
+        ...(basedOn.published ? [{ _id: id, _rev: basedOn.published }] : []),
+        ...(basedOn.draft ? [{ _id: `drafts.${id}`, _rev: basedOn.draft }] : []),
+    ])
+    const { client } = fakeClient({}, revs)
+    Object.assign(client, {
+        action: async () => {
+            order.push("action")
+            return { transactionId: "tx" }
+        },
+        assets: {
+            upload: async (_type: string, _bytes: Buffer, options: { filename: string }) => {
+                order.push(`upload ${options.filename}`)
+                return { _id: uploadedId }
+            },
+        },
+    })
+    const run = applyPlan({ client, plan, packageDir: dir, hash: "h" })
+    return { run, order }
+}
+
+test("apply uploads a missing image before the article actions", async () => {
+    const { run, order } = await imageApply("image-planned")
+    await run
+    assert.deepEqual(order, ["upload a.png", "action"])
+})
+
+test("apply refuses when an image uploads under another ID than planned", async () => {
+    const { run, order } = await imageApply("image-something-else")
+    await assert.rejects(run, /uploaded as image-something-else, not image-planned/)
+    assert.deepEqual(order, ["upload a.png"])
+})
+
+test("validate reports an image with no alt, a wrong type or a missing file", async () => {
+    const { validate } = await import("../src/validate.ts")
+    const text = withIntroImage(withIntroImage(articleText, "![](images/a.png)"), "![Alt](images/b.gif)")
+    const issues = validate({ contract: { ...parse(contractText), needs_review: [] }, articleText: text, fileExists: () => false })
+    const codes = issues.filter((issue) => issue.level === "error").map((issue) => issue.code)
+    for (const code of ["IMAGE_ALT", "IMAGE_TYPE", "IMAGE_MISSING"]) assert.ok(codes.includes(code), code)
+})
+
+test("\"must be published\" on an image asset is expected only when apply uploads it", async () => {
+    const plan = await planFor(datasetFor())
+    const doc = plan.documents.find((item) => item._id === "drafts.article-1") as { content: Record<string, unknown>[] }
+    doc.content.push(
+        { _type: "iimage", _key: "img-planned", asset: { _type: "reference", _ref: "image-planned" } },
+        { _type: "iimage", _key: "img-unknown", asset: { _type: "reference", _ref: "image-unknown" } },
+    )
+    plan.images = [{ file: "images/a.png", assetId: "image-planned" }]
+    const report = (key: string) =>
+        JSON.stringify({
+            documentId: "drafts.article-1",
+            markers: [{ level: "error", message: "Referenced document must be published", path: ["content", { _key: key }, "asset"] }],
+        })
+    const planned = classifyValidation(report("img-planned"), plan)
+    assert.deepEqual([planned.expected, planned.errors.length], [1, 0])
+    const unknown = classifyValidation(report("img-unknown"), plan)
+    assert.deepEqual([unknown.expected, unknown.errors.length], [0, 1])
+})
+
+test("an image title becomes its caption", () => {
+    const text = withIntroImage(articleText, "![Alt text](images/a.png \"What the figure shows.\")")
+    const result = buildArticle(parseArticle(text), contract(), ref, (file) => `asset-${file}`)
+    const image = result.content.find((block) => block._type === "iimage")
+    assert.equal(image?.caption, "What the figure shows.")
+    assert.equal(image?.asset && (image.asset as { _ref: string })._ref, "asset-images/a.png")
+})
+
+test("a [!CAUTION] alert becomes a caution callout; an alert without a bold title stops the build", () => {
+    const blocks = toPortableText("> [!CAUTION]\n> **Stop before you begin:** Do not proceed. Stop if it bleeds.", sequentialKeys(), "test")
+    assert.deepEqual(blocks, [
+        {
+            _type: "calloutGroup",
+            _key: "k0003",
+            callouts: [
+                {
+                    _type: "callout",
+                    _key: "k0004",
+                    title: "Stop before you begin",
+                    items: ["Do not proceed.", "Stop if it bleeds."],
+                    tone: "caution",
+                },
+            ],
+        },
+    ])
+    assert.throws(() => toPortableText("> [!CAUTION]\n> No bold title here.", sequentialKeys(), "test"), ConversionError)
 })

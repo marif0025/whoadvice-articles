@@ -1,8 +1,8 @@
 # Can you use an epilator on pubic hair? — publisher handoff
 
 ```yaml
-handoff_status: PART 4 COMPLETE — READY FOR QUALIFIED EDITORIAL REVIEW AND CONDITIONAL CMS HANDOFF
-handoff_date: July 20, 2026
+handoff_status: AMENDED SEPTEMBER 29, 2026 — READY FOR EDITORIAL REVIEW AND CMS HANDOFF; NO MEDICAL REVIEWER REQUIRED
+handoff_date: July 20, 2026; amended September 29, 2026
 article_file: article.md
 primary_keyword: can you use an epilator for pubic hair
 primary_intent: Informational exact-area and safety decision
@@ -21,14 +21,14 @@ meta_description: Can you use an epilator for pubic hair? Learn why exact area a
 recommended_slug: /skin-care/can-you-use-an-epilator-on-pubic-hair/
 recommended_canonical: https://www.whoadvice.com/skin-care/can-you-use-an-epilator-on-pubic-hair/
 target_market: United States
-article_type: Evidence-led research-based area and safety explainer requiring qualified medical review
+article_type: Evidence-led research-based area and safety explainer, sourced under the attribution rule (article-contract.md)
 affiliate_links: none
 product_recommendations: none
 internal_links_included:
   - /skin-care/best-epilators/
 suggested_schema_types: [Article, BreadcrumbList]
 howto_schema: not_recommended
-qualified_human_review_required: medical and editorial review before publication
+qualified_human_review_required: none — see the attribution rule in article-contract.md
 article_excerpt: Epilator permission depends on the exact anatomical area, exact model manual, and root-removal function—not the broad phrase pubic hair.
 category: Skin Care
 recommended_tags: [epilators, hair removal, bikini line, pubic hair care]
@@ -44,16 +44,16 @@ external_authoritative_sources:
   - MedlinePlus wound guidance
 featured_image_filename: can-you-use-an-epilator-on-pubic-hair-guide.webp
 featured_image_alt_text: Neutral hair-removal decision graphic showing that epilator use depends on the exact anatomical area and device manual.
-other_image_alt_text:
-  - Anatomical orientation diagram distinguishing the non-medical bikini-line area from genital structures, the perineum, and perianal skin, with permission determined by the exact manual.
+other_image_alt_text: []
+# The anatomical orientation diagram is dropped (2026-09-29): original artwork
+# needs its own review and can't be resolved by the attribution rule below.
 content_freshness_items:
   - Philips manual revision and model list
   - Philips support-page applicability
-  - NCI, ACOG, AAD, MedlinePlus, and PubMed source status
+  - NCI, ACOG, AAD, and MedlinePlus source status — all rechecked live 2026-09-29
   - live best-epilator pillar readiness
 claims_requiring_final_verification:
-  - qualified medical approval of anatomy and the editorial bikini-line definition
-  - qualified medical approval of reaction, wound-care, and escalation wording
+  - every anatomy, wound-care, and escalation claim is attributed to one named source per the attribution rule (article-contract.md); none is WhoAdvice's own synthesis
   - live pillar deployment before the support-page internal link is activated
 ```
 
@@ -100,34 +100,23 @@ claims_requiring_final_verification:
 
 ## Visual handoff
 
-### Optional medically reviewed orientation diagram
+### Orientation diagram: dropped (2026-09-29)
 
-- Purpose: distinguish the editorial bikini-line navigation area from named genital structures, the perineum, and perianal skin.
-- It must show `explicitly prohibited` and `permission not established` as different states and must not imply a universal safe-treatment zone.
-- Suggested alt text: `Anatomical orientation diagram distinguishing the non-medical bikini-line area from genital structures, the perineum, and perianal skin, with epilator permission determined by the exact manual.`
-- Do not show an epilator touching genital tissue, an injury, or a guaranteed result.
+The anatomical orientation diagram planned here is not produced. It would have been original artwork — not an attribution to an existing already-reviewed source — so it can't be resolved by the attribution rule below, and no in-house medical reviewer is available to approve new anatomical artwork. The generation prompt that was drafted for it is removed from this handoff rather than left as a pending task. If Arif wants a visual later, it needs either a licensed medical illustration or its own review.
 
-**Image-generation prompt:**
+The article publishes with no image beyond the featured graphic above.
 
-```text
-Create a neutral, non-explicit medical editorial orientation diagram for an adult hair-removal safety article, portrait 4:5, front-facing simplified lower torso and upper thighs wearing plain high-rise underwear, diverse medium skin tone, flat vector style, warm off-white background, charcoal outlines, muted teal accents. Show only an external navigation zone beside the leg openings with a soft dotted highlight; visually separate it from the underwear-covered central pubic region and from lower perineal or perianal regions without displaying genitals or intimate anatomical detail. Add a small manual/book icon near the highlighted zone to communicate “check exact device instructions,” but do not use a green check, red cross, approval badge, or safety guarantee. Leave clear side space for publisher-added labels and a medically reviewed caption. No device touching skin, no nudity, no sexualized pose, no hair, no injury, no redness, no before-and-after result, no words, letters, numbers, logos, or watermark. Clinical, calm, inclusive, and educational.
-```
-
-**Suggested filename:** `bikini-line-area-orientation-guide.webp`
-
-This generated diagram is not publishable until a qualified medical reviewer approves the anatomy, shading boundary, caption, and alt text. A generic free-stock photograph is not recommended here because it cannot explain the area boundary and may imply permission through pose or cropping.
-
-Editorial owns the anatomical wording, source selection, caption, and image-specific alt text. CMS owns medical-review confirmation, licensing, dimensions, storage, responsive formats, rendering, and accessibility testing.
+Editorial owns the anatomical wording and source selection; every anatomical or reaction claim is attributed to one named source (see the attribution rule in `article-contract.md`), not synthesized as WhoAdvice's own judgment. CMS owns licensing, dimensions, storage, responsive formats, rendering, and accessibility testing for the featured image only.
 
 ## CMS and publication tasks
 
 - Confirm canonical, slug, indexability, breadcrumbs, sitemap entry, and metadata rendering.
-- Record author, qualified medical reviewer, responsible editor, publication date, updated date, and correction history.
+- Record author, responsible editor, publication date, updated date, and correction history. No medical-reviewer field.
 - Render and test the decision box, both tables, headings, approved links, and mobile table behavior.
 - Use Article or BlogPosting plus visible BreadcrumbList markup; do not use Product or HowTo schema.
 - Do not add prices, product rankings, affiliate buttons, marketplace CTAs, or a commercial winner.
 - Run accessibility, mobile, performance, and broken-link checks after rendering.
 
-## Qualified-review checklist
+## Editorial review checklist (replaces the qualified-review checklist, 2026-09-29)
 
-The medical reviewer must approve the anatomical terminology, editorial bikini-line definition, expected-reaction wording, exact warning language, wound-care limits, stop conditions, and escalation language. The responsible editor must confirm that the manual example remains evidence rather than a recommendation and that no wording expands permission to an unnamed area.
+The responsible editor confirms: every anatomical term, reaction sign, or wound-care step is attributed to one named source (NCI, ACOG, AAD, or MedlinePlus) in the sentence that states it; no two sources are combined into a new WhoAdvice-authored tier or decision tree; every cited source was re-checked live and current before this publish (see `sources.md`); the manual example remains evidence rather than a recommendation; and no wording expands permission to an unnamed area.

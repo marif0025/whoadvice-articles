@@ -6,7 +6,7 @@
  */
 
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
-import { join } from 'node:path'
+import { basename, join } from 'node:path'
 
 import type { Action, SanityClient } from '@sanity/client'
 
@@ -94,6 +94,17 @@ export async function applyPlan(input: {
         if (product.change !== 'none') await check(`product ${product.asin}`, product.id, product.basedOn)
     }
     if (stale.length > 0) throw new Error(`changed since the plan was made: ${stale.join(', ')}; run plan again`)
+
+    // Images first, so the article's asset references resolve. Same bytes, same
+    // ID: an asset already in the dataset is not uploaded again.
+    for (const image of plan.images ?? []) {
+        if (await client.getDocument(image.assetId)) continue
+        const bytes = readFileSync(join(input.packageDir, image.file))
+        const asset = await client.assets.upload('image', bytes, { filename: basename(image.file) })
+        if (asset._id !== image.assetId) {
+            throw new Error(`${image.file} uploaded as ${asset._id}, not ${image.assetId} as planned; run plan again`)
+        }
+    }
 
     const result = await client.action(plan.actions)
     const transactionId = (result as { transactionId?: string }).transactionId ?? ''

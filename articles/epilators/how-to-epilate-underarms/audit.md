@@ -1,10 +1,10 @@
 # How to Epilate Underarms Final Article Audit
 
-- **Audit date:** July 20, 2026
+- **Audit date:** July 20, 2026; amended September 29, 2026
 - **Article:** `/skin-care/how-to-epilate-underarms/`
-- **Workflow stage:** Part 4 complete
+- **Workflow stage:** Part 4 complete; rewritten under the attribution rule
 - **Outcome:** `ready_for_editorial_review`
-- **Evidence model:** Exact-model manufacturer instructions plus authoritative medical guidance; no hands-on testing
+- **Evidence model:** Exact-model manufacturer instructions plus AAD/MedlinePlus/NHS wound guidance, reported as named-source attribution rather than WhoAdvice's own synthesis; no hands-on testing
 
 ## Severity counts
 
@@ -15,7 +15,7 @@
 | Warning | 0 |
 | Suggestion | 0 |
 
-CMS implementation, qualified human review, and the recorded publication-day source checks remain pending. Under the workflow, these are publication gates rather than draft defects.
+**2026-09-29: no qualified medical reviewer is available (Arif). The in-house medical-review gate is replaced by the article-contract's attribution rule** — every reaction and escalation claim is now attributed to one named, re-verified-live source. CMS implementation and the recorded publication-day source checks remain pending.
 
 ## Mechanical audit
 
@@ -94,8 +94,8 @@ No unsupported public claim was located. The draft does not diagnose a condition
 
 - Publish the refreshed best-epilator pillar before or alongside this guide and add the reciprocal underarm-technique link.
 - Ensure the internal metadata comment is not rendered.
-- Recheck the exact Philips manual revision, BRE227/00 support pages, AAD, MedlinePlus, and the overdue NHS page if publication occurs after July 20, 2026.
-- Record the named author, qualified medical reviewer, responsible editor, and their review dates.
+- ~~Recheck AAD, MedlinePlus, and the overdue NHS page~~: done 2026-09-29 (AAD 2/11/22, MedlinePlus reviewed 10/14/2025, NHS reviewed 09/2026 — all current). Recheck the Philips manual revision and BRE227/00 support pages if publication occurs later.
+- Record the named author and responsible editor with their review dates. No medical-reviewer field.
 - Confirm canonical, metadata rendering, breadcrumbs, sitemap inclusion, indexability, and correction-history fields.
 - Render and test approved external and internal links, including clear PDF behavior.
 - Test the device table, method table, 11-step hierarchy, and both stop callouts for mobile scrolling, semantics, contrast, and screen-reader use.
@@ -105,4 +105,4 @@ No unsupported public claim was located. The draft does not diagnose a condition
 
 ## Recommended next action
 
-Send the completed article and this audit to a qualified medical reviewer and responsible editor. After their approval, complete the listed CMS and publication-day checks; Part 4 readiness is not publication approval.
+Send the completed article and this audit to a responsible editor for review. No medical reviewer is required; the attribution rule in `article-contract.md` is the safeguard in its place. After editorial approval, complete the listed CMS and publication-day checks; Part 4 readiness is not publication approval.

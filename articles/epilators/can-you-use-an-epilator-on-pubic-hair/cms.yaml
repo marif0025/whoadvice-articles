@@ -1,0 +1,44 @@
+# Sanity contract for this package. The prose stays in article.md; this file
+# says what each part becomes in Sanity. Check with:
+#   cd tools/sanity-import && node src/cli.ts validate ../../articles/epilators/can-you-use-an-epilator-on-pubic-hair
+version: 1
+# article-contract.md: rewritten 2026-09-29 under the attribution rule (no
+# qualified medical reviewer exists or ever will — Arif). Every anatomy and
+# reaction claim is attributed to one named, live-rechecked source (NCI,
+# ACOG, AAD, MedlinePlus); the planned anatomy diagram is dropped. Editorial
+# review only from here; approve for production when Arif has read it.
+status: ready_for_editorial_review
+slug: can-you-use-an-epilator-on-pubic-hair
+category: skin-care
+author: emily-cooper
+article_format: editorial
+badge: Research-Based Safety Guide
+title: Can You Use an Epilator on Pubic Hair?
+seo:
+  meta_title: Can You Use an Epilator for Pubic Hair Safely?
+  meta_description: Can you use an epilator for pubic hair? Learn why exact area and manual permission matter, where permission is not established, and when to stop.
+  keywords:
+    - can you use an epilator for pubic hair
+    - can you epilate pubic hair
+    - bikini line epilation
+  indexable: true
+dates:
+  # New page (currently 404). Set to today for the dev rehearsal; Arif can
+  # move this to the actual go-live date before production.
+  published: 2026-09-29
+  reviewed: 2026-09-29
+products: []
+sections:
+  - heading: Check whether your epilator permits the exact area
+    block: decisionTable
+  - heading: Epilation compared with trimming, shaving, waxing, and IPL
+    block: decisionTable
+  - heading: Questions about epilating pubic hair
+    block: faqSection
+    faq_schema: false
+  - heading: "*"
+    block: prose
+# Confirmed 2026-09-29: no products, no affiliate content (support article
+# for the best-epilators pillar). No hero image planned. Held pillar links
+# restore the day this page goes live (cluster-publication-plan-2026-09-28.md).
+needs_review: []

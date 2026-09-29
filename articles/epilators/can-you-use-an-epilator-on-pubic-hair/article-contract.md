@@ -1,10 +1,10 @@
 # Can you use an epilator on pubic hair? — Part 2 article contract
 
 ```yaml
-contract_status: PART 4 COMPLETE — READY FOR QUALIFIED EDITORIAL REVIEW
-contract_date: July 20, 2026
+contract_status: AMENDED SEPTEMBER 29, 2026 — QUALIFIED-REVIEW GATE REPLACED BY THE ATTRIBUTION RULE BELOW
+contract_date: July 20, 2026; amended September 29, 2026
 part_1_status: PART_1_APPROVED_FOR_PART_2_CONTRACT
-article_type: Evidence-led, research-based area and safety explainer requiring qualified medical review
+article_type: Evidence-led, research-based area and safety explainer
 page_role: Non-commercial support article for the best-epilator pillar
 primary_keyword: can you use an epilator for pubic hair
 secondary_terms:
@@ -20,7 +20,7 @@ main_decision: Identify the exact area, verify that the exact current manual per
 regional_english: US English
 tone_traits: [calm, direct, precise, inclusive, safety-led, evidence-cautious]
 first_person_evidence_available: false
-evidence_model: Exact current manuals plus qualified anatomy and medical guidance; no WhoAdvice hands-on testing
+evidence_model: Exact current manuals plus NCI/ACOG/AAD/MedlinePlus anatomy and wound guidance reported as direct, named-source attribution rather than WhoAdvice's own clinical or anatomical synthesis (see the attribution rule below); no WhoAdvice hands-on testing
 public_marketplace_names_allowed: false
 public_community_names_allowed: false
 product_rankings: none
@@ -31,8 +31,18 @@ commercial_ctas: none
 comparison_tables: area-and-function table plus non-commercial method-decision table
 product_schema: not_recommended
 howto_schema: not_recommended
-qualified_human_review_required: medical and editorial review before publication
+qualified_human_review_required: none — see the attribution rule below, which replaces it
 ```
+
+## Attribution rule (added September 29, 2026, supersedes the in-house medical-review gate)
+
+Arif confirmed on 2026-09-29 that no qualified medical reviewer is, or will be, available. Rather than publish unreviewed original clinical or anatomical judgment, or strip the anatomy and wound-care content down to a vague pointer, this article reports only what a named, currently live, already-reviewed public health source says, sentence by sentence:
+
+- Every anatomical definition, escalation sign, wound-care step, or hygiene claim must be attributed to one specific source (NCI, ACOG, AAD, or MedlinePlus) by name, in the sentence that states it.
+- Nothing may combine two or more sources into a new anatomy lesson, tier, level, or decision tree that reads as WhoAdvice's own framework. If a synthesis is needed, it is out of scope for this article.
+- **The planned anatomical orientation diagram is dropped.** A bespoke illustration is original artwork, not an attribution to an existing reviewed source, so it cannot be resolved the same way. If Arif wants a visual later, it needs either a licensed medical illustration or its own review.
+- Every cited source must be re-checked live and current before each publish (`sources.md` records the check). A source that goes stale, is removed, or is no longer current is dropped from the article, not replaced with WhoAdvice's own wording.
+- This does not apply to manufacturer manual content (area/function permissions, warnings), which was never part of the gate — that is Philips's own instructions, already handled under the exact-manual rules below.
 
 ## Binding editorial decision
 
@@ -184,22 +194,18 @@ Lead each point with the action. Closely attribute exact-manual warnings rather 
 
 ## Reaction and wound-care contract
 
-Lead with actions, not diagnoses. Use this three-level framework:
+Lead with actions, not diagnoses. Do not build a WhoAdvice-authored tier or level system. Instead, attribute each point to its one specific source, in the sentence that states it:
 
-| Level | Evidence-safe examples | Reader action |
-|---|---|---|
-| Manufacturer-described temporary effects | Philips describes itchiness, redness, tightness, small bumps, or burning | Stop further passes, avoid adding irritation, and observe. Do not promise a fixed harmless period |
-| Stop-use reaction | Cut, bleeding, caught or pinched skin, rapidly increasing irritation, or unusual, severe, or worsening pain | Stop epilating. Gently clean a minor cut. If it is bleeding, apply firm direct pressure with clean gauze or cloth |
-| Professional-care warning sign | Severe/uncontrolled bleeding; increasing redness, warmth, swelling, or pain; fever; red streaking; or pus-like drainage | Seek urgent or prompt professional care according to severity |
+- **Manufacturer-described temporary effects:** attribute to Philips by name (itchiness, redness, tightness, small bumps, or burning). Do not promise a fixed harmless period.
+- **Cut or bleeding:** stop, apply firm direct pressure with clean gauze or cloth, then follow AAD's own cut-care steps (wash with mild soap and water, petroleum jelly rather than a topical antibiotic, a sterile bandage) — attributed to AAD by name.
+- **When to contact a provider or call emergency services:** report MedlinePlus's own wound-guidance list (warmth and redness, a painful or throbbing sensation, fever, swelling, a red streak, pus-like drainage → contact your provider; severe or unstopping bleeding → call 911) — attributed to MedlinePlus by name, not re-tiered into "urgent" versus "prompt."
 
 Wound-care limits:
 
-- Seek urgent help for severe bleeding or bleeding that does not stop with firm direct pressure.
-- Contact a clinician for increasing redness, warmth, swelling, pain, fever, red streaking, or pus-like drainage.
-- Do not recommend adhesive dressings, ointments, topical antibiotics, antiseptics, or other products for vulvar, scrotal, perineal, or perianal skin unless the qualified medical reviewer explicitly approves the exact wording.
+- This guide does not recommend adhesive dressings, ointments, topical antibiotics, antiseptics, or other products for vulvar, scrotal, perineal, or perianal skin specifically, because AAD and MedlinePlus publish only general cut-care guidance, not area-specific guidance for that skin. State this limit rather than inventing area-specific wording.
 - Do not label symptoms as infection, folliculitis, dermatitis, an ingrown hair, or another diagnosis.
 - Philips's longer-than-three-days advice may be mentioned only as attributed manufacturer guidance. Severe, worsening, or otherwise concerning symptoms require earlier action.
-- Recurrent or severe irritation, ingrown hairs, or an existing skin condition should route to an appropriate qualified professional without individualized medical conclusions.
+- Recurrent or severe irritation, ingrown hairs, or an existing skin condition should route to seeing a doctor, without an individualized medical conclusion.
 
 ## Short-lived-result contract
 
@@ -299,7 +305,7 @@ CMS owns implementation:
 
 - Rendering and testing approved internal and external links.
 - Canonical, breadcrumbs, sitemap, indexing, and correction-history fields.
-- Author, qualified medical reviewer, publication date, and updated date.
+- Author, publication date, and updated date. No medical-reviewer field; see the attribution rule.
 - Storing and rendering editorial alt text, captions, image dimensions, and licensed assets.
 - Mobile layout, accessible tables/callouts, page performance, and final link testing.
 - Article or BlogPosting and visible BreadcrumbList schema. Do not use Product, Review, ItemList, or HowTo schema for this article.
@@ -323,30 +329,20 @@ Use natural descriptive anchors and do not repeat one exact-match anchor across 
 - Link AAD or MedlinePlus beside wound and escalation guidance.
 - Do not expose competitor or community pages as procedural proof.
 
-## Visual contract
+## Visual contract (amended September 29, 2026)
 
-The high-value visual is a neutral, medically reviewed orientation diagram placed after the bikini-line terminology section. It distinguishes:
-
-- the editorial bikini-line navigation area,
-- named genital structures,
-- the perineum and perianal area,
-- and `permission not established` from `explicitly prohibited`.
-
-The graphic must not imply a universal safe-treatment zone, display an epilator touching genital tissue, or replace the same distinctions in HTML text. Editorial writes precise alt text and captions; CMS verifies medical-review approval, licensing, dimensions, storage, and rendering.
-
-Use the generation-ready prompt and filename in `publisher-handoff.md`. The prompt, placement marker, and handoff are required; actual generation remains optional until medical review and CMS production are authorized.
+**Dropped.** The planned anatomical orientation diagram was original artwork requiring its own medical sign-off, which is unavailable. This article publishes with no custom illustration. If a visual is wanted later, it needs a licensed medical illustration or its own review — not a WhoAdvice-drawn diagram.
 
 ## Publication and Part 4 controls
 
 - Reopen Philips manual `3000.139.6355.2` and confirm its June 16, 2026 revision and model list.
 - Recheck exact Philips support-page applicability and ensure it does not override the manual.
 - Keep Braun area/function claims excluded unless a directly captured exact manual is added through an approved research revision.
-- Recheck NCI, ACOG, AAD, MedlinePlus, and PubMed source status.
+- Recheck NCI, ACOG, AAD, and MedlinePlus source status live before each publish (done 2026-09-29: NCI vulva/perineum unchanged, ACOG vulvovaginal-health FAQ reviewed 02/2024 and updated 01/2026, ACOG's pubic-hair-care guide reviewed 09/2025 under a named ob-gyn byline, AAD 2/11/22, MedlinePlus reviewed 10/14/2025 — all current).
 - Confirm every internal destination is live and useful.
 - Validate metadata, heading hierarchy, table behavior, callout accessibility, schema, and link destinations.
-- Record qualified human medical approval of anatomy, the WhoAdvice bikini-line definition, exact warning language, reaction wording, wound-care limits, and escalation language.
-- Record responsible editorial review. Passing Part 4 is not publication approval.
+- Record responsible editorial review before publication. The in-house qualified-medical-review gate is replaced by the attribution rule above; there is no other publication gate.
 
 ## Part 2 approval gate
 
-**Gate status: PART 4 COMPLETE — `ready_for_editorial_review`.** The final audit records no unresolved blocker, critical, warning, or suggestion. Publication remains blocked pending qualified medical and responsible editorial approval plus the recorded CMS and publication-day checks.
+**Gate status (amended 2026-09-29): ready for `cms.yaml` and a `dev` rehearsal.** The final audit records no unresolved blocker, critical, warning, or suggestion beyond the attribution rewrite and the dropped diagram. Editorial review, not a medical reviewer, is the remaining sign-off.

@@ -19,7 +19,8 @@ import {
     type Section,
 } from './article.ts'
 import type { Contract } from './contract.ts'
-import { sequentialKeys, toPlainText, toPortableText, type Block } from './portable-text.ts'
+import { IMAGE_LINE } from './images.ts'
+import { promoteCallouts, sequentialKeys, toPlainText, toPortableText, type Block } from './portable-text.ts'
 
 export type Reference = {
     _type: 'reference'
@@ -59,13 +60,43 @@ export function buildArticle(
     article: Article,
     contract: Contract,
     refFor: (asin: string) => Reference,
+    /** Asset ID for an image file in the package (images.ts assetIdFor). */
+    imageFor?: (file: string) => string,
 ): BuildResult {
     const keys = sequentialKeys()
     const notes: string[] = []
     const content: Block[] = []
     const products: Block[] = []
 
-    const md = (lines: string[], where: string) => toPortableText(lines.join('\n'), keys, where, notes)
+    const text = (lines: string[], where: string) =>
+        promoteCallouts(toPortableText(lines.join('\n'), keys, where, notes), keys)
+    // An image line is only allowed where the article content array can hold
+    // an iimage: the intro and prose sections, never inside a card, FAQ or table.
+    const md = (lines: string[], where: string, images = false) => {
+        const blocks: Block[] = []
+        let run: string[] = []
+        for (const line of lines) {
+            const match = line.trim().match(IMAGE_LINE)
+            if (!match) {
+                run.push(line)
+                continue
+            }
+            if (!images) throw new BuildError(`${where}: an image can only stand in the intro or a prose section`)
+            if (!imageFor) throw new BuildError(`${where}: an image needs its file read, and none was given`)
+            if (!match[1].trim()) throw new BuildError(`${where}: image ${match[2]} has no alt text`)
+            blocks.push(...text(run, where))
+            run = []
+            blocks.push({
+                _type: 'iimage',
+                _key: keys(),
+                alt: match[1].trim(),
+                ...(match[3]?.trim() ? { caption: match[3].trim() } : {}),
+                asset: { _type: 'reference', _ref: imageFor(match[2]) },
+            })
+        }
+        blocks.push(...text(run, where))
+        return blocks
+    }
     const plain = (text: string, where: string) => toPlainText(text, where, notes)
     const heading = (text: string) => md([`## ${text}`], text)
     const mapFor = (text: string) =>
@@ -78,7 +109,7 @@ export function buildArticle(
         return parts
     }
 
-    content.push(...md(article.intro, 'intro'))
+    content.push(...md(article.intro, 'intro', true))
 
     for (const section of article.sections) {
         const map = mapFor(section.heading)
@@ -87,7 +118,7 @@ export function buildArticle(
 
         switch (map.block) {
             case 'prose': {
-                content.push(...heading(section.heading), ...md(section.lines, where))
+                content.push(...heading(section.heading), ...md(section.lines, where, true))
                 break
             }
 
@@ -177,6 +208,14 @@ export function buildArticle(
             case 'typesSection':
             case 'guideSection': {
                 const itemType = map.block === 'typesSection' ? 'typeItem' : 'guideItem'
+                // typeItem has no tip field (src/types/types.ts); only guideItem does.
+                const tipFor = (lines: string[]): { tip?: string; lines: string[] } => {
+                    if (itemType !== 'guideItem') return { lines }
+                    const tip = labelledValue(lines, 'Tip')
+                    if (tip === undefined) return { lines }
+                    const withoutTip = lines.filter((line) => !/^\*\*Tip:?\*\*:?/.test(line.trim()))
+                    return { tip, lines: withoutTip }
+                }
                 content.push(...heading(section.heading), ...md(section.intro, where))
 
                 if (map.cards === 'labelled_paragraphs') {
@@ -190,12 +229,16 @@ export function buildArticle(
                         content.push({
                             _type: map.block,
                             _key: keys(),
-                            items: split.cards.map((card) => ({
-                                _type: itemType,
-                                _key: keys(),
-                                title: card.label,
-                                content: md(card.lines, `${at} > ${card.label}`),
-                            })),
+                            items: split.cards.map((card) => {
+                                const { tip, lines } = tipFor(card.lines)
+                                return {
+                                    _type: itemType,
+                                    _key: keys(),
+                                    title: card.label,
+                                    content: md(lines, `${at} > ${card.label}`),
+                                    ...(tip ? { tip: plain(tip, `${at} > ${card.label} tip`) } : {}),
+                                }
+                            }),
                         })
                         content.push(...md(split.after, at))
                     }
@@ -205,12 +248,16 @@ export function buildArticle(
                 content.push({
                     _type: map.block,
                     _key: keys(),
-                    items: section.subsections.map((sub) => ({
-                        _type: itemType,
-                        _key: keys(),
-                        title: sub.heading,
-                        content: md(sub.lines, `${where} > ${sub.heading}`),
-                    })),
+                    items: section.subsections.map((sub) => {
+                        const { tip, lines } = tipFor(sub.lines)
+                        return {
+                            _type: itemType,
+                            _key: keys(),
+                            title: sub.heading,
+                            content: md(lines, `${where} > ${sub.heading}`),
+                            ...(tip ? { tip: plain(tip, `${where} > ${sub.heading} tip`) } : {}),
+                        }
+                    }),
                 })
                 break
             }

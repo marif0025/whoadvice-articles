@@ -43,6 +43,8 @@ export type Plan = {
     sourceHash: string
     article: { mode: 'create' | 'edit'; id: string; basedOn: { published?: string; draft?: string } }
     products: ProductPlan[]
+    /** Image files apply uploads before the actions, under these exact asset IDs. */
+    images: { file: string; assetId: string }[]
     actions: Action[]
     /** Full documents after apply, for validation and for the read-back check. */
     documents: Record<string, unknown>[]
@@ -82,6 +84,8 @@ export function makePlan(input: {
     hash: string
     /** Products earlier runs of this import created (record.json, `created`). */
     createdIds?: Set<string>
+    /** Asset ID per image file named in article.md (images.ts assetIdFor). */
+    images?: Map<string, string>
 }): Plan {
     const { contract, article, resolved } = input
     const actions: Action[] = []
@@ -155,11 +159,22 @@ export function makePlan(input: {
         )
     }
 
-    const built = buildArticle(article, contract, (asin) => {
-        const ref = refs.get(asin)
-        if (!ref) throw new Error(`no product reference for ${asin}`)
-        return ref
-    })
+    const usedImages = new Map<string, string>()
+    const built = buildArticle(
+        article,
+        contract,
+        (asin) => {
+            const ref = refs.get(asin)
+            if (!ref) throw new Error(`no product reference for ${asin}`)
+            return ref
+        },
+        (file) => {
+            const assetId = input.images?.get(file)
+            if (!assetId) throw new Error(`image ${file} was not read from the package`)
+            usedImages.set(file, assetId)
+            return assetId
+        },
+    )
 
     // Article
     const { id } = resolved.article
@@ -227,6 +242,7 @@ export function makePlan(input: {
             basedOn: { published: resolved.article.published?._rev, draft: resolved.article.draft?._rev },
         },
         products,
+        images: [...usedImages].map(([file, assetId]) => ({ file, assetId })),
         actions,
         documents,
         counts: {
@@ -240,6 +256,7 @@ export function makePlan(input: {
             typesSections: count('typesSection'),
             guideSections: count('guideSection'),
             decisionTables: count('decisionComparisonTableBlock'),
+            images: count('iimage'),
         },
         notes: built.notes,
         warnings,
@@ -340,6 +357,15 @@ export function classifyValidation(stdout: string, plan: Plan): { errors: string
                 value?._weak === true &&
                 typeof value._ref === 'string' &&
                 newProducts.has(value._ref)
+            ) {
+                expected++
+                continue
+            }
+            // An image asset apply uploads first: absent from the dataset while planning.
+            if (
+                marker.message === 'Referenced document must be published' &&
+                typeof value?._ref === 'string' &&
+                (plan.images ?? []).some((image) => image.assetId === value._ref)
             ) {
                 expected++
                 continue

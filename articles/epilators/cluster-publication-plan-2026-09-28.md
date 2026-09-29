@@ -10,8 +10,8 @@ It extends phase 5 of `audits/sanity-import-plan-2026-09-28.md`. The pillar's ow
 |---|---|---|---|---|
 | Pillar: best epilators | `/skin-care/best-epilators/` | A legacy article at this slug is live. The new version is rehearsed on `dev`. | Contract done; audit fixes pending | The audit's blockers B1–B6 |
 | Best face epilators | `/skin-care/best-face-epilators/` | A legacy **post** ("Best Face Epilators To Get Smooth And Shiny Skin") is live | Article, handoff and 4 product records ready. No `cms.yaml` yet. | Editorial review. Then `cms.yaml`, a `dev` rehearsal and images. |
-| Pubic-hair permission | `/skin-care/can-you-use-an-epilator-on-pubic-hair/` | Nothing (404) | Part 4 complete. No `cms.yaml`. | **Qualified medical review** (sync doc L102) |
-| Underarm technique | `/skin-care/how-to-epilate-underarms/` | Nothing (404) | Part 4 complete. No `cms.yaml`. | **Qualified medical review** (sync doc L103) |
+| Pubic-hair permission | `/skin-care/can-you-use-an-epilator-on-pubic-hair/` | Nothing (404) | Rewritten 2026-09-29 under the attribution rule. No `cms.yaml`. | None outstanding — editorial review only (see §4a) |
+| Underarm technique | `/skin-care/how-to-epilate-underarms/` | Nothing (404) | Rewritten 2026-09-29 under the attribution rule. No `cms.yaml`. | None outstanding — editorial review only (see §4a) |
 
 Also live: the legacy article `/skin-care/braun-epilator/` ("Best Braun Epilator For Quick And Easy Hair Removal"). It overlaps with the pillar; see audit finding S3.
 
@@ -93,11 +93,19 @@ Also live: the legacy article `/skin-care/braun-epilator/` ("Best Braun Epilator
    - Rehearse on `dev`. Add images.
    - Publish the new article at the same slug. The article takes precedence over the legacy post, so the URL doesn't change.
    - Then **unpublish the legacy post.** The sitemap lists posts and articles without removing duplicates (`sitemap.ts` and `getAllPosts`), so leaving it listed would put the URL in the sitemap twice.
-4. **Medical review** of the pubic-hair and underarm pages. This is outside the tooling and needs a named reviewer.
-5. **Pubic-hair and underarm pages, each after its review.**
-   - Write `cms.yaml`. Their tables become decision-table blocks.
-   - Rehearse on `dev`, then publish.
-   - The same day, restore that page's held link in the pillar and re-apply the pillar.
+4a. **Medical-review gate resolved, 2026-09-29 (Arif: "nobody does, and nobody will").** No qualified medical reviewer is available for either support page. Rather than publish unreviewed clinical judgment, or strip the pages down to vague pointers, both were rewritten under a new **attribution rule**, added to each `article-contract.md`:
+   - Every anatomy, wound-care, or escalation claim is attributed to one named, currently live, already-reviewed source (NCI, ACOG, AAD, MedlinePlus, NHS) in the sentence that states it — never blended across sources into a WhoAdvice-authored tier or decision tree.
+   - All cited sources were re-checked live on 2026-09-29 and are current (AAD 2/11/22; MedlinePlus reviewed 10/14/2025; NHS reviewed 09/2026, resolving the July freshness flag; NCI vulva/perineum/penis/scrotum/anus and ACOG's two pages unchanged/current).
+   - The pubic-hair page's planned anatomical orientation diagram is **dropped**. A bespoke illustration is original artwork, not an attribution to an existing reviewed source, so it can't be resolved the same way. A licensed illustration or its own review would be needed later.
+   - Both `audit.md` files and both `article-contract.md` files are updated to record this; both are back to `ready_for_editorial_review` with no medical-reviewer field.
+5. **Pubic-hair and underarm pages.**
+   - **Progress on 2026-09-29:** `cms.yaml` written for both (`article_format: editorial`, no products, `status: ready_for_editorial_review`). Both `validate` clean (0 errors, 0 warnings).
+     - Underarm's single-column "Device branch" table doesn't fit the decision-table block (needs 2–6 data columns), so it's now a bulleted list; the contract is updated to match.
+     - Both `plan` on `dev` passed the Studio schema check. Both `apply` to `dev` succeeded and were verified field for field: pubic-hair has its 2 decision tables (4 and 5 rows) and 8 FAQs; underarm has its 1 table (5 rows) and 7 FAQs, confirmed by a direct read-back of the draft documents.
+     - Both are drafts only, so they 404 on the public `dev` site (the live route reads published content only). **Arif: open each in Studio to review, then publish on `dev` to check the rendered page** before I touch production.
+     - **2026-09-29, underarm redesign.** Arif checked underarm on `dev` and found it thin: no images, and "callouts too dry, add types or guide cards for steps." Two importer features added and tested (39 pass, 1 pre-existing unrelated fail): a `**Title:**` blockquote now auto-promotes to a styled callout card, and a `**Tip:**` line inside a guide card becomes that card's EXPERT TIP box. Underarm's 11 steps now render as guide cards; its "Pause before switching sides" note is step 9's tip. Applied to the `dev` draft, verified field for field. **2026-09-29, card length:** Arif then found several cards ran 4–6 lines (steps 2, 5, 7, 9), stretching each row to the tallest card. All 11 trimmed to 83–150 characters (2–3 lines); content moved out went to that step's tip where still worth keeping (steps 2, 5, 7 gained new tips; step 9 kept its existing one), not dropped. Applied, verified: all 11 bodies ≤150 chars, 4 tips present. **Arif needs to publish it again on `dev` to see the cards** — the published copy he already checked is still the old plain version. The image gap is still open: he's generating the two planned illustrations himself from the prompts in `publisher-handoff.md`; I wire them in once he has files.
+   - Write the real `dates.published` value before production; `cms.yaml` currently holds a placeholder (2026-09-29, the rehearsal date).
+   - Publish, then restore that page's held link in the pillar and re-apply the pillar.
 6. **Legacy cleanup.**
    - `/skin-care/braun-epilator/`: redirect it (a `next.config.mjs` entry and a deploy) or keep it, per audit S3.
    - Request indexing for each new or changed URL.
@@ -109,15 +117,24 @@ Also live: the legacy article `/skin-care/braun-epilator/` ("Best Braun Epilator
 ## 5. Open questions (Arif)
 
 1. ~~Publish order~~: decided on 2026-09-28. The pillar goes first, with the links held.
-2. Who does the qualified medical review for the two informational pages, and when.
+2. ~~Who does the qualified medical review~~: resolved 2026-09-29 — nobody, and the attribution rule (§4a) replaces the gate.
 3. ~~Hold reporting~~: built on 2026-09-28 (section 3).
 4. `/skin-care/braun-epilator/`: redirect to the pillar or keep it (step 6). Check its Search Console clicks first.
+5. ~~Recheck the three NCI penis/scrotum/anus entries~~: done 2026-09-29, unchanged.
 
 ## 6. Start here next time
 
-The pillar is live. The next page is **the face page** (step 3). It's the only page not waiting on the medical review, and the pillar's facial card already links to its URL, which still serves the legacy post.
+The pillar is live. Pubic-hair and underarm are rehearsed on `dev` as drafts (step 5) and waiting on Arif's read and publish there. The face page (step 3) hasn't started.
 
+**Pubic-hair and underarm — waiting on Arif:**
+1. Open each in Studio (`/studio/structure/article;3ae4a66e-1bdd-44d4-be1e-3ad8ef60e36a` for pubic-hair, `/studio/structure/article;12e449c1-8db1-4ca4-a4e8-2d9b7d7d0325` for underarm) and read the rewritten `article.md` against it.
+2. Publish each on `dev` and check the rendered page (both are drafts, so they don't render on the public `dev` site yet).
+3. Set the real `dates.published` in each `cms.yaml` before production.
+4. Give the go-ahead for production — the one-off exception covered only the pillar, so I need it again per page.
+5. The same day each goes live in production, restore that page's held link in the pillar and re-apply it.
+
+**Face page**, once its slot comes up:
 1. Copy pass under the contract amended on 2026-09-28 (field limits, no repeated fields, short model names, FAQ rules, conclusion as conditions). The package was written on 2026-07-20, before those rules.
 2. Evidence refresh: its research is from 2026-07-20. Check that the 4 products (Braun FaceSpa Pro 911, Remington EP1050FCDN, Tweezerman 5090-R, Bellabe) are still sold, and add dated US prices.
 3. Fix face L167: an absolute URL, and the anchor "guide to epilators for face and body" promises a comparison the pillar doesn't give. Make it relative and match the anchor to what the pillar delivers.
-4. `cms.yaml`, then a `dev` rehearsal. Production needs Arif's go-ahead again, because the one-off exception covered only the pillar.
+4. `cms.yaml`, then a `dev` rehearsal. Production needs Arif's go-ahead again.

@@ -21,6 +21,7 @@ import { parse, stringify } from 'yaml'
 
 import { applyPlan, publishProducts, readRecord } from './apply.ts'
 import { findLinkHolds, parseArticle } from './article.ts'
+import { assetIdFor, findImages } from './images.ts'
 import { connect, DEFAULT_BLOG_DIR, DEFAULT_ENV_FILE } from './config.ts'
 import { Contract } from './contract.ts'
 import { draftContract } from './draft.ts'
@@ -164,6 +165,9 @@ if (command === 'plan') {
         packagePath: relative(VAULT, packageDir),
         hash,
         createdIds,
+        images: new Map(
+            findImages(articleText).map(({ file }) => [file, assetIdFor(readFileSync(join(packageDir, file)), file)]),
+        ),
     })
     // Comments never reach Sanity, so a held link would otherwise vanish silently.
     for (const hold of findLinkHolds(articleText)) {
@@ -187,7 +191,7 @@ if (command === 'plan') {
         process.exit(0)
     }
     const check = checkWithStudio(files.ndjson, plan, flag('blog') ?? DEFAULT_BLOG_DIR)
-    const expected = check.expected > 0 ? ` (${check.expected} expected "must be published" on references to new products)` : ''
+    const expected = check.expected > 0 ? ` (${check.expected} expected "must be published" on references to new products or images)` : ''
     console.log(`studio   ${check.ok ? 'PASS' : 'FAIL'}: sanity documents validate${expected}`)
     for (const error of check.errors) console.log(`ERROR   ${error}`)
     process.exit(check.ok ? 0 : 1)

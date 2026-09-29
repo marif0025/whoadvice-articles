@@ -15,6 +15,7 @@ import {
     type Section,
 } from './article.ts'
 import { Contract, type ContractSection } from './contract.ts'
+import { findImages } from './images.ts'
 import { handoffProducts, type Handoff, type ProductRecord } from './sources.ts'
 
 export type Issue = {
@@ -302,7 +303,12 @@ export function validate(input: ValidateInput): Issue[] {
         }
     }
     if (/<callout/i.test(input.articleText)) warn('CALLOUT', 'article.md has <callout> blocks; they import as callout groups')
-    if (/!\[/.test(input.articleText)) warn('IMAGE_INLINE', 'article.md has inline images; each needs alt text and a file in the package')
+    for (const image of findImages(input.articleText)) {
+        const at = `article.md:${image.line} ${image.file}`
+        if (!image.alt) error('IMAGE_ALT', `${at} has no alt text`)
+        if (!/\.(png|webp|jpe?g)$/i.test(image.file)) error('IMAGE_TYPE', `${at} is not a PNG, WebP or JPEG`)
+        if (input.fileExists && !input.fileExists(image.file)) error('IMAGE_MISSING', `${at} is not in the package`)
+    }
 
     // Product records and handoff
     for (const product of products) {

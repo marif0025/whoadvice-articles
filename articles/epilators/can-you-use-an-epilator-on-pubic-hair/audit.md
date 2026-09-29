@@ -1,10 +1,10 @@
 # Can You Use an Epilator on Pubic Hair? Final Article Audit
 
-- **Audit date:** July 20, 2026
+- **Audit date:** July 20, 2026; amended September 29, 2026
 - **Article:** `/skin-care/can-you-use-an-epilator-on-pubic-hair/`
-- **Workflow stage:** Part 4 complete
+- **Workflow stage:** Part 4 complete; rewritten under the attribution rule
 - **Outcome:** `ready_for_editorial_review`
-- **Evidence model:** Exact current manufacturer instructions plus authoritative anatomy and medical guidance; no hands-on testing
+- **Evidence model:** Exact current manufacturer instructions plus NCI/ACOG/AAD/MedlinePlus anatomy and wound guidance, reported as named-source attribution rather than WhoAdvice's own synthesis; no hands-on testing
 
 ## Severity counts
 
@@ -15,7 +15,7 @@
 | Warning | 0 |
 | Suggestion | 0 |
 
-Qualified human medical/editorial review, the refreshed pillar dependency, and CMS implementation remain publication gates rather than unresolved article findings.
+**2026-09-29: no qualified medical reviewer is available (Arif). The in-house medical-review gate is replaced by the article-contract's attribution rule** — every anatomy and reaction claim is now attributed to one named, re-verified-live source, and the planned anatomy diagram is dropped. The refreshed pillar dependency and CMS implementation remain publication gates.
 
 ## Mechanical audit
 
@@ -101,16 +101,16 @@ No unsupported public claim was located. Unknown area permission remains visible
 
 ## Remaining CMS and publication work
 
-- Obtain and record qualified medical approval of anatomy, the editorial bikini-line definition, warning language, reactions, wound-care limits, and escalation wording.
+- ~~Obtain qualified medical approval~~: replaced by the attribution rule (2026-09-29). No medical-reviewer sign-off remains.
 - Obtain responsible editorial approval; `ready_for_editorial_review` is not publication approval.
 - Publish the refreshed best-epilator pillar before or alongside this guide and add the reciprocal link.
 - Confirm canonical, slug, metadata rendering, indexability, breadcrumbs, sitemap inclusion, and correction-history fields.
 - Ensure the internal metadata comment does not render.
 - Render and test the decision box, tables, links, and mobile/accessibility behavior.
 - Implement and validate Article or BlogPosting plus BreadcrumbList schema.
-- Verify any licensed image, medically reviewed anatomy, dimensions, responsive formats, and editorial alt text.
+- ~~Verify any licensed image, medically reviewed anatomy~~: no image ships (2026-09-29).
 - Run final accessibility, performance, broken-link, and rendered-page checks.
 
 ## Recommended next action
 
-Send `article.md`, `sources.md`, and this audit to a qualified medical reviewer and responsible editor. After their approval, complete the conditional CMS handoff and publication-day checks.
+Send `article.md`, `sources.md`, and this audit to a responsible editor for review. No medical reviewer is required; the attribution rule in `article-contract.md` is the safeguard in its place. After editorial approval, complete the conditional CMS handoff and publication-day checks.
