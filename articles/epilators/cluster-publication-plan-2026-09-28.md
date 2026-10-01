@@ -8,10 +8,12 @@ It extends phase 5 of `audits/sanity-import-plan-2026-09-28.md`. The pillar's ow
 
 | Page | URL | In the CMS today | Package state | Gate before production |
 |---|---|---|---|---|
-| Pillar: best epilators | `/skin-care/best-epilators/` | A legacy article at this slug is live. The new version is rehearsed on `dev`. | Contract done; audit fixes pending | The audit's blockers B1–B6 |
-| Best face epilators | `/skin-care/best-face-epilators/` | A legacy **post** ("Best Face Epilators To Get Smooth And Shiny Skin") is live | Article, handoff and 4 product records ready. No `cms.yaml` yet. | Editorial review. Then `cms.yaml`, a `dev` rehearsal and images. |
-| Pubic-hair permission | `/skin-care/can-you-use-an-epilator-on-pubic-hair/` | Production: nothing (404). `dev`: a draft, never published. | Rewritten 2026-09-29 under the attribution rule. `cms.yaml` done and rehearsed. No images, no OG image. | Arif's read and publish on `dev`, the real `dates.published`, his go-ahead for production |
-| Underarm technique | `/skin-care/how-to-epilate-underarms/` | Production: nothing (404). `dev`: **published and complete** (checked 2026-09-29). | Rewritten, `cms.yaml` done, guide cards, 3 captioned images, caution callout, OG image. Committed `b247b7b`. | The real `dates.published`, the blog deploy (figures, callouts, layout), his go-ahead for production |
+| Pillar: best epilators | `/skin-care/best-epilators/` | **Live** since 2026-09-28 | Three links held. Restore patches are ready (2026-10-01). | None. Re-apply when a support page goes live (runbook §5). |
+| Best face epilators | `/skin-care/best-face-epilators/` | Production: the legacy **post** is live. `dev`: the new article is a draft and its 4 products are published (2026-10-01). | Rewritten 2026-10-01 with an evidence recheck. `cms.yaml` done and rehearsed. OG card made. | Arif's read on `dev`, his go-ahead, 2 product images (Tweezerman, Bellabe), the FaceSpa rename, unpublishing the legacy post |
+| Pubic-hair permission | `/skin-care/can-you-use-an-epilator-on-pubic-hair/` | Production: nothing (404). `dev`: a draft, re-applied 2026-10-01. | Three `[!CAUTION]` callouts and an OG card added 2026-10-01. | Arif's read on `dev`, the real `dates.published`, his go-ahead |
+| Underarm technique | `/skin-care/how-to-epilate-underarms/` | Production: nothing (404). `dev`: **published and complete**. | Complete. Committed `b247b7b`. | The real `dates.published`, his go-ahead |
+
+**The production steps for all three pages are in `production-runbook-2026-10-01.md`.**
 
 Also live: the legacy article `/skin-care/braun-epilator/` ("Best Braun Epilator For Quick And Easy Hair Removal"). It overlaps with the pillar; see audit finding S3.
 
@@ -137,25 +139,51 @@ Also live: the legacy article `/skin-care/braun-epilator/` ("Best Braun Epilator
 
 ## 6. Start here next time
 
-State on 2026-09-29, end of day:
-- The pillar is live.
-- Underarm is published and complete on `dev`.
-- Pubic-hair is a `dev` draft that has never been published.
-- The face page (step 3) hasn't started.
+State on 2026-10-01, end of day:
+- **The pillar is live.** Its three holds stay until each support page goes live. The restore patches are ready: `best-epilators-at-home-hair-removal/link-restore-underarm.patch` and `link-restore-pubic-hair.patch`. Both dry-run clean against today's `article.md`. The pillar's Types card also now says "Bellabe Facial Hair Remover". That ships with the next pillar apply.
+- **Underarm is complete on `dev`** and waits only on the go-live date and Arif's go-ahead.
+- **Pubic hair is a `dev` draft, re-applied 2026-10-01.**
+  - Its stop rules are now three `[!CAUTION]` callouts: the three-yes check, "Stop and ask first", and "Stop epilating immediately if".
+  - Inline-code terms became quoted text, because the schema has no code mark and the backticks were being dropped.
+  - Its OG card is `images/pubic-hair-epilation-thumbnail-1200x630.png`. It's typographic, with no anatomy.
+- **The face page is rewritten and rehearsed on `dev`** (2026-10-01):
+  - The copy follows the amended contract (Amendments section in its `article-contract.md`).
+  - The evidence was rechecked live: `research/best-face-epilator-evidence-refresh-2026-10-01.md`.
+  - Dated manufacturer prices: Remington $20.99 and Tweezerman $22.00. No US price was found for the FaceSpa or Bellabe.
+  - Bellabe is renamed "Bellabe Facial Hair Remover".
+  - Types and How to choose are grouped cards. The L167 link is relative, with an accurate anchor.
+  - `cms.yaml` reuses the two exact-model legacy products (FaceSpa `d6448c7e`, Remington `f40521dd`) and creates Tweezerman and Bellabe.
+  - Its 4 products are published on `dev`; the article is a draft (`b7c5e669`).
+  - OG card: `images/best-face-epilators-thumbnail-1200x630.png`.
+  - **Later the same day, after Arif's review on `dev`:**
+    - **Content audit:** one ranking weight renamed, because the article shows no independent testing. The technique line now cites Braun's US manual. One keyword use in the conclusion, and one long sentence split.
+    - **Writing-guideline pass:** verdict openings vary, summaries no longer repeat the pros, and the guide cards dropped their jargon.
+    - **Shorter elements:** top-pick descriptions are one line, and awards drop "Facial Epilator".
+    - **Comparison table rebuilt from decision fields only:** Best for, Maker's US price (dated), How it removes hair, Approved facial areas, Main drawback. Amazon US prices couldn't be read from here, so the FaceSpa and Bellabe show "Not listed".
+    - All recorded in the face contract's Amendments.
+    - The `dev` draft holds all of it. **Arif must publish it again on `dev` to see it.**
+  - **On `dev` only so far:**
+    - Emily Cooper's bio is rewritten. The old one claimed expertise and "clients" that nothing supports; Arif: "generic author profile, update as needed".
+    - The FaceSpa product title is "Braun FaceSpa Pro 911".
+    - Both are production Studio steps in the runbook. Backups are in blog `backups/`.
+  - **The legacy Remington image** is a text banner that crops badly in the cards. Worth replacing when Arif uploads the Tweezerman and Bellabe images.
+- **Blog layout (uncommitted, Arif commits).** Four files, 2026-10-01: `ArticleContent.tsx`, `ArticleHero.tsx`, the article `page.tsx` and `ProductReviewSlider.tsx`.
+  - The whole article shares one left edge with the header. Text keeps an 896px reading width, and cards, tables and sliders use the full container.
+  - The header is full width without a hero image.
+  - The review slide is exactly the container's width.
+  - Verified at 390, 1280, 1440 and 1920px. Typecheck, lint and the impeccable layout detector are clean.
+  - **This reverses the 2026-09-29 "text in the centre" ruling** at Arif's request: "fix alignment of all sections".
+  - It needs deploying with `19588be` before production.
+- **`dev` server trap:** the Turbopack cache `.next/dev` grew to 3.6 GB, and the server ran out of memory within 20 minutes of each start. It's moved to `~/backups-tmp/next-dev-cache-2026-10-01`, safe to delete. If it recurs, move `.next/dev` aside again.
+- **Laser posts:** `articles/laser-hair-removal/update-plan-2026-10-01.md`. They become one post updated in 2026, later (Arif).
+- **`production-runbook-2026-10-01.md`** holds every production command and Studio step for the three pages, the pillar restores and the live check.
+- **Live check:** `tools/sanity-import/scripts/check-cluster.mjs` (read-only GETs). It was shown passing (underarm on `dev`) and failing (the pubic-hair 404 on `dev`, and a held link) on 2026-10-01.
+  - The `dev` pillar's published copy still links both support pages, because it predates the holds. Production's pillar was checked holding them on 2026-09-28.
 
-**Underarm — ready for production once Arif:**
-1. Commits and deploys the blog changes (figures, callouts, reading column, disclosure). Production renders with the old components until then.
-2. Sets the real `dates.published` in `cms.yaml` (it's still the 2026-09-29 placeholder), then sets `status: approved_for_publication`.
-3. Gives the go-ahead. The pillar's one-off exception doesn't cover this page. Arif runs the production commands: plan, apply `--confirm how-to-epilate-underarms`, then publishes in Studio and uploads the OG image there. The importer never writes the OG image.
-4. The same day, restores the pillar's held underarm link (section 3) and re-applies the pillar.
-
-**Pubic-hair — waiting on Arif's read:**
-1. Open it in Studio (`/studio/structure/article;3ae4a66e-1bdd-44d4-be1e-3ad8ef60e36a`), read it against `article.md`, then publish on `dev` and check the page.
-2. Its prose callouts were written before the `[!CAUTION]` syntax existed. Mark any stop rule as a caution callout, re-apply, and add an OG image. The anatomy diagram stays dropped (§4a), so its images are optional.
-3. Then the same production steps as underarm, and restore its two held links in the pillar.
-
-**Face page**, once its slot comes up:
-1. Copy pass under the contract amended on 2026-09-28 (field limits, no repeated fields, short model names, FAQ rules, conclusion as conditions). The package was written on 2026-07-20, before those rules.
-2. Evidence refresh: its research is from 2026-07-20. Check that the 4 products (Braun FaceSpa Pro 911, Remington EP1050FCDN, Tweezerman 5090-R, Bellabe) are still sold, and add dated US prices.
-3. Fix face L167: an absolute URL, and the anchor "guide to epilators for face and body" promises a comparison the pillar doesn't give. Make it relative and match the anchor to what the pillar delivers.
-4. `cms.yaml`, then a `dev` rehearsal. Production needs Arif's go-ahead again.
+**Waiting on Arif:**
+1. Commit the blog layout files, then deploy them with `19588be`.
+2. Publish pubic hair and face on `dev` (Studio), revalidate, and read both. The `dev` server is `NEXT_PUBLIC_SANITY_DATASET=dev npx next dev -p 4000` in `~/personal/blog`.
+3. Optional: give Amazon US prices for the FaceSpa and Bellabe, dated, to fill the two "Not listed" cells. Also decide whether the pillar's table gets the same decision-field treatment.
+4. Give the go-ahead and the go-live date per page. Claude then sets the approvals in `cms.yaml` and commits.
+5. Run the runbook. On the face page that includes: rename the FaceSpa product, upload the Tweezerman and Bellabe product images, upload the OG images, and unpublish the legacy post `6131cf39`.
+6. Decide `/skin-care/braun-epilator/`: redirect or keep (§5 question 4).

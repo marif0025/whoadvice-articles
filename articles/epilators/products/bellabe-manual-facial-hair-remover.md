@@ -1,7 +1,7 @@
-# Bellabe Original Facial Hair Remover
+# Bellabe Facial Hair Remover
 
 - **Status:** Proposed facial-roundup product
-- **Public product name:** Bellabe Original Facial Hair Remover
+- **Public product name:** Bellabe Facial Hair Remover
 - **Model identity:** The accessible brand page and Amazon destination do not expose model `118`; retain that number privately only if packaging, an invoice, the affiliate record, or Seller Central confirms it
 - **Market:** United States
 - **Official product page:** https://www.bellabe.com/
@@ -25,7 +25,7 @@ amazon_url: https://www.amazon.com/dp/B001RPL902
 asin: B001RPL902
 affiliate_link: https://amzn.to/4w7Bujf
 affiliate_status: publisher_confirmed
-public_display_name: Bellabe Original Facial Hair Remover
+public_display_name: Bellabe Facial Hair Remover
 model_number: null
 claimed_model_118_status: conditional_requires_packaging_invoice_affiliate_record_or_seller_central_confirmation
 exact_model_status: asin_and_public_product_identity_verified_model_number_unconfirmed

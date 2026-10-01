@@ -13,25 +13,22 @@
 
 Can you use an epilator on pubic hair? Only where the exact current manual permits root-removal epilation. The current Philips BRE708/BRE728 manual lists the bikini line as an example of an approved area below the neck, but explicitly prohibits epilating both the inner and outer labia. The reviewed manuals do not establish epilation permission for the mons pubis, penis, scrotum, perineum, or perianal skin. Broad pubic-hair wording does not grant permission.
 
-That distinction matters because `pubic hair` describes hair across several anatomical areas, while `bikini line` is not a standardized medical boundary. This guide uses exact device instructions for area and function claims, and reports what the National Cancer Institute (NCI), the American College of Obstetricians and Gynecologists (ACOG), the American Academy of Dermatology (AAD), and MedlinePlus already publish for anatomy, wounds, and warning signs, rather than WhoAdvice's own medical judgment. Before proceeding, identify the exact area, confirm root-removal permission, and check the manual’s current-skin warnings.
+That distinction matters because “pubic hair” describes hair across several anatomical areas, while “bikini line” is not a standardized medical boundary. This guide uses exact device instructions for area and function claims, and reports what the National Cancer Institute (NCI), the American College of Obstetricians and Gynecologists (ACOG), the American Academy of Dermatology (AAD), and MedlinePlus already publish for anatomy, wounds, and warning signs, rather than WhoAdvice's own medical judgment. Before proceeding, identify the exact area, confirm root-removal permission, and check the manual’s current-skin warnings.
 
 ## Do not use the epilator until all three answers are yes
 
-> **The three-yes check**
->
-> 1. Can you name the exact anatomical area you intend to treat?
-> 2. Does the exact current manual approve both that area and root-removal epilation there?
-> 3. Is the skin free of every manual-listed reason to avoid use before proceeding?
+> [!CAUTION]
+> **The three-yes check:** Can you name the exact anatomical area you intend to treat? Does the exact current manual approve both that area and root-removal epilation there? Is the skin free of every manual-listed reason to avoid use before proceeding?
 
 If device-area or attachment permission is unclear, ask the manufacturer. Ask a qualified clinician when a skin condition, unusual pain, wound, reaction, or medical circumstance affects whether epilation is appropriate.
 
 ## Bikini line and pubic area do not mean the same thing
 
-In this guide, `bikini line` is a non-medical label for external, hair-bearing skin beside the leg openings of ordinary underwear. Underwear coverage and manufacturer wording vary, so this definition is only a navigation aid. It does not grant permission to epilate the mons pubis, labia, penis, scrotum, perineum, or perianal skin.
+In this guide, “bikini line” is a non-medical label for external, hair-bearing skin beside the leg openings of ordinary underwear. Underwear coverage and manufacturer wording vary, so this definition is only a navigation aid. It does not grant permission to epilate the mons pubis, labia, penis, scrotum, perineum, or perianal skin.
 
 Medical anatomy does not divide the body according to underwear shape. The [National Cancer Institute’s definition of the vulva](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/vulva) includes the mons pubis as well as the inner and outer labia. NCI separately defines the [perineum](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/perineum) as the area between the anus and vulva, or between the anus and scrotum.
 
-Calling an area external does not make it suitable for epilation. Some external structures are expressly excluded by a manual, while permission for others may not be established. Translate `pubic area` into a precise anatomical location first, then look for that area and the intended hair-removal function in the exact instructions.
+Calling an area external does not make it suitable for epilation. Some external structures are expressly excluded by a manual, while permission for others may not be established. Translate “pubic area” into a precise anatomical location first, then look for that area and the intended hair-removal function in the exact instructions.
 
 Retailer labels and attachment names may use these terms differently. When a manual does not define a boundary, treat it as unresolved rather than extending permission to nearby skin.
 
@@ -64,13 +61,17 @@ In the Philips BRE708/BRE728 example, the manual says not to use the device on s
 
 The same manual tells users to consult a clinician before epilation for diabetes, hemophilia, reduced immune response, immunodeficiency, or reduced normal skin sensitivity. It gives the same direction for abnormal pain during or after use. The manual discusses hormone-related hair changes after recent pregnancy but does not prohibit epilation during pregnancy.
 
-Stop if the head is damaged, the required cover is missing, or the exact area or function remains unclear. Ask the manufacturer to clarify device permission. Ask a clinician about a personal skin condition, unusual pain, wound, reaction, or medical circumstance.
+> [!CAUTION]
+> **Stop and ask first:** Stop if the head is damaged, the required cover is missing, or the exact area or function remains unclear. Ask the manufacturer to clarify device permission. Ask a clinician about a personal skin condition, unusual pain, wound, reaction, or medical circumstance.
 
 ## What reactions mean you should stop?
 
 Philips [describes itchiness, redness, tightness, small bumps, or burning](https://www.usa.philips.com/c-t/XC000004908/my-skin-is-irritated-after-using-my-philips-epilator) as possible effects after epilation. That manufacturer guidance does not make every reaction harmless or establish one recovery time for everyone. Stop further passes and avoid adding more irritation while you assess the skin.
 
-Stop epilating immediately if the skin is cut or bleeding, the device catches or pinches skin, irritation is increasing quickly, or pain is unusual, severe, or worsening. For a minor cut, the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/injured-skin/burns/treat-minor-cuts) recommends washing it with mild soap and water, applying petroleum jelly rather than a topical antibiotic, and covering it with a sterile bandage. If it is bleeding, apply firm direct pressure with clean gauze or a clean cloth.
+> [!CAUTION]
+> **Stop epilating immediately if:** The skin is cut or bleeding. The device catches or pinches skin. Irritation is increasing quickly. Pain is unusual, severe, or worsening.
+
+For a minor cut, the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/injured-skin/burns/treat-minor-cuts) recommends washing it with mild soap and water, applying petroleum jelly rather than a topical antibiotic, and covering it with a sterile bandage. If it is bleeding, apply firm direct pressure with clean gauze or a clean cloth.
 
 [MedlinePlus](https://medlineplus.gov/ency/article/000043.htm) advises contacting your health care provider right away if a wound shows warmth and redness in the area, a painful or throbbing sensation, fever, swelling, a red streak extending from the wound, or pus-like drainage, and calling 911 or your local emergency number if bleeding is severe or does not stop after about ten minutes of firm pressure. These are that source's own guidelines for a cut or wound on any skin, not WhoAdvice's diagnosis of a reaction on this specific area.
 
@@ -82,7 +83,7 @@ Appearance alone cannot explain a reaction. Do not retry the device to test the 
 
 Hair visible soon after epilation does not prove that it grew back unusually fast or broke. Some hairs may have been missed or too short for the head to catch. On supported Philips models, moving too quickly, using the wrong angle, losing full skin contact, or working with a dirty head may also reduce pickup.
 
-Treat these as possibilities, not a diagnosis of the result. A manufacturer phrase such as `up to four weeks` describes a maximum claim, not a personal guarantee.
+Treat these as possibilities, not a diagnosis of the result. A manufacturer phrase such as “up to four weeks” describes a maximum claim, not a personal guarantee.
 
 ## Epilation compared with trimming, shaving, waxing, and IPL
 
@@ -102,7 +103,7 @@ No method is universally safest, gentlest, painless, or longest-lasting.
 
 ### Is the bikini line the same as the whole pubic area?
 
-No. `Bikini line` is a non-medical consumer and manufacturer term, while pubic hair can grow across several distinct anatomical areas. Use the term only as the exact manual defines or illustrates it; do not treat it as permission for everything covered by underwear.
+No. “Bikini line” is a non-medical consumer and manufacturer term, while pubic hair can grow across several distinct anatomical areas. Use the term only as the exact manual defines or illustrates it; do not treat it as permission for everything covered by underwear.
 
 ### Can you use an epilator on the labia?
 
@@ -110,7 +111,7 @@ Not with the Philips manual example used here. Document 3000.139.6355.2 explicit
 
 ### Can you use an epilator on the penis or scrotum?
 
-No reviewed exact manual establishes permission to epilate the penis or scrotum. That is not the same as proving every manufacturer prohibits those areas. Do not infer permission from `pubic hair`, `body`, or `sensitive area`; ask the manufacturer about the exact model and function.
+No reviewed exact manual establishes permission to epilate the penis or scrotum. That is not the same as proving every manufacturer prohibits those areas. Do not infer permission from “pubic hair”, “body”, or “sensitive area”; ask the manufacturer about the exact model and function.
 
 ### Does stretching the skin make an unlisted area safe to epilate?
 

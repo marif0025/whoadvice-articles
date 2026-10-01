@@ -98,7 +98,7 @@ products:
     affiliate_status: publisher_confirmed
     cta_label: Check price on Amazon
   - rank: 4
-    title: Bellabe Original Facial Hair Remover
+    title: Bellabe Facial Hair Remover
     brand: Bellabe
     slug: bellabe-original-facial-hair-remover
     asin: B001RPL902
@@ -163,7 +163,7 @@ Use exact-product images only:
 - Braun FaceSpa Pro 911 with facial epilation, cleansing, and toning attachments
 - Remington Smooth & Silky Facial Epilator EP1050FCDN with protective cap and cleaning brush
 - Tweezerman Smooth Finish Facial Hair Remover 5090-R showing the stainless-steel coil
-- Bellabe Original Facial Hair Remover showing the manual spring tool without an unverified model number
+- Bellabe Facial Hair Remover showing the manual spring tool without an unverified model number
 
 Editorial must revise alt text to match the final image composition. CMS stores and renders the image-specific wording.
 

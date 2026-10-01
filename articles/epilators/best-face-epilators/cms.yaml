@@ -1,0 +1,94 @@
+# Sanity contract for this package. The prose stays in article.md; this file
+# says what each part becomes in Sanity. Check with:
+#   cd tools/sanity-import && node src/cli.ts validate ../../articles/epilators/best-face-epilators
+version: 1
+# Copy pass under the 2026-09-28 contract amendments and an evidence recheck
+# on 2026-10-01 (research/best-face-epilator-evidence-refresh-2026-10-01.md).
+# Approve for production when Arif has read it on dev.
+status: ready_for_editorial_review
+slug: best-face-epilators
+category: skin-care
+# The live legacy post at this slug (6131cf39) is Emily Cooper's; the pillar
+# keeps its author too.
+author: emily-cooper
+article_format: product_guide
+badge: Research-Based Buying Guide
+title: 4 Best Facial Epilators for Precise Hair Removal in 2026
+seo:
+  # article.md has "Best Epilator for Face in 2026: 4 Precise Picks"; head
+  # fields use " - ", never a colon (Arif, 2026-09-23).
+  meta_title: Best Epilator for Face in 2026 - 4 Precise Picks
+  meta_description: Find the best epilator for face hair. Compare four researched electric and manual picks by approved areas, control, power, cleaning, and value.
+  keywords:
+    - best epilator for face
+    - facial epilator
+    - electric facial epilator
+    - manual facial epilator
+  indexable: true
+dates:
+  # A new article document replaces the legacy post at the same URL. Set to
+  # today for the dev rehearsal; move it to the go-live date before production.
+  published: 2026-10-01
+  reviewed: 2026-10-01
+products:
+  - asin: B07HFHY6RH
+    title: Braun FaceSpa Pro 911
+    brand: Braun
+    link: https://amzn.to/3Ro09kr
+    review_heading: 1. Braun FaceSpa Pro 911
+    top_pick_heading: "Best Overall: Braun FaceSpa Pro 911"
+    table_label: 1. Braun FaceSpa Pro 911
+    # "Braun Face Epilator Facespa Pro 911", no ASIN, has an image, unreferenced.
+    # Its title is a Studio rename (the importer never owns a reused title).
+    legacy_product: d6448c7e-2bcc-41fd-ab69-94c43501dc7a
+  - asin: B00935AXAU
+    title: Remington Smooth & Silky Facial Epilator EP1050FCDN
+    brand: Remington
+    link: https://amzn.to/4wjQYB6
+    review_heading: 2. Remington Smooth & Silky Facial Epilator EP1050FCDN
+    top_pick_heading: "Best Budget Electric: Remington Smooth & Silky Facial Epilator EP1050FCDN"
+    table_label: 2. Remington EP1050FCDN
+    # "Remington EP1050FCDN", no ASIN, has an image; used by the legacy post.
+    legacy_product: f40521dd-3026-495f-b5f5-641e7bce6854
+  - asin: B00JVOU89E
+    title: Tweezerman Smooth Finish Facial Hair Remover 5090-R
+    brand: Tweezerman
+    link: https://amzn.to/4wgwBVk
+    review_heading: 3. Tweezerman Smooth Finish Facial Hair Remover 5090-R
+    top_pick_heading: "Best Manual: Tweezerman Smooth Finish Facial Hair Remover 5090-R"
+    table_label: 3. Tweezerman Smooth Finish 5090-R
+  - asin: B001RPL902
+    # "Original" is in neither the brand's nor the retail name (2026-10-01).
+    title: Bellabe Facial Hair Remover
+    brand: Bellabe
+    link: https://amzn.to/4w7Bujf
+    review_heading: 4. Bellabe Facial Hair Remover
+    table_label: 4. Bellabe Facial Hair Remover
+sections:
+  - heading: Top 3 facial epilator picks
+    block: topPicks
+  - heading: Best facial epilators compared
+    block: comparisonTable
+  - heading: Our facial epilator reviews
+    block: productReviews
+  - heading: How we ranked the best facial epilators
+    block: prose
+  - heading: Types of facial epilators
+    block: typesSection
+    # Same grouped cards as the pillar (Arif, 2026-09-28).
+    cards: labelled_paragraphs
+  - heading: How to choose the best facial epilator
+    block: guideSection
+    cards: labelled_paragraphs
+  - heading: What to expect from facial epilation
+    block: prose
+  - heading: Frequently asked questions about facial epilators
+    block: faqSection
+    faq_schema: false
+  - heading: Which facial epilator should you choose?
+    block: prose
+# Decided 2026-10-01 on the pillar's precedents: author emily-cooper, badge
+# Research-Based Buying Guide, grouped cards, reuse the two exact-model legacy
+# products. Tweezerman and Bellabe are new products without images; Arif
+# uploads them.
+needs_review: []

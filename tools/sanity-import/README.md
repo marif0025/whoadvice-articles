@@ -142,6 +142,16 @@ as "Figure N":
   a labelled 1600x900 placeholder, so a page can show where an image goes
   before the real one exists.
 
+## Checking live pages
+
+`node scripts/check-cluster.mjs <base-url> <path>... [--held <path>]...` sends GET requests only. For each page it checks:
+- 200, one H1 and the canonical URL;
+- that every same-site link in the article answers 200;
+- that no link points at a `--held` page;
+- that every Amazon link is `sponsored`.
+
+It exits 1 on any failure. It was shown passing and failing against `dev` on 2026-10-01.
+
 ## Guards
 
 - **Before plan:** `cms.yaml` must validate.

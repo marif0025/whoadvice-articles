@@ -222,7 +222,7 @@ We judged each model against the other six, not against a fixed standard. A feat
 
 **Tweezer-style epilators.** Rotating rows of metal or ceramic plates grip several hairs at once. They suit regular leg and arm sessions, but a higher tweezer count doesn't guarantee fewer passes or less discomfort.
 
-**Spring epilators.** A bent coil traps and pulls hair. Manual spring tools such as the Bellabe Original Facial Hair Remover need no battery, but they're too slow for large areas.
+**Spring epilators.** A bent coil traps and pulls hair. Manual spring tools such as the Bellabe Facial Hair Remover need no battery, but they're too slow for large areas.
 
 ### Types by power and use
 

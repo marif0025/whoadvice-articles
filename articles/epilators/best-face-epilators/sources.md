@@ -28,21 +28,21 @@
 - Publisher-confirmed affiliate link: https://amzn.to/4wgwBVk
 - Evidence controls: manual stainless-steel coil; intended for the neck, chin, cheeks, and upper lip; clean the coil after use with an alcohol wipe.
 
-### Bellabe Original Facial Hair Remover
+### Bellabe Facial Hair Remover
 
 - Bellabe official site: https://www.bellabe.com/
 - Bellabe official FAQ: https://www.bellabe.com/faqs
 - Raw Amazon destination: https://www.amazon.com/dp/B001RPL902
 - Publisher-confirmed affiliate link: https://amzn.to/4w7Bujf
-- Evidence controls: publish the product as `Bellabe Original Facial Hair Remover`. The official site and accessible retailer destination do not expose model `118`; keep that identifier private unless packaging, an invoice, the affiliate record, or Seller Central confirms it.
+- Evidence controls: publish the product as `Bellabe Facial Hair Remover` (renamed 2026-10-01: "Original" is in neither the brand nor the retail name). The official site and accessible retailer destination do not expose model `118`; keep that identifier private unless packaging, an invoice, the affiliate record, or Seller Central confirms it.
 
 ## Health and method sources
 
-- Braun India, official facial-epilation technique guide: https://in.braun.com/en-in/female-hair-removal/all-about-beautiful-skin/how-to-use-facial-epilator
+- Braun India facial-epilation technique guide: no longer cited (2026-10-01). The technique line cites the Braun US manual instead (see Recheck below).
 - NHS, ingrown hairs: https://www.nhs.uk/conditions/ingrown-hairs/
 - American Academy of Dermatology, general hair-removal overview: https://www.aad.org/public/everyday-care/skin-care-basics/hair/remove-unwanted-hair
 
-Use Braun's official facial guide for the statement that skin tension, slow movement, and working against growth can reduce hair breakage. Use Bellabe's official FAQ only for its statement that the manual product provides temporary rather than permanent removal. Use the NHS source for ingrown-hair precautions and professional-care signs. Use the AAD source only for broad comparison among hair-removal methods. Exact-product manuals control facial areas, attachment-specific wet/dry approval, cleaning, eye-area restrictions, repeated passes, and damaged-skin warnings.
+Use Braun's US FaceSpa Pro manual for the technique: stretched skin, gentle pressure, against the direction of growth, and the warning that pressing too hard may injure the skin. Use Bellabe's official FAQ only for its statement that the manual product provides temporary rather than permanent removal. Use the NHS source for ingrown-hair precautions and professional-care signs. Use the AAD source only for broad comparison among hair-removal methods. Exact-product manuals control facial areas, attachment-specific wet/dry approval, cleaning, eye-area restrictions, repeated passes, and damaged-skin warnings.
 
 ## Expectation-section evidence map
 
@@ -90,3 +90,13 @@ Competitor pages informed coverage and classification only. They do not override
 - Bellabe's current official page still identifies the upper lip, chin, cheeks, and jawline and describes the bend-and-roll method; its FAQ identifies the method as temporary. Model `118` remains absent from accessible public evidence.
 - Targeted CPSC official-domain searches for all four exact product/model terms surfaced no matching model-specific recall result. Unrelated Remington and similarly named Bellabe/Bella products were not treated as matches. Repeat this negative discovery check immediately before publication.
 - The internal destination `/skin-care/best-epilators/` resolves, but the deployed page still shows older product and IPL coverage. Publish the completed local pillar refresh before or alongside this facial guide.
+
+## Recheck, 2026-10-01
+
+Every product claim in article.md was rechecked against pages loaded on 2026-10-01. The record is `../research/best-face-epilator-evidence-refresh-2026-10-01.md`.
+
+- Braun FaceSpa Pro 911 US manual (North American, 91283802, linked from the US support page): https://assets.ctfassets.net/zguhp7paefsi/71ee4f61-cb1a-44fe-9d3b-b0856f6a4a8d/599329e9d75b6a701e655087aa1e0ce0/S5366_4_NA.pdf. It controls the dry-only head, the rinse rule, the eyebrow and eyelash limits, cordless-only use, the travel lock, the 36-hour irritation advice and the consult-first conditions in "What to expect".
+- Remington EP1050FCDN, $20.99 on 2026-10-01: https://remingtonproducts.com/products/rem-epilator-pink
+- Tweezerman 5090-R, $22.00 on 2026-10-01, with the flat and curved coil guidance: https://tweezerman.com/products/smooth-finish-facial-hair-remover
+- Bellabe home page, for the areas ("upper lip, chin, cheeks, and jawline") and "do not slide": https://www.bellabe.com/
+- NHS ingrown hairs: last reviewed 1 September 2026.

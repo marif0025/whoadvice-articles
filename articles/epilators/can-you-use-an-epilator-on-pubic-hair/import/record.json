@@ -1,11 +1,11 @@
 {
   "dev": {
-    "appliedAt": "2026-09-29T07:00:19.938Z",
-    "transactionId": "R3E9jQFgtI1iXWhprqrCYR",
-    "sourceHash": "f3bdc381790fe73f1ce10d62ce277b2c3952b0af42b1a2928f3d9c6eec5c7aea",
+    "appliedAt": "2026-10-01T10:39:51.336Z",
+    "transactionId": "ANJ8VSfhOz4bxNByowgb1v",
+    "sourceHash": "9ffe8c37c7531582c5509d55fdd8c4576f33815fb9fc2d03a24850e2f1661839",
     "article": {
       "id": "3ae4a66e-1bdd-44d4-be1e-3ad8ef60e36a",
-      "draftRev": "R3E9jQFgtI1iXWhprqrCYR"
+      "draftRev": "ANJ8VSfhOz4bxNByowgb1v"
     },
     "products": []
   }

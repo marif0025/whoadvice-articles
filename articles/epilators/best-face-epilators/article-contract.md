@@ -1,7 +1,7 @@
 # Best Facial Epilator Article Contract — Part 2
 
 - **Page:** `/skin-care/best-face-epilators/`
-- **Workflow stage:** Part 4 editorial QA complete; CMS and publication-day checks remain
+- **Workflow stage:** Rewritten 2026-10-01 (see Amendments at the end); cms.yaml done and rehearsed on dev; waiting on Arif's read, then production
 - **Contract date:** July 20, 2026
 - **Part 1 source:** `articles/epilators/research/best-face-epilator-product-refresh-2026-07-20.md`
 - **Drafting status:** Complete and editorially approved on July 20, 2026
@@ -320,3 +320,42 @@ The total target remains **2,200–3,200 words**. These ranges are allocation co
 - Opening, Top 3, comparison table, product-card structure, two-type framework, seven-part buying guide, expectations, FAQs, SEO package, word allocation, and Bellabe conditional naming are approved.
 - The July 20, 2026 minor contract corrections are applied.
 - Part 3 drafting may begin without reopening product or structural research.
+
+## Amendments, 2026-10-01
+
+The article was rewritten on 2026-10-01 under the rules Arif set for the pillar on 2026-09-28, plus an evidence recheck. Where this list conflicts with the sections above, this list wins.
+
+- **Lengths are maximums.** Summary at most 60 words, verdict at most 30. Don't pad to reach a range.
+- **One statement of each drawback.** A drawback in the table and Cons isn't restated in the Summary, Verdict, Top 3 card or conclusion. Example: the FaceSpa's dry-only head sits in the table, Cons and the "Power and water" guide card only.
+- **Short names in prose:** FaceSpa Pro, Smooth & Silky, Smooth Finish, Bellabe. Codes stay in titles and the table.
+- **Plain method sentence** in the opening: "manufacturer documentation and current retail listing". No internal terms such as "retailer identities".
+- **Bellabe's public name is "Bellabe Facial Hair Remover".** "Original" is in neither the brand's nor the retail name. Model 118 shows in the retail listing's model field, but that isn't one of the proofs this contract asks for, so it stays private.
+- **Bellabe's areas** are from its home page: upper lip, chin, cheeks and jawline.
+- **Types and How to choose render as grouped cards** (`cards: labelled_paragraphs`), each card 25–35 words, as on the pillar.
+  - Types has one group (power) with the two formats.
+  - How to choose has three groups and six cards: Approved areas, Face-only or face-and-body, Head size and placement, Hair type, Power and water, Cleaning and extras.
+  - The "Choose between electric and manual" heading is dropped, because the Types cards already say it.
+- **The type callout** is "Format shortcut:", because a callout title must end in a colon.
+- **The electric-versus-manual graphic is dropped.** A card section can't hold an image, and the two cards already carry the comparison.
+- **Prices:** dated manufacturer prices only (Remington $20.99, Tweezerman $22.00, both on 2026-10-01). No US price was found for the FaceSpa Pro or Bellabe, so neither shows one.
+- **Warranty:** the FaceSpa's 1-year term comes from a 2017 manual and may not be current, so the article doesn't state it.
+- **The pillar link** is relative, and its anchor says what the pillar delivers: "compare body epilators and their approved areas".
+- **The conclusion** answers the opening question as conditions instead of restating badges.
+- **Dev review fixes (2026-10-01, Arif):**
+  - **Top 3 card text is one short line of fit, at most about 100 characters.** The card clamps at three lines, and the longer text was cut off.
+  - **Awards drop "Facial Epilator":** Best Overall, Best Budget Electric, Best Manual, Best Minimalist Manual. The page is only about facial epilators.
+  - **Table columns, decision fields only (Arif: "no useful information, only generic text"; per `06` §14, `12` "Comparison-table SEO" and `14` Prompt 17):** Best for, Maker's US price (Oct 1, 2026), How it removes hair, Approved facial areas, Main drawback. The award column is gone, because the cards already show it. "In the box" is gone too, because it didn't help anyone choose.
+    - A price shows only where the maker publishes one, dated. The FaceSpa and Bellabe show "Not listed".
+    - Amazon US prices couldn't be read, because Amazon keeps a UAE delivery address for this connection.
+    - This replaces the column names in "Comparison-table contract".
+- **Writing-guideline pass (2026-10-01, Arif: "fix readability, use our writing guidelines"):**
+  - **Table cells** are short plain phrases, with no semicolons. "In the box" lists contents only; care steps stay in the pros.
+  - **Verdict openings vary.** Before, all four opened with "Choose it", which breaks 03 §22 (no more than two cards with the same command verb).
+  - **Summaries** say what the product means for the buyer and don't restate the pros or the table (05 §11, feature dumping).
+  - **Weight labels** are plain words: "Approved facial areas", "What owners commonly report". The weights are unchanged.
+  - **Jargon removed** from the guide cards ("isolates small zones", "water approval per attachment"). The 37-word sentence in "What to expect" is split.
+  - **Ranking weight:** the 10% weight "Independent testing and recurring owner-feedback confidence" is now "Recurring owner-feedback confidence". The article cites no independent testing.
+  - **Technique source:** the line now cites Braun's US manual instead of the Braun India guide, using the manual's own wording (stretch the skin, gentle pressure, against growth, don't press too hard). The "reduces breakage" claim went with the India page.
+  - **Keyword:** "best epilator for face" appears once in the conclusion.
+  - **Long sentence:** the NHS sentence is split in two.
+  - **No laser link yet:** the two laser posts (`/skin-care/laser-hair-removal/`, `/skin-care/best-laser-hair-removal-2024/`) are two separate posts competing for one topic. Each has dated titles, unsourced permanence claims, and IPL devices labelled as laser. They're queued for a rewrite in `articles/laser-hair-removal/update-plan-2026-10-01.md`. Link the last FAQ ("better than tweezing, shaving...") to the rewritten page once it's live.

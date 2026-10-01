@@ -1,0 +1,45 @@
+{
+  "dev": {
+    "appliedAt": "2026-10-01T12:05:02.371Z",
+    "transactionId": "1Z3zG2GAgDkYDzqmq5Qrwi",
+    "sourceHash": "3c2d899426442298a156efc075946f148f7ba69896de5f7d7429b68bcbffb208",
+    "article": {
+      "id": "b7c5e669-eda9-4a3b-81ba-6436c4c42fc3",
+      "draftRev": "1Z3zG2GAgDkYDzqmq5Qrwi"
+    },
+    "products": [
+      {
+        "asin": "B07HFHY6RH",
+        "id": "d6448c7e-2bcc-41fd-ab69-94c43501dc7a",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": false
+      },
+      {
+        "asin": "B00935AXAU",
+        "id": "f40521dd-3026-495f-b5f5-641e7bce6854",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": false
+      },
+      {
+        "asin": "B00JVOU89E",
+        "id": "f1fd153a-f5e0-4291-bc07-724e27b46335",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": false
+      },
+      {
+        "asin": "B001RPL902",
+        "id": "0ed20855-7f44-4262-99f9-2251fed23e9e",
+        "mode": "existing",
+        "change": "none",
+        "created": false,
+        "pending": false
+      }
+    ]
+  }
+}
